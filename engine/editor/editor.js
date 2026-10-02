@@ -37,7 +37,7 @@ function rebuild({ frame = false } = {}) {
   $('#log').replaceChildren(); $('#pause').textContent = 'Pausar';
   $('#scenario-name').textContent = state.scenario.name;
   keepDraft();
-  refreshOverlay(); renderPanels(); updateStats();
+  refreshOverlay(); renderPanels(); updateStats(); hint();
 }
 
 function keepDraft() {

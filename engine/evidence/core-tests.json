@@ -1,9 +1,9 @@
 {
  "schema": "lair-core-tests/1",
- "tests": 38,
- "passed": 38,
+ "tests": 44,
+ "passed": 44,
  "failed": 0,
- "checks": 1125,
+ "checks": 1233,
  "observed": {
   "BoxingGlove": {
    "moved": 3.07,
@@ -391,6 +391,36 @@
   }
  },
  "results": [
+  {
+   "name": "ouro: as 22 armadilhas têm preço numérico e cada exemplar entra na soma",
+   "pass": true,
+   "checks": 25
+  },
+  {
+   "name": "ouro: limite exato, excesso, remoção, movimento e arquitetura",
+   "pass": true,
+   "checks": 6
+  },
+  {
+   "name": "ouro: preço desconhecido não vira zero nem permite onda limitada",
+   "pass": true,
+   "checks": 24
+  },
+  {
+   "name": "ouro: orçamento inválido é recusado na normalização e no núcleo",
+   "pass": true,
+   "checks": 37
+  },
+  {
+   "name": "ouro: salvar/abrir preserva a regra e covis antigos continuam sem limite",
+   "pass": true,
+   "checks": 10
+  },
+  {
+   "name": "ouro: excesso impede run/onda sem reset, evento ou fila e pedágio não financia montagem",
+   "pass": true,
+   "checks": 6
+  },
   {
    "name": "kit de paredes: cantos internos, externos e trechos de uma célula nas quatro orientações",
    "pass": true,

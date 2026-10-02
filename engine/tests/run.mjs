@@ -5,6 +5,7 @@ import path from 'node:path';
 import { grid, Layout, normaliseScenario, STEP, World } from '../core/index.js';
 import { content, corridor, plan, ROOT, world } from './helpers.mjs';
 import { wallPieces, WALL_MODELS } from '../render/shell.js';
+import { registerEconomyTests } from './economy.mjs';
 
 const results = [];
 let checks = 0;
@@ -20,6 +21,8 @@ function test(name, body) {
 const group = (agent, extra = {}) => ({ entrance: 'A', objective: 'o1', agent, level: 1, count: 1, interval: 2, delay: 0, ...extra });
 const until = (w, predicate, limit = 240) => { while (w.time < limit && !predicate()) w.step(); return predicate(); };
 const types = events => events.map(e => e.type);
+
+registerEconomyTests({ test, ok, equal, content, plan, corridor, World, Layout, normaliseScenario });
 
 test('kit de paredes: cantos internos, externos e trechos de uma célula nas quatro orientações', () => {
   const pieces = rows => wallPieces(new Layout(plan(rows), content));

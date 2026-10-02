@@ -1,18 +1,24 @@
 {
  "schema": "lair-editor-qa/1",
- "date": "2026-10-02T22:46:12.907Z",
+ "date": "2026-10-02T22:53:51.873Z",
  "url": "http://127.0.0.1:8767/covil.html",
  "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M3 Max, Unspecified Version)",
  "headless": true,
  "input": "real pointer and keyboard events (Playwright); Lair.screenOf only converts a cell to page coordinates",
- "checks": 28,
- "passed": 27,
- "failed": 1,
+ "checks": 41,
+ "passed": 41,
+ "failed": 0,
+ "elapsedSeconds": 93.7,
  "results": [
   {
-   "name": "abre com o cenário de referência e as 22 armadilhas na paleta",
-   "pass": false,
+   "name": "abre com as 22 armadilhas, porta e vão na paleta",
+   "pass": true,
    "detail": "24"
+  },
+  {
+   "name": "Espinha: seis vãos e cantos internos/externos nativos",
+   "pass": true,
+   "detail": "{\"portals\":6,\"models\":[\"corridor_wall_corner_in_r\",\"corridor_wall_corner_in_l\",\"corridor_wall_straight_mid\",\"corridor_wall_corner_out_l\",\"corridor_wall_corner_out_r\",\"corridor_wall_corner_out_both\"]}"
   },
   {
    "name": "Novo: corredor inicial com uma entrada e um objetivo",
@@ -55,9 +61,54 @@
    "detail": "FanTrap,SharkTank,BoxingGlove,LaserWall,SoapTrap,Door_Standard"
   },
   {
+   "name": "Vão atravessado na direção errada é recusado",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Vão aberto girado encaixa entre paredes",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Paredes altas preservam o marco completo",
+   "pass": true,
+   "detail": ""
+  },
+  {
    "name": "planta sem erros depois de montar",
    "pass": true,
    "detail": "[]"
+  },
+  {
+   "name": "Orçamento exato: 76.000 gastos, saldo zero; porta e vão não cobram",
+   "pass": true,
+   "detail": "Ouro do covilGasto76.000Saldo0Limite76.000"
+  },
+  {
+   "name": "Paleta mostra os preços, inclusive os zeros nativos",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Saldo esgotado recusa compra com feedback e sem alterar documento/histórico",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Mover e girar com saldo zero não cobram de novo",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Orçamento reduzido bloqueia Soltar ondas",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Botão de onda também respeita orçamento",
+   "pass": true,
+   "detail": ""
   },
   {
    "name": "Segunda entrada (com grupo automático) e segundo objetivo",
@@ -75,19 +126,24 @@
    "detail": ""
   },
   {
-   "name": "Delete remove a selecionada",
+   "name": "Delete remove a selecionada e libera 16.000 de ouro",
    "pass": true,
    "detail": ""
   },
   {
-   "name": "Desfazer devolve a armadilha",
+   "name": "Desfazer devolve armadilha e custo",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Refazer a remoção libera a verba novamente",
    "pass": true,
    "detail": ""
   },
   {
    "name": "Espaço pausa: o relógio para",
    "pass": true,
-   "detail": "3.4 3.4 3.4"
+   "detail": "3.8 3.8 3.8"
   },
   {
    "name": "Rodada inteira: 8 agentes entram pelas duas entradas e todos têm desfecho",
@@ -110,14 +166,24 @@
    "detail": ""
   },
   {
-   "name": "Exportar baixa o cenário completo",
+   "name": "Exportar baixa o cenário completo e seu orçamento",
    "pass": true,
    "detail": "QA covil"
   },
   {
-   "name": "Salvar e recarregar: o covil volta como estava e aparece em Meus covis",
+   "name": "Salvar e recarregar preservam orçamento e saldo",
    "pass": true,
-   "detail": "{\"name\":\"QA covil\",\"traps\":6,\"mine\":[\"QA covil\"]}"
+   "detail": "{\"name\":\"QA covil\",\"traps\":7,\"budget\":76000,\"remaining\":0,\"mine\":[\"QA covil\"]}"
+  },
+  {
+   "name": "Importar restaura limite, dispositivos e saldo",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Importação com orçamento inválido preserva o covil aberto",
+   "pass": true,
+   "detail": ""
   },
   {
    "name": "Referência espinha: roda até o fim ao vivo, todo agente com desfecho",
@@ -127,7 +193,7 @@
   {
    "name": "Referência labirinto: roda até o fim ao vivo, todo agente com desfecho",
    "pass": true,
-   "detail": "{\"integrity\":0,\"spawned\":15,\"killed\":4,\"deserted\":1,\"escaped\":10,\"bestCombo\":3,\"combos\":1,\"gold\":200,\"disarmed\":6,\"seconds\":256.6,\"kinds\":18,\"devices\":24}"
+   "detail": "{\"integrity\":0,\"spawned\":15,\"killed\":4,\"deserted\":1,\"escaped\":10,\"bestCombo\":3,\"combos\":1,\"gold\":200,\"disarmed\":6,\"seconds\":256.7,\"kinds\":18,\"devices\":24}"
   },
   {
    "name": "Referência corredores: roda até o fim ao vivo, todo agente com desfecho",
@@ -175,7 +241,7 @@
    "combos": 1,
    "gold": 200,
    "disarmed": 6,
-   "seconds": 256.6,
+   "seconds": 256.7,
    "kinds": 18,
    "devices": 24
   },
@@ -212,6 +278,8 @@
   "01-abertura.png",
   "02-covil-montado-planta.png",
   "03-covil-montado-perspectiva.png",
+  "03a-porta-vao-paredes-altas.png",
+  "03b-orcamento-exato.png",
   "04-em-jogo.png",
   "05-fim-da-rodada.png",
   "10-corredores-planta.png",

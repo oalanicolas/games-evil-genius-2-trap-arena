@@ -13,6 +13,7 @@ fs.mkdirSync(out, { recursive: true });
 const base = process.env.LAIR_URL || 'http://127.0.0.1:8767/covil.html';
 
 const checks = [];
+const startedAt = performance.now();
 const check = (name, pass, detail = '') => { checks.push({ name, pass: Boolean(pass), detail: String(detail).slice(0, 300) }); if (!pass) console.log('FAIL', name, detail); };
 const browser = await chromium.launch({ channel: 'chrome', headless: process.env.QA_HEADED !== '1', args: ['--use-angle=metal', '--ignore-gpu-blocklist', '--autoplay-policy=no-user-gesture-required'] });
 const context = await browser.newContext({ viewport: { width: 1600, height: 1000 }, acceptDownloads: true });
@@ -34,7 +35,9 @@ const traps = () => lair(() => Lair.scenario.traps.map(t => ({ ...t })));
 await page.goto(base);
 await ready();
 const gpu = await lair(() => Lair.gpu);
-check('abre com o cenário de referência e as 22 armadilhas na paleta', await page.locator('.trap').count() === 23 && (await lair(() => Lair.scenario.name)).includes('Espinha'), await page.locator('.trap').count());
+check('abre com as 22 armadilhas, porta e vão na paleta', await page.locator('.trap').count() === 24 && (await lair(() => Lair.scenario.name)).includes('Espinha'), await page.locator('.trap').count());
+const shell = await lair(() => ({ pieces: Lair.view.level.pieces.map(p => p.model), portals: Lair.scenario.traps.filter(t => t.type === 'Doorway').length }));
+check('Espinha: seis vãos e cantos internos/externos nativos', shell.portals === 6 && shell.pieces.some(p => p.includes('corner_in')) && shell.pieces.some(p => p.includes('corner_out')), JSON.stringify({ portals: shell.portals, models: [...new Set(shell.pieces)] }));
 await shot('01-abertura');
 
 // --- build a lair from scratch with the public tools ---
@@ -80,7 +83,38 @@ await page.keyboard.press('r');
 await click(36, 14);
 list = await traps();
 check('Laser entre as duas paredes, piso escorregadio e porta posicionados', list.length === 6 && list.map(t => t.type).join() === 'FanTrap,SharkTank,BoxingGlove,LaserWall,SoapTrap,Door_Standard', list.map(t => t.type).join());
+await page.click('.trap[data-type="Doorway"]');
+await click(40, 14);
+check('Vão atravessado na direção errada é recusado', (await traps()).length === 6 && /paredes/.test(await page.locator('#hint').textContent()));
+await page.keyboard.press('r'); await click(40, 14); await ready();
+check('Vão aberto girado encaixa entre paredes', (await traps()).length === 7 && (await traps()).at(-1).type === 'Doorway');
+await page.check('#tall-walls'); await ready(); await shot('03a-porta-vao-paredes-altas');
+check('Paredes altas preservam o marco completo', await lair(() => Lair.view.level.clip.constant === 3 && [...Lair.view.devices.values()].find(v => v.device.type === 'Doorway').ownMaterials.every(m => m.clippingPlanes[0].constant === 3)));
+await page.uncheck('#tall-walls'); await ready();
 check('planta sem erros depois de montar', (await lair(() => Lair.world.layout.problems.filter(p => p.level === 'error').length)) === 0, JSON.stringify(await lair(() => Lair.world.layout.problems)));
+
+// Construction budget through public controls, at the exact sum of the five traps.
+await page.click('.tabs button[data-tab="scenario"]');
+await page.check('#gold-limited');
+await page.locator('#gold-budget').fill('76000'); await page.locator('#gold-budget').press('Tab');
+check('Orçamento exato: 76.000 gastos, saldo zero; porta e vão não cobram', await lair(() => Lair.world.layout.budget.spent === 76000 && Lair.world.layout.budget.remaining === 0 && Lair.scenario.rules.goldBudget === 76000), await page.locator('#budget-summary').textContent());
+check('Paleta mostra os preços, inclusive os zeros nativos', /4\.000/.test(await page.locator('.trap[data-type="FanTrap"]').textContent()) && /0.*ouro/i.test(await page.locator('.trap[data-type="Hopscotch_trap"]').textContent()));
+const beforeReject = await lair(() => ({ doc: JSON.stringify(Lair.scenario), undo: Lair.state.undo.length }));
+await page.click('.trap[data-type="SoapTrap"]'); await click(33, 13);
+check('Saldo esgotado recusa compra com feedback e sem alterar documento/histórico', await lair(() => Lair.world.layout.budget.remaining === 0) && JSON.stringify(await lair(() => ({ doc: JSON.stringify(Lair.scenario), undo: Lair.state.undo.length }))) === JSON.stringify(beforeReject) && /ouro|saldo|orçamento/i.test(await page.locator('#hint.bad').textContent()));
+await page.keyboard.press('v'); await click(30, 13); await page.keyboard.press('m'); await click(31, 13); await page.keyboard.press('r');
+check('Mover e girar com saldo zero não cobram de novo', await lair(() => Lair.world.layout.budget.spent === 76000 && Lair.world.layout.budget.remaining === 0 && Lair.scenario.traps.find(t => t.type === 'SoapTrap').x === 30));
+await page.keyboard.press('Meta+z'); await page.keyboard.press('Meta+z');
+// Imported over-budget covils must also be blocked by the run button and a single wave.
+await page.click('.tabs button[data-tab="scenario"]');
+await page.locator('#gold-budget').fill('75000'); await page.locator('#gold-budget').press('Tab');
+await page.click('#run');
+check('Orçamento reduzido bloqueia Soltar ondas', await lair(() => Lair.world.queue.length === 0 && !Lair.state.running && Lair.world.layout.budget.blocked));
+await page.click('.tabs button[data-tab="waves"]'); await page.locator('.wave-head button[title="Soltar só esta onda"]').first().click();
+check('Botão de onda também respeita orçamento', await lair(() => Lair.world.queue.length === 0 && !Lair.state.running));
+await page.click('.tabs button[data-tab="scenario"]');
+await page.locator('#gold-budget').fill('76000'); await page.locator('#gold-budget').press('Tab');
+await shot('03b-orcamento-exato');
 
 // second entrance and second objective
 await page.keyboard.press('Escape');
@@ -112,9 +146,12 @@ await page.keyboard.press('v');
 await click(30, 13);
 check('Selecionar mostra a ficha da armadilha', /Piso escorregadio/.test(await page.locator('#tab-selection h3').textContent()));
 await page.keyboard.press('Delete');
-check('Delete remove a selecionada', (await traps()).length === 5);
+check('Delete remove a selecionada e libera 16.000 de ouro', (await traps()).length === 6 && await lair(() => Lair.world.layout.budget.remaining === 16000));
 await page.keyboard.press('Meta+z');
-check('Desfazer devolve a armadilha', (await traps()).length === 6);
+check('Desfazer devolve armadilha e custo', (await traps()).length === 7 && await lair(() => Lair.world.layout.budget.remaining === 0));
+await page.keyboard.press('Meta+Shift+z');
+check('Refazer a remoção libera a verba novamente', (await traps()).length === 6 && await lair(() => Lair.world.layout.budget.remaining === 16000));
+await page.keyboard.press('Meta+z');
 await shot('02-covil-montado-planta');
 await page.click('#view-persp');
 await shot('03-covil-montado-perspectiva');
@@ -147,11 +184,19 @@ check('Reiniciar zera relógio, agentes e registro', await lair(() => Lair.world
 await page.click('#save');
 const [download] = await Promise.all([page.waitForEvent('download'), page.click('#export')]);
 const exported = JSON.parse(fs.readFileSync(await download.path(), 'utf8'));
-check('Exportar baixa o cenário completo', exported.schema === 'lair-scenario/1' && exported.traps.length === 6 && exported.entrances.length === 2 && exported.waves.length === 2, exported.name);
+check('Exportar baixa o cenário completo e seu orçamento', exported.schema === 'lair-scenario/1' && exported.traps.length === 7 && exported.entrances.length === 2 && exported.waves.length === 2 && exported.rules.goldBudget === 76000, exported.name);
 fs.writeFileSync(path.join(out, 'covil-exportado.json'), JSON.stringify(exported, null, 1));
 await page.reload(); await ready();
-const after = await lair(() => ({ name: Lair.scenario.name, traps: Lair.scenario.traps.length, mine: [...document.querySelectorAll('#scenario-select optgroup[label="Meus covis"] option')].map(o => o.textContent) }));
-check('Salvar e recarregar: o covil volta como estava e aparece em Meus covis', after.name === 'QA covil' && after.traps === 6 && after.mine.includes('QA covil'), JSON.stringify(after));
+const after = await lair(() => ({ name: Lair.scenario.name, traps: Lair.scenario.traps.length, budget: Lair.scenario.rules.goldBudget, remaining: Lair.world.layout.budget.remaining, mine: [...document.querySelectorAll('#scenario-select optgroup[label="Meus covis"] option')].map(o => o.textContent) }));
+check('Salvar e recarregar preservam orçamento e saldo', after.name === 'QA covil' && after.traps === 7 && after.budget === 76000 && after.remaining === 0 && after.mine.includes('QA covil'), JSON.stringify(after));
+await page.click('#new'); await ready();
+await page.locator('#import-file').setInputFiles({ name: 'covil.json', mimeType: 'application/json', buffer: Buffer.from(JSON.stringify(exported)) });
+await page.waitForFunction(() => Lair.scenario.name === 'QA covil' && Lair.scenario.rules.goldBudget === 76000); await ready();
+check('Importar restaura limite, dispositivos e saldo', await lair(() => Lair.scenario.traps.length === 7 && Lair.scenario.rules.goldBudget === 76000 && Lair.world.layout.budget.remaining === 0));
+const invalidImport = { ...exported, rules: { ...exported.rules, goldBudget: -1 } };
+await page.locator('#import-file').setInputFiles({ name: 'invalido.json', mimeType: 'application/json', buffer: Buffer.from(JSON.stringify(invalidImport)) });
+await page.waitForFunction(() => document.querySelector('#hint.bad')?.textContent.includes('Orçamento de ouro inválido'));
+check('Importação com orçamento inválido preserva o covil aberto', await lair(() => Lair.scenario.traps.length === 7 && Lair.scenario.rules.goldBudget === 76000));
 
 // --- the reference scenarios, live ---
 const reference = {};
@@ -180,7 +225,7 @@ await shot('20-1280');
 check('sem erros de console, de página ou de rede', errors.length === 0, errors.slice(0, 5).join(' | '));
 const failed = checks.filter(c => !c.pass);
 const receipt = { schema: 'lair-editor-qa/1', date: new Date().toISOString(), url: base, renderer: gpu, headless: process.env.QA_HEADED !== '1', input: 'real pointer and keyboard events (Playwright); Lair.screenOf only converts a cell to page coordinates',
-  checks: checks.length, passed: checks.length - failed.length, failed: failed.length, results: checks, reference, captures: fs.readdirSync(out).filter(f => f.endsWith('.png')).sort(), capturesDir: 'output/eg2-covil-qa (workspace, fora do git)' };
+  checks: checks.length, passed: checks.length - failed.length, failed: failed.length, elapsedSeconds: +((performance.now() - startedAt) / 1000).toFixed(1), results: checks, reference, captures: fs.readdirSync(out).filter(f => f.endsWith('.png')).sort(), capturesDir: 'output/eg2-covil-qa (workspace, fora do git)' };
 fs.writeFileSync(path.join(here, '../evidence/editor-qa.json'), JSON.stringify(receipt, null, 1) + '\n');
 console.log(JSON.stringify({ checks: receipt.checks, passed: receipt.passed, failed: receipt.failed, renderer: gpu, reference }));
 await browser.close();
