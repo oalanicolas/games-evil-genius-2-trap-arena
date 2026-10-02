@@ -203,6 +203,7 @@ const reference = {};
 for (const name of ['espinha', 'labirinto', 'corredores', 'galeria']) {
   await page.selectOption('#scenario-select', 'ref:' + name + '.json');
   await page.waitForFunction(file => Lair.state.file === file, 'ref:' + name + '.json', { timeout: 30000 }); await ready();
+  check(`Referência ${name}: troca limpa o resultado anterior`, await lair(() => Lair.world.time === 0 && document.querySelector('#flash').textContent === ''));
   await page.click('#view-plan'); await page.waitForTimeout(400); await shot(`10-${name}-planta`);
   await page.click('#view-persp'); await page.waitForTimeout(400); await shot(`11-${name}-perspectiva`);
   await page.click('.speed button[data-speed="8"]');

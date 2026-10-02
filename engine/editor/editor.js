@@ -35,6 +35,7 @@ function rebuild({ frame = false } = {}) {
   state.running = false; state.logged = 0;
   view.setWorld(state.world, { frame });
   $('#log').replaceChildren(); $('#pause').textContent = 'Pausar';
+  state.flashUntil = 0; $('#flash').textContent = ''; $('#flash').style.opacity = '0';
   $('#scenario-name').textContent = state.scenario.name;
   keepDraft();
   refreshOverlay(); renderPanels(); updateStats(); hint();

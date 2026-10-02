@@ -4,6 +4,21 @@ Editor e simulação para montar covis inteiros (salas, corredores, labirintos),
 definir por onde entram os agentes, de que tipo e nível, e soltar as ondas. Nasceu do laboratório de
 armadilhas do Evil Genius 2 e foi desenhada para virar jogo próprio: o núcleo não conhece o EG2.
 
+**Vãos e cantos:** os encontros de paredes usam nove variantes nativas (internas, externas e mistas),
+escolhidas pela planta. Em **Portais → Vão de porta**, posicione o marco aberto de 4×1 células entre
+duas paredes; R gira. Ele não captura nem atrasa agentes. A Espinha tem seis vãos laterais. O marco
+acompanha o corte de 1,4 das paredes; **Paredes altas** mostra a verga completa a 3 unidades.
+
+**Ouro:** na aba **Cenário**, ative **Limitar ouro** e defina o orçamento. Gasto, saldo e limite ficam
+visíveis junto à paleta, com o preço de cada armadilha. Colocar acima do saldo é recusado; remover
+libera o custo inteiro; mover, girar ou desligar não muda o gasto. Reduzir o orçamento abaixo do gasto
+preserva a planta, mas impede soltar ondas até ajustá-la. Salvar, importar e desfazer/refazer preservam
+a regra. Covis antigos e as referências permanecem sem limite por padrão.
+
+O orçamento cobre apenas armadilhas. Piso, porta e vão ficam fora da conta (não possuem custo de
+construção verificado neste pacote). O ouro cobrado no pedágio é um resultado da rodada, sem financiar
+a montagem. A regra do orçamento é nossa; os preços vêm do campo de custo dos registros FNTR.
+
 ## Abrir
 
 ```sh
@@ -69,7 +84,7 @@ Nada foi calibrado para forçar um combo. Quando a pesquisa de fidelidade provar
 ## Verificar
 
 ```sh
-node engine/tests/run.mjs            # núcleo: 35 testes, 541 verificações
+node engine/tests/run.mjs            # núcleo: 44 testes, 1.233 verificações
 node engine/tests/editor-qa.mjs      # editor por mouse e teclado reais, headless, GPU real (servidor no ar)
 ```
 
@@ -78,6 +93,13 @@ tempos nativos, afeta o agente e a rodada termina; combo ventilador→tanque; bo
 ondas com várias entradas, tipos e níveis; porta; desistência; determinismo; os quatro cenários de referência.
 `editor-qa.mjs` monta um covil do zero com as ferramentas públicas, joga, pausa, reinicia, salva, recarrega,
 exporta e roda as quatro referências ao vivo. Capturas em `<workspace>/output/eg2-covil-qa/`.
+Também cobre o ciclo completo de orçamento, importação inválida, vãos e alternância de altura das paredes.
+
+`costSource` guarda offset, bytes e origem do preço de cada armadilha. O decodificador do catálogo
+dependia de um marcador float ausente no ventilador: a engine recupera **4.000** no campo `u32` a
+112 bytes do fim alinhado do nome. Esse local coincide com os outros 21 registros, mas o consumidor
+não foi rastreado para essa recuperação: origem **inferred**. Amarelinha e armadilha de urso têm
+**zero** nos bytes originais. Preço desconhecido nunca vira zero; bloqueia orçamento limitado.
 
 ## Regerar o conteúdo
 
@@ -111,6 +133,6 @@ torno de X. Só com a primeira reflexão tudo saía espelhado (os números da am
   estão decodificados.
 - Dois clipes de reação não decodificam (`Trap_Hopscotch_User_Loop_A_01`, `Trap_Paywall_User_Loop_A_01`):
   o agente usa o clipe vizinho. O filhote não tem clipes de reação.
-- Paredes: painel reto nativo em cada aresta, cortado a 1,4 de altura, com topo e rocha autorais. Cantos,
-  luminárias e portais de sala do jogo não estão montados.
-- Sem economia, pesquisa, lacaios ou câmeras. Editor para desktop com mouse e teclado.
+- Paredes: painéis retos e cantos nativos, cortados a 1,4 de altura, com topo e rocha autorais. Vãos usam
+  o marco da porta padrão; luminárias de parede, câmeras e níveis de segurança continuam pendentes.
+- Economia restrita ao orçamento de montagem; sem renda, pesquisa ou lacaios. Editor para desktop.

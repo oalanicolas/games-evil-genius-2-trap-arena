@@ -1,14 +1,14 @@
 {
  "schema": "lair-editor-qa/1",
- "date": "2026-10-02T22:53:51.873Z",
+ "date": "2026-10-02T22:57:33.244Z",
  "url": "http://127.0.0.1:8767/covil.html",
  "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M3 Max, Unspecified Version)",
  "headless": true,
  "input": "real pointer and keyboard events (Playwright); Lair.screenOf only converts a cell to page coordinates",
- "checks": 41,
- "passed": 41,
+ "checks": 45,
+ "passed": 45,
  "failed": 0,
- "elapsedSeconds": 93.7,
+ "elapsedSeconds": 82.3,
  "results": [
   {
    "name": "abre com as 22 armadilhas, porta e vão na paleta",
@@ -143,7 +143,7 @@
   {
    "name": "Espaço pausa: o relógio para",
    "pass": true,
-   "detail": "3.8 3.8 3.8"
+   "detail": "4.4 4.4 4.4"
   },
   {
    "name": "Rodada inteira: 8 agentes entram pelas duas entradas e todos têm desfecho",
@@ -186,19 +186,39 @@
    "detail": ""
   },
   {
+   "name": "Referência espinha: troca limpa o resultado anterior",
+   "pass": true,
+   "detail": ""
+  },
+  {
    "name": "Referência espinha: roda até o fim ao vivo, todo agente com desfecho",
    "pass": true,
    "detail": "{\"integrity\":0,\"spawned\":18,\"killed\":5,\"deserted\":0,\"escaped\":13,\"bestCombo\":4,\"combos\":4,\"gold\":0,\"disarmed\":3,\"seconds\":78.4,\"kinds\":6,\"devices\":24}"
   },
   {
+   "name": "Referência labirinto: troca limpa o resultado anterior",
+   "pass": true,
+   "detail": ""
+  },
+  {
    "name": "Referência labirinto: roda até o fim ao vivo, todo agente com desfecho",
    "pass": true,
-   "detail": "{\"integrity\":0,\"spawned\":15,\"killed\":4,\"deserted\":1,\"escaped\":10,\"bestCombo\":3,\"combos\":1,\"gold\":200,\"disarmed\":6,\"seconds\":256.7,\"kinds\":18,\"devices\":24}"
+   "detail": "{\"integrity\":0,\"spawned\":15,\"killed\":4,\"deserted\":1,\"escaped\":10,\"bestCombo\":3,\"combos\":1,\"gold\":200,\"disarmed\":6,\"seconds\":256.6,\"kinds\":18,\"devices\":24}"
+  },
+  {
+   "name": "Referência corredores: troca limpa o resultado anterior",
+   "pass": true,
+   "detail": ""
   },
   {
    "name": "Referência corredores: roda até o fim ao vivo, todo agente com desfecho",
    "pass": true,
    "detail": "{\"integrity\":2,\"spawned\":13,\"killed\":5,\"deserted\":0,\"escaped\":8,\"bestCombo\":2,\"combos\":0,\"gold\":0,\"disarmed\":3,\"seconds\":63.6,\"kinds\":6,\"devices\":16}"
+  },
+  {
+   "name": "Referência galeria: troca limpa o resultado anterior",
+   "pass": true,
+   "detail": ""
   },
   {
    "name": "Referência galeria: roda até o fim ao vivo, todo agente com desfecho",
@@ -241,7 +261,7 @@
    "combos": 1,
    "gold": 200,
    "disarmed": 6,
-   "seconds": 256.7,
+   "seconds": 256.6,
    "kinds": 18,
    "devices": 24
   },
