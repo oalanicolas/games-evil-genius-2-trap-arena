@@ -1,0 +1,23 @@
+__pycache__/
+runtime/
+saves/
+
+# Conteúdo gerado da engine (regerável por engine/tools/build_content.py)
+engine/content/eg2/clips/
+engine/content/eg2/rigs/
+
+# Proteções herdadas do workspace
+.DS_Store
+**/.DS_Store
+.aiox/
+**/.aiox/
+*.pyc
+*.log
+.venv/
+**/node_modules/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json

@@ -1,0 +1,585 @@
+{
+ "schema": "lair-core-tests/1",
+ "tests": 38,
+ "passed": 38,
+ "failed": 0,
+ "checks": 1125,
+ "observed": {
+  "BoxingGlove": {
+   "moved": 3.07,
+   "tags": [
+    "launched"
+   ],
+   "statuses": [],
+   "hidden": false,
+   "sunk": false,
+   "held": 0.37,
+   "lost": {
+    "health": 28,
+    "resolve": 0,
+    "skill": 0
+   },
+   "mode": "walk"
+  },
+  "BubbleBlower": {
+   "moved": 1.47,
+   "tags": [
+    "bubble"
+   ],
+   "statuses": [],
+   "hidden": false,
+   "sunk": false,
+   "held": 0.5,
+   "lost": {
+    "health": 0,
+    "resolve": 10,
+    "skill": 0
+   },
+   "mode": "down"
+  },
+  "FakeSafe": {
+   "moved": 1.9,
+   "tags": [],
+   "statuses": [],
+   "hidden": false,
+   "sunk": false,
+   "held": 19.8,
+   "lost": {
+    "health": 0,
+    "resolve": 0,
+    "skill": 4
+   },
+   "mode": "walk"
+  },
+  "FanTrap": {
+   "moved": 12.15,
+   "tags": [
+    "blown"
+   ],
+   "statuses": [],
+   "hidden": false,
+   "sunk": false,
+   "held": 2.4,
+   "lost": {
+    "health": 0,
+    "resolve": 0,
+    "skill": 0
+   },
+   "mode": "walk"
+  },
+  "Flamer": {
+   "moved": 0.03,
+   "tags": [],
+   "statuses": [
+    "burning"
+   ],
+   "hidden": false,
+   "sunk": false,
+   "held": 6,
+   "lost": {
+    "health": 59.799999999999855,
+    "resolve": 0,
+    "skill": 0
+   },
+   "mode": "walk"
+  },
+  "FreezeRay": {
+   "moved": 0,
+   "tags": [],
+   "statuses": [],
+   "hidden": false,
+   "sunk": false,
+   "held": 3,
+   "lost": {
+    "health": 0,
+    "resolve": 15,
+    "skill": 0
+   },
+   "mode": "down"
+  },
+  "Hopscotch_trap": {
+   "moved": 0.03,
+   "tags": [],
+   "statuses": [],
+   "hidden": false,
+   "sunk": false,
+   "held": 10.3,
+   "lost": {
+    "health": 0,
+    "resolve": 0,
+    "skill": 3.8666666666666667
+   },
+   "mode": "walk"
+  },
+  "HunterSnare_Trap": {
+   "moved": 0.03,
+   "tags": [],
+   "statuses": [],
+   "hidden": false,
+   "sunk": false,
+   "held": 25.5,
+   "lost": {
+    "health": 30.000000000004825,
+    "resolve": 0,
+    "skill": 0
+   },
+   "mode": "walk"
+  },
+  "Killer_Bees": {
+   "moved": 0.03,
+   "tags": [],
+   "statuses": [
+    "stung"
+   ],
+   "hidden": false,
+   "sunk": false,
+   "held": 3,
+   "lost": {
+    "health": 0,
+    "resolve": 50.00000000000014,
+    "skill": 0
+   },
+   "mode": "walk"
+  },
+  "KnockoutGas": {
+   "moved": 0.03,
+   "tags": [],
+   "statuses": [
+    "poisoned"
+   ],
+   "hidden": false,
+   "sunk": false,
+   "held": 2,
+   "lost": {
+    "health": 7.499999999999574,
+    "resolve": 0,
+    "skill": 0
+   },
+   "mode": "walk"
+  },
+  "LaserDIsco": {
+   "moved": 0.03,
+   "tags": [],
+   "statuses": [],
+   "hidden": false,
+   "sunk": false,
+   "held": 12.37,
+   "lost": {
+    "health": 59.99999999999815,
+    "resolve": 0,
+    "skill": 0
+   },
+   "mode": "walk"
+  },
+  "LaserWall": {
+   "moved": 0.03,
+   "tags": [],
+   "statuses": [],
+   "hidden": false,
+   "sunk": false,
+   "held": 5.5,
+   "lost": {
+    "health": 69.76666666666695,
+    "resolve": 0,
+    "skill": 0
+   },
+   "mode": "walk"
+  },
+  "MagnetTrap": {
+   "moved": 7.58,
+   "tags": [],
+   "statuses": [],
+   "hidden": false,
+   "sunk": false,
+   "held": 6,
+   "lost": {
+    "health": 0,
+    "resolve": 0,
+    "skill": 0
+   },
+   "mode": "walk"
+  },
+  "Narrative_VenomGasTrap": {
+   "moved": 0.03,
+   "tags": [],
+   "statuses": [
+    "poisoned"
+   ],
+   "hidden": false,
+   "sunk": false,
+   "held": 2,
+   "lost": {
+    "health": 13.500000000000512,
+    "resolve": 0,
+    "skill": 0
+   },
+   "mode": "walk"
+  },
+  "Paywall": {
+   "moved": 0.03,
+   "tags": [],
+   "statuses": [],
+   "hidden": false,
+   "sunk": false,
+   "held": 7.35,
+   "lost": {
+    "health": 0,
+    "resolve": 0,
+    "skill": 0
+   },
+   "mode": "walk"
+  },
+  "PinballBumper": {
+   "moved": 2.85,
+   "tags": [
+    "bounced"
+   ],
+   "statuses": [],
+   "hidden": false,
+   "sunk": false,
+   "held": 0.4,
+   "lost": {
+    "health": 52,
+    "resolve": 0,
+    "skill": 0
+   },
+   "mode": "walk"
+  },
+  "PoisonDarts": {
+   "moved": 0.03,
+   "tags": [],
+   "statuses": [
+    "poisoned"
+   ],
+   "hidden": false,
+   "sunk": false,
+   "held": 2,
+   "lost": {
+    "health": 11.999999999999318,
+    "resolve": 0,
+    "skill": 0
+   },
+   "mode": "walk"
+  },
+  "Robot_Dog_Trap": {
+   "moved": 3.69,
+   "tags": [],
+   "statuses": [],
+   "hidden": false,
+   "sunk": false,
+   "held": 14,
+   "lost": {
+    "health": 45,
+    "resolve": 0,
+    "skill": 0
+   },
+   "mode": "walk"
+  },
+  "SharkTank": {
+   "moved": 1.09,
+   "tags": [],
+   "statuses": [],
+   "hidden": false,
+   "sunk": true,
+   "held": 7.57,
+   "lost": {
+    "health": 83.80000000000094,
+    "resolve": 0,
+    "skill": 0
+   },
+   "mode": "walk"
+  },
+  "SharkTank_SuperDiver": {
+   "moved": 1.06,
+   "tags": [],
+   "statuses": [],
+   "hidden": true,
+   "sunk": true,
+   "held": 5.1,
+   "lost": {
+    "health": 101.66666666666667,
+    "resolve": 0,
+    "skill": 0
+   },
+   "mode": "dead"
+  },
+  "SoapTrap": {
+   "moved": 9.6,
+   "tags": [
+    "sliding"
+   ],
+   "statuses": [],
+   "hidden": false,
+   "sunk": false,
+   "held": 0,
+   "lost": {
+    "health": 0,
+    "resolve": 0,
+    "skill": 0
+   },
+   "mode": "down"
+  },
+  "Venus_Mantrap": {
+   "moved": 3.57,
+   "tags": [],
+   "statuses": [],
+   "hidden": true,
+   "sunk": true,
+   "held": 9.47,
+   "lost": {
+    "health": 70.00000000000028,
+    "resolve": 0,
+    "skill": 0
+   },
+   "mode": "walk"
+  },
+  "cenario:corredores.json": {
+   "integrity": 2,
+   "spawned": 13,
+   "killed": 5,
+   "deserted": 0,
+   "escaped": 8,
+   "bestCombo": 2,
+   "combos": 0,
+   "gold": 0,
+   "disarmed": 3,
+   "seconds": 63.6,
+   "fired": 6,
+   "devices": 16
+  },
+  "cenario:espinha.json": {
+   "integrity": 0,
+   "spawned": 18,
+   "killed": 5,
+   "deserted": 0,
+   "escaped": 13,
+   "bestCombo": 4,
+   "combos": 4,
+   "gold": 0,
+   "disarmed": 3,
+   "seconds": 78.4,
+   "fired": 15,
+   "devices": 24
+  },
+  "cenario:galeria.json": {
+   "integrity": 10,
+   "spawned": 5,
+   "killed": 5,
+   "deserted": 0,
+   "escaped": 0,
+   "bestCombo": 0,
+   "combos": 0,
+   "gold": 0,
+   "disarmed": 2,
+   "seconds": 97.3,
+   "fired": 12,
+   "devices": 24
+  },
+  "cenario:labirinto.json": {
+   "integrity": 0,
+   "spawned": 15,
+   "killed": 4,
+   "deserted": 1,
+   "escaped": 10,
+   "bestCombo": 3,
+   "combos": 1,
+   "gold": 200,
+   "disarmed": 6,
+   "seconds": 256.6,
+   "fired": 20,
+   "devices": 24
+  }
+ },
+ "results": [
+  {
+   "name": "kit de paredes: cantos internos, externos e trechos de uma célula nas quatro orientações",
+   "pass": true,
+   "checks": 517
+  },
+  {
+   "name": "custos: 22 valores conferidos nos bytes FNTR e ventilador recuperado com origem",
+   "pass": true,
+   "checks": 47
+  },
+  {
+   "name": "vão de porta: quatro rotações, passagem livre, sem captura ou arrombamento",
+   "pass": true,
+   "checks": 20
+  },
+  {
+   "name": "grade: rotação de footprint, direção e células à frente",
+   "pass": true,
+   "checks": 48
+  },
+  {
+   "name": "conteúdo: 22 armadilhas com footprint, células, tempos nativos e programa",
+   "pass": true,
+   "checks": 184
+  },
+  {
+   "name": "layout: parede exigida, sobreposição e base fora do piso viram problemas",
+   "pass": true,
+   "checks": 7
+  },
+  {
+   "name": "navegação: labirinto, duas entradas, objetivo inalcançável avisado",
+   "pass": true,
+   "checks": 4
+  },
+  {
+   "name": "armadilha BoxingGlove: dispara, cumpre as fases nativas e afeta o agente",
+   "pass": true,
+   "checks": 10
+  },
+  {
+   "name": "armadilha BubbleBlower: dispara, cumpre as fases nativas e afeta o agente",
+   "pass": true,
+   "checks": 10
+  },
+  {
+   "name": "armadilha FakeSafe: dispara, cumpre as fases nativas e afeta o agente",
+   "pass": true,
+   "checks": 10
+  },
+  {
+   "name": "armadilha FanTrap: dispara, cumpre as fases nativas e afeta o agente",
+   "pass": true,
+   "checks": 10
+  },
+  {
+   "name": "armadilha Flamer: dispara, cumpre as fases nativas e afeta o agente",
+   "pass": true,
+   "checks": 10
+  },
+  {
+   "name": "armadilha FreezeRay: dispara, cumpre as fases nativas e afeta o agente",
+   "pass": true,
+   "checks": 10
+  },
+  {
+   "name": "armadilha Hopscotch_trap: dispara, cumpre as fases nativas e afeta o agente",
+   "pass": true,
+   "checks": 9
+  },
+  {
+   "name": "armadilha HunterSnare_Trap: dispara, cumpre as fases nativas e afeta o agente",
+   "pass": true,
+   "checks": 10
+  },
+  {
+   "name": "armadilha Killer_Bees: dispara, cumpre as fases nativas e afeta o agente",
+   "pass": true,
+   "checks": 10
+  },
+  {
+   "name": "armadilha KnockoutGas: dispara, cumpre as fases nativas e afeta o agente",
+   "pass": true,
+   "checks": 10
+  },
+  {
+   "name": "armadilha LaserDIsco: dispara, cumpre as fases nativas e afeta o agente",
+   "pass": true,
+   "checks": 10
+  },
+  {
+   "name": "armadilha LaserWall: dispara, cumpre as fases nativas e afeta o agente",
+   "pass": true,
+   "checks": 10
+  },
+  {
+   "name": "armadilha MagnetTrap: dispara, cumpre as fases nativas e afeta o agente",
+   "pass": true,
+   "checks": 10
+  },
+  {
+   "name": "armadilha Narrative_VenomGasTrap: dispara, cumpre as fases nativas e afeta o agente",
+   "pass": true,
+   "checks": 10
+  },
+  {
+   "name": "armadilha Paywall: dispara, cumpre as fases nativas e afeta o agente",
+   "pass": true,
+   "checks": 9
+  },
+  {
+   "name": "armadilha PinballBumper: dispara, cumpre as fases nativas e afeta o agente",
+   "pass": true,
+   "checks": 10
+  },
+  {
+   "name": "armadilha PoisonDarts: dispara, cumpre as fases nativas e afeta o agente",
+   "pass": true,
+   "checks": 10
+  },
+  {
+   "name": "armadilha Robot_Dog_Trap: dispara, cumpre as fases nativas e afeta o agente",
+   "pass": true,
+   "checks": 10
+  },
+  {
+   "name": "armadilha SharkTank: dispara, cumpre as fases nativas e afeta o agente",
+   "pass": true,
+   "checks": 10
+  },
+  {
+   "name": "armadilha SharkTank_SuperDiver: dispara, cumpre as fases nativas e afeta o agente",
+   "pass": true,
+   "checks": 10
+  },
+  {
+   "name": "armadilha SoapTrap: dispara, cumpre as fases nativas e afeta o agente",
+   "pass": true,
+   "checks": 10
+  },
+  {
+   "name": "armadilha Venus_Mantrap: dispara, cumpre as fases nativas e afeta o agente",
+   "pass": true,
+   "checks": 10
+  },
+  {
+   "name": "efeitos distintos: cada família faz o que o nome promete",
+   "pass": true,
+   "checks": 16
+  },
+  {
+   "name": "combo: ventilador joga o agente no tanque sem recuperação",
+   "pass": true,
+   "checks": 5
+  },
+  {
+   "name": "bolha: o empurrão do ventilador leva a bolha mais longe",
+   "pass": true,
+   "checks": 1
+  },
+  {
+   "name": "perícia: sabotador de nível alto desarma; a armadilha fica sabotada pelo tempo nativo",
+   "pass": true,
+   "checks": 7
+  },
+  {
+   "name": "ondas: várias entradas, tipos, níveis e intervalos",
+   "pass": true,
+   "checks": 11
+  },
+  {
+   "name": "porta: o primeiro agente arromba, o grupo passa, a porta fecha",
+   "pass": true,
+   "checks": 5
+  },
+  {
+   "name": "determinação: agente sem determinação desiste e sai pela entrada",
+   "pass": true,
+   "checks": 3
+  },
+  {
+   "name": "determinismo: mesma semente, mesma história; pausa congela",
+   "pass": true,
+   "checks": 3
+  },
+  {
+   "name": "cenários de referência: válidos, com caminho, e rodam até o fim",
+   "pass": true,
+   "checks": 29
+  }
+ ]
+}

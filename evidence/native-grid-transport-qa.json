@@ -1,0 +1,17 @@
+{
+  "schema": "eg2-native-grid-transport-qa/1",
+  "checks": 1715,
+  "allPassed": true,
+  "originalExecuted": false,
+  "arenaIntegrated": false,
+  "sourcePort": "Native float32 transport, primary type flags, full cell classifier and indexed footprint query. Callbacks and world inputs are not recovered scene execution.",
+  "codeSha256": "2550029cf0a5cfc5e3c1d83c387756f8b10e0408ab082031f8e544a29c8c095c",
+  "testSha256": "e8ec7d450627e5322c53b803615ae9843505f01571919acb13d296a9d09c099d",
+  "cellTypesSha256": "981a4ef26ba91007cacadcd733827822d3a5e89ecf51f8f3a4d8b4f36b27c083",
+  "footprintsSha256": "cd1232841648e03843cf0c335b303c3901e9868d726a30a425c1a3ee99ba5b71",
+  "knownLimitations": [
+    "Classifier and footprint query ported with supplied fixtures; actual cell/owner/instance/state/clock binding unresolved.",
+    "Not native executable execution or an engine port.",
+    "Raw step coefficient has no newly proven time units."
+  ]
+}

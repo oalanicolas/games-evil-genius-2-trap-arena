@@ -1,0 +1,1142 @@
+{
+  "schema": 1,
+  "init": {
+    "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M3 Max, Unspecified Version)",
+    "drawInfo": {
+      "frame": 9,
+      "calls": 684,
+      "triangles": 65586,
+      "points": 0,
+      "lines": 1
+    },
+    "origin": {
+      "assets": "extracted",
+      "simulation": "reconstruction",
+      "originalExecution": false
+    }
+  },
+  "full": {
+    "time": 9.183333333333369,
+    "paused": false,
+    "agents": [
+      {
+        "id": 1,
+        "x": 7.8045762454033945,
+        "z": 0.2725349736553473,
+        "y": 0,
+        "hp": 0,
+        "vx": 1.7,
+        "vz": 0,
+        "gaitDistance": 6.006666666666665,
+        "state": "defeated",
+        "until": 8.649999999999977,
+        "stateStart": 7.949999999999977,
+        "hits": [
+          "fan",
+          "glove",
+          "bubble",
+          "slip",
+          "laser"
+        ],
+        "alive": false,
+        "finished": true,
+        "finishedAt": 7.949999999999977
+      }
+    ],
+    "traps": [
+      {
+        "type": "fan",
+        "x": -10,
+        "z": -2,
+        "angle": 0.04,
+        "enabled": true,
+        "id": 0,
+        "ready": 3.4999999999999996,
+        "fired": 1.4999999999999996
+      },
+      {
+        "type": "glove",
+        "x": -5.5,
+        "z": -1.6,
+        "angle": 0.16,
+        "enabled": true,
+        "id": 1,
+        "ready": 4.466666666666663,
+        "fired": 2.466666666666663
+      },
+      {
+        "type": "bubble",
+        "x": -0.6,
+        "z": -3.1,
+        "angle": 1.5707963267948966,
+        "enabled": true,
+        "id": 2,
+        "ready": 4.933333333333328,
+        "fired": 2.933333333333328
+      },
+      {
+        "type": "slip",
+        "x": 3.3,
+        "z": 0.8,
+        "angle": 0,
+        "enabled": true,
+        "id": 3,
+        "ready": 7.399999999999984,
+        "fired": 5.899999999999984
+      },
+      {
+        "type": "laser",
+        "x": 8.5,
+        "z": -3.2,
+        "angle": 1.5707963267948966,
+        "enabled": true,
+        "id": 4,
+        "ready": 9.349999999999977,
+        "fired": 7.949999999999977
+      }
+    ],
+    "events": [
+      {
+        "time": 1.5,
+        "agent": 1,
+        "trap": "fan",
+        "hp": 100,
+        "x": -9.762,
+        "z": 0,
+        "chain": [
+          "fan"
+        ]
+      },
+      {
+        "time": 2.467,
+        "agent": 1,
+        "trap": "glove",
+        "hp": 75,
+        "x": -5.415,
+        "z": 0.174,
+        "chain": [
+          "fan",
+          "glove"
+        ]
+      },
+      {
+        "time": 2.933,
+        "agent": 1,
+        "trap": "bubble",
+        "hp": 70,
+        "x": -3.204,
+        "z": 0.531,
+        "chain": [
+          "fan",
+          "glove",
+          "bubble"
+        ]
+      },
+      {
+        "time": 5.9,
+        "agent": 1,
+        "trap": "slip",
+        "hp": 60,
+        "x": 2.02,
+        "z": 0.374,
+        "chain": [
+          "fan",
+          "glove",
+          "bubble",
+          "slip"
+        ]
+      },
+      {
+        "time": 7.95,
+        "agent": 1,
+        "trap": "laser",
+        "hp": 0,
+        "x": 7.805,
+        "z": 0.273,
+        "chain": [
+          "fan",
+          "glove",
+          "bubble",
+          "slip",
+          "laser"
+        ]
+      }
+    ],
+    "baseHealth": 10,
+    "kills": 1,
+    "escapes": 0,
+    "chains": 1
+  },
+  "disabled": {
+    "time": 18.11666666666692,
+    "paused": false,
+    "agents": [
+      {
+        "id": 1,
+        "x": 12.025680575969474,
+        "z": 0.04277529506342848,
+        "y": 0,
+        "hp": 15,
+        "vx": 1.7,
+        "vz": 0,
+        "gaitDistance": 11.390000000000102,
+        "state": "escaped",
+        "until": 9.033333333333326,
+        "stateStart": 8.333333333333327,
+        "hits": [
+          "fan",
+          "bubble",
+          "slip",
+          "laser"
+        ],
+        "alive": false,
+        "finished": true,
+        "finishedAt": 10.816666666666784
+      }
+    ],
+    "traps": [
+      {
+        "type": "fan",
+        "x": -10,
+        "z": -2,
+        "angle": 0.04,
+        "enabled": true,
+        "id": 0,
+        "ready": 3.433333333333333,
+        "fired": 1.4333333333333331
+      },
+      {
+        "type": "glove",
+        "x": -5.5,
+        "z": -1.6,
+        "angle": 0.16,
+        "enabled": false,
+        "id": 1,
+        "ready": 0,
+        "fired": -99
+      },
+      {
+        "type": "bubble",
+        "x": -0.6,
+        "z": -3.1,
+        "angle": 1.5707963267948966,
+        "enabled": true,
+        "id": 2,
+        "ready": 5.049999999999994,
+        "fired": 3.049999999999994
+      },
+      {
+        "type": "slip",
+        "x": 3.3,
+        "z": 0.8,
+        "angle": 0,
+        "enabled": true,
+        "id": 3,
+        "ready": 7.866666666666649,
+        "fired": 6.366666666666649
+      },
+      {
+        "type": "laser",
+        "x": 8.5,
+        "z": -3.2,
+        "angle": 1.5707963267948966,
+        "enabled": true,
+        "id": 4,
+        "ready": 9.733333333333327,
+        "fired": 8.333333333333327
+      }
+    ],
+    "events": [
+      {
+        "time": 1.433,
+        "agent": 1,
+        "trap": "fan",
+        "hp": 100,
+        "x": -9.762,
+        "z": 0,
+        "chain": [
+          "fan"
+        ]
+      },
+      {
+        "time": 3.05,
+        "agent": 1,
+        "trap": "bubble",
+        "hp": 95,
+        "x": -3.658,
+        "z": 0.191,
+        "chain": [
+          "fan",
+          "bubble"
+        ]
+      },
+      {
+        "time": 6.367,
+        "agent": 1,
+        "trap": "slip",
+        "hp": 85,
+        "x": 2.161,
+        "z": 0.121,
+        "chain": [
+          "fan",
+          "bubble",
+          "slip"
+        ]
+      },
+      {
+        "time": 8.333,
+        "agent": 1,
+        "trap": "laser",
+        "hp": 15,
+        "x": 7.804,
+        "z": 0.09,
+        "chain": [
+          "fan",
+          "bubble",
+          "slip",
+          "laser"
+        ]
+      }
+    ],
+    "baseHealth": 9,
+    "kills": 0,
+    "escapes": 1,
+    "chains": 0
+  },
+  "rotated": {
+    "time": 18.200000000000248,
+    "paused": false,
+    "agents": [
+      {
+        "id": 1,
+        "x": 7.808008994824702,
+        "z": 0.3586338741709987,
+        "y": 0,
+        "hp": 0,
+        "vx": 1.7,
+        "vz": 0,
+        "gaitDistance": 7.1966666666666645,
+        "state": "defeated",
+        "until": 7.99999999999998,
+        "stateStart": 7.299999999999979,
+        "hits": [
+          "fan",
+          "glove",
+          "slip",
+          "laser"
+        ],
+        "alive": false,
+        "finished": true,
+        "finishedAt": 7.299999999999979
+      }
+    ],
+    "traps": [
+      {
+        "type": "fan",
+        "x": -10,
+        "z": -2,
+        "angle": 0.04,
+        "enabled": true,
+        "id": 0,
+        "ready": 3.516666666666666,
+        "fired": 1.5166666666666662
+      },
+      {
+        "type": "glove",
+        "x": -5.5,
+        "z": -1.6,
+        "angle": 0.16,
+        "enabled": true,
+        "id": 1,
+        "ready": 4.483333333333329,
+        "fired": 2.4833333333333294
+      },
+      {
+        "type": "bubble",
+        "x": -0.6,
+        "z": -3.1,
+        "angle": 4.71238898038469,
+        "enabled": true,
+        "id": 2,
+        "ready": 0,
+        "fired": -99
+      },
+      {
+        "type": "slip",
+        "x": 3.3,
+        "z": 0.8,
+        "angle": 0,
+        "enabled": true,
+        "id": 3,
+        "ready": 6.73333333333332,
+        "fired": 5.23333333333332
+      },
+      {
+        "type": "laser",
+        "x": 8.5,
+        "z": -3.2,
+        "angle": 1.5707963267948966,
+        "enabled": true,
+        "id": 4,
+        "ready": 8.69999999999998,
+        "fired": 7.299999999999979
+      }
+    ],
+    "events": [
+      {
+        "time": 1.517,
+        "agent": 1,
+        "trap": "fan",
+        "hp": 100,
+        "x": -9.762,
+        "z": 0,
+        "chain": [
+          "fan"
+        ]
+      },
+      {
+        "time": 2.483,
+        "agent": 1,
+        "trap": "glove",
+        "hp": 75,
+        "x": -5.415,
+        "z": 0.174,
+        "chain": [
+          "fan",
+          "glove"
+        ]
+      },
+      {
+        "time": 5.233,
+        "agent": 1,
+        "trap": "slip",
+        "hp": 65,
+        "x": 1.995,
+        "z": 0.494,
+        "chain": [
+          "fan",
+          "glove",
+          "slip"
+        ]
+      },
+      {
+        "time": 7.3,
+        "agent": 1,
+        "trap": "laser",
+        "hp": 0,
+        "x": 7.808,
+        "z": 0.359,
+        "chain": [
+          "fan",
+          "glove",
+          "slip",
+          "laser"
+        ]
+      }
+    ],
+    "baseHealth": 10,
+    "kills": 1,
+    "escapes": 0,
+    "chains": 0
+  },
+  "pause": {
+    "before": 0.03333333333333333,
+    "after": 0.03333333333333333
+  },
+  "wave": {
+    "time": 40.13333333333234,
+    "paused": false,
+    "agents": [
+      {
+        "id": 1,
+        "x": 7.8045762454033945,
+        "z": 0.2725349736553473,
+        "y": 0,
+        "hp": 0,
+        "vx": 1.7,
+        "vz": 0,
+        "gaitDistance": 6.006666666666665,
+        "state": "defeated",
+        "until": 8.549999999999978,
+        "stateStart": 7.849999999999977,
+        "hits": [
+          "fan",
+          "glove",
+          "bubble",
+          "slip",
+          "laser"
+        ],
+        "alive": false,
+        "finished": true,
+        "finishedAt": 7.849999999999977
+      },
+      {
+        "id": 2,
+        "x": 7.821242912070061,
+        "z": 0.26712501833113617,
+        "y": 0,
+        "hp": 0,
+        "vx": 1.7,
+        "vz": 0,
+        "gaitDistance": 6.119999999999998,
+        "state": "defeated",
+        "until": 12.383333333333493,
+        "stateStart": 11.683333333333493,
+        "hits": [
+          "fan",
+          "glove",
+          "bubble",
+          "slip",
+          "laser"
+        ],
+        "alive": false,
+        "finished": true,
+        "finishedAt": 11.683333333333493
+      },
+      {
+        "id": 3,
+        "x": 7.821242912070061,
+        "z": 0.26712501833113617,
+        "y": 0,
+        "hp": 0,
+        "vx": 1.7,
+        "vz": 0,
+        "gaitDistance": 6.119999999999998,
+        "state": "defeated",
+        "until": 16.18333333333368,
+        "stateStart": 15.483333333333682,
+        "hits": [
+          "fan",
+          "glove",
+          "bubble",
+          "slip",
+          "laser"
+        ],
+        "alive": false,
+        "finished": true,
+        "finishedAt": 15.483333333333682
+      },
+      {
+        "id": 4,
+        "x": 7.8029095787367275,
+        "z": 0.27117229878707055,
+        "y": 0,
+        "hp": 0,
+        "vx": 1.7,
+        "vz": 0,
+        "gaitDistance": 6.034999999999998,
+        "state": "defeated",
+        "until": 19.933333333333522,
+        "stateStart": 19.233333333333523,
+        "hits": [
+          "fan",
+          "glove",
+          "bubble",
+          "slip",
+          "laser"
+        ],
+        "alive": false,
+        "finished": true,
+        "finishedAt": 19.233333333333523
+      },
+      {
+        "id": 5,
+        "x": 7.8045762454033945,
+        "z": 0.2725349736553473,
+        "y": 0,
+        "hp": 0,
+        "vx": 1.7,
+        "vz": 0,
+        "gaitDistance": 6.006666666666665,
+        "state": "defeated",
+        "until": 23.733333333333306,
+        "stateStart": 23.033333333333307,
+        "hits": [
+          "fan",
+          "glove",
+          "bubble",
+          "slip",
+          "laser"
+        ],
+        "alive": false,
+        "finished": true,
+        "finishedAt": 23.033333333333307
+      },
+      {
+        "id": 6,
+        "x": 7.8045762454033945,
+        "z": 0.2725349736553473,
+        "y": 0,
+        "hp": 0,
+        "vx": 1.7,
+        "vz": 0,
+        "gaitDistance": 6.006666666666665,
+        "state": "defeated",
+        "until": 27.53333333333309,
+        "stateStart": 26.83333333333309,
+        "hits": [
+          "fan",
+          "glove",
+          "bubble",
+          "slip",
+          "laser"
+        ],
+        "alive": false,
+        "finished": true,
+        "finishedAt": 26.83333333333309
+      }
+    ],
+    "traps": [
+      {
+        "type": "fan",
+        "x": -10,
+        "z": -2,
+        "angle": 0.04,
+        "enabled": true,
+        "id": 0,
+        "ready": 22.383333333333457,
+        "fired": 20.383333333333457
+      },
+      {
+        "type": "glove",
+        "x": -5.5,
+        "z": -1.6,
+        "angle": 0.16,
+        "enabled": true,
+        "id": 1,
+        "ready": 23.35000000000007,
+        "fired": 21.35000000000007
+      },
+      {
+        "type": "bubble",
+        "x": -0.6,
+        "z": -3.1,
+        "angle": 1.5707963267948966,
+        "enabled": true,
+        "id": 2,
+        "ready": 23.81666666666671,
+        "fired": 21.81666666666671
+      },
+      {
+        "type": "slip",
+        "x": 3.3,
+        "z": 0.8,
+        "angle": 0,
+        "enabled": true,
+        "id": 3,
+        "ready": 26.283333333333207,
+        "fired": 24.783333333333207
+      },
+      {
+        "type": "laser",
+        "x": 8.5,
+        "z": -3.2,
+        "angle": 1.5707963267948966,
+        "enabled": true,
+        "id": 4,
+        "ready": 28.23333333333309,
+        "fired": 26.83333333333309
+      }
+    ],
+    "events": [
+      {
+        "time": 1.4,
+        "agent": 1,
+        "trap": "fan",
+        "hp": 100,
+        "x": -9.762,
+        "z": 0,
+        "chain": [
+          "fan"
+        ]
+      },
+      {
+        "time": 2.367,
+        "agent": 1,
+        "trap": "glove",
+        "hp": 75,
+        "x": -5.415,
+        "z": 0.174,
+        "chain": [
+          "fan",
+          "glove"
+        ]
+      },
+      {
+        "time": 2.833,
+        "agent": 1,
+        "trap": "bubble",
+        "hp": 70,
+        "x": -3.204,
+        "z": 0.531,
+        "chain": [
+          "fan",
+          "glove",
+          "bubble"
+        ]
+      },
+      {
+        "time": 5.2,
+        "agent": 2,
+        "trap": "fan",
+        "hp": 100,
+        "x": -9.762,
+        "z": 0,
+        "chain": [
+          "fan"
+        ]
+      },
+      {
+        "time": 5.8,
+        "agent": 1,
+        "trap": "slip",
+        "hp": 60,
+        "x": 2.02,
+        "z": 0.374,
+        "chain": [
+          "fan",
+          "glove",
+          "bubble",
+          "slip"
+        ]
+      },
+      {
+        "time": 6.167,
+        "agent": 2,
+        "trap": "glove",
+        "hp": 75,
+        "x": -5.415,
+        "z": 0.174,
+        "chain": [
+          "fan",
+          "glove"
+        ]
+      },
+      {
+        "time": 6.633,
+        "agent": 2,
+        "trap": "bubble",
+        "hp": 70,
+        "x": -3.204,
+        "z": 0.531,
+        "chain": [
+          "fan",
+          "glove",
+          "bubble"
+        ]
+      },
+      {
+        "time": 7.85,
+        "agent": 1,
+        "trap": "laser",
+        "hp": 0,
+        "x": 7.805,
+        "z": 0.273,
+        "chain": [
+          "fan",
+          "glove",
+          "bubble",
+          "slip",
+          "laser"
+        ]
+      },
+      {
+        "time": 9,
+        "agent": 3,
+        "trap": "fan",
+        "hp": 100,
+        "x": -9.762,
+        "z": 0,
+        "chain": [
+          "fan"
+        ]
+      },
+      {
+        "time": 9.617,
+        "agent": 2,
+        "trap": "slip",
+        "hp": 60,
+        "x": 2.046,
+        "z": 0.37,
+        "chain": [
+          "fan",
+          "glove",
+          "bubble",
+          "slip"
+        ]
+      },
+      {
+        "time": 9.967,
+        "agent": 3,
+        "trap": "glove",
+        "hp": 75,
+        "x": -5.415,
+        "z": 0.174,
+        "chain": [
+          "fan",
+          "glove"
+        ]
+      },
+      {
+        "time": 10.433,
+        "agent": 3,
+        "trap": "bubble",
+        "hp": 70,
+        "x": -3.204,
+        "z": 0.531,
+        "chain": [
+          "fan",
+          "glove",
+          "bubble"
+        ]
+      },
+      {
+        "time": 11.683,
+        "agent": 2,
+        "trap": "laser",
+        "hp": 0,
+        "x": 7.821,
+        "z": 0.267,
+        "chain": [
+          "fan",
+          "glove",
+          "bubble",
+          "slip",
+          "laser"
+        ]
+      },
+      {
+        "time": 12.783,
+        "agent": 4,
+        "trap": "fan",
+        "hp": 100,
+        "x": -9.762,
+        "z": 0,
+        "chain": [
+          "fan"
+        ]
+      },
+      {
+        "time": 13.417,
+        "agent": 3,
+        "trap": "slip",
+        "hp": 60,
+        "x": 2.046,
+        "z": 0.37,
+        "chain": [
+          "fan",
+          "glove",
+          "bubble",
+          "slip"
+        ]
+      },
+      {
+        "time": 13.75,
+        "agent": 4,
+        "trap": "glove",
+        "hp": 75,
+        "x": -5.415,
+        "z": 0.174,
+        "chain": [
+          "fan",
+          "glove"
+        ]
+      },
+      {
+        "time": 14.217,
+        "agent": 4,
+        "trap": "bubble",
+        "hp": 70,
+        "x": -3.204,
+        "z": 0.531,
+        "chain": [
+          "fan",
+          "glove",
+          "bubble"
+        ]
+      },
+      {
+        "time": 15.483,
+        "agent": 3,
+        "trap": "laser",
+        "hp": 0,
+        "x": 7.821,
+        "z": 0.267,
+        "chain": [
+          "fan",
+          "glove",
+          "bubble",
+          "slip",
+          "laser"
+        ]
+      },
+      {
+        "time": 16.583,
+        "agent": 5,
+        "trap": "fan",
+        "hp": 100,
+        "x": -9.762,
+        "z": 0,
+        "chain": [
+          "fan"
+        ]
+      },
+      {
+        "time": 17.2,
+        "agent": 4,
+        "trap": "slip",
+        "hp": 60,
+        "x": 2.046,
+        "z": 0.37,
+        "chain": [
+          "fan",
+          "glove",
+          "bubble",
+          "slip"
+        ]
+      },
+      {
+        "time": 17.55,
+        "agent": 5,
+        "trap": "glove",
+        "hp": 75,
+        "x": -5.415,
+        "z": 0.174,
+        "chain": [
+          "fan",
+          "glove"
+        ]
+      },
+      {
+        "time": 18.017,
+        "agent": 5,
+        "trap": "bubble",
+        "hp": 70,
+        "x": -3.204,
+        "z": 0.531,
+        "chain": [
+          "fan",
+          "glove",
+          "bubble"
+        ]
+      },
+      {
+        "time": 19.233,
+        "agent": 4,
+        "trap": "laser",
+        "hp": 0,
+        "x": 7.803,
+        "z": 0.271,
+        "chain": [
+          "fan",
+          "glove",
+          "bubble",
+          "slip",
+          "laser"
+        ]
+      },
+      {
+        "time": 20.383,
+        "agent": 6,
+        "trap": "fan",
+        "hp": 100,
+        "x": -9.762,
+        "z": 0,
+        "chain": [
+          "fan"
+        ]
+      },
+      {
+        "time": 20.983,
+        "agent": 5,
+        "trap": "slip",
+        "hp": 60,
+        "x": 2.02,
+        "z": 0.374,
+        "chain": [
+          "fan",
+          "glove",
+          "bubble",
+          "slip"
+        ]
+      },
+      {
+        "time": 21.35,
+        "agent": 6,
+        "trap": "glove",
+        "hp": 75,
+        "x": -5.415,
+        "z": 0.174,
+        "chain": [
+          "fan",
+          "glove"
+        ]
+      },
+      {
+        "time": 21.817,
+        "agent": 6,
+        "trap": "bubble",
+        "hp": 70,
+        "x": -3.204,
+        "z": 0.531,
+        "chain": [
+          "fan",
+          "glove",
+          "bubble"
+        ]
+      },
+      {
+        "time": 23.033,
+        "agent": 5,
+        "trap": "laser",
+        "hp": 0,
+        "x": 7.805,
+        "z": 0.273,
+        "chain": [
+          "fan",
+          "glove",
+          "bubble",
+          "slip",
+          "laser"
+        ]
+      },
+      {
+        "time": 24.783,
+        "agent": 6,
+        "trap": "slip",
+        "hp": 60,
+        "x": 2.02,
+        "z": 0.374,
+        "chain": [
+          "fan",
+          "glove",
+          "bubble",
+          "slip"
+        ]
+      },
+      {
+        "time": 26.833,
+        "agent": 6,
+        "trap": "laser",
+        "hp": 0,
+        "x": 7.805,
+        "z": 0.273,
+        "chain": [
+          "fan",
+          "glove",
+          "bubble",
+          "slip",
+          "laser"
+        ]
+      }
+    ],
+    "baseHealth": 10,
+    "kills": 6,
+    "escapes": 0,
+    "chains": 6
+  },
+  "audio": {
+    "enabled": true,
+    "decoded": [
+      "fan",
+      "glove",
+      "bubble",
+      "pop",
+      "slip",
+      "laser"
+    ]
+  },
+  "saved": "{\"layout\":[{\"type\":\"fan\",\"x\":-10,\"z\":-2,\"angle\":0.04,\"enabled\":true},{\"type\":\"glove\",\"x\":-5.5,\"z\":-1.6,\"angle\":0.16,\"enabled\":true},{\"type\":\"bubble\",\"x\":4,\"z\":2.5,\"angle\":1.5707963267948966,\"enabled\":true},{\"type\":\"slip\",\"x\":3.3,\"z\":0.8,\"angle\":0,\"enabled\":true},{\"type\":\"laser\",\"x\":8.5,\"z\":-3.2,\"angle\":1.5707963267948966,\"enabled\":true}],\"scenario\":\"open\"}",
+  "restored": [
+    {
+      "type": "fan",
+      "x": -10,
+      "z": -2,
+      "angle": 0.04,
+      "enabled": true,
+      "id": 0,
+      "ready": 0,
+      "fired": -99
+    },
+    {
+      "type": "glove",
+      "x": -5.5,
+      "z": -1.6,
+      "angle": 0.16,
+      "enabled": true,
+      "id": 1,
+      "ready": 0,
+      "fired": -99
+    },
+    {
+      "type": "bubble",
+      "x": 4,
+      "z": 2.5,
+      "angle": 1.5707963267948966,
+      "enabled": true,
+      "id": 2,
+      "ready": 0,
+      "fired": -99
+    },
+    {
+      "type": "slip",
+      "x": 3.3,
+      "z": 0.8,
+      "angle": 0,
+      "enabled": true,
+      "id": 3,
+      "ready": 0,
+      "fired": -99
+    },
+    {
+      "type": "laser",
+      "x": 8.5,
+      "z": -3.2,
+      "angle": 1.5707963267948966,
+      "enabled": true,
+      "id": 4,
+      "ready": 0,
+      "fired": -99
+    }
+  ],
+  "oldPosition": {
+    "type": "bubble",
+    "x": -0.6,
+    "z": -3.1,
+    "angle": 1.5707963267948966,
+    "enabled": true,
+    "id": 2,
+    "ready": 23.81666666666671,
+    "fired": 21.81666666666671
+  },
+  "newPosition": {
+    "type": "bubble",
+    "x": 4,
+    "z": 2.5,
+    "angle": 1.5707963267948966,
+    "enabled": true,
+    "id": 2,
+    "ready": 23.81666666666671,
+    "fired": 21.81666666666671
+  },
+  "timing": {
+    "activeAgents": 6,
+    "samples": 60,
+    "medianMs": 16.799999952316284,
+    "p95Ms": 17.5
+  },
+  "errors": [],
+  "failed": [],
+  "checks": {
+    "chain": true,
+    "disabled": true,
+    "rotated": true,
+    "pause": true,
+    "wave": true,
+    "audio": true,
+    "placement": true,
+    "saved": true,
+    "scenario": true,
+    "noErrors": true
+  }
+}

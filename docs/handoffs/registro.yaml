@@ -1,0 +1,10 @@
+- id: "2026-10-02-fidelidade-eg2"
+  date: "2026-10-02"
+  path: "docs/handoffs/2026-10-02-fidelidade-eg2.md"
+  priority: P1
+  scope: intra_processo
+  type: agent_transfer
+  score: "10/10"
+  status: approved
+  parent_handoff: null
+  consumed: null

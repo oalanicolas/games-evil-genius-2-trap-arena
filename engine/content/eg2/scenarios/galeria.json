@@ -1,0 +1,291 @@
+{
+ "schema": "lair-scenario/1",
+ "name": "Galeria: todas as armadilhas",
+ "pack": "eg2",
+ "w": 64,
+ "h": 28,
+ "floor": [
+  "................................................................",
+  "................................................................",
+  "..cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc..",
+  "..cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc..",
+  "..cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc..",
+  "..cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc..",
+  "..........................................................cccc..",
+  "..........................................................cccc..",
+  "..cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc..",
+  "..cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc..",
+  "..cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc..",
+  "..cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc..",
+  "..cccc..........................................................",
+  "..cccc..........................................................",
+  "..cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc..",
+  "..cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc..",
+  "..cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc..",
+  "..cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc..",
+  "..cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc..",
+  "..cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc..",
+  "..........................................................cccc..",
+  "..........................................................cccc..",
+  "..cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc..",
+  "..cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc..",
+  "..cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc..",
+  "..cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc..",
+  "................................................................",
+  "................................................................"
+ ],
+ "traps": [
+  {
+   "id": "t1",
+   "type": "SoapTrap",
+   "x": 6,
+   "z": 3,
+   "rot": 0,
+   "enabled": true
+  },
+  {
+   "id": "t2",
+   "type": "BoxingGlove",
+   "x": 11,
+   "z": 2,
+   "rot": 0,
+   "enabled": true
+  },
+  {
+   "id": "t3",
+   "type": "PinballBumper",
+   "x": 16,
+   "z": 3,
+   "rot": 2,
+   "enabled": true
+  },
+  {
+   "id": "t4",
+   "type": "LaserWall",
+   "x": 21,
+   "z": 2,
+   "rot": 0,
+   "enabled": true
+  },
+  {
+   "id": "t5",
+   "type": "PoisonDarts",
+   "x": 28,
+   "z": 2,
+   "rot": 0,
+   "enabled": true
+  },
+  {
+   "id": "t6",
+   "type": "FreezeRay",
+   "x": 32,
+   "z": 2,
+   "rot": 0,
+   "enabled": true
+  },
+  {
+   "id": "t7",
+   "type": "Flamer",
+   "x": 37,
+   "z": 2,
+   "rot": 0,
+   "enabled": true
+  },
+  {
+   "id": "t8",
+   "type": "Killer_Bees",
+   "x": 44,
+   "z": 2,
+   "rot": 0,
+   "enabled": true
+  },
+  {
+   "id": "t9",
+   "type": "Door_Standard",
+   "x": 51,
+   "z": 2,
+   "rot": 1,
+   "enabled": true
+  },
+  {
+   "id": "t10",
+   "type": "BubbleBlower",
+   "x": 52,
+   "z": 8,
+   "rot": 0,
+   "enabled": true
+  },
+  {
+   "id": "t11",
+   "type": "KnockoutGas",
+   "x": 45,
+   "z": 8,
+   "rot": 0,
+   "enabled": true
+  },
+  {
+   "id": "t12",
+   "type": "Narrative_VenomGasTrap",
+   "x": 38,
+   "z": 8,
+   "rot": 0,
+   "enabled": true
+  },
+  {
+   "id": "t13",
+   "type": "LaserDIsco",
+   "x": 29,
+   "z": 8,
+   "rot": 1,
+   "enabled": true
+  },
+  {
+   "id": "t14",
+   "type": "HunterSnare_Trap",
+   "x": 24,
+   "z": 8,
+   "rot": 1,
+   "enabled": true
+  },
+  {
+   "id": "t15",
+   "type": "Hopscotch_trap",
+   "x": 17,
+   "z": 8,
+   "rot": 0,
+   "enabled": true
+  },
+  {
+   "id": "t16",
+   "type": "FakeSafe",
+   "x": 10,
+   "z": 8,
+   "rot": 0,
+   "enabled": true
+  },
+  {
+   "id": "t17",
+   "type": "Paywall",
+   "x": 6,
+   "z": 8,
+   "rot": 1,
+   "enabled": true
+  },
+  {
+   "id": "t18",
+   "type": "Venus_Mantrap",
+   "x": 10,
+   "z": 14,
+   "rot": 0,
+   "enabled": true
+  },
+  {
+   "id": "t19",
+   "type": "Robot_Dog_Trap",
+   "x": 22,
+   "z": 16,
+   "rot": 0,
+   "enabled": true
+  },
+  {
+   "id": "t20",
+   "type": "FanTrap",
+   "x": 30,
+   "z": 15,
+   "rot": 1,
+   "enabled": true
+  },
+  {
+   "id": "t21",
+   "type": "SharkTank",
+   "x": 35,
+   "z": 15,
+   "rot": 1,
+   "enabled": true
+  },
+  {
+   "id": "t22",
+   "type": "MagnetTrap",
+   "x": 44,
+   "z": 15,
+   "rot": 3,
+   "enabled": true
+  },
+  {
+   "id": "t23",
+   "type": "SharkTank_SuperDiver",
+   "x": 44,
+   "z": 22,
+   "rot": 3,
+   "enabled": true
+  },
+  {
+   "id": "t24",
+   "type": "FanTrap",
+   "x": 52,
+   "z": 22,
+   "rot": 3,
+   "enabled": true
+  }
+ ],
+ "entrances": [
+  {
+   "id": "A",
+   "x": 2,
+   "z": 3,
+   "label": "Entrada"
+  },
+  {
+   "id": "B",
+   "x": 61,
+   "z": 15,
+   "label": "Atalho"
+  }
+ ],
+ "objectives": [
+  {
+   "id": "fim",
+   "x": 2,
+   "z": 23,
+   "label": "Saída"
+  }
+ ],
+ "waves": [
+  {
+   "name": "Passeio",
+   "groups": [
+    {
+     "entrance": "A",
+     "objective": "fim",
+     "agent": "soldier",
+     "level": 3,
+     "count": 2,
+     "interval": 6,
+     "delay": 0
+    },
+    {
+     "entrance": "A",
+     "objective": "fim",
+     "agent": "investigator",
+     "level": 2,
+     "count": 2,
+     "interval": 6,
+     "delay": 3
+    },
+    {
+     "entrance": "B",
+     "objective": "fim",
+     "agent": "rogue",
+     "level": 2,
+     "count": 1,
+     "interval": 1,
+     "delay": 40
+    }
+   ]
+  }
+ ],
+ "rules": {
+  "integrity": 10
+ },
+ "note": "Pista com as 22 armadilhas do pacote e a porta, uma de cada, para ver cada efeito."
+}

@@ -1,0 +1,33 @@
+import {createRequire} from 'node:module';import fs from 'node:fs';import path from 'node:path';
+const {chromium}=createRequire(import.meta.url)('playwright');const out=process.env.EG2_QA_OUT||'/tmp/eg2-arena-qa';fs.mkdirSync(out,{recursive:true});
+const browser=await chromium.launch({channel:'chrome',headless:process.env.QA_HEADED!=='1',args:['--use-angle=metal','--ignore-gpu-blocklist']});
+const context=await browser.newContext({viewport:{width:1440,height:1000},recordVideo:{dir:path.join(out,'walk-video'),size:{width:1440,height:1000}}});const page=await context.newPage();const errors=[];
+page.on('pageerror',e=>errors.push(e.message));page.on('console',m=>{if(m.type()==='error')errors.push(m.text());});
+await page.goto('http://127.0.0.1:8766/');await page.waitForFunction(()=>window.EG2Arena?.ready);
+await page.evaluate(()=>{for(let i=0;i<5;i++)EG2Arena.setDevice(i,{enabled:false});});
+await page.getByRole('button',{name:'Seguir agente',exact:true}).click();
+const EG2_SPAWN=await page.evaluate(()=>EG2Arena.rules.arena.spawnX);
+const frames=[];
+for(const target of [.2,.36,.53,.7,1,1.2]){await page.waitForFunction(t=>EG2Arena.snapshot().time>=t,target);frames.push(await page.evaluate(()=>({time:EG2Arena.snapshot().time,agent:EG2Arena.snapshot().agents[0],rig:EG2Arena.actorDiagnostics[0]})));await page.screenshot({path:path.join(out,`walk-${target}.png`)});}
+await page.getByRole('button',{name:'Pausar',exact:true}).click();const frozen=await page.evaluate(()=>EG2Arena.actorDiagnostics);await page.waitForTimeout(200);const still=await page.evaluate(()=>EG2Arena.actorDiagnostics);
+const renderer=await page.evaluate(()=>EG2Arena.renderer);
+const motion=await page.evaluate(()=>EG2Arena.walkMotion);
+
+const checks={nativeWalkingClip:frames.every(f=>f.rig.animationOrigin==='extracted-native-clip'&&f.rig.nativeClip==='Investigator_walk_revolvers_01'&&f.rig.nativeSourceSha256==='457cb9c58b7a084993a899545a480ed81ef490c608c0020dc8a756ce0ff5cbae'),nativeSkeleton:frames.every(f=>f.rig.bones===81&&f.rig.skinnedMeshes>0),walking:frames.every(f=>f.agent.state==='walk'),moving:frames[5].agent.x>frames[0].agent.x,articulated:JSON.stringify(frames[0].rig.leftHip)!==JSON.stringify(frames[1].rig.leftHip),frozen:JSON.stringify(frozen)===JSON.stringify(still),noErrors:errors.length===0};
+checks.sourceVelocity=motion.origin==='native-extra-channel-derived'&&Math.abs(motion.forwardSpeed-1.147058707)<1e-8;
+checks.clockAndDistance=frames.every(f=>Math.abs(f.agent.x-EG2_SPAWN-f.agent.walkTime*motion.forwardSpeed)<1e-8);
+checks.nativePoseClock=frames.every(f=>Math.abs(f.rig.nativeSample.time-f.agent.walkTime%motion.duration)<1e-8);
+checks.extractedWeapons=frames.every(f=>f.rig.weapons.length===2&&f.rig.weapons.every(w=>w.localPosition.every(v=>v===0)&&w.localRotation.every((v,i)=>v===[0,0,0,1][i])&&w.scale.every(v=>v===1)));
+await page.evaluate(()=>EG2Arena.setDevice(0,{enabled:true}));
+await page.getByRole('button',{name:'Reiniciar teste',exact:true}).click();
+await page.getByRole('button',{name:'Enviar agente',exact:true}).click();
+await page.waitForFunction(()=>EG2Arena.snapshot().agents[0]?.state==='blown');
+const reaction=await page.evaluate(()=>EG2Arena.actorDiagnostics[0]);
+await page.screenshot({path:path.join(out,'reaction-baseline.png')});
+await page.waitForFunction(()=>EG2Arena.snapshot().agents[0]?.state==='walk');
+const recovery=await page.evaluate(()=>EG2Arena.actorDiagnostics[0]);
+checks.explicitReactionOrigin=reaction.animationOrigin==='extracted-native-clip'&&reaction.nativeClip==='Giant_Fan_Loop_A_01'&&reaction.reactionBinding.inputOrigin.includes('reconstructed');
+checks.nativeWalkReturns=recovery.animationOrigin==='extracted-native-clip'&&recovery.nativeClip===frames[0].rig.nativeClip;
+checks.noErrors=errors.length===0;
+fs.writeFileSync(path.join(out,'walk.json'),JSON.stringify({schema:3,motion,scope:'Extracted walk clip playing in reconstructed arena; linear velocity derived from native extra channel; does not prove original navigation, actor inputs or trap reactions',renderer,checks,frames,reaction,recovery,errors},null,2));
+await context.close();await page.video().saveAs(path.join(out,'walking-live.webm'));await browser.close();console.log(JSON.stringify({checks,errors}));if(Object.values(checks).some(v=>!v))process.exitCode=1;

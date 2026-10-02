@@ -1,0 +1,949 @@
+{
+ "schema": "lair-content-report/1",
+ "traps": 22,
+ "withFootprint": 22,
+ "withTiming": 22,
+ "withModel": 22,
+ "withRig": 17,
+ "withDeviceClips": 17,
+ "withAgentClips": 21,
+ "withAudio": 18,
+ "withBehaviour": 22,
+ "models": 77,
+ "rigs": 31,
+ "clips": 201,
+ "clipErrors": [
+  {
+   "clip": "Trap_Hopscotch_User_Loop_A_01",
+   "error": ""
+  },
+  {
+   "clip": "Trap_Paywall_User_Loop_A_01",
+   "error": ""
+  }
+ ],
+ "libraryFiles": 233,
+ "agents": {
+  "investigator": {
+   "family": "A",
+   "body": "ma_bodyhands_investigator",
+   "head": "ma_head_white01",
+   "parts": [],
+   "walk": "Investigator_walk_revolvers_01",
+   "attach": [
+    {
+     "bone": "bn_L_weapon",
+     "model": "ohw_ranged_pistolinvestigatorsrevolver"
+    },
+    {
+     "bone": "bn_R_weapon",
+     "model": "ohw_ranged_pistolinvestigatorsrevolver"
+    }
+   ],
+   "extraModels": [
+    "ohw_ranged_pistolinvestigatorsrevolver"
+   ],
+   "resolved": {
+    "body": {
+     "model": "ma_bodyhands_investigator",
+     "path": "rigs/ma_bodyhands_investigator.json",
+     "bones": 81
+    },
+    "head": {
+     "model": "ma_head_white01",
+     "path": "rigs/ma_head_white01.json",
+     "bones": 81
+    },
+    "walk": {
+     "name": "Investigator_walk_revolvers_01",
+     "path": "clips/Investigator_walk_revolvers_01.json",
+     "duration": 1.1333333253860474,
+     "bones": 71,
+     "peak": 0.6333
+    },
+    "parts": [],
+    "walkSpeed": {
+     "speed": 1.1470587069082947,
+     "retarget": 0.9999999279977766,
+     "origin": "inferred: clip extra root-motion channel and native bone-length retarget"
+    }
+   }
+  },
+  "saboteur": {
+   "family": "A",
+   "body": "ma_bodynone_saboteur",
+   "head": "ma_head_black01",
+   "parts": [
+    "ma_hands_gloves"
+   ],
+   "walk": "Saboteur_walk_neutral_01",
+   "attach": [],
+   "extraModels": [],
+   "resolved": {
+    "body": {
+     "model": "ma_bodynone_saboteur",
+     "path": "rigs/ma_bodynone_saboteur.json",
+     "bones": 81
+    },
+    "head": {
+     "model": "ma_head_black01",
+     "path": "rigs/ma_head_black01.json",
+     "bones": 81
+    },
+    "walk": {
+     "name": "Saboteur_walk_neutral_01",
+     "path": "clips/Saboteur_walk_neutral_01.json",
+     "duration": 1.3333333730697632,
+     "bones": 58,
+     "peak": 0.4
+    },
+    "parts": [
+     {
+      "model": "ma_hands_gloves",
+      "path": "rigs/ma_hands_gloves.json",
+      "bones": 81
+     }
+    ],
+    "walkSpeed": {
+     "speed": 1.1836764161683198,
+     "retarget": 1.0,
+     "origin": "inferred: clip extra root-motion channel and native bone-length retarget"
+    }
+   }
+  },
+  "soldier": {
+   "family": "B",
+   "body": "mb_bodynone_soldier",
+   "head": "mb_head_white01",
+   "parts": [
+    "mb_hands_gloves"
+   ],
+   "walk": "Soldier_walk_SMG_01",
+   "attach": [
+    {
+     "bone": "bn_R_weapon",
+     "model": "thw_ranged_smgsoldier"
+    }
+   ],
+   "extraModels": [
+    "thw_ranged_smgsoldier"
+   ],
+   "resolved": {
+    "body": {
+     "model": "mb_bodynone_soldier",
+     "path": "rigs/mb_bodynone_soldier.json",
+     "bones": 77
+    },
+    "head": {
+     "model": "mb_head_white01",
+     "path": "rigs/mb_head_white01.json",
+     "bones": 77
+    },
+    "walk": {
+     "name": "Soldier_walk_SMG_01",
+     "path": "clips/Soldier_walk_SMG_01.json",
+     "duration": 1.0666667222976685,
+     "bones": 54,
+     "peak": 0.2667
+    },
+    "parts": [
+     {
+      "model": "mb_hands_gloves",
+      "path": "rigs/mb_hands_gloves.json",
+      "bones": 77
+     }
+    ],
+    "walkSpeed": {
+     "speed": 1.6111461424008462,
+     "retarget": 1.000000027686403,
+     "origin": "inferred: clip extra root-motion channel and native bone-length retarget"
+    }
+   }
+  },
+  "rogue": {
+   "family": "C",
+   "body": "mc_bodynone_thief",
+   "head": "mc_head_asian01",
+   "parts": [
+    "mc_hands_gloves",
+    "mc_hair_sidepart"
+   ],
+   "walk": "Thief_walk_neutral_01",
+   "attach": [],
+   "extraModels": [],
+   "resolved": {
+    "body": {
+     "model": "mc_bodynone_thief",
+     "path": "rigs/mc_bodynone_thief.json",
+     "bones": 84
+    },
+    "head": {
+     "model": "mc_head_asian01",
+     "path": "rigs/mc_head_asian01.json",
+     "bones": 84
+    },
+    "walk": {
+     "name": "Thief_walk_neutral_01",
+     "path": "clips/Thief_walk_neutral_01.json",
+     "duration": 2.066666603088379,
+     "bones": 61,
+     "peak": 1.3666
+    },
+    "parts": [
+     {
+      "model": "mc_hands_gloves",
+      "path": "rigs/mc_hands_gloves.json",
+      "bones": 84
+     },
+     {
+      "model": "mc_hair_sidepart",
+      "path": "rigs/mc_hair_sidepart.json",
+      "bones": 84
+     }
+    ],
+    "walkSpeed": {
+     "speed": 0.8584425197985752,
+     "retarget": 0.9999999981869214,
+     "origin": "inferred: clip extra root-motion channel and native bone-length retarget"
+    }
+   }
+  }
+ },
+ "rows": [
+  {
+   "trap": "BoxingGlove",
+   "name": "Boxing Glove",
+   "footprint": [
+    2,
+    4
+   ],
+   "cells": 8,
+   "timing": [
+    0.0,
+    40.0,
+    3.0,
+    1.533,
+    30.0
+   ],
+   "models": [
+    "trap_gloveonspring"
+   ],
+   "rigBones": 9,
+   "deviceClips": [
+    "dismount",
+    "loop",
+    "mount"
+   ],
+   "agentClips": [
+    "Adlm",
+    "Bdlm",
+    "Cdlm"
+   ],
+   "audio": [
+    "end",
+    "fire"
+   ],
+   "behaviour": true
+  },
+  {
+   "trap": "BubbleBlower",
+   "name": "Bubble Cannon",
+   "footprint": [
+    2,
+    4
+   ],
+   "cells": 8,
+   "timing": [
+    2.0,
+    50.0,
+    0.5,
+    1.333,
+    30.0
+   ],
+   "models": [
+    "trap_bubble_blower"
+   ],
+   "rigBones": 5,
+   "deviceClips": [
+    "dismount",
+    "loop",
+    "mount"
+   ],
+   "agentClips": [
+    "Adlm",
+    "Bdlm",
+    "Cdlm"
+   ],
+   "audio": [
+    "end",
+    "fire",
+    "loop"
+   ],
+   "behaviour": true
+  },
+  {
+   "trap": "FakeSafe",
+   "name": "Fake Safe",
+   "footprint": [
+    4,
+    1
+   ],
+   "cells": 4,
+   "timing": [
+    0.0,
+    80.0,
+    0.0,
+    0.0,
+    30.0
+   ],
+   "models": [
+    "trap_fake_safe"
+   ],
+   "rigBones": 12,
+   "deviceClips": [
+    "loop"
+   ],
+   "agentClips": [
+    "Adlm",
+    "Cdlm"
+   ],
+   "audio": [
+    "end",
+    "fire"
+   ],
+   "behaviour": true
+  },
+  {
+   "trap": "FanTrap",
+   "name": "Giant Fan",
+   "footprint": [
+    4,
+    4
+   ],
+   "cells": 16,
+   "timing": [
+    4.5,
+    50.0,
+    0.5,
+    0.5,
+    30.0
+   ],
+   "models": [
+    "trap_fan"
+   ],
+   "rigBones": 7,
+   "deviceClips": [
+    "dismount",
+    "loop",
+    "mount"
+   ],
+   "agentClips": [
+    "Adlm",
+    "Bdlm",
+    "Cdlm"
+   ],
+   "audio": [
+    "end",
+    "fire",
+    "loop"
+   ],
+   "behaviour": true
+  },
+  {
+   "trap": "Flamer",
+   "name": "Flamethrower",
+   "footprint": [
+    4,
+    4
+   ],
+   "cells": 16,
+   "timing": [
+    2.0,
+    110.0,
+    0.0,
+    4.0,
+    30.0
+   ],
+   "models": [
+    "trap_flamer"
+   ],
+   "rigBones": 0,
+   "deviceClips": [],
+   "agentClips": [
+    "Adlm",
+    "Bdlm",
+    "Cdlm"
+   ],
+   "audio": [
+    "end",
+    "fire",
+    "loop"
+   ],
+   "behaviour": true
+  },
+  {
+   "trap": "FreezeRay",
+   "name": "Freeze Ray",
+   "footprint": [
+    2,
+    4
+   ],
+   "cells": 8,
+   "timing": [
+    2.0,
+    110.0,
+    0.5,
+    0.5,
+    30.0
+   ],
+   "models": [
+    "trap_freezer"
+   ],
+   "rigBones": 7,
+   "deviceClips": [
+    "dismount",
+    "loop",
+    "mount"
+   ],
+   "agentClips": [
+    "Adlm",
+    "Bdlm",
+    "Cdlm"
+   ],
+   "audio": [
+    "end",
+    "fire",
+    "loop"
+   ],
+   "behaviour": true
+  },
+  {
+   "trap": "Hopscotch_trap",
+   "name": "Cunning Trap",
+   "footprint": [
+    4,
+    4
+   ],
+   "cells": 16,
+   "timing": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    30.0
+   ],
+   "models": [
+    "trap_hopscotch"
+   ],
+   "rigBones": 0,
+   "deviceClips": [],
+   "agentClips": [
+    "Ad",
+    "Bdl",
+    "Cdl"
+   ],
+   "audio": [
+    "fire"
+   ],
+   "behaviour": true
+  },
+  {
+   "trap": "HunterSnare_Trap",
+   "name": "Snare",
+   "footprint": [
+    4,
+    2
+   ],
+   "cells": 8,
+   "timing": [
+    20.0,
+    10.0,
+    0.5,
+    5.0,
+    30.0
+   ],
+   "models": [
+    "bear_trap_trap"
+   ],
+   "rigBones": 3,
+   "deviceClips": [
+    "dismount",
+    "loop",
+    "mount"
+   ],
+   "agentClips": [
+    "Adlm",
+    "Bdlm",
+    "Cdlm"
+   ],
+   "audio": [],
+   "behaviour": true
+  },
+  {
+   "trap": "Killer_Bees",
+   "name": "Killer Bees",
+   "footprint": [
+    4,
+    4
+   ],
+   "cells": 16,
+   "timing": [
+    2.0,
+    60.0,
+    0.5,
+    0.5,
+    30.0
+   ],
+   "models": [
+    "trap_killer_bees"
+   ],
+   "rigBones": 0,
+   "deviceClips": [],
+   "agentClips": [
+    "Adlm",
+    "Bdlm",
+    "Cdlm"
+   ],
+   "audio": [
+    "loop"
+   ],
+   "behaviour": true
+  },
+  {
+   "trap": "KnockoutGas",
+   "name": "Knockout Gas",
+   "footprint": [
+    4,
+    4
+   ],
+   "cells": 16,
+   "timing": [
+    1.0,
+    60.0,
+    0.5,
+    0.5,
+    30.0
+   ],
+   "models": [
+    "trap_knockout_gas"
+   ],
+   "rigBones": 17,
+   "deviceClips": [
+    "dismount",
+    "loop",
+    "mount"
+   ],
+   "agentClips": [
+    "Adlm",
+    "Bdlm",
+    "Cdlm"
+   ],
+   "audio": [
+    "fire",
+    "loop"
+   ],
+   "behaviour": true
+  },
+  {
+   "trap": "LaserDIsco",
+   "name": "Laser Disco",
+   "footprint": [
+    4,
+    6
+   ],
+   "cells": 24,
+   "timing": [
+    10.0,
+    80.0,
+    1.1,
+    1.26,
+    30.0
+   ],
+   "models": [
+    "trap_disco_laser_active"
+   ],
+   "rigBones": 6,
+   "deviceClips": [
+    "dismount",
+    "loop",
+    "mount"
+   ],
+   "agentClips": [
+    "Al",
+    "Bl",
+    "Cl"
+   ],
+   "audio": [
+    "loop"
+   ],
+   "behaviour": true
+  },
+  {
+   "trap": "LaserWall",
+   "name": "Laser Wall",
+   "footprint": [
+    4,
+    4
+   ],
+   "cells": 16,
+   "timing": [
+    5.0,
+    40.0,
+    0.0,
+    0.5,
+    30.0
+   ],
+   "models": [
+    "trap_laser_wall"
+   ],
+   "rigBones": 0,
+   "deviceClips": [],
+   "agentClips": [
+    "Adlm",
+    "Bdlm",
+    "Cdlm"
+   ],
+   "audio": [
+    "end",
+    "fire",
+    "loop"
+   ],
+   "behaviour": true
+  },
+  {
+   "trap": "MagnetTrap",
+   "name": "Giant Magnet",
+   "footprint": [
+    4,
+    4
+   ],
+   "cells": 16,
+   "timing": [
+    5.0,
+    60.0,
+    0.5,
+    0.5,
+    30.0
+   ],
+   "models": [
+    "trap_magnet"
+   ],
+   "rigBones": 9,
+   "deviceClips": [
+    "dismount",
+    "loop",
+    "mount"
+   ],
+   "agentClips": [
+    "Adlm",
+    "Blm",
+    "Clm"
+   ],
+   "audio": [
+    "end",
+    "fire",
+    "loop"
+   ],
+   "behaviour": true
+  },
+  {
+   "trap": "Narrative_VenomGasTrap",
+   "name": "V.E.N.O.M. Trap",
+   "footprint": [
+    4,
+    4
+   ],
+   "cells": 16,
+   "timing": [
+    1.0,
+    60.0,
+    0.5,
+    0.5,
+    30.0
+   ],
+   "models": [
+    "trap_emma_knockout_gas"
+   ],
+   "rigBones": 17,
+   "deviceClips": [
+    "dismount",
+    "loop",
+    "mount"
+   ],
+   "agentClips": [
+    "Adlm",
+    "Bdlm",
+    "Cdlm"
+   ],
+   "audio": [],
+   "behaviour": true
+  },
+  {
+   "trap": "Paywall",
+   "name": "Paywall",
+   "footprint": [
+    4,
+    1
+   ],
+   "cells": 4,
+   "timing": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    30.0
+   ],
+   "models": [
+    "trap_pay_wall"
+   ],
+   "rigBones": 7,
+   "deviceClips": [
+    "dismount",
+    "loop",
+    "mount"
+   ],
+   "agentClips": [
+    "Adm",
+    "Bdlm",
+    "Cdlm"
+   ],
+   "audio": [
+    "fire"
+   ],
+   "behaviour": true
+  },
+  {
+   "trap": "PinballBumper",
+   "name": "Pinball Bumper",
+   "footprint": [
+    2,
+    2
+   ],
+   "cells": 4,
+   "timing": [
+    10.0,
+    5.0,
+    0.4,
+    0.66,
+    30.0
+   ],
+   "models": [
+    "trap_pinball_triangle_bumper"
+   ],
+   "rigBones": 4,
+   "deviceClips": [
+    "dismount",
+    "loop",
+    "mount"
+   ],
+   "agentClips": [
+    "Adl",
+    "Bdl",
+    "Cdl"
+   ],
+   "audio": [
+    "end",
+    "fire"
+   ],
+   "behaviour": true
+  },
+  {
+   "trap": "PoisonDarts",
+   "name": "Poison Darts",
+   "footprint": [
+    1,
+    4
+   ],
+   "cells": 4,
+   "timing": [
+    2.0,
+    40.0,
+    0.0,
+    0.0,
+    30.0
+   ],
+   "models": [
+    "trap_poison_dart_wall"
+   ],
+   "rigBones": 0,
+   "deviceClips": [],
+   "agentClips": [
+    "Adlm",
+    "Bdlm",
+    "Cdlm"
+   ],
+   "audio": [
+    "fire"
+   ],
+   "behaviour": true
+  },
+  {
+   "trap": "Robot_Dog_Trap",
+   "name": "Puppy of Death",
+   "footprint": [
+    2,
+    2
+   ],
+   "cells": 4,
+   "timing": [
+    11.0,
+    110.0,
+    1.0,
+    2.0,
+    30.0
+   ],
+   "models": [
+    "robo_doggo"
+   ],
+   "rigBones": 21,
+   "deviceClips": [
+    "dismount",
+    "loop",
+    "mount"
+   ],
+   "agentClips": [],
+   "audio": [
+    "fire",
+    "loop"
+   ],
+   "behaviour": true
+  },
+  {
+   "trap": "SharkTank",
+   "name": "Shark Tank",
+   "footprint": [
+    4,
+    6
+   ],
+   "cells": 24,
+   "timing": [
+    7.0,
+    80.0,
+    0.0,
+    0.566,
+    30.0
+   ],
+   "models": [
+    "trap_sharktank",
+    "trap_sharktank_sharks"
+   ],
+   "rigBones": 6,
+   "deviceClips": [
+    "dismount",
+    "mount"
+   ],
+   "agentClips": [
+    "Adlm",
+    "Bdlm",
+    "Cdlm"
+   ],
+   "audio": [
+    "end",
+    "fire",
+    "loop"
+   ],
+   "behaviour": true
+  },
+  {
+   "trap": "SharkTank_SuperDiver",
+   "name": "Great White Shark Tank",
+   "footprint": [
+    4,
+    6
+   ],
+   "cells": 24,
+   "timing": [
+    7.0,
+    80.0,
+    0.0,
+    0.566,
+    30.0
+   ],
+   "models": [
+    "oceans_trap_sharktank",
+    "trap_sharktank_sharks"
+   ],
+   "rigBones": 6,
+   "deviceClips": [
+    "dismount",
+    "mount"
+   ],
+   "agentClips": [
+    "Adlm",
+    "Bdlm",
+    "Cdlm"
+   ],
+   "audio": [],
+   "behaviour": true
+  },
+  {
+   "trap": "SoapTrap",
+   "name": "Slippery Floor",
+   "footprint": [
+    2,
+    2
+   ],
+   "cells": 4,
+   "timing": [
+    2.5,
+    40.0,
+    0.5,
+    1.0,
+    30.0
+   ],
+   "models": [
+    "trap_slippery_soap"
+   ],
+   "rigBones": 3,
+   "deviceClips": [
+    "dismount",
+    "loop",
+    "mount"
+   ],
+   "agentClips": [
+    "Adlm",
+    "Bdlm",
+    "Cdlm"
+   ],
+   "audio": [
+    "end",
+    "fire",
+    "loop"
+   ],
+   "behaviour": true
+  },
+  {
+   "trap": "Venus_Mantrap",
+   "name": "Venus Spy Trap",
+   "footprint": [
+    4,
+    4
+   ],
+   "cells": 16,
+   "timing": [
+    5.0,
+    80.0,
+    0.866,
+    3.6,
+    30.0
+   ],
+   "models": [
+    "trap_venus_plant",
+    "trap_venus_plant_base"
+   ],
+   "rigBones": 46,
+   "deviceClips": [
+    "dismount",
+    "loop",
+    "mount"
+   ],
+   "agentClips": [
+    "Adlm",
+    "Bdlm",
+    "Cdlm"
+   ],
+   "audio": [],
+   "behaviour": true
+  }
+ ]
+}

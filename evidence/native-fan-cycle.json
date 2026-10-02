@@ -1,0 +1,327 @@
+{
+  "schema": "eg2-native-fan-cycle-integration/1",
+  "whenUTC": "2026-10-02T15:32:54.639270+00:00",
+  "originalClientExecuted": false,
+  "goalStatus": "active",
+  "fullFidelityCasesVerified": 0,
+  "scope": "Extracted fan local poses in Three.js, tested against the web native-clip bench. Neither consumer executes Asura. Native timing/phase events, force and navigation/collision equivalence remain unverified.",
+  "sourceAssets": {
+    "model": {
+      "libraryPath": "assets/models/raw/c43d3b72d3ec99866c06c8cb9718c58c93b984276743ec3ad5eb692902170ca5.rscf",
+      "sha256": "c43d3b72d3ec99866c06c8cb9718c58c93b984276743ec3ad5eb692902170ca5"
+    },
+    "geometry": {
+      "libraryPath": "assets/models/glb/c43d3b72d3ec99866c06c8cb9718c58c93b984276743ec3ad5eb692902170ca5.glb",
+      "sha256": "bb767fc3ff12a55a56bf4c0d03f7fad1aa214b4ec97c7eaef86fabd275cec851"
+    },
+    "skeleton": {
+      "libraryPath": "assets/animations/skeletons/a7fea171e45fc75ed90b138c0aa4aab49a2f0bde3e9ff340e51d7f25da694cd6.json",
+      "sha256": "ea9b5b8252d38564255a39e9afdd5621acb9dc85ff776fcb1f2f515a2b664f25"
+    }
+  },
+  "clips": [
+    {
+      "name": "Giant_Fan_Mount_01",
+      "source": "assets/resources/0ebbbad275ee50fb0e62b0fd263a080c2ffefcd301804c4313fe39f7d99bb841.bin",
+      "sourceSha256": "0ebbbad275ee50fb0e62b0fd263a080c2ffefcd301804c4313fe39f7d99bb841",
+      "duration": 1.2000000476837158,
+      "boneCount": 7,
+      "flags": 805312041,
+      "decodedFile": "animation-data/Giant_Fan_Mount_01.json",
+      "decodedSha256": "6f64429f19f1f59f3a7a373b66e64032df15e32a7050810cfe871f32f746ff16"
+    },
+    {
+      "name": "Giant_Fan_Loop_01",
+      "source": "assets/resources/2895f6de072afa0f08709ec6bcfc84fe0d35fe8056ef4f6b8d848ab793c427a5.bin",
+      "sourceSha256": "2895f6de072afa0f08709ec6bcfc84fe0d35fe8056ef4f6b8d848ab793c427a5",
+      "duration": 0.800000011920929,
+      "boneCount": 7,
+      "flags": 805312041,
+      "decodedFile": "animation-data/Giant_Fan_Loop_01.json",
+      "decodedSha256": "8b013648bbe43ab7bc45724ae261798ee2fe1c81afae294553f7237023bdaadd"
+    },
+    {
+      "name": "Giant_Fan_Dismount_01",
+      "source": "assets/resources/a99e045cdf791f8c57e7bc1be77ca67ff7451f9805c66549f985b3c2f0ce3c71.bin",
+      "sourceSha256": "a99e045cdf791f8c57e7bc1be77ca67ff7451f9805c66549f985b3c2f0ce3c71",
+      "duration": 0.5,
+      "boneCount": 7,
+      "flags": 805312041,
+      "decodedFile": "animation-data/Giant_Fan_Dismount_01.json",
+      "decodedSha256": "2ca20351d89281584749f39b6c268de7fe10c0061817a160750257edc91d85fe"
+    }
+  ],
+  "fanBones": 7,
+  "skinInfluences": 8,
+  "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M3 Max, Unspecified Version)",
+  "codeSha256": {
+    "app.js": "920f49687eef80ee04b3d9864c6f9a784883340e0ab72d6f1adce656da518e8a",
+    "native-fan-cycle.js": "da716498d737f71627aa0d3a97bcec18c8dc9fdd746becbd2c13ae615bd4883d",
+    "native-player.js": "ab89a9a79bfbf5391b2465e0fb1cdaa2f4ec5f3c4af0fc14cc469efa0b33e808",
+    "native-skinning.js": "67f9c0fd2c5d3c6e29e99fd18c080ef871a83e8819570e09421122ec8d975413",
+    "actor.js": "9bfb4ebbcaa8d77ef7fb6a73ac7ec4d7236e42aa124cbbf9c5ad87dcbdcbcdbc",
+    "simulation.js": "49f6b12bbaa86de0a4547b645b69f332ca10370b9513ee9117b3e0f774558a88",
+    "rules.json": "f1fef7259b2b76857497217ece24f7d4250e2ba88ff6244381f8230b0426f208",
+    "index.html": "2437f0496a96b189349ea8879b4ff88c1ab75e53feaeeee853fa8b86019e4955",
+    "fan-animation-qa.mjs": "fa97c251fbbd74574e7b6c1e28c3db51943d1543119f3e351943f4d5196faa88",
+    "device-rigs.json": "ff53377eda4a79633897228fa63c399e9c976d665ce39b57fe03997bfceb6f6c"
+  },
+  "poseQA": {
+    "sampleChecksPassed": 42,
+    "sampleChecksTotal": 42,
+    "summaryChecks": {
+      "nativeSamples": true,
+      "pause": true,
+      "retrigger": true,
+      "reset": true,
+      "noErrors": true
+    },
+    "samples": [
+      {
+        "label": "01-idle",
+        "clip": "Giant_Fan_Dismount_01",
+        "clipTime": 0.5,
+        "phase": "idle",
+        "checks": {
+          "phase": true,
+          "positions": true,
+          "rotations": true,
+          "sevenMapped": true,
+          "finite": true,
+          "source": true
+        },
+        "positionError": 0,
+        "rotationError": 0
+      },
+      {
+        "label": "02-mount",
+        "clip": "Giant_Fan_Mount_01",
+        "clipTime": 0.2833333333333333,
+        "phase": "mount",
+        "checks": {
+          "phase": true,
+          "positions": true,
+          "rotations": true,
+          "sevenMapped": true,
+          "finite": true,
+          "source": true
+        },
+        "positionError": 0,
+        "rotationError": 0
+      },
+      {
+        "label": "03-mount-late",
+        "clip": "Giant_Fan_Mount_01",
+        "clipTime": 0.8833333333333344,
+        "phase": "mount",
+        "checks": {
+          "phase": true,
+          "positions": true,
+          "rotations": true,
+          "sevenMapped": true,
+          "finite": true,
+          "source": true
+        },
+        "positionError": 0,
+        "rotationError": 0
+      },
+      {
+        "label": "04-loop",
+        "clip": "Giant_Fan_Loop_01",
+        "clipTime": 0.28333328564961713,
+        "phase": "loop",
+        "checks": {
+          "phase": true,
+          "positions": true,
+          "rotations": true,
+          "sevenMapped": true,
+          "finite": true,
+          "source": true
+        },
+        "positionError": 0,
+        "rotationError": 0
+      },
+      {
+        "label": "05-dismount",
+        "clip": "Giant_Fan_Dismount_01",
+        "clipTime": 0.1833332737286857,
+        "phase": "dismount",
+        "checks": {
+          "phase": true,
+          "positions": true,
+          "rotations": true,
+          "sevenMapped": true,
+          "finite": true,
+          "source": true
+        },
+        "positionError": 0,
+        "rotationError": 0
+      },
+      {
+        "label": "06-idle-after",
+        "clip": "Giant_Fan_Dismount_01",
+        "clipTime": 0.5,
+        "phase": "idle",
+        "checks": {
+          "phase": true,
+          "positions": true,
+          "rotations": true,
+          "sevenMapped": true,
+          "finite": true,
+          "source": true
+        },
+        "positionError": 0,
+        "rotationError": 0
+      },
+      {
+        "label": "07-disabled",
+        "clip": "Giant_Fan_Dismount_01",
+        "clipTime": 0.5,
+        "phase": "idle",
+        "checks": {
+          "phase": true,
+          "positions": true,
+          "rotations": true,
+          "sevenMapped": true,
+          "finite": true,
+          "source": true
+        },
+        "positionError": 0,
+        "rotationError": 0
+      }
+    ]
+  },
+  "walkingChecks": {
+    "nativeWalkingClip": true,
+    "nativeSkeleton": true,
+    "walking": true,
+    "moving": true,
+    "articulated": true,
+    "frozen": true,
+    "noErrors": true,
+    "sourceVelocity": true,
+    "clockAndDistance": true,
+    "nativePoseClock": true,
+    "extractedWeapons": true,
+    "explicitReactionOrigin": true,
+    "nativeWalkReturns": true
+  },
+  "reactionChecks": {
+    "fan": {
+      "nativePose": true,
+      "nativeBinding": true,
+      "explicitInputOrigin": true,
+      "samePositions": true,
+      "sameRotations": true,
+      "pause": true,
+      "finitePose": true
+    },
+    "glove": {
+      "nativePose": true,
+      "nativeBinding": true,
+      "explicitInputOrigin": true,
+      "samePositions": true,
+      "sameRotations": true,
+      "pause": true,
+      "finitePose": true
+    },
+    "bubble": {
+      "nativePose": true,
+      "nativeBinding": true,
+      "explicitInputOrigin": true,
+      "samePositions": true,
+      "sameRotations": true,
+      "pause": true,
+      "finitePose": true
+    },
+    "slip": {
+      "nativePose": true,
+      "nativeBinding": true,
+      "explicitInputOrigin": true,
+      "samePositions": true,
+      "sameRotations": true,
+      "pause": true,
+      "finitePose": true
+    },
+    "laser": {
+      "nativePose": true,
+      "nativeBinding": true,
+      "explicitInputOrigin": true,
+      "samePositions": true,
+      "sameRotations": true,
+      "pause": true,
+      "finitePose": true
+    }
+  },
+  "controlChecks": {
+    "history": true,
+    "continuity": true,
+    "disabled": true,
+    "rotated": true,
+    "pause": true,
+    "wave": true,
+    "audio": true,
+    "placement": true,
+    "saved": true,
+    "scenario": true,
+    "noErrors": true
+  },
+  "timing": {
+    "activeAgents": 6,
+    "samples": 60,
+    "medianMs": 16.5,
+    "p95Ms": 18.799999952316284
+  },
+  "defaultArena": {
+    "history": [
+      "fan",
+      "glove",
+      "bubble",
+      "slip",
+      "laser"
+    ],
+    "recoveries": 2,
+    "continuousFiveDeviceChains": 0
+  },
+  "reconstructed": {
+    "schedule": "One mount/loop/dismount pass from reconstructed hit time. Native clip durations only; event binding and operating length are unverified.",
+    "rest": "Last Dismount frame used as visual idle; disabled also selects it.",
+    "presentation": "Fan materials and shadow materials clipped by world Y=0 plane to hide underground housing. Mesh, bone samples and skin weights unchanged; native bench unclipped.",
+    "simulation": "Sensor, impulses, damage, cooldown and recovery unchanged and assumed."
+  },
+  "channelRecordSearch": {
+    "literalPatterns": [
+      "0xf05c69fc",
+      "0xd87366dd",
+      "0x998715d4",
+      "0xcc22de92"
+    ],
+    "FAAN_COMA": {
+      "selected": 1502,
+      "bytesByTag": {
+        "COMA": 1212416,
+        "FAAN": 5786655
+      },
+      "matches": []
+    },
+    "fnas": {
+      "count": 483,
+      "bytes": 169475,
+      "matches": []
+    },
+    "limitation": "No literal matches. Does not exclude legacy enum, nested, encoded or indirect records. Do not repeat this same literal search as new progress."
+  },
+  "comparison": {
+    "reference": "evidence/gameplay-observation.json",
+    "originalFrame": "frame-15.png at observed video 15s; qualitative, moving camera",
+    "matchedBaseline": "before/after default layout, same 1440x1000 viewport and restored camera, no agents, three seconds of live frames.",
+    "differences": [
+      "Permanent raised baseline replaced by native articulated cycle and closed resting cap.",
+      "Underground box visibility fixed at rendering plane; unclipped failure capture retained.",
+      "Phase schedule, force, actor recovery and original renderer equivalence remain open."
+    ],
+    "review": "own; no artistic approval by Alan"
+  },
+  "mediaReceipt": "evidence/native-fan-media.json",
+  "nextSource": "Concrete serialized vector-channel records and event/owner binding; structural parsing through the traced channel reader/factory, not tuning world impulses."
+}

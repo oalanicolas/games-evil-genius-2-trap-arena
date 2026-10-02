@@ -1,0 +1,232 @@
+{
+ "schema": "lair-editor-qa/1",
+ "date": "2026-10-02T22:46:12.907Z",
+ "url": "http://127.0.0.1:8767/covil.html",
+ "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M3 Max, Unspecified Version)",
+ "headless": true,
+ "input": "real pointer and keyboard events (Playwright); Lair.screenOf only converts a cell to page coordinates",
+ "checks": 28,
+ "passed": 27,
+ "failed": 1,
+ "results": [
+  {
+   "name": "abre com o cenário de referência e as 22 armadilhas na paleta",
+   "pass": false,
+   "detail": "24"
+  },
+  {
+   "name": "Novo: corredor inicial com uma entrada e um objetivo",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Abrir piso: sala 12x8 e corredor 4x9 pintados por arrasto",
+   "pass": true,
+   "detail": "..............cccccccccccc......................"
+  },
+  {
+   "name": "Fechar: rocha de volta num canto",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Desfazer devolve o piso",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Ventilador posicionado no corredor, girado para leste",
+   "pass": true,
+   "detail": "[{\"id\":\"t1\",\"type\":\"FanTrap\",\"x\":6,\"z\":12,\"rot\":1,\"enabled\":true}]"
+  },
+  {
+   "name": "Luva no meio da sala é recusada com o motivo",
+   "pass": true,
+   "detail": "Luva de boxe: precisa estar encostada na parede"
+  },
+  {
+   "name": "Luva encostada na parede é aceita",
+   "pass": true,
+   "detail": "{\"id\":\"t3\",\"type\":\"BoxingGlove\",\"x\":19,\"z\":4,\"rot\":0,\"enabled\":true}"
+  },
+  {
+   "name": "Laser entre as duas paredes, piso escorregadio e porta posicionados",
+   "pass": true,
+   "detail": "FanTrap,SharkTank,BoxingGlove,LaserWall,SoapTrap,Door_Standard"
+  },
+  {
+   "name": "planta sem erros depois de montar",
+   "pass": true,
+   "detail": "[]"
+  },
+  {
+   "name": "Segunda entrada (com grupo automático) e segundo objetivo",
+   "pass": true,
+   "detail": "{\"e\":[\"A\",\"B\"],\"o\":[\"o1\",\"o2\"],\"groups\":2}"
+  },
+  {
+   "name": "Ondas: grupo B vira 2 soldados nível 3 rumo ao segundo objetivo; segunda onda com super sabotador",
+   "pass": true,
+   "detail": "[{\"name\":\"Onda 1\",\"groups\":[{\"entrance\":\"A\",\"objective\":\"o1\",\"agent\":\"investigator\",\"level\":1,\"count\":3,\"interval\":2.5,\"delay\":0},{\"entrance\":\"B\",\"objective\":\"o2\",\"agent\":\"soldier\",\"level\":3,\"count\":2,\"interval\":2.5,\"delay\":0}]},{\"name\":\"Onda 2\",\"groups\":[{\"entrance\":\"A\",\"objective\":\"nearest\",\"agent"
+  },
+  {
+   "name": "Selecionar mostra a ficha da armadilha",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Delete remove a selecionada",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Desfazer devolve a armadilha",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Espaço pausa: o relógio para",
+   "pass": true,
+   "detail": "3.4 3.4 3.4"
+  },
+  {
+   "name": "Rodada inteira: 8 agentes entram pelas duas entradas e todos têm desfecho",
+   "pass": true,
+   "detail": "{\"integrity\":3,\"spawned\":8,\"killed\":1,\"deserted\":0,\"escaped\":7,\"bestCombo\":2,\"combos\":0,\"gold\":0,\"disarmed\":1}"
+  },
+  {
+   "name": "Armadilhas disparam e o placar da tela acompanha",
+   "pass": true,
+   "detail": "{\"stats\":{\"integrity\":3,\"spawned\":8,\"killed\":1,\"deserted\":0,\"escaped\":7,\"bestCombo\":2,\"combos\":0,\"gold\":0,\"disarmed\":1},\"spawned\":8,\"fired\":[\"FanTrap\",\"SharkTank\",\"LaserWall\",\"Door_Standard\"],\"log\":17,\"out\":\"1\",\"escaped\":\"7\"}"
+  },
+  {
+   "name": "Sons nativos das armadilhas decodificados e tocados no disparo",
+   "pass": true,
+   "detail": "{\"enabled\":true,\"context\":\"running\",\"requested\":3,\"decoded\":3}"
+  },
+  {
+   "name": "Reiniciar zera relógio, agentes e registro",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Exportar baixa o cenário completo",
+   "pass": true,
+   "detail": "QA covil"
+  },
+  {
+   "name": "Salvar e recarregar: o covil volta como estava e aparece em Meus covis",
+   "pass": true,
+   "detail": "{\"name\":\"QA covil\",\"traps\":6,\"mine\":[\"QA covil\"]}"
+  },
+  {
+   "name": "Referência espinha: roda até o fim ao vivo, todo agente com desfecho",
+   "pass": true,
+   "detail": "{\"integrity\":0,\"spawned\":18,\"killed\":5,\"deserted\":0,\"escaped\":13,\"bestCombo\":4,\"combos\":4,\"gold\":0,\"disarmed\":3,\"seconds\":78.4,\"kinds\":6,\"devices\":24}"
+  },
+  {
+   "name": "Referência labirinto: roda até o fim ao vivo, todo agente com desfecho",
+   "pass": true,
+   "detail": "{\"integrity\":0,\"spawned\":15,\"killed\":4,\"deserted\":1,\"escaped\":10,\"bestCombo\":3,\"combos\":1,\"gold\":200,\"disarmed\":6,\"seconds\":256.6,\"kinds\":18,\"devices\":24}"
+  },
+  {
+   "name": "Referência corredores: roda até o fim ao vivo, todo agente com desfecho",
+   "pass": true,
+   "detail": "{\"integrity\":2,\"spawned\":13,\"killed\":5,\"deserted\":0,\"escaped\":8,\"bestCombo\":2,\"combos\":0,\"gold\":0,\"disarmed\":3,\"seconds\":63.6,\"kinds\":6,\"devices\":16}"
+  },
+  {
+   "name": "Referência galeria: roda até o fim ao vivo, todo agente com desfecho",
+   "pass": true,
+   "detail": "{\"integrity\":10,\"spawned\":5,\"killed\":5,\"deserted\":0,\"escaped\":0,\"bestCombo\":0,\"combos\":0,\"gold\":0,\"disarmed\":2,\"seconds\":97.3,\"kinds\":12,\"devices\":24}"
+  },
+  {
+   "name": "1280x760: sem rolagem horizontal e a cena continua visível",
+   "pass": true,
+   "detail": "{\"scroll\":1280,\"width\":1280,\"canvas\":696}"
+  },
+  {
+   "name": "sem erros de console, de página ou de rede",
+   "pass": true,
+   "detail": ""
+  }
+ ],
+ "reference": {
+  "espinha": {
+   "integrity": 0,
+   "spawned": 18,
+   "killed": 5,
+   "deserted": 0,
+   "escaped": 13,
+   "bestCombo": 4,
+   "combos": 4,
+   "gold": 0,
+   "disarmed": 3,
+   "seconds": 78.4,
+   "kinds": 6,
+   "devices": 24
+  },
+  "labirinto": {
+   "integrity": 0,
+   "spawned": 15,
+   "killed": 4,
+   "deserted": 1,
+   "escaped": 10,
+   "bestCombo": 3,
+   "combos": 1,
+   "gold": 200,
+   "disarmed": 6,
+   "seconds": 256.6,
+   "kinds": 18,
+   "devices": 24
+  },
+  "corredores": {
+   "integrity": 2,
+   "spawned": 13,
+   "killed": 5,
+   "deserted": 0,
+   "escaped": 8,
+   "bestCombo": 2,
+   "combos": 0,
+   "gold": 0,
+   "disarmed": 3,
+   "seconds": 63.6,
+   "kinds": 6,
+   "devices": 16
+  },
+  "galeria": {
+   "integrity": 10,
+   "spawned": 5,
+   "killed": 5,
+   "deserted": 0,
+   "escaped": 0,
+   "bestCombo": 0,
+   "combos": 0,
+   "gold": 0,
+   "disarmed": 2,
+   "seconds": 97.3,
+   "kinds": 12,
+   "devices": 24
+  }
+ },
+ "captures": [
+  "01-abertura.png",
+  "02-covil-montado-planta.png",
+  "03-covil-montado-perspectiva.png",
+  "04-em-jogo.png",
+  "05-fim-da-rodada.png",
+  "10-corredores-planta.png",
+  "10-espinha-planta.png",
+  "10-galeria-planta.png",
+  "10-labirinto-planta.png",
+  "11-corredores-perspectiva.png",
+  "11-espinha-perspectiva.png",
+  "11-galeria-perspectiva.png",
+  "11-labirinto-perspectiva.png",
+  "12-corredores-em-jogo.png",
+  "12-espinha-em-jogo.png",
+  "12-galeria-em-jogo.png",
+  "12-labirinto-em-jogo.png",
+  "20-1280.png"
+ ],
+ "capturesDir": "output/eg2-covil-qa (workspace, fora do git)"
+}

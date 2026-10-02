@@ -1,0 +1,53 @@
+{
+ "schema": "lair-scenarios/1",
+ "scenarios": [
+  {
+   "file": "espinha.json",
+   "name": "Espinha de pisos escorregadios",
+   "note": "Referência 1 e 4: corredor central com pisos escorregadios; salas laterais com dois ventiladores de um lado e tanque de tubarões com ímã do outro. Vãos abertos ligam as seis salas.",
+   "traps": 24,
+   "entrances": 2,
+   "waves": 3,
+   "size": [
+    30,
+    33
+   ]
+  },
+  {
+   "file": "labirinto.json",
+   "name": "Labirinto de corredores",
+   "note": "Referência 2: corredores longos em serpentina, com portas e armadilhas a cada trecho.",
+   "traps": 24,
+   "entrances": 2,
+   "waves": 2,
+   "size": [
+    44,
+    32
+   ]
+  },
+  {
+   "file": "corredores.json",
+   "name": "Corredores em L",
+   "note": "Referência 3: corredores em L com pisos escorregadios, rebatedores triangulares, ventilador, ímã e tanque de tubarões.",
+   "traps": 16,
+   "entrances": 2,
+   "waves": 2,
+   "size": [
+    30,
+    30
+   ]
+  },
+  {
+   "file": "galeria.json",
+   "name": "Galeria: todas as armadilhas",
+   "note": "Pista com as 22 armadilhas do pacote e a porta, uma de cada, para ver cada efeito.",
+   "traps": 24,
+   "entrances": 2,
+   "waves": 1,
+   "size": [
+    64,
+    28
+   ]
+  }
+ ]
+}

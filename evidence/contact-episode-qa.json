@@ -1,0 +1,157 @@
+{
+  "schema": "eg2-contact-episode-qa/1",
+  "recordedAt": "2026-10-02T14:32:26.087487+00:00",
+  "originalClientExecuted": false,
+  "goalStatus": "active",
+  "fullFidelityCasesVerified": 0,
+  "fullFidelityCasesTotal": 34,
+  "scope": "Original static code/data route plus regression of reconstructed contact/episode bookkeeping. Pose consistency is against the extracted-clip bench, not original runtime physics.",
+  "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M3 Max, Unspecified Version)",
+  "controls": {
+    "checks": {
+      "history": true,
+      "continuity": true,
+      "disabled": true,
+      "rotated": true,
+      "pause": true,
+      "wave": true,
+      "audio": true,
+      "placement": true,
+      "saved": true,
+      "scenario": true,
+      "noErrors": true
+    },
+    "passed": 11,
+    "total": 11,
+    "errors": [],
+    "timing": {
+      "activeAgents": 6,
+      "samples": 60,
+      "medianMs": 16.300000071525574,
+      "p95Ms": 18.5
+    }
+  },
+  "walking": {
+    "checks": {
+      "nativeWalkingClip": true,
+      "nativeSkeleton": true,
+      "walking": true,
+      "moving": true,
+      "articulated": true,
+      "frozen": true,
+      "noErrors": true,
+      "sourceVelocity": true,
+      "clockAndDistance": true,
+      "nativePoseClock": true,
+      "extractedWeapons": true,
+      "explicitReactionOrigin": true,
+      "nativeWalkReturns": true
+    },
+    "passed": 13,
+    "total": 13,
+    "errors": []
+  },
+  "reactions": {
+    "checks": {
+      "fiveReactionFamilies": true,
+      "allChecks": true,
+      "noErrors": true
+    },
+    "passedFamilyChecks": 35,
+    "totalFamilyChecks": 35,
+    "maximumPositionError": 0,
+    "maximumRotationError": 0,
+    "errors": []
+  },
+  "defaultAssembly": {
+    "history": [
+      "fan",
+      "glove",
+      "bubble",
+      "slip",
+      "laser"
+    ],
+    "completedContinuousEpisodes": 0,
+    "recoveries": [
+      {
+        "hits": [
+          "fan",
+          "glove",
+          "bubble"
+        ],
+        "end": 5.33333333333332,
+        "reason": "walking-recovery"
+      },
+      {
+        "hits": [
+          "slip"
+        ],
+        "end": 8.066666666666647,
+        "reason": "walking-recovery"
+      }
+    ],
+    "historicalHud": "5 de 5 no histórico · 1 sem voltar a caminhar · Neutralizado",
+    "timingOrigin": "reconstructed simulator, not original timeline"
+  },
+  "removedShortcuts": [
+    "Permanent immunity by trap family",
+    "Counting five historical hits as an uninterrupted combo"
+  ],
+  "authorialFallbacks": [
+    "Per-device contact latch released on sensor exit",
+    "Recovery and reaction phase scheduling",
+    "Horizontal impulses, damage, cooldown and sensors"
+  ],
+  "unchangedPhysicsValues": true,
+  "nativeSourceAudit": {
+    "schema": "eg2-native-source-audit/1",
+    "originalExecuted": false,
+    "checks": {
+      "nativeByteWindows": 96,
+      "nativeRuleByteWindows": 63,
+      "nativeControllerPrefixRecords": 5,
+      "malformedControllerPrefixesRejected": 15,
+      "boundedMalformedResourcesRejected": 18,
+      "allSelectedResourcesDecoded": 5,
+      "linkedDefaultResourcesDecoded": 1,
+      "clipHashReferencesChecked": 760,
+      "selectedFiveClipReferences": 685,
+      "hcanSourceReportHashCurrent": true,
+      "sealedCasesInventoried": 34,
+      "nativeUnitsKnown": 25
+    },
+    "scope": "Original executable bytes and source decoding; not native runtime equivalence"
+  },
+  "sourceSha256": {
+    "simulation.js": "49f6b12bbaa86de0a4547b645b69f332ca10370b9513ee9117b3e0f774558a88",
+    "app.js": "790ff1c2e74e094dc8e738d9b4d035d4d16d5bbcef5734124cee661d6ba422d5",
+    "actor.js": "9bfb4ebbcaa8d77ef7fb6a73ac7ec4d7236e42aa124cbbf9c5ad87dcbdcbcdbc",
+    "rules.json": "f1fef7259b2b76857497217ece24f7d4250e2ba88ff6244381f8230b0426f208",
+    "index.html": "c6e9712e6200b720185de1cdb5aeea845c4d700dc80cb629ef2665ee4430e888",
+    "test-simulation.mjs": "c15bb6a3244c28adcf19848b4df51940593e905267fc14f9d30f224dea329ed4",
+    "qa.mjs": "f623531d271430a79526875b94b0139eafc0561131ff82690ba86b41212bdab6",
+    "walk-qa.mjs": "acf6d66dcc7b7b1acc2b4720fd0041648452b51306749e2301e65b8811403c6d",
+    "reaction-qa.mjs": "2171a61cc8934bac8b7773ff8742fe0dab9bb3d21faf47194547514647f70336",
+    "validate-native-sources.py": "0b9a5f402d9d96fc9cac0d6c19d30126161df016d313cdd60db184b1e6d9f465",
+    "decode-native-controller85.py": "085ae02e3879c5b588b0d9b07fd046d6fffe780beea0344a975d37414d5acffe",
+    "build_fidelity_reference.py": "5cba81580b120a43e927c26290aebd9199c87cef9b0a7e0226e50d1dd22e14e9",
+    "evidence/native-controller85-route.json": "b8424c98c065359ea7580c61fe736535fefa370501c45b4e886e3e44c47084ca",
+    "evidence/fidelity-reference.json": "03911d71da233ebccd76e58601829002d1ee733bad11eef00ee05f1cb6829232"
+  },
+  "previousReceipt": "evidence/native-reaction-integration.json",
+  "previousReceiptStatus": "Historical baseline: old controls chain check was not evidence of continuity",
+  "nextSourceRoute": "Concrete receiver virtual+0x38 for controller85 vector notifications; model buffer writer is a separate unresolved transport route.",
+  "visualComparison": {
+    "scope": "Prior web baseline versus current web at same control viewport; not original game camera match",
+    "before": "before-history-counted-as-combo.png",
+    "after": "controls/02-history-with-recovery.png",
+    "differences": [
+      "Header count changed from one historical combo to zero continuous episodes",
+      "HUD states historical coverage and current episode separately",
+      "Models, textures, reaction poses and authored layout/physics values preserved"
+    ],
+    "userBrowser": "browser-current.png",
+    "approval": "No visual approval by Alan recorded"
+  },
+  "postQaChange": "Provenance dialog copy clarified historical hits versus continuous episodes; runtime behavior unchanged after GPU runs."
+}

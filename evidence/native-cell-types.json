@@ -1,0 +1,3028 @@
+{
+  "schema": "eg2-native-cell-types/1",
+  "originalExecuted": false,
+  "arenaIntegrated": false,
+  "decoderSha256": "e38155d14cdf3e0f47632a35a806192ea48a37cb8f72163cfe331042ddca7ef1",
+  "blueParserSha256": "dea7d6e8a010bf65d664874b8de68c988876c1fa9ff90ee036c5459f5e933c2f",
+  "source": {
+    "path": "libraries/evil-genius-2/assets/resources/dc34cd111b5f3af8f6defe41e4d947960b1398d04649bb2f48383f297d7939d6.bin",
+    "sha256": "dc34cd111b5f3af8f6defe41e4d947960b1398d04649bb2f48383f297d7939d6",
+    "container": "misc/common.asr",
+    "chunkOffset": 831852
+  },
+  "extracted": {
+    "namespace": "0x94de9754",
+    "root": "0x997288ff",
+    "namespaceGroups": 195,
+    "scalarGroupsEndOffset": 72500,
+    "records": [
+      {
+        "id": "0x515dbc06",
+        "parent": "0x6b9b4ad3",
+        "lineage": [
+          "0x515dbc06",
+          "0x6b9b4ad3",
+          "0x997288ff"
+        ],
+        "groupOffset": 72,
+        "rawString": {
+          "key": "0xd9e2ac24",
+          "value": "Inner Sanctum",
+          "owner": "0x515dbc06",
+          "valueOffset": 356
+        },
+        "resource96": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31786,
+            "key": "0xafe7e835",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31806,
+            "value": false,
+            "bytes": "35e8e7af0000000000000000000000000200000000"
+          }
+        },
+        "resource98": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31071,
+            "key": "0xfed53b01",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31091,
+            "value": false,
+            "bytes": "013bd5fe0000000000000000000000000200000000"
+          }
+        },
+        "constructedCellFlags4a": 4,
+        "classifierWithConstructorFlags48": 0
+      },
+      {
+        "id": "0xd36ac811",
+        "parent": "0x997288ff",
+        "lineage": [
+          "0xd36ac811",
+          "0x997288ff"
+        ],
+        "groupOffset": 509,
+        "rawString": {
+          "key": "0xd9e2ac24",
+          "value": "Oceans Workshop",
+          "owner": "0xd36ac811",
+          "valueOffset": 958
+        },
+        "resource96": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31786,
+            "key": "0xafe7e835",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31806,
+            "value": false,
+            "bytes": "35e8e7af0000000000000000000000000200000000"
+          }
+        },
+        "resource98": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31071,
+            "key": "0xfed53b01",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31091,
+            "value": false,
+            "bytes": "013bd5fe0000000000000000000000000200000000"
+          }
+        },
+        "constructedCellFlags4a": 4,
+        "classifierWithConstructorFlags48": 0
+      },
+      {
+        "id": "0xc2bd7c19",
+        "parent": "0xd55a674f",
+        "lineage": [
+          "0xc2bd7c19",
+          "0xd55a674f",
+          "0x997288ff"
+        ],
+        "groupOffset": 1161,
+        "rawString": {
+          "key": "0xd9e2ac24",
+          "value": "Dirt Heavy",
+          "owner": "0xc2bd7c19",
+          "valueOffset": 1571
+        },
+        "resource96": {
+          "value": true,
+          "reason": "own",
+          "owner": "0xc2bd7c19",
+          "property": {
+            "offset": 1629,
+            "key": "0xafe7e835",
+            "field4": 3,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 1649,
+            "value": true,
+            "bytes": "35e8e7af0300000000000000000000000200000001"
+          }
+        },
+        "resource98": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31071,
+            "key": "0xfed53b01",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31091,
+            "value": false,
+            "bytes": "013bd5fe0000000000000000000000000200000000"
+          }
+        },
+        "constructedCellFlags4a": 132,
+        "classifierWithConstructorFlags48": 1
+      },
+      {
+        "id": "0xe4725223",
+        "parent": "0x997288ff",
+        "lineage": [
+          "0xe4725223",
+          "0x997288ff"
+        ],
+        "groupOffset": 2880,
+        "rawString": {
+          "key": "0xd9e2ac24",
+          "value": "Beach",
+          "owner": "0xe4725223",
+          "valueOffset": 3170
+        },
+        "resource96": {
+          "value": false,
+          "reason": "own",
+          "owner": "0xe4725223",
+          "property": {
+            "offset": 3223,
+            "key": "0xafe7e835",
+            "field4": 3,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 3243,
+            "value": false,
+            "bytes": "35e8e7af0300000000000000000000000200000000"
+          }
+        },
+        "resource98": {
+          "value": true,
+          "reason": "own",
+          "owner": "0xe4725223",
+          "property": {
+            "offset": 2969,
+            "key": "0xfed53b01",
+            "field4": 3,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 2989,
+            "value": true,
+            "bytes": "013bd5fe0300000000000000000000000200000001"
+          }
+        },
+        "constructedCellFlags4a": 68,
+        "classifierWithConstructorFlags48": 0
+      },
+      {
+        "id": "0x8cbe4226",
+        "parent": "0x6b9b4ad3",
+        "lineage": [
+          "0x8cbe4226",
+          "0x6b9b4ad3",
+          "0x997288ff"
+        ],
+        "groupOffset": 3310,
+        "rawString": {
+          "key": "0xd9e2ac24",
+          "value": "Inner Sanctum",
+          "owner": "0x8cbe4226",
+          "valueOffset": 3570
+        },
+        "resource96": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31786,
+            "key": "0xafe7e835",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31806,
+            "value": false,
+            "bytes": "35e8e7af0000000000000000000000000200000000"
+          }
+        },
+        "resource98": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31071,
+            "key": "0xfed53b01",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31091,
+            "value": false,
+            "bytes": "013bd5fe0000000000000000000000000200000000"
+          }
+        },
+        "constructedCellFlags4a": 4,
+        "classifierWithConstructorFlags48": 0
+      },
+      {
+        "id": "0x515bca28",
+        "parent": "0x6b9b4ad3",
+        "lineage": [
+          "0x515bca28",
+          "0x6b9b4ad3",
+          "0x997288ff"
+        ],
+        "groupOffset": 3703,
+        "rawString": {
+          "key": "0xd9e2ac24",
+          "value": "Inner Sanctum",
+          "owner": "0x515bca28",
+          "valueOffset": 3987
+        },
+        "resource96": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31786,
+            "key": "0xafe7e835",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31806,
+            "value": false,
+            "bytes": "35e8e7af0000000000000000000000000200000000"
+          }
+        },
+        "resource98": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31071,
+            "key": "0xfed53b01",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31091,
+            "value": false,
+            "bytes": "013bd5fe0000000000000000000000000200000000"
+          }
+        },
+        "constructedCellFlags4a": 4,
+        "classifierWithConstructorFlags48": 0
+      },
+      {
+        "id": "0x6f96e65f",
+        "parent": "0x997288ff",
+        "lineage": [
+          "0x6f96e65f",
+          "0x997288ff"
+        ],
+        "groupOffset": 8832,
+        "rawString": {
+          "key": "0xd9e2ac24",
+          "value": "Dug Out Dirt",
+          "owner": "0x6f96e65f",
+          "valueOffset": 9035
+        },
+        "resource96": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31786,
+            "key": "0xafe7e835",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31806,
+            "value": false,
+            "bytes": "35e8e7af0000000000000000000000000200000000"
+          }
+        },
+        "resource98": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31071,
+            "key": "0xfed53b01",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31091,
+            "value": false,
+            "bytes": "013bd5fe0000000000000000000000000200000000"
+          }
+        },
+        "constructedCellFlags4a": 4,
+        "classifierWithConstructorFlags48": 0
+      },
+      {
+        "id": "0x430bd860",
+        "parent": "0x997288ff",
+        "lineage": [
+          "0x430bd860",
+          "0x997288ff"
+        ],
+        "groupOffset": 9140,
+        "rawString": {
+          "key": "0xd9e2ac24",
+          "value": "OpenGroundImpassable",
+          "owner": "0x430bd860",
+          "valueOffset": 9427
+        },
+        "resource96": {
+          "value": true,
+          "reason": "own",
+          "owner": "0x430bd860",
+          "property": {
+            "offset": 9495,
+            "key": "0xafe7e835",
+            "field4": 3,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 9515,
+            "value": true,
+            "bytes": "35e8e7af0300000000000000000000000200000001"
+          }
+        },
+        "resource98": {
+          "value": true,
+          "reason": "own",
+          "owner": "0x430bd860",
+          "property": {
+            "offset": 9250,
+            "key": "0xfed53b01",
+            "field4": 3,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 9270,
+            "value": true,
+            "bytes": "013bd5fe0300000000000000000000000200000001"
+          }
+        },
+        "constructedCellFlags4a": 196,
+        "classifierWithConstructorFlags48": 1
+      },
+      {
+        "id": "0xe4cbb274",
+        "parent": "0x997288ff",
+        "lineage": [
+          "0xe4cbb274",
+          "0x997288ff"
+        ],
+        "groupOffset": 9882,
+        "rawString": {
+          "key": "0xd9e2ac24",
+          "value": "Cover Operation",
+          "owner": "0xe4cbb274",
+          "valueOffset": 10280
+        },
+        "resource96": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31786,
+            "key": "0xafe7e835",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31806,
+            "value": false,
+            "bytes": "35e8e7af0000000000000000000000000200000000"
+          }
+        },
+        "resource98": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31071,
+            "key": "0xfed53b01",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31091,
+            "value": false,
+            "bytes": "013bd5fe0000000000000000000000000200000000"
+          }
+        },
+        "constructedCellFlags4a": 4,
+        "classifierWithConstructorFlags48": 0
+      },
+      {
+        "id": "0xa3275078",
+        "parent": "0x997288ff",
+        "lineage": [
+          "0xa3275078",
+          "0x997288ff"
+        ],
+        "groupOffset": 10439,
+        "rawString": {
+          "key": "0xd9e2ac24",
+          "value": "ControlRoom",
+          "owner": "0xa3275078",
+          "valueOffset": 10771
+        },
+        "resource96": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31786,
+            "key": "0xafe7e835",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31806,
+            "value": false,
+            "bytes": "35e8e7af0000000000000000000000000200000000"
+          }
+        },
+        "resource98": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31071,
+            "key": "0xfed53b01",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31091,
+            "value": false,
+            "bytes": "013bd5fe0000000000000000000000000200000000"
+          }
+        },
+        "constructedCellFlags4a": 4,
+        "classifierWithConstructorFlags48": 0
+      },
+      {
+        "id": "0xd4db647b",
+        "parent": "0x997288ff",
+        "lineage": [
+          "0xd4db647b",
+          "0x997288ff"
+        ],
+        "groupOffset": 11018,
+        "rawString": {
+          "key": "0xd9e2ac24",
+          "value": "Staff Room",
+          "owner": "0xd4db647b",
+          "valueOffset": 11230
+        },
+        "resource96": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31786,
+            "key": "0xafe7e835",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31806,
+            "value": false,
+            "bytes": "35e8e7af0000000000000000000000000200000000"
+          }
+        },
+        "resource98": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31071,
+            "key": "0xfed53b01",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31091,
+            "value": false,
+            "bytes": "013bd5fe0000000000000000000000000200000000"
+          }
+        },
+        "constructedCellFlags4a": 4,
+        "classifierWithConstructorFlags48": 0
+      },
+      {
+        "id": "0xf278ac89",
+        "parent": "0x997288ff",
+        "lineage": [
+          "0xf278ac89",
+          "0x997288ff"
+        ],
+        "groupOffset": 11620,
+        "rawString": {
+          "key": "0xd9e2ac24",
+          "value": "Dirt",
+          "owner": "0xf278ac89",
+          "valueOffset": 11964
+        },
+        "resource96": {
+          "value": true,
+          "reason": "own",
+          "owner": "0xf278ac89",
+          "property": {
+            "offset": 12040,
+            "key": "0xafe7e835",
+            "field4": 3,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 12060,
+            "value": true,
+            "bytes": "35e8e7af0300000000000000000000000200000001"
+          }
+        },
+        "resource98": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31071,
+            "key": "0xfed53b01",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31091,
+            "value": false,
+            "bytes": "013bd5fe0000000000000000000000000200000000"
+          }
+        },
+        "constructedCellFlags4a": 132,
+        "classifierWithConstructorFlags48": 1
+      },
+      {
+        "id": "0xf278ac8a",
+        "parent": "0x997288ff",
+        "lineage": [
+          "0xf278ac8a",
+          "0x997288ff"
+        ],
+        "groupOffset": 12226,
+        "rawString": {
+          "key": "0xd9e2ac24",
+          "value": "Dirt",
+          "owner": "0xf278ac8a",
+          "valueOffset": 12570
+        },
+        "resource96": {
+          "value": true,
+          "reason": "own",
+          "owner": "0xf278ac8a",
+          "property": {
+            "offset": 12646,
+            "key": "0xafe7e835",
+            "field4": 3,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 12666,
+            "value": true,
+            "bytes": "35e8e7af0300000000000000000000000200000001"
+          }
+        },
+        "resource98": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31071,
+            "key": "0xfed53b01",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31091,
+            "value": false,
+            "bytes": "013bd5fe0000000000000000000000000200000000"
+          }
+        },
+        "constructedCellFlags4a": 132,
+        "classifierWithConstructorFlags48": 1
+      },
+      {
+        "id": "0x848c688a",
+        "parent": "0xf278ac8a",
+        "lineage": [
+          "0x848c688a",
+          "0xf278ac8a",
+          "0x997288ff"
+        ],
+        "groupOffset": 12832,
+        "rawString": {
+          "key": "0xd9e2ac24",
+          "value": "Dirt",
+          "owner": "0x848c688a",
+          "valueOffset": 13176
+        },
+        "resource96": {
+          "value": true,
+          "reason": "own",
+          "owner": "0x848c688a",
+          "property": {
+            "offset": 13252,
+            "key": "0xafe7e835",
+            "field4": 3,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 13272,
+            "value": true,
+            "bytes": "35e8e7af0300000000000000000000000200000001"
+          }
+        },
+        "resource98": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31071,
+            "key": "0xfed53b01",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31091,
+            "value": false,
+            "bytes": "013bd5fe0000000000000000000000000200000000"
+          }
+        },
+        "constructedCellFlags4a": 132,
+        "classifierWithConstructorFlags48": 1
+      },
+      {
+        "id": "0xf278ac8b",
+        "parent": "0x997288ff",
+        "lineage": [
+          "0xf278ac8b",
+          "0x997288ff"
+        ],
+        "groupOffset": 13438,
+        "rawString": {
+          "key": "0xd9e2ac24",
+          "value": "Dirt",
+          "owner": "0xf278ac8b",
+          "valueOffset": 13782
+        },
+        "resource96": {
+          "value": true,
+          "reason": "own",
+          "owner": "0xf278ac8b",
+          "property": {
+            "offset": 13858,
+            "key": "0xafe7e835",
+            "field4": 3,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 13878,
+            "value": true,
+            "bytes": "35e8e7af0300000000000000000000000200000001"
+          }
+        },
+        "resource98": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31071,
+            "key": "0xfed53b01",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31091,
+            "value": false,
+            "bytes": "013bd5fe0000000000000000000000000200000000"
+          }
+        },
+        "constructedCellFlags4a": 132,
+        "classifierWithConstructorFlags48": 1
+      },
+      {
+        "id": "0x37d9b698",
+        "parent": "0x48f78ca2",
+        "lineage": [
+          "0x37d9b698",
+          "0x48f78ca2",
+          "0x997288ff"
+        ],
+        "groupOffset": 14132,
+        "rawString": {
+          "key": "0xd9e2ac24",
+          "value": "Dirt Soft",
+          "owner": "0x37d9b698",
+          "valueOffset": 14455
+        },
+        "resource96": {
+          "value": true,
+          "reason": "own",
+          "owner": "0x37d9b698",
+          "property": {
+            "offset": 14512,
+            "key": "0xafe7e835",
+            "field4": 3,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 14532,
+            "value": true,
+            "bytes": "35e8e7af0300000000000000000000000200000001"
+          }
+        },
+        "resource98": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31071,
+            "key": "0xfed53b01",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31091,
+            "value": false,
+            "bytes": "013bd5fe0000000000000000000000000200000000"
+          }
+        },
+        "constructedCellFlags4a": 132,
+        "classifierWithConstructorFlags48": 1
+      },
+      {
+        "id": "0xc924c49c",
+        "parent": "0x497004c7",
+        "lineage": [
+          "0xc924c49c",
+          "0x497004c7",
+          "0x997288ff"
+        ],
+        "groupOffset": 15211,
+        "rawString": {
+          "key": "0xd9e2ac24",
+          "value": "Dirt",
+          "owner": "0xc924c49c",
+          "valueOffset": 15495
+        },
+        "resource96": {
+          "value": true,
+          "reason": "own",
+          "owner": "0xc924c49c",
+          "property": {
+            "offset": 15547,
+            "key": "0xafe7e835",
+            "field4": 3,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 15567,
+            "value": true,
+            "bytes": "35e8e7af0300000000000000000000000200000001"
+          }
+        },
+        "resource98": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31071,
+            "key": "0xfed53b01",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31091,
+            "value": false,
+            "bytes": "013bd5fe0000000000000000000000000200000000"
+          }
+        },
+        "constructedCellFlags4a": 132,
+        "classifierWithConstructorFlags48": 1
+      },
+      {
+        "id": "0x48f78ca2",
+        "parent": "0x997288ff",
+        "lineage": [
+          "0x48f78ca2",
+          "0x997288ff"
+        ],
+        "groupOffset": 16770,
+        "rawString": {
+          "key": "0xd9e2ac24",
+          "value": "Dirt Soft",
+          "owner": "0x48f78ca2",
+          "valueOffset": 17132
+        },
+        "resource96": {
+          "value": true,
+          "reason": "own",
+          "owner": "0x48f78ca2",
+          "property": {
+            "offset": 17189,
+            "key": "0xafe7e835",
+            "field4": 3,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 17209,
+            "value": true,
+            "bytes": "35e8e7af0300000000000000000000000200000001"
+          }
+        },
+        "resource98": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31071,
+            "key": "0xfed53b01",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31091,
+            "value": false,
+            "bytes": "013bd5fe0000000000000000000000000200000000"
+          }
+        },
+        "constructedCellFlags4a": 132,
+        "classifierWithConstructorFlags48": 1
+      },
+      {
+        "id": "0xfa5608a2",
+        "parent": "0xcf2f3d8",
+        "lineage": [
+          "0xfa5608a2",
+          "0xcf2f3d8",
+          "0x997288ff"
+        ],
+        "groupOffset": 17372,
+        "rawString": {
+          "key": "0xd9e2ac24",
+          "value": "Undiggable",
+          "owner": "0xfa5608a2",
+          "valueOffset": 17644
+        },
+        "resource96": {
+          "value": true,
+          "reason": "own",
+          "owner": "0xfa5608a2",
+          "property": {
+            "offset": 17702,
+            "key": "0xafe7e835",
+            "field4": 3,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 17722,
+            "value": true,
+            "bytes": "35e8e7af0300000000000000000000000200000001"
+          }
+        },
+        "resource98": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31071,
+            "key": "0xfed53b01",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31091,
+            "value": false,
+            "bytes": "013bd5fe0000000000000000000000000200000000"
+          }
+        },
+        "constructedCellFlags4a": 132,
+        "classifierWithConstructorFlags48": 1
+      },
+      {
+        "id": "0xa15f38ab",
+        "parent": "0xcf2f3d8",
+        "lineage": [
+          "0xa15f38ab",
+          "0xcf2f3d8",
+          "0x997288ff"
+        ],
+        "groupOffset": 17929,
+        "rawString": {
+          "key": "0xd9e2ac24",
+          "value": "Undiggable",
+          "owner": "0xa15f38ab",
+          "valueOffset": 18177
+        },
+        "resource96": {
+          "value": true,
+          "reason": "own",
+          "owner": "0xa15f38ab",
+          "property": {
+            "offset": 18235,
+            "key": "0xafe7e835",
+            "field4": 3,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 18255,
+            "value": true,
+            "bytes": "35e8e7af0300000000000000000000000200000001"
+          }
+        },
+        "resource98": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31071,
+            "key": "0xfed53b01",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31091,
+            "value": false,
+            "bytes": "013bd5fe0000000000000000000000000200000000"
+          }
+        },
+        "constructedCellFlags4a": 132,
+        "classifierWithConstructorFlags48": 1
+      },
+      {
+        "id": "0x497004c7",
+        "parent": "0x997288ff",
+        "lineage": [
+          "0x497004c7",
+          "0x997288ff"
+        ],
+        "groupOffset": 22034,
+        "rawString": {
+          "key": "0xd9e2ac24",
+          "value": "Dirt",
+          "owner": "0x497004c7",
+          "valueOffset": 22318
+        },
+        "resource96": {
+          "value": true,
+          "reason": "own",
+          "owner": "0x497004c7",
+          "property": {
+            "offset": 22370,
+            "key": "0xafe7e835",
+            "field4": 3,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 22390,
+            "value": true,
+            "bytes": "35e8e7af0300000000000000000000000200000001"
+          }
+        },
+        "resource98": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31071,
+            "key": "0xfed53b01",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31091,
+            "value": false,
+            "bytes": "013bd5fe0000000000000000000000000200000000"
+          }
+        },
+        "constructedCellFlags4a": 132,
+        "classifierWithConstructorFlags48": 1
+      },
+      {
+        "id": "0xc276dccb",
+        "parent": "0x997288ff",
+        "lineage": [
+          "0xc276dccb",
+          "0x997288ff"
+        ],
+        "groupOffset": 22577,
+        "rawString": {
+          "key": "0xd9e2ac24",
+          "value": "Prison",
+          "owner": "0xc276dccb",
+          "valueOffset": 22957
+        },
+        "resource96": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31786,
+            "key": "0xafe7e835",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31806,
+            "value": false,
+            "bytes": "35e8e7af0000000000000000000000000200000000"
+          }
+        },
+        "resource98": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31071,
+            "key": "0xfed53b01",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31091,
+            "value": false,
+            "bytes": "013bd5fe0000000000000000000000000200000000"
+          }
+        },
+        "constructedCellFlags4a": 4,
+        "classifierWithConstructorFlags48": 0
+      },
+      {
+        "id": "0xc2657ed3",
+        "parent": "0x997288ff",
+        "lineage": [
+          "0xc2657ed3",
+          "0x997288ff"
+        ],
+        "groupOffset": 23247,
+        "rawString": {
+          "key": "0xd9e2ac24",
+          "value": "Tutorial_Stairs",
+          "owner": "0xc2657ed3",
+          "valueOffset": 23501
+        },
+        "resource96": {
+          "value": true,
+          "reason": "own",
+          "owner": "0xc2657ed3",
+          "property": {
+            "offset": 23564,
+            "key": "0xafe7e835",
+            "field4": 3,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 23584,
+            "value": true,
+            "bytes": "35e8e7af0300000000000000000000000200000001"
+          }
+        },
+        "resource98": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31071,
+            "key": "0xfed53b01",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31091,
+            "value": false,
+            "bytes": "013bd5fe0000000000000000000000000200000000"
+          }
+        },
+        "constructedCellFlags4a": 132,
+        "classifierWithConstructorFlags48": 1
+      },
+      {
+        "id": "0x6b9b4ad3",
+        "parent": "0x997288ff",
+        "lineage": [
+          "0x6b9b4ad3",
+          "0x997288ff"
+        ],
+        "groupOffset": 23699,
+        "rawString": {
+          "key": "0xd9e2ac24",
+          "value": "Inner Sanctum",
+          "owner": "0x6b9b4ad3",
+          "valueOffset": 23863
+        },
+        "resource96": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31786,
+            "key": "0xafe7e835",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31806,
+            "value": false,
+            "bytes": "35e8e7af0000000000000000000000000200000000"
+          }
+        },
+        "resource98": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31071,
+            "key": "0xfed53b01",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31091,
+            "value": false,
+            "bytes": "013bd5fe0000000000000000000000000200000000"
+          }
+        },
+        "constructedCellFlags4a": 4,
+        "classifierWithConstructorFlags48": 0
+      },
+      {
+        "id": "0x48f218d8",
+        "parent": "0x997288ff",
+        "lineage": [
+          "0x48f218d8",
+          "0x997288ff"
+        ],
+        "groupOffset": 24344,
+        "rawString": {
+          "key": "0xd9e2ac24",
+          "value": "Dirt Gold",
+          "owner": "0x48f218d8",
+          "valueOffset": 24664
+        },
+        "resource96": {
+          "value": true,
+          "reason": "own",
+          "owner": "0x48f218d8",
+          "property": {
+            "offset": 24721,
+            "key": "0xafe7e835",
+            "field4": 3,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 24741,
+            "value": true,
+            "bytes": "35e8e7af0300000000000000000000000200000001"
+          }
+        },
+        "resource98": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31071,
+            "key": "0xfed53b01",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31091,
+            "value": false,
+            "bytes": "013bd5fe0000000000000000000000000200000000"
+          }
+        },
+        "constructedCellFlags4a": 132,
+        "classifierWithConstructorFlags48": 1
+      },
+      {
+        "id": "0xe58aa2f2",
+        "parent": "0x997288ff",
+        "lineage": [
+          "0xe58aa2f2",
+          "0x997288ff"
+        ],
+        "groupOffset": 27856,
+        "rawString": {
+          "key": "0xd9e2ac24",
+          "value": "Vault",
+          "owner": "0xe58aa2f2",
+          "valueOffset": 28092
+        },
+        "resource96": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31786,
+            "key": "0xafe7e835",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31806,
+            "value": false,
+            "bytes": "35e8e7af0000000000000000000000000200000000"
+          }
+        },
+        "resource98": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31071,
+            "key": "0xfed53b01",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31091,
+            "value": false,
+            "bytes": "013bd5fe0000000000000000000000000200000000"
+          }
+        },
+        "constructedCellFlags4a": 4,
+        "classifierWithConstructorFlags48": 0
+      },
+      {
+        "id": "0x6f00f6f3",
+        "parent": "0x997288ff",
+        "lineage": [
+          "0x6f00f6f3",
+          "0x997288ff"
+        ],
+        "groupOffset": 28241,
+        "rawString": {
+          "key": "0xd9e2ac24",
+          "value": "Laboratory",
+          "owner": "0x6f00f6f3",
+          "valueOffset": 28693
+        },
+        "resource96": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31786,
+            "key": "0xafe7e835",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31806,
+            "value": false,
+            "bytes": "35e8e7af0000000000000000000000000200000000"
+          }
+        },
+        "resource98": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31071,
+            "key": "0xfed53b01",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31091,
+            "value": false,
+            "bytes": "013bd5fe0000000000000000000000000200000000"
+          }
+        },
+        "constructedCellFlags4a": 4,
+        "classifierWithConstructorFlags48": 0
+      },
+      {
+        "id": "0x9d98bafa",
+        "parent": "0x997288ff",
+        "lineage": [
+          "0x9d98bafa",
+          "0x997288ff"
+        ],
+        "groupOffset": 29899,
+        "rawString": {
+          "key": "0xd9e2ac24",
+          "value": "Narrative Dirt",
+          "owner": "0x9d98bafa",
+          "valueOffset": 30177
+        },
+        "resource96": {
+          "value": true,
+          "reason": "own",
+          "owner": "0x9d98bafa",
+          "property": {
+            "offset": 30239,
+            "key": "0xafe7e835",
+            "field4": 3,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 30259,
+            "value": true,
+            "bytes": "35e8e7af0300000000000000000000000200000001"
+          }
+        },
+        "resource98": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31071,
+            "key": "0xfed53b01",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31091,
+            "value": false,
+            "bytes": "013bd5fe0000000000000000000000000200000000"
+          }
+        },
+        "constructedCellFlags4a": 132,
+        "classifierWithConstructorFlags48": 1
+      },
+      {
+        "id": "0xf5eb06fa",
+        "parent": "0x997288ff",
+        "lineage": [
+          "0xf5eb06fa",
+          "0x997288ff"
+        ],
+        "groupOffset": 30398,
+        "rawString": {
+          "key": "0xd9e2ac24",
+          "value": "DoomsdayCavernBuilt",
+          "owner": "0xf5eb06fa",
+          "valueOffset": 30664
+        },
+        "resource96": {
+          "value": false,
+          "reason": "own",
+          "owner": "0xf5eb06fa",
+          "property": {
+            "offset": 30731,
+            "key": "0xafe7e835",
+            "field4": 3,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 30751,
+            "value": false,
+            "bytes": "35e8e7af0300000000000000000000000200000000"
+          }
+        },
+        "resource98": {
+          "value": false,
+          "reason": "own",
+          "owner": "0xf5eb06fa",
+          "property": {
+            "offset": 30508,
+            "key": "0xfed53b01",
+            "field4": 3,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 30528,
+            "value": false,
+            "bytes": "013bd5fe0300000000000000000000000200000000"
+          }
+        },
+        "constructedCellFlags4a": 4,
+        "classifierWithConstructorFlags48": 0
+      },
+      {
+        "id": "0x80b0101",
+        "parent": "0x997288ff",
+        "lineage": [
+          "0x80b0101",
+          "0x997288ff"
+        ],
+        "groupOffset": 32155,
+        "rawString": {
+          "key": "0xd9e2ac24",
+          "value": "DoomsdayCavernUnbuilt",
+          "owner": "0x80b0101",
+          "valueOffset": 32421
+        },
+        "resource96": {
+          "value": true,
+          "reason": "own",
+          "owner": "0x80b0101",
+          "property": {
+            "offset": 32490,
+            "key": "0xafe7e835",
+            "field4": 3,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 32510,
+            "value": true,
+            "bytes": "35e8e7af0300000000000000000000000200000001"
+          }
+        },
+        "resource98": {
+          "value": false,
+          "reason": "own",
+          "owner": "0x80b0101",
+          "property": {
+            "offset": 32265,
+            "key": "0xfed53b01",
+            "field4": 3,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 32285,
+            "value": false,
+            "bytes": "013bd5fe0300000000000000000000000200000000"
+          }
+        },
+        "constructedCellFlags4a": 132,
+        "classifierWithConstructorFlags48": 1
+      },
+      {
+        "id": "0x70ccf911",
+        "parent": "0x497004c7",
+        "lineage": [
+          "0x70ccf911",
+          "0x497004c7",
+          "0x997288ff"
+        ],
+        "groupOffset": 32816,
+        "rawString": {
+          "key": "0xd9e2ac24",
+          "value": "Dirt",
+          "owner": "0x70ccf911",
+          "valueOffset": 33124
+        },
+        "resource96": {
+          "value": true,
+          "reason": "own",
+          "owner": "0x70ccf911",
+          "property": {
+            "offset": 33176,
+            "key": "0xafe7e835",
+            "field4": 3,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 33196,
+            "value": true,
+            "bytes": "35e8e7af0300000000000000000000000200000001"
+          }
+        },
+        "resource98": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31071,
+            "key": "0xfed53b01",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31091,
+            "value": false,
+            "bytes": "013bd5fe0000000000000000000000000200000000"
+          }
+        },
+        "constructedCellFlags4a": 132,
+        "classifierWithConstructorFlags48": 1
+      },
+      {
+        "id": "0xe8ccbb14",
+        "parent": "0xd55a674f",
+        "lineage": [
+          "0xe8ccbb14",
+          "0xd55a674f",
+          "0x997288ff"
+        ],
+        "groupOffset": 33383,
+        "rawString": {
+          "key": "0xd9e2ac24",
+          "value": "Dirt Heavy",
+          "owner": "0xe8ccbb14",
+          "valueOffset": 33769
+        },
+        "resource96": {
+          "value": true,
+          "reason": "own",
+          "owner": "0xe8ccbb14",
+          "property": {
+            "offset": 33827,
+            "key": "0xafe7e835",
+            "field4": 3,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 33847,
+            "value": true,
+            "bytes": "35e8e7af0300000000000000000000000200000001"
+          }
+        },
+        "resource98": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31071,
+            "key": "0xfed53b01",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31091,
+            "value": false,
+            "bytes": "013bd5fe0000000000000000000000000200000000"
+          }
+        },
+        "constructedCellFlags4a": 132,
+        "classifierWithConstructorFlags48": 1
+      },
+      {
+        "id": "0x9a63331b",
+        "parent": "0x997288ff",
+        "lineage": [
+          "0x9a63331b",
+          "0x997288ff"
+        ],
+        "groupOffset": 34450,
+        "rawString": {
+          "key": "0xd9e2ac24",
+          "value": "Dirt Tutorial1",
+          "owner": "0x9a63331b",
+          "valueOffset": 34728
+        },
+        "resource96": {
+          "value": true,
+          "reason": "own",
+          "owner": "0x9a63331b",
+          "property": {
+            "offset": 34814,
+            "key": "0xafe7e835",
+            "field4": 3,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 34834,
+            "value": true,
+            "bytes": "35e8e7af0300000000000000000000000200000001"
+          }
+        },
+        "resource98": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31071,
+            "key": "0xfed53b01",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31091,
+            "value": false,
+            "bytes": "013bd5fe0000000000000000000000000200000000"
+          }
+        },
+        "constructedCellFlags4a": 132,
+        "classifierWithConstructorFlags48": 1
+      },
+      {
+        "id": "0x9a63331c",
+        "parent": "0x997288ff",
+        "lineage": [
+          "0x9a63331c",
+          "0x997288ff"
+        ],
+        "groupOffset": 34997,
+        "rawString": {
+          "key": "0xd9e2ac24",
+          "value": "Dirt Tutorial2",
+          "owner": "0x9a63331c",
+          "valueOffset": 35275
+        },
+        "resource96": {
+          "value": true,
+          "reason": "own",
+          "owner": "0x9a63331c",
+          "property": {
+            "offset": 35361,
+            "key": "0xafe7e835",
+            "field4": 3,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 35381,
+            "value": true,
+            "bytes": "35e8e7af0300000000000000000000000200000001"
+          }
+        },
+        "resource98": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31071,
+            "key": "0xfed53b01",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31091,
+            "value": false,
+            "bytes": "013bd5fe0000000000000000000000000200000000"
+          }
+        },
+        "constructedCellFlags4a": 132,
+        "classifierWithConstructorFlags48": 1
+      },
+      {
+        "id": "0x6f8e321",
+        "parent": "0x48f78ca2",
+        "lineage": [
+          "0x6f8e321",
+          "0x48f78ca2",
+          "0x997288ff"
+        ],
+        "groupOffset": 35700,
+        "rawString": {
+          "key": "0xd9e2ac24",
+          "value": "Dirt Soft",
+          "owner": "0x6f8e321",
+          "valueOffset": 35999
+        },
+        "resource96": {
+          "value": true,
+          "reason": "own",
+          "owner": "0x6f8e321",
+          "property": {
+            "offset": 36056,
+            "key": "0xafe7e835",
+            "field4": 3,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 36076,
+            "value": true,
+            "bytes": "35e8e7af0300000000000000000000000200000001"
+          }
+        },
+        "resource98": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31071,
+            "key": "0xfed53b01",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31091,
+            "value": false,
+            "bytes": "013bd5fe0000000000000000000000000200000000"
+          }
+        },
+        "constructedCellFlags4a": 132,
+        "classifierWithConstructorFlags48": 1
+      },
+      {
+        "id": "0x2a5b912a",
+        "parent": "0x997288ff",
+        "lineage": [
+          "0x2a5b912a",
+          "0x997288ff"
+        ],
+        "groupOffset": 38191,
+        "rawString": {
+          "key": "0xd9e2ac24",
+          "value": "Corridor",
+          "owner": "0x2a5b912a",
+          "valueOffset": 38496
+        },
+        "resource96": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31786,
+            "key": "0xafe7e835",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31806,
+            "value": false,
+            "bytes": "35e8e7af0000000000000000000000000200000000"
+          }
+        },
+        "resource98": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31071,
+            "key": "0xfed53b01",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31091,
+            "value": false,
+            "bytes": "013bd5fe0000000000000000000000000200000000"
+          }
+        },
+        "constructedCellFlags4a": 4,
+        "classifierWithConstructorFlags48": 0
+      },
+      {
+        "id": "0xd41c9347",
+        "parent": "0x997288ff",
+        "lineage": [
+          "0xd41c9347",
+          "0x997288ff"
+        ],
+        "groupOffset": 43488,
+        "rawString": {
+          "key": "0xd9e2ac24",
+          "value": "OpenGround",
+          "owner": "0xd41c9347",
+          "valueOffset": 43778
+        },
+        "resource96": {
+          "value": false,
+          "reason": "own",
+          "owner": "0xd41c9347",
+          "property": {
+            "offset": 43836,
+            "key": "0xafe7e835",
+            "field4": 3,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 43856,
+            "value": false,
+            "bytes": "35e8e7af0300000000000000000000000200000000"
+          }
+        },
+        "resource98": {
+          "value": true,
+          "reason": "own",
+          "owner": "0xd41c9347",
+          "property": {
+            "offset": 43577,
+            "key": "0xfed53b01",
+            "field4": 3,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 43597,
+            "value": true,
+            "bytes": "013bd5fe0300000000000000000000000200000001"
+          }
+        },
+        "constructedCellFlags4a": 68,
+        "classifierWithConstructorFlags48": 0
+      },
+      {
+        "id": "0xd55a674f",
+        "parent": "0x997288ff",
+        "lineage": [
+          "0xd55a674f",
+          "0x997288ff"
+        ],
+        "groupOffset": 45338,
+        "rawString": {
+          "key": "0xd9e2ac24",
+          "value": "Dirt Heavy",
+          "owner": "0xd55a674f",
+          "valueOffset": 45724
+        },
+        "resource96": {
+          "value": true,
+          "reason": "own",
+          "owner": "0xd55a674f",
+          "property": {
+            "offset": 45782,
+            "key": "0xafe7e835",
+            "field4": 3,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 45802,
+            "value": true,
+            "bytes": "35e8e7af0300000000000000000000000200000001"
+          }
+        },
+        "resource98": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31071,
+            "key": "0xfed53b01",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31091,
+            "value": false,
+            "bytes": "013bd5fe0000000000000000000000000200000000"
+          }
+        },
+        "constructedCellFlags4a": 132,
+        "classifierWithConstructorFlags48": 1
+      },
+      {
+        "id": "0x37d48359",
+        "parent": "0x48f25963",
+        "lineage": [
+          "0x37d48359",
+          "0x48f25963",
+          "0x997288ff"
+        ],
+        "groupOffset": 46729,
+        "rawString": {
+          "key": "0xd9e2ac24",
+          "value": "Dirt Hard",
+          "owner": "0x37d48359",
+          "valueOffset": 47115
+        },
+        "resource96": {
+          "value": true,
+          "reason": "own",
+          "owner": "0x37d48359",
+          "property": {
+            "offset": 47172,
+            "key": "0xafe7e835",
+            "field4": 3,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 47192,
+            "value": true,
+            "bytes": "35e8e7af0300000000000000000000000200000001"
+          }
+        },
+        "resource98": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31071,
+            "key": "0xfed53b01",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31091,
+            "value": false,
+            "bytes": "013bd5fe0000000000000000000000000200000000"
+          }
+        },
+        "constructedCellFlags4a": 132,
+        "classifierWithConstructorFlags48": 1
+      },
+      {
+        "id": "0x388cc760",
+        "parent": "0xe4cbb274",
+        "lineage": [
+          "0x388cc760",
+          "0xe4cbb274",
+          "0x997288ff"
+        ],
+        "groupOffset": 47987,
+        "rawString": {
+          "key": "0xd9e2ac24",
+          "value": "Oceans Cover Operation",
+          "owner": "0x388cc760",
+          "valueOffset": 48199
+        },
+        "resource96": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31786,
+            "key": "0xafe7e835",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31806,
+            "value": false,
+            "bytes": "35e8e7af0000000000000000000000000200000000"
+          }
+        },
+        "resource98": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31071,
+            "key": "0xfed53b01",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31091,
+            "value": false,
+            "bytes": "013bd5fe0000000000000000000000000200000000"
+          }
+        },
+        "constructedCellFlags4a": 4,
+        "classifierWithConstructorFlags48": 0
+      },
+      {
+        "id": "0x48f25963",
+        "parent": "0x997288ff",
+        "lineage": [
+          "0x48f25963",
+          "0x997288ff"
+        ],
+        "groupOffset": 49057,
+        "rawString": {
+          "key": "0xd9e2ac24",
+          "value": "Dirt Hard",
+          "owner": "0x48f25963",
+          "valueOffset": 49419
+        },
+        "resource96": {
+          "value": true,
+          "reason": "own",
+          "owner": "0x48f25963",
+          "property": {
+            "offset": 49476,
+            "key": "0xafe7e835",
+            "field4": 3,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 49496,
+            "value": true,
+            "bytes": "35e8e7af0300000000000000000000000200000001"
+          }
+        },
+        "resource98": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31071,
+            "key": "0xfed53b01",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31091,
+            "value": false,
+            "bytes": "013bd5fe0000000000000000000000000200000000"
+          }
+        },
+        "constructedCellFlags4a": 132,
+        "classifierWithConstructorFlags48": 1
+      },
+      {
+        "id": "0xa92c5365",
+        "parent": "0x997288ff",
+        "lineage": [
+          "0xa92c5365",
+          "0x997288ff"
+        ],
+        "groupOffset": 49659,
+        "rawString": {
+          "key": "0xd9e2ac24",
+          "value": "Infirmary",
+          "owner": "0xa92c5365",
+          "valueOffset": 49943
+        },
+        "resource96": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31786,
+            "key": "0xafe7e835",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31806,
+            "value": false,
+            "bytes": "35e8e7af0000000000000000000000000200000000"
+          }
+        },
+        "resource98": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31071,
+            "key": "0xfed53b01",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31091,
+            "value": false,
+            "bytes": "013bd5fe0000000000000000000000000200000000"
+          }
+        },
+        "constructedCellFlags4a": 4,
+        "classifierWithConstructorFlags48": 0
+      },
+      {
+        "id": "0xec6d9569",
+        "parent": "0xf278ac8b",
+        "lineage": [
+          "0xec6d9569",
+          "0xf278ac8b",
+          "0x997288ff"
+        ],
+        "groupOffset": 50352,
+        "rawString": {
+          "key": "0xd9e2ac24",
+          "value": "Dirt",
+          "owner": "0xec6d9569",
+          "valueOffset": 50696
+        },
+        "resource96": {
+          "value": true,
+          "reason": "own",
+          "owner": "0xec6d9569",
+          "property": {
+            "offset": 50772,
+            "key": "0xafe7e835",
+            "field4": 3,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 50792,
+            "value": true,
+            "bytes": "35e8e7af0300000000000000000000000200000001"
+          }
+        },
+        "resource98": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31071,
+            "key": "0xfed53b01",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31091,
+            "value": false,
+            "bytes": "013bd5fe0000000000000000000000000200000000"
+          }
+        },
+        "constructedCellFlags4a": 132,
+        "classifierWithConstructorFlags48": 1
+      },
+      {
+        "id": "0x29eb7171",
+        "parent": "0x997288ff",
+        "lineage": [
+          "0x29eb7171",
+          "0x997288ff"
+        ],
+        "groupOffset": 51002,
+        "rawString": {
+          "key": "0xd9e2ac24",
+          "value": "Archive",
+          "owner": "0x29eb7171",
+          "valueOffset": 51358
+        },
+        "resource96": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31786,
+            "key": "0xafe7e835",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31806,
+            "value": false,
+            "bytes": "35e8e7af0000000000000000000000000200000000"
+          }
+        },
+        "resource98": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31071,
+            "key": "0xfed53b01",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31091,
+            "value": false,
+            "bytes": "013bd5fe0000000000000000000000000200000000"
+          }
+        },
+        "constructedCellFlags4a": 4,
+        "classifierWithConstructorFlags48": 0
+      },
+      {
+        "id": "0x89fb3d76",
+        "parent": "0x6b9b4ad3",
+        "lineage": [
+          "0x89fb3d76",
+          "0x6b9b4ad3",
+          "0x997288ff"
+        ],
+        "groupOffset": 51509,
+        "rawString": {
+          "key": "0xd9e2ac24",
+          "value": "Oceans Inner Sanctum",
+          "owner": "0x89fb3d76",
+          "valueOffset": 51817
+        },
+        "resource96": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31786,
+            "key": "0xafe7e835",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31806,
+            "value": false,
+            "bytes": "35e8e7af0000000000000000000000000200000000"
+          }
+        },
+        "resource98": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31071,
+            "key": "0xfed53b01",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31091,
+            "value": false,
+            "bytes": "013bd5fe0000000000000000000000000200000000"
+          }
+        },
+        "constructedCellFlags4a": 4,
+        "classifierWithConstructorFlags48": 0
+      },
+      {
+        "id": "0x11c1df80",
+        "parent": "0x48f25963",
+        "lineage": [
+          "0x11c1df80",
+          "0x48f25963",
+          "0x997288ff"
+        ],
+        "groupOffset": 53705,
+        "rawString": {
+          "key": "0xd9e2ac24",
+          "value": "Dirt Hard",
+          "owner": "0x11c1df80",
+          "valueOffset": 54067
+        },
+        "resource96": {
+          "value": true,
+          "reason": "own",
+          "owner": "0x11c1df80",
+          "property": {
+            "offset": 54124,
+            "key": "0xafe7e835",
+            "field4": 3,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 54144,
+            "value": true,
+            "bytes": "35e8e7af0300000000000000000000000200000001"
+          }
+        },
+        "resource98": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31071,
+            "key": "0xfed53b01",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31091,
+            "value": false,
+            "bytes": "013bd5fe0000000000000000000000000200000000"
+          }
+        },
+        "constructedCellFlags4a": 132,
+        "classifierWithConstructorFlags48": 1
+      },
+      {
+        "id": "0x728da182",
+        "parent": "0x997288ff",
+        "lineage": [
+          "0x728da182",
+          "0x997288ff"
+        ],
+        "groupOffset": 55383,
+        "rawString": {
+          "key": "0xd9e2ac24",
+          "value": "Archive",
+          "owner": "0x728da182",
+          "valueOffset": 55643
+        },
+        "resource96": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31786,
+            "key": "0xafe7e835",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31806,
+            "value": false,
+            "bytes": "35e8e7af0000000000000000000000000200000000"
+          }
+        },
+        "resource98": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31071,
+            "key": "0xfed53b01",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31091,
+            "value": false,
+            "bytes": "013bd5fe0000000000000000000000000200000000"
+          }
+        },
+        "constructedCellFlags4a": 4,
+        "classifierWithConstructorFlags48": 0
+      },
+      {
+        "id": "0xdddf7f89",
+        "parent": "0x997288ff",
+        "lineage": [
+          "0xdddf7f89",
+          "0x997288ff"
+        ],
+        "groupOffset": 56862,
+        "rawString": {
+          "key": "0xd9e2ac24",
+          "value": "Barracks",
+          "owner": "0xdddf7f89",
+          "valueOffset": 57146
+        },
+        "resource96": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31786,
+            "key": "0xafe7e835",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31806,
+            "value": false,
+            "bytes": "35e8e7af0000000000000000000000000200000000"
+          }
+        },
+        "resource98": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31071,
+            "key": "0xfed53b01",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31091,
+            "value": false,
+            "bytes": "013bd5fe0000000000000000000000000200000000"
+          }
+        },
+        "constructedCellFlags4a": 4,
+        "classifierWithConstructorFlags48": 0
+      },
+      {
+        "id": "0xbac20f8c",
+        "parent": "0x997288ff",
+        "lineage": [
+          "0xbac20f8c",
+          "0x997288ff"
+        ],
+        "groupOffset": 57298,
+        "rawString": {
+          "key": "0xd9e2ac24",
+          "value": "TestChamber",
+          "owner": "0xbac20f8c",
+          "valueOffset": 57795
+        },
+        "resource96": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31786,
+            "key": "0xafe7e835",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31806,
+            "value": false,
+            "bytes": "35e8e7af0000000000000000000000000200000000"
+          }
+        },
+        "resource98": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31071,
+            "key": "0xfed53b01",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31091,
+            "value": false,
+            "bytes": "013bd5fe0000000000000000000000000200000000"
+          }
+        },
+        "constructedCellFlags4a": 4,
+        "classifierWithConstructorFlags48": 0
+      },
+      {
+        "id": "0x7b3d298f",
+        "parent": "0xe4cbb274",
+        "lineage": [
+          "0x7b3d298f",
+          "0xe4cbb274",
+          "0x997288ff"
+        ],
+        "groupOffset": 58086,
+        "rawString": {
+          "key": "0xd9e2ac24",
+          "value": "Cover Operation",
+          "owner": "0xe4cbb274",
+          "valueOffset": 10280
+        },
+        "resource96": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31786,
+            "key": "0xafe7e835",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31806,
+            "value": false,
+            "bytes": "35e8e7af0000000000000000000000000200000000"
+          }
+        },
+        "resource98": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31071,
+            "key": "0xfed53b01",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31091,
+            "value": false,
+            "bytes": "013bd5fe0000000000000000000000000200000000"
+          }
+        },
+        "constructedCellFlags4a": 4,
+        "classifierWithConstructorFlags48": 0
+      },
+      {
+        "id": "0xecc52791",
+        "parent": "0x997288ff",
+        "lineage": [
+          "0xecc52791",
+          "0x997288ff"
+        ],
+        "groupOffset": 58222,
+        "rawString": {
+          "key": "0xd9e2ac24",
+          "value": "OpenGround",
+          "owner": "0xecc52791",
+          "valueOffset": 58512
+        },
+        "resource96": {
+          "value": false,
+          "reason": "own",
+          "owner": "0xecc52791",
+          "property": {
+            "offset": 58570,
+            "key": "0xafe7e835",
+            "field4": 3,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 58590,
+            "value": false,
+            "bytes": "35e8e7af0300000000000000000000000200000000"
+          }
+        },
+        "resource98": {
+          "value": true,
+          "reason": "own",
+          "owner": "0xecc52791",
+          "property": {
+            "offset": 58311,
+            "key": "0xfed53b01",
+            "field4": 3,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 58331,
+            "value": true,
+            "bytes": "013bd5fe0300000000000000000000000200000001"
+          }
+        },
+        "constructedCellFlags4a": 68,
+        "classifierWithConstructorFlags48": 0
+      },
+      {
+        "id": "0x1cab3bab",
+        "parent": "0xf278ac89",
+        "lineage": [
+          "0x1cab3bab",
+          "0xf278ac89",
+          "0x997288ff"
+        ],
+        "groupOffset": 61321,
+        "rawString": {
+          "key": "0xd9e2ac24",
+          "value": "Dirt",
+          "owner": "0x1cab3bab",
+          "valueOffset": 61665
+        },
+        "resource96": {
+          "value": true,
+          "reason": "own",
+          "owner": "0x1cab3bab",
+          "property": {
+            "offset": 61741,
+            "key": "0xafe7e835",
+            "field4": 3,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 61761,
+            "value": true,
+            "bytes": "35e8e7af0300000000000000000000000200000001"
+          }
+        },
+        "resource98": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31071,
+            "key": "0xfed53b01",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31091,
+            "value": false,
+            "bytes": "013bd5fe0000000000000000000000000200000000"
+          }
+        },
+        "constructedCellFlags4a": 132,
+        "classifierWithConstructorFlags48": 1
+      },
+      {
+        "id": "0x731de7c9",
+        "parent": "0x997288ff",
+        "lineage": [
+          "0x731de7c9",
+          "0x997288ff"
+        ],
+        "groupOffset": 65867,
+        "rawString": {
+          "key": "0xd9e2ac24",
+          "value": "Armoury",
+          "owner": "0x731de7c9",
+          "valueOffset": 66247
+        },
+        "resource96": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31786,
+            "key": "0xafe7e835",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31806,
+            "value": false,
+            "bytes": "35e8e7af0000000000000000000000000200000000"
+          }
+        },
+        "resource98": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31071,
+            "key": "0xfed53b01",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31091,
+            "value": false,
+            "bytes": "013bd5fe0000000000000000000000000200000000"
+          }
+        },
+        "constructedCellFlags4a": 4,
+        "classifierWithConstructorFlags48": 0
+      },
+      {
+        "id": "0xaa6fd9ca",
+        "parent": "0x997288ff",
+        "lineage": [
+          "0xaa6fd9ca",
+          "0x997288ff"
+        ],
+        "groupOffset": 66350,
+        "rawString": {
+          "key": "0xd9e2ac24",
+          "value": "StairsPassThrough",
+          "owner": "0xaa6fd9ca",
+          "valueOffset": 66592
+        },
+        "resource96": {
+          "value": true,
+          "reason": "own",
+          "owner": "0xaa6fd9ca",
+          "property": {
+            "offset": 66657,
+            "key": "0xafe7e835",
+            "field4": 3,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 66677,
+            "value": true,
+            "bytes": "35e8e7af0300000000000000000000000200000001"
+          }
+        },
+        "resource98": {
+          "value": false,
+          "reason": "own",
+          "owner": "0xaa6fd9ca",
+          "property": {
+            "offset": 66436,
+            "key": "0xfed53b01",
+            "field4": 3,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 66456,
+            "value": false,
+            "bytes": "013bd5fe0300000000000000000000000200000000"
+          }
+        },
+        "constructedCellFlags4a": 132,
+        "classifierWithConstructorFlags48": 1
+      },
+      {
+        "id": "0xecacefcf",
+        "parent": "0x997288ff",
+        "lineage": [
+          "0xecacefcf",
+          "0x997288ff"
+        ],
+        "groupOffset": 67699,
+        "rawString": {
+          "key": "0xd9e2ac24",
+          "value": "PowerStation",
+          "owner": "0xecacefcf",
+          "valueOffset": 68127
+        },
+        "resource96": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31786,
+            "key": "0xafe7e835",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31806,
+            "value": false,
+            "bytes": "35e8e7af0000000000000000000000000200000000"
+          }
+        },
+        "resource98": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31071,
+            "key": "0xfed53b01",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31091,
+            "value": false,
+            "bytes": "013bd5fe0000000000000000000000000200000000"
+          }
+        },
+        "constructedCellFlags4a": 4,
+        "classifierWithConstructorFlags48": 0
+      },
+      {
+        "id": "0xcf2f3d8",
+        "parent": "0x997288ff",
+        "lineage": [
+          "0xcf2f3d8",
+          "0x997288ff"
+        ],
+        "groupOffset": 68515,
+        "rawString": {
+          "key": "0xd9e2ac24",
+          "value": "Undiggable",
+          "owner": "0xcf2f3d8",
+          "valueOffset": 68763
+        },
+        "resource96": {
+          "value": true,
+          "reason": "own",
+          "owner": "0xcf2f3d8",
+          "property": {
+            "offset": 68821,
+            "key": "0xafe7e835",
+            "field4": 3,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 68841,
+            "value": true,
+            "bytes": "35e8e7af0300000000000000000000000200000001"
+          }
+        },
+        "resource98": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31071,
+            "key": "0xfed53b01",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31091,
+            "value": false,
+            "bytes": "013bd5fe0000000000000000000000000200000000"
+          }
+        },
+        "constructedCellFlags4a": 132,
+        "classifierWithConstructorFlags48": 1
+      },
+      {
+        "id": "0x314111e8",
+        "parent": "0x997288ff",
+        "lineage": [
+          "0x314111e8",
+          "0x997288ff"
+        ],
+        "groupOffset": 70020,
+        "rawString": {
+          "key": "0xd9e2ac24",
+          "value": "OpenGround",
+          "owner": "0x314111e8",
+          "valueOffset": 70307
+        },
+        "resource96": {
+          "value": false,
+          "reason": "own",
+          "owner": "0x314111e8",
+          "property": {
+            "offset": 70365,
+            "key": "0xafe7e835",
+            "field4": 3,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 70385,
+            "value": false,
+            "bytes": "35e8e7af0300000000000000000000000200000000"
+          }
+        },
+        "resource98": {
+          "value": true,
+          "reason": "own",
+          "owner": "0x314111e8",
+          "property": {
+            "offset": 70085,
+            "key": "0xfed53b01",
+            "field4": 3,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 70105,
+            "value": true,
+            "bytes": "013bd5fe0300000000000000000000000200000001"
+          }
+        },
+        "constructedCellFlags4a": 68,
+        "classifierWithConstructorFlags48": 0
+      },
+      {
+        "id": "0x627743f5",
+        "parent": "0x997288ff",
+        "lineage": [
+          "0x627743f5",
+          "0x997288ff"
+        ],
+        "groupOffset": 71195,
+        "rawString": {
+          "key": "0xd9e2ac24",
+          "value": "TrainingRoom",
+          "owner": "0x627743f5",
+          "valueOffset": 71647
+        },
+        "resource96": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31786,
+            "key": "0xafe7e835",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31806,
+            "value": false,
+            "bytes": "35e8e7af0000000000000000000000000200000000"
+          }
+        },
+        "resource98": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31071,
+            "key": "0xfed53b01",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31091,
+            "value": false,
+            "bytes": "013bd5fe0000000000000000000000000200000000"
+          }
+        },
+        "constructedCellFlags4a": 4,
+        "classifierWithConstructorFlags48": 0
+      },
+      {
+        "id": "0x44b07df8",
+        "parent": "0x6b9b4ad3",
+        "lineage": [
+          "0x44b07df8",
+          "0x6b9b4ad3",
+          "0x997288ff"
+        ],
+        "groupOffset": 72015,
+        "rawString": {
+          "key": "0xd9e2ac24",
+          "value": "Inner Sanctum",
+          "owner": "0x44b07df8",
+          "valueOffset": 72251
+        },
+        "resource96": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31786,
+            "key": "0xafe7e835",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31806,
+            "value": false,
+            "bytes": "35e8e7af0000000000000000000000000200000000"
+          }
+        },
+        "resource98": {
+          "value": false,
+          "reason": "inherited",
+          "owner": "0x997288ff",
+          "property": {
+            "offset": 31071,
+            "key": "0xfed53b01",
+            "field4": 0,
+            "field8": "0x0",
+            "field12": 0,
+            "type": 2,
+            "valueOffset": 31091,
+            "value": false,
+            "bytes": "013bd5fe0000000000000000000000000200000000"
+          }
+        },
+        "constructedCellFlags4a": 4,
+        "classifierWithConstructorFlags48": 0
+      }
+    ],
+    "registrationCandidates": {
+      "whenGlobalFlagFalse": [
+        "0xd36ac811",
+        "0xe4725223",
+        "0x6f96e65f",
+        "0x430bd860",
+        "0xe4cbb274",
+        "0xa3275078",
+        "0xd4db647b",
+        "0xf278ac89",
+        "0xf278ac8a",
+        "0xf278ac8b",
+        "0x48f78ca2",
+        "0x497004c7",
+        "0xc276dccb",
+        "0xc2657ed3",
+        "0x6b9b4ad3",
+        "0x48f218d8",
+        "0xe58aa2f2",
+        "0x6f00f6f3",
+        "0x9d98bafa",
+        "0xf5eb06fa",
+        "0x80b0101",
+        "0x9a63331b",
+        "0x9a63331c",
+        "0x2a5b912a",
+        "0xd41c9347",
+        "0xd55a674f",
+        "0x48f25963",
+        "0xa92c5365",
+        "0x29eb7171",
+        "0x728da182",
+        "0xdddf7f89",
+        "0xbac20f8c",
+        "0xecc52791",
+        "0x731de7c9",
+        "0xaa6fd9ca",
+        "0xecacefcf",
+        "0xcf2f3d8",
+        "0x314111e8",
+        "0x627743f5"
+      ],
+      "whenGlobalFlagTrue": [
+        "0x515dbc06",
+        "0xd36ac811",
+        "0xc2bd7c19",
+        "0xe4725223",
+        "0x8cbe4226",
+        "0x515bca28",
+        "0x6f96e65f",
+        "0x430bd860",
+        "0xa3275078",
+        "0xd4db647b",
+        "0x848c688a",
+        "0x37d9b698",
+        "0xc924c49c",
+        "0xfa5608a2",
+        "0xa15f38ab",
+        "0xc276dccb",
+        "0xc2657ed3",
+        "0x48f218d8",
+        "0xe58aa2f2",
+        "0x6f00f6f3",
+        "0x9d98bafa",
+        "0xf5eb06fa",
+        "0x80b0101",
+        "0x70ccf911",
+        "0xe8ccbb14",
+        "0x9a63331b",
+        "0x9a63331c",
+        "0x6f8e321",
+        "0x2a5b912a",
+        "0xd41c9347",
+        "0x37d48359",
+        "0x388cc760",
+        "0xa92c5365",
+        "0xec6d9569",
+        "0x29eb7171",
+        "0x89fb3d76",
+        "0x11c1df80",
+        "0x728da182",
+        "0xdddf7f89",
+        "0xbac20f8c",
+        "0x7b3d298f",
+        "0xecc52791",
+        "0x1cab3bab",
+        "0x731de7c9",
+        "0xaa6fd9ca",
+        "0xecacefcf",
+        "0x314111e8",
+        "0x627743f5",
+        "0x44b07df8"
+      ]
+    },
+    "registrationScope": "694800 branches on global object+28: false selects direct children, true selects descendant leaves. Actual live global flag and overrides unverified."
+  },
+  "scope": "Native source-bound two flags and inheritance. Constructor baseline classification only; modern occupied flags48, scene contacts, original execution and complete engine equivalence not established."
+}

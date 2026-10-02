@@ -1,0 +1,126 @@
+{
+  "schema": "eg2-native-device-rigs-proof/1",
+  "runtimeExecuted": false,
+  "decoder": "build_device_rigs.py",
+  "decoderSha256": "8aca1750650bc05ff887cc831ec77959ac90301a267639b879d306b3e82b3c4c",
+  "output": "device-rigs.json",
+  "outputSha256": "ff53377eda4a79633897228fa63c399e9c976d665ce39b57fe03997bfceb6f6c",
+  "records": [
+    {
+      "name": "trap_fan",
+      "vertices": 6032,
+      "referencedVertices": 6032,
+      "modelSource": "assets/models/raw/c43d3b72d3ec99866c06c8cb9718c58c93b984276743ec3ad5eb692902170ca5.rscf",
+      "modelSha256": "c43d3b72d3ec99866c06c8cb9718c58c93b984276743ec3ad5eb692902170ca5",
+      "geometrySource": "assets/models/glb/c43d3b72d3ec99866c06c8cb9718c58c93b984276743ec3ad5eb692902170ca5.glb",
+      "geometrySha256": "bb767fc3ff12a55a56bf4c0d03f7fad1aa214b4ec97c7eaef86fabd275cec851",
+      "skeletonSource": "assets/animations/skeletons/a7fea171e45fc75ed90b138c0aa4aab49a2f0bde3e9ff340e51d7f25da694cd6.json",
+      "skeletonSha256": "ea9b5b8252d38564255a39e9afdd5621acb9dc85ff776fcb1f2f515a2b664f25",
+      "unusedZeroWeightVertices": 0,
+      "boneCount": 7,
+      "allReferencedWeightSums255": true,
+      "allReferencedJointsInHierarchy": true,
+      "boneNames": [
+        "bn_root",
+        "bn_door01",
+        "bn_door02",
+        "bn_fan01",
+        "bn_fan02",
+        "bn_fan03",
+        "bn_fan04"
+      ]
+    },
+    {
+      "name": "trap_gloveonspring",
+      "vertices": 4075,
+      "referencedVertices": 4075,
+      "modelSource": "assets/models/raw/6649c35ced456c10c3ade9bc1c660e58d781ea1b358e6b3a4c3a2e2ce60c3956.rscf",
+      "modelSha256": "6649c35ced456c10c3ade9bc1c660e58d781ea1b358e6b3a4c3a2e2ce60c3956",
+      "geometrySource": "assets/models/glb/6649c35ced456c10c3ade9bc1c660e58d781ea1b358e6b3a4c3a2e2ce60c3956.glb",
+      "geometrySha256": "47ce58c8835fe38f03b5b179e8764dd0995461b9e90ac3577755d6951f993ce4",
+      "skeletonSource": "assets/animations/skeletons/82720b12ee665024203605fefaa6099a658c650e75738fe422c738c3389d4aab.json",
+      "skeletonSha256": "e9951c7869708ad0f72e3de449c6b94b7cc5b06233b588e062f4582a775acba1",
+      "unusedZeroWeightVertices": 0,
+      "boneCount": 9,
+      "allReferencedWeightSums255": true,
+      "allReferencedJointsInHierarchy": true,
+      "boneNames": [
+        "bn_root",
+        "bn_door01",
+        "bn_door02",
+        "bn_spring01",
+        "bn_spring02",
+        "bn_spring03",
+        "bn_spring04",
+        "bn_glove01",
+        "bn_glove02"
+      ]
+    },
+    {
+      "name": "trap_bubble_blower",
+      "vertices": 5737,
+      "referencedVertices": 5737,
+      "modelSource": "assets/models/raw/f0442348815dd48b8a55eb106bfba362d84a1e8c21a1b5a994a6283236fdea9d.rscf",
+      "modelSha256": "f0442348815dd48b8a55eb106bfba362d84a1e8c21a1b5a994a6283236fdea9d",
+      "geometrySource": "assets/models/glb/f0442348815dd48b8a55eb106bfba362d84a1e8c21a1b5a994a6283236fdea9d.glb",
+      "geometrySha256": "837c79313e8508fe9fc0f695375d1fa377b88f3bff247125b5cb487941be8224",
+      "skeletonSource": "assets/animations/skeletons/eed539d7fbf6443ca67c6a57638d307d35703954e2332f819cfaced0b56be65d.json",
+      "skeletonSha256": "59ae06d4d752fe34635834d4a9a9b794872d359c1114d4b3930642495e641ca8",
+      "unusedZeroWeightVertices": 0,
+      "boneCount": 5,
+      "allReferencedWeightSums255": true,
+      "allReferencedJointsInHierarchy": true,
+      "boneNames": [
+        "bn_root",
+        "bn_blower_back",
+        "bn_blower_front",
+        "bn_door01",
+        "bn_door02"
+      ]
+    },
+    {
+      "name": "trap_slippery_soap",
+      "vertices": 1447,
+      "referencedVertices": 1447,
+      "modelSource": "assets/models/raw/c7860c273b5c06898100067aabf933f082fc2c0db2bc9c8962f5dff8bf13bc14.rscf",
+      "modelSha256": "c7860c273b5c06898100067aabf933f082fc2c0db2bc9c8962f5dff8bf13bc14",
+      "geometrySource": "assets/models/glb/c7860c273b5c06898100067aabf933f082fc2c0db2bc9c8962f5dff8bf13bc14.glb",
+      "geometrySha256": "3c13f4a33991189a91c41f8e2f19821a0056b40a039ae0d3b560170b15a54973",
+      "skeletonSource": "assets/animations/skeletons/061c815d2dba20d0c764c442a232f88ea371f5f3232252cf185a244273720e83.json",
+      "skeletonSha256": "1d1a0e037b12116ed9c163b01fb9d2329a9bcc89292fd034294537d59be10c13",
+      "unusedZeroWeightVertices": 0,
+      "boneCount": 3,
+      "allReferencedWeightSums255": true,
+      "allReferencedJointsInHierarchy": true,
+      "boneNames": [
+        "Trap_Slippery_Soap",
+        "Door",
+        "Soap"
+      ]
+    },
+    {
+      "name": "trap_laser_wall",
+      "vertices": 11231,
+      "referencedVertices": 11231,
+      "modelSource": "assets/models/raw/50092e48ad2d2b45e872efc406557fbc546ded012e5aa18a1f83f40e07fdb80a.rscf",
+      "modelSha256": "50092e48ad2d2b45e872efc406557fbc546ded012e5aa18a1f83f40e07fdb80a",
+      "geometrySource": "assets/models/glb/50092e48ad2d2b45e872efc406557fbc546ded012e5aa18a1f83f40e07fdb80a.glb",
+      "geometrySha256": "a764ee73298e2174d00303e96075c095a099e839a0120a9de4b55637cd44e595",
+      "skeletonSource": "assets/animations/skeletons/241504848625b2ff50994071109d3a547a952a561a38126a408dd3ddad5e051b.json",
+      "skeletonSha256": "16531f9441062973e6aab4778e2fd2051688e331c898193ab29da1e582c2347b",
+      "unusedZeroWeightVertices": 0,
+      "boneCount": 1,
+      "allReferencedWeightSums255": true,
+      "allReferencedJointsInHierarchy": true,
+      "boneNames": [
+        "Trap_Laser_Wall"
+      ]
+    }
+  ],
+  "unknown": [
+    "HCAN bind rotation composition",
+    "activation rules",
+    "native placement transform",
+    "original client playback"
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "schema": "eg2-native-reaction-integration/1",
+  "originalClientExecuted": false,
+  "goalStatus": "active",
+  "fullFidelityCasesVerified": 0,
+  "scope": "Arena versus extracted-clip bench with declared reconstructed slot/phase inputs; not original-client timing/physics equivalence",
+  "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M3 Max, Unspecified Version)",
+  "checks": {
+    "fiveReactionFamilies": true,
+    "allChecks": true,
+    "noErrors": true
+  },
+  "familyChecks": {
+    "fan": {
+      "nativePose": true,
+      "nativeBinding": true,
+      "explicitInputOrigin": true,
+      "samePositions": true,
+      "sameRotations": true,
+      "pause": true,
+      "finitePose": true
+    },
+    "glove": {
+      "nativePose": true,
+      "nativeBinding": true,
+      "explicitInputOrigin": true,
+      "samePositions": true,
+      "sameRotations": true,
+      "pause": true,
+      "finitePose": true
+    },
+    "bubble": {
+      "nativePose": true,
+      "nativeBinding": true,
+      "explicitInputOrigin": true,
+      "samePositions": true,
+      "sameRotations": true,
+      "pause": true,
+      "finitePose": true
+    },
+    "slip": {
+      "nativePose": true,
+      "nativeBinding": true,
+      "explicitInputOrigin": true,
+      "samePositions": true,
+      "sameRotations": true,
+      "pause": true,
+      "finitePose": true
+    },
+    "laser": {
+      "nativePose": true,
+      "nativeBinding": true,
+      "explicitInputOrigin": true,
+      "samePositions": true,
+      "sameRotations": true,
+      "pause": true,
+      "finitePose": true
+    }
+  },
+  "passedFamilyChecks": 35,
+  "totalFamilyChecks": 35,
+  "maximumPositionError": 0,
+  "maximumRotationError": 0,
+  "bindings": {
+    "fan": {
+      "clipName": "Giant_Fan_Loop_A_01",
+      "source": {
+        "uid": "0x90e53bb1",
+        "record": "FanTrap",
+        "group": 0,
+        "slot": 0,
+        "phaseHash": "0x0032c6a4",
+        "offset": 126,
+        "resourceSha256": "56bc5c6c7f43f1a0149f52972921fee0535086e93b5b922112619786123acce9"
+      },
+      "inputs": {
+        "family": "FanTrap",
+        "actorIndex": 0,
+        "phaseKeys": [
+          "0x0032c6a4"
+        ],
+        "secondaryRequested": false,
+        "stopFlagInput": false,
+        "alternateUID": "0x90e53bb1"
+      },
+      "inputOrigin": "reconstructed arena configuration; constructor default slot, not observed original actor",
+      "phaseScheduling": "loop sampled from reconstructed hit time; mount/dismount and event scheduling not integrated"
+    },
+    "glove": {
+      "clipName": "Trap_GloveOnSpring_Loop_A_01",
+      "source": {
+        "uid": "0x671ef5dd",
+        "record": "BoxingGlove",
+        "group": 0,
+        "slot": 0,
+        "phaseHash": "0x0032c6a4",
+        "offset": 126,
+        "resourceSha256": "8a3daa4e6867144401e23379f782f7ea4820957eb755f87c192f43f7d45275ed"
+      },
+      "inputs": {
+        "family": "BoxingGlove",
+        "actorIndex": 0,
+        "phaseKeys": [
+          "0x0032c6a4"
+        ],
+        "secondaryRequested": false,
+        "stopFlagInput": false,
+        "alternateUID": "0x671ef5dd"
+      },
+      "inputOrigin": "reconstructed arena configuration; constructor default slot, not observed original actor",
+      "phaseScheduling": "loop sampled from reconstructed hit time; mount/dismount and event scheduling not integrated"
+    },
+    "bubble": {
+      "clipName": "Trap_BubbleCannon_Loop_A_01",
+      "source": {
+        "uid": "0xedd389f2",
+        "record": "BubbleBlower",
+        "group": 0,
+        "slot": 0,
+        "phaseHash": "0x0032c6a4",
+        "offset": 126,
+        "resourceSha256": "2bd82b0af9ed66b0417b37fbb11d36fd0d34c2c27ffb15e048c9654f17a1a89b"
+      },
+      "inputs": {
+        "family": "BubbleBlower",
+        "actorIndex": 0,
+        "phaseKeys": [
+          "0x0032c6a4"
+        ],
+        "secondaryRequested": false,
+        "stopFlagInput": false,
+        "alternateUID": "0xedd389f2"
+      },
+      "inputOrigin": "reconstructed arena configuration; constructor default slot, not observed original actor",
+      "phaseScheduling": "loop sampled from reconstructed hit time; mount/dismount and event scheduling not integrated"
+    },
+    "slip": {
+      "clipName": "Trap_SlipperySoap_Loop_A_01",
+      "source": {
+        "uid": "0x7bdcf423",
+        "record": "SoapTrap",
+        "group": 0,
+        "slot": 0,
+        "phaseHash": "0x0032c6a4",
+        "offset": 126,
+        "resourceSha256": "d16fcb5b619b95a30fa789fa16a9dfb2a41603a16d448a39d63779edc5e7f909"
+      },
+      "inputs": {
+        "family": "SoapTrap",
+        "actorIndex": 0,
+        "phaseKeys": [
+          "0x0032c6a4"
+        ],
+        "secondaryRequested": false,
+        "stopFlagInput": false,
+        "alternateUID": "0x7bdcf423"
+      },
+      "inputOrigin": "reconstructed arena configuration; constructor default slot, not observed original actor",
+      "phaseScheduling": "loop sampled from reconstructed hit time; mount/dismount and event scheduling not integrated"
+    },
+    "laser": {
+      "clipName": "Trap_Laser_Loop_A_01",
+      "source": {
+        "uid": "0x066117ea",
+        "record": "LaserWall",
+        "group": 0,
+        "slot": 0,
+        "phaseHash": "0x0032c6a4",
+        "offset": 126,
+        "resourceSha256": "4e4212452596630765de38073ed556055a571a2e8191c746225ac6883f11ec40"
+      },
+      "inputs": {
+        "family": "LaserWall",
+        "actorIndex": 0,
+        "phaseKeys": [
+          "0x0032c6a4"
+        ],
+        "secondaryRequested": false,
+        "stopFlagInput": false,
+        "alternateUID": "0x066117ea"
+      },
+      "inputOrigin": "reconstructed arena configuration; constructor default slot, not observed original actor",
+      "phaseScheduling": "loop sampled from reconstructed hit time; mount/dismount and event scheduling not integrated"
+    }
+  },
+  "walkChecks": {
+    "nativeWalkingClip": true,
+    "nativeSkeleton": true,
+    "walking": true,
+    "moving": true,
+    "articulated": true,
+    "frozen": true,
+    "noErrors": true,
+    "sourceVelocity": true,
+    "clockAndDistance": true,
+    "nativePoseClock": true,
+    "extractedWeapons": true,
+    "explicitReactionOrigin": true,
+    "nativeWalkReturns": true
+  },
+  "reconstructedControlChecks": {
+    "chain": true,
+    "disabled": true,
+    "rotated": true,
+    "pause": true,
+    "wave": true,
+    "audio": true,
+    "placement": true,
+    "saved": true,
+    "scenario": true,
+    "noErrors": true
+  },
+  "nativeSourceAudit": {
+    "schema": "eg2-native-source-audit/1",
+    "originalExecuted": false,
+    "checks": {
+      "nativeByteWindows": 81,
+      "nativeRuleByteWindows": 63,
+      "boundedMalformedResourcesRejected": 18,
+      "allSelectedResourcesDecoded": 5,
+      "linkedDefaultResourcesDecoded": 1,
+      "clipHashReferencesChecked": 760,
+      "selectedFiveClipReferences": 685,
+      "hcanSourceReportHashCurrent": true,
+      "sealedCasesInventoried": 34,
+      "nativeUnitsKnown": 25
+    },
+    "scope": "Original executable bytes and source decoding; not native runtime equivalence"
+  },
+  "sourceSha256": {
+    "actor.js": "9bfb4ebbcaa8d77ef7fb6a73ac7ec4d7236e42aa124cbbf9c5ad87dcbdcbcdbc",
+    "app.js": "c90c65af07c6023baa6f318e38eab50e9c48c26501aa451823898c2845f39e96",
+    "simulation.js": "58e82d36f4ff0ed2447805f6316f07dfd6a59ea94fd3330115ce7705d3b3e7cd",
+    "rules.json": "c837b57c8da3987a3c2da458f479d5dec699c1640ef6891c89841c787049d88b",
+    "native-reaction-bindings.js": "ee5c6ee6e53c4a1d4fdf2c992fb09218629a0e35545a65fac87c03b0ecb249d9",
+    "native-trpa-selector.js": "34e0d576c6d8dd9b1e1e730d686ed593e770f71677980100405802ee64f997a4",
+    "native-player.js": "ab89a9a79bfbf5391b2465e0fb1cdaa2f4ec5f3c4af0fc14cc469efa0b33e808",
+    "native-skinning.js": "67f9c0fd2c5d3c6e29e99fd18c080ef871a83e8819570e09421122ec8d975413",
+    "reaction-qa.mjs": "2171a61cc8934bac8b7773ff8742fe0dab9bb3d21faf47194547514647f70336",
+    "walk-qa.mjs": "acf6d66dcc7b7b1acc2b4720fd0041648452b51306749e2301e65b8811403c6d",
+    "qa.mjs": "93dc632ceb99a6179fd4a487e1e5fd13161fff5e22c9d0be7a3ee90bc02696a9",
+    "validate-native-sources.py": "758b9a963fea85d6fcfbb63375e9e94241486de08ba97da9ce1b624d9ebaf85a",
+    "evidence/native-trap-animation-data.json": "34fe036eed607a7c907419a6ee464a3732c28965dbfd895dbf03b2b945f103a2",
+    "evidence/native-actor-slot-route.json": "6902cd12292f9ca1fe82c69c07a3c524747b52dd3d0586fc8e29e94ef0f07af0",
+    "animation-data/Giant_Fan_Loop_A_01.json": "daea695a6a2f71bb2ac5e8065dbcf59c34dc1048475c90ed7d4c3704116bda06",
+    "animation-data/Trap_GloveOnSpring_Loop_A_01.json": "255f53c7d6175288bc68f2c2603ec2a252e248d828a5ddefcd9b6b110ad5722d",
+    "animation-data/Trap_BubbleCannon_Loop_A_01.json": "6b583e6b739b7d3f5c2c95b8201bd772bf07e0bc4d0cf20fcf23fdd06428c4a5",
+    "animation-data/Trap_SlipperySoap_Loop_A_01.json": "04dba56813405ad6c2705a86fab8a7391b54fd2912ec4cdd43df61ae2fbb0f69",
+    "animation-data/Trap_Laser_Loop_A_01.json": "2aa29f3eb8b13fd693db4c764796cc9d073342dcda40f7415949638353bd9c79"
+  },
+  "mediaArchive": {
+    "id": "1gCiP8xYj-HPEbJwvOTymNQVVy_k7aLAw",
+    "url": "https://drive.google.com/file/d/1gCiP8xYj-HPEbJwvOTymNQVVy_k7aLAw/view?usp=drivesdk",
+    "sha256": "feef8900e0c46e4e4c05959c51c77a2d0a836720699a9ddf6c6070978a3b61d5",
+    "files": 29
+  },
+  "changes": [
+    "Replaced authored reaction poses with five extracted loop clips selected through native TRPA operations using explicitly reconstructed slot/alternate inputs",
+    "Removed authored vertical parabola; interaction-parent movement remains unknown",
+    "Stopped transition slerp at completion to preserve static native quaternion values and signs; bone position blend remains authored",
+    "Laser enters reaction state when the reconstructed damage does not kill",
+    "Controls test now waits for reconstructed completion with a finite bound instead of enforcing old nine-second deadline"
+  ],
+  "remaining": [
+    "Native actor inputs/index and alternate selection",
+    "Mount/dismount phase scheduling and recovery",
+    "Native world/parent velocity and orientation, navigation/collision",
+    "Assumed horizontal impulses, damage and cooldowns",
+    "Permanent per-type hit suppression and historical-combo shortcut",
+    "Original gameplay comparison and Alan approval"
+  ],
+  "browser": {
+    "url": "http://localhost:8766/",
+    "state": "updated arena ready, followed agent spawned via UI; extracted clip bench kept open"
+  }
+}

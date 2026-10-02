@@ -1,0 +1,1 @@
+{"name":"evil-genius-2-trap-arena","private":true,"type":"module","scripts":{"serve":"python3 server.py","test":"node test-simulation.mjs"}}

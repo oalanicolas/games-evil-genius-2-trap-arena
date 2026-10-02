@@ -1,0 +1,56 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>Calibração de modelos</title>
+<script type="importmap">{"imports":{"three":"../../vendor/three/build/three.module.js"}}</script>
+<style>body{margin:0;background:#20282b;color:#dde;font:12px Arial}canvas{display:block}#info{position:fixed;left:8px;top:8px;white-space:pre}</style></head>
+<body><div id="info"></div><script type="module">
+import * as THREE from 'three';
+import { Assets } from '../render/assets.js';
+import { NativeRig } from '../../native-player.js';
+const q = new URLSearchParams(location.search);
+const renderer = new THREE.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true });
+renderer.setSize(innerWidth, innerHeight); renderer.outputColorSpace = THREE.SRGBColorSpace;
+renderer.toneMapping = THREE.ACESFilmicToneMapping; renderer.toneMappingExposure = 1.2; document.body.append(renderer.domElement);
+const scene = new THREE.Scene(); scene.background = new THREE.Color('#3a4447');
+scene.add(new THREE.HemisphereLight('#ffffff', '#667066', 2.4)); const sun = new THREE.DirectionalLight('#fff3d8', 2.6); sun.position.set(-6, 14, 8); scene.add(sun);
+const assets = await new Assets(renderer).init();
+const names = (q.get('models') || '').split(',').filter(Boolean);
+const list = names.length ? names : Object.values(assets.content.traps).flatMap(t => t.view.models.slice(0, 1));
+const cols = +(q.get('cols') || 6), gap = +(q.get('gap') || 9);
+const report = {};
+const label = (text, x, z) => { const c = document.createElement('canvas'); c.width = 512; c.height = 64; const g = c.getContext('2d'); g.fillStyle = '#fff'; g.font = '34px Arial'; g.fillText(text, 4, 44);
+  const m = new THREE.Mesh(new THREE.PlaneGeometry(6, .75), new THREE.MeshBasicMaterial({ map: new THREE.CanvasTexture(c), transparent: true })); m.rotation.x = -Math.PI / 2; m.position.set(x, .02, z); scene.add(m); };
+let i = 0;
+for (const name of list) {
+  const x = (i % cols) * gap, z = Math.floor(i / cols) * gap; i++;
+  const trap = Object.values(assets.content.traps).find(t => t.view.models[0] === name);
+  await assets.load(name);
+  let object;
+  const rigInfo = trap?.view.rigModel === name ? trap.view.rig : null;
+  if (rigInfo && q.get('rig') !== '0') {
+    const rig = await assets.file(rigInfo.path);
+    const native = new NativeRig(rig.bones, { [name]: rig }, n => assets.clone(n));
+    const phase = q.get('phase');
+    const clipInfo = phase && trap.view.device[phase];
+    if (clipInfo) { const clip = await assets.file(clipInfo.path); native.play(clip, clip.duration * +(q.get('t') ?? 1)); }
+    object = native.root;
+  } else object = assets.clone(name);
+  object.position.set(x, 0, z); scene.add(object);
+  object.updateMatrixWorld(true);
+  const box = new THREE.Box3();
+  object.traverse(o => { if (o.isMesh) { o.geometry.computeBoundingBox(); box.union(o.geometry.boundingBox.clone().applyMatrix4(o.matrixWorld)); } });
+  report[name] = { min: box.min.clone().sub(object.position).toArray().map(v => +v.toFixed(2)), max: box.max.clone().sub(object.position).toArray().map(v => +v.toFixed(2)), fp: trap ? [trap.footprint.w, trap.footprint.d] : null };
+  if (trap) { // footprint outline, centred, front (+j) towards +Z
+    const { w, d } = trap.footprint;
+    const outline = new THREE.LineSegments(new THREE.EdgesGeometry(new THREE.BoxGeometry(w, .02, d)), new THREE.LineBasicMaterial({ color: '#ffd24a' })); outline.position.set(x, .01, z); scene.add(outline);
+    for (const c of trap.cells) { const m = new THREE.Mesh(new THREE.PlaneGeometry(.9, .9), new THREE.MeshBasicMaterial({ color: c.solid ? '#d0443a' : c.clear ? '#4ad07a' : '#4a8ad0', transparent: true, opacity: .25 })); m.rotation.x = -Math.PI / 2; m.position.set(x - w / 2 + c.i + .5, .012, z - d / 2 + c.j + .5); scene.add(m); }
+  }
+  const arrow = new THREE.ArrowHelper(new THREE.Vector3(0, 0, 1), new THREE.Vector3(x, .05, z), 1.5, '#ff5fd0', .4, .25); scene.add(arrow);
+  label(name.replace('trap_', ''), x - 2.5, z - gap / 2 + .6);
+}
+const rows = Math.ceil(list.length / cols), cx = (Math.min(cols, list.length) - 1) * gap / 2, cz = (rows - 1) * gap / 2;
+const view = q.get('view') || 'top';
+let camera;
+if (view === 'top') { const half = Math.max(Math.min(cols, list.length) * gap / 2 * innerHeight / innerWidth, rows * gap / 2) + 1; camera = new THREE.OrthographicCamera(-half * innerWidth / innerHeight, half * innerWidth / innerHeight, half, -half, .1, 200); camera.position.set(cx, 60, cz); camera.up.set(0, 0, -1); camera.lookAt(cx, 0, cz); }
+else { camera = new THREE.PerspectiveCamera(35, innerWidth / innerHeight, .1, 300); const dist = Math.max(cols, rows) * gap * (+(q.get('dist') || 1)); camera.position.set(cx + dist * .35, dist * .6, cz + dist * .75); camera.lookAt(cx, 0.5, cz); }
+renderer.render(scene, camera);
+window.REPORT = report; window.READY = true;
+</script></body></html>

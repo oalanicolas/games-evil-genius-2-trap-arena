@@ -1,0 +1,761 @@
+{
+ "schema": "lair-behaviours/1",
+ "origin": "assumed. Função de cada armadilha: external_reference (wiki e devblog de Traps, resumidos em games/bastioes-rabisco/docs/evil-genius-2-trap-reference.md, e a descrição nativa do registro). Distância, velocidade, dano e custo de perícia são números nossos, não do jogo. Tempos de fase NÃO ficam aqui: vêm do registro FNTR.",
+ "traps": {
+  "BoxingGlove": {
+   "pt": "Luva de boxe",
+   "role": "Soca um agente e o lança em linha reta.",
+   "mount": "wall",
+   "sensor": "clear",
+   "targets": "single",
+   "skill": 20,
+   "ops": [
+    {
+     "op": "damage",
+     "stat": "health",
+     "amount": 20,
+     "phase": "windup",
+     "at": "peak"
+    },
+    {
+     "op": "launch",
+     "dir": "facing",
+     "distance": 7,
+     "speed": 9,
+     "tag": "launched",
+     "phase": "windup",
+     "at": "peak"
+    }
+   ]
+  },
+  "BubbleBlower": {
+   "pt": "Canhão de bolhas",
+   "role": "Prende um agente numa bolha que flutua; empurrões o levam mais longe.",
+   "mount": "wall",
+   "sensor": "clear",
+   "targets": "single",
+   "skill": 25,
+   "ops": [
+    {
+     "op": "damage",
+     "stat": "resolve",
+     "amount": 10,
+     "phase": "active"
+    },
+    {
+     "op": "suspend",
+     "dir": "facing",
+     "speed": 0.5,
+     "tag": "bubble",
+     "phase": "active",
+     "span": "active+winddown"
+    }
+   ]
+  },
+  "FakeSafe": {
+   "pt": "Cofre falso",
+   "role": "Atrai um agente, que perde tempo e perícia tentando abrir.",
+   "mount": "wall",
+   "sensor": {
+    "front": [
+     4,
+     3
+    ]
+   },
+   "targets": "single",
+   "skill": null,
+   "lure": true,
+   "ops": [
+    {
+     "op": "pull",
+     "to": "front",
+     "speed": 1.6,
+     "tag": "lured",
+     "phase": "windup"
+    },
+    {
+     "op": "dot",
+     "stat": "skill",
+     "perSecond": 4,
+     "phase": "active"
+    }
+   ]
+  },
+  "FanTrap": {
+   "pt": "Ventilador gigante",
+   "role": "Sopra em linha todos os agentes à frente.",
+   "mount": "floor",
+   "sensor": {
+    "front": [
+     4,
+     8
+    ]
+   },
+   "zone": [
+    "footprint",
+    {
+     "front": [
+      4,
+      8
+     ]
+    }
+   ],
+   "zoneOrigin": "inferred: grupo BLUE JetEngine 4x8 (hipótese do handoff)",
+   "targets": "all",
+   "late": true,
+   "skill": 30,
+   "ops": [
+    {
+     "op": "push",
+     "dir": "facing",
+     "speed": 4.2,
+     "coast": 2.5,
+     "tag": "blown",
+     "phase": "active"
+    }
+   ]
+  },
+  "Flamer": {
+   "pt": "Lança-chamas",
+   "role": "Incendeia quem está na frente; o fogo continua queimando depois.",
+   "mount": "wall",
+   "sensor": "clear",
+   "targets": "all",
+   "late": true,
+   "skill": 40,
+   "ops": [
+    {
+     "op": "dot",
+     "stat": "health",
+     "perSecond": 12,
+     "phase": "active"
+    },
+    {
+     "op": "status",
+     "kind": "burning",
+     "stat": "health",
+     "perSecond": 6,
+     "duration": 6,
+     "phase": "active"
+    }
+   ]
+  },
+  "FreezeRay": {
+   "pt": "Raio congelante",
+   "role": "Congela um agente num bloco de gelo e apaga fogo.",
+   "mount": "wall",
+   "sensor": "clear",
+   "targets": "single",
+   "skill": 35,
+   "ops": [
+    {
+     "op": "extinguish",
+     "phase": "active"
+    },
+    {
+     "op": "damage",
+     "stat": "resolve",
+     "amount": 15,
+     "phase": "active"
+    }
+   ],
+   "release": {
+    "tag": "frozen",
+    "seconds": 6
+   }
+  },
+  "Hopscotch_trap": {
+   "pt": "Amarelinha",
+   "role": "Distrai um agente esperto, que gasta perícia pulando.",
+   "mount": "floor",
+   "sensor": "footprint",
+   "targets": "single",
+   "skill": null,
+   "lure": true,
+   "ops": [
+    {
+     "op": "dot",
+     "stat": "skill",
+     "perSecond": 8,
+     "phase": "active"
+    }
+   ]
+  },
+  "HunterSnare_Trap": {
+   "pt": "Armadilha de urso",
+   "role": "Prende um agente pelo pé por muito tempo.",
+   "mount": "floor",
+   "sensor": "footprint",
+   "targets": "single",
+   "skill": 30,
+   "ops": [
+    {
+     "op": "damage",
+     "stat": "health",
+     "amount": 15,
+     "phase": "windup"
+    },
+    {
+     "op": "dot",
+     "stat": "health",
+     "perSecond": 1.5,
+     "phase": "active"
+    }
+   ]
+  },
+  "Killer_Bees": {
+   "pt": "Abelhas assassinas",
+   "role": "Enxame que derruba a determinação de quem passa.",
+   "mount": "wall",
+   "sensor": "clear",
+   "targets": "all",
+   "late": true,
+   "skill": 35,
+   "ops": [
+    {
+     "op": "dot",
+     "stat": "resolve",
+     "perSecond": 20,
+     "phase": "active"
+    },
+    {
+     "op": "status",
+     "kind": "stung",
+     "stat": "resolve",
+     "perSecond": 4,
+     "duration": 6,
+     "phase": "active"
+    }
+   ]
+  },
+  "KnockoutGas": {
+   "pt": "Gás sonífero",
+   "role": "Nuvem que envenena todos em volta.",
+   "mount": "floor",
+   "sensor": "footprint",
+   "zone": {
+    "around": 1
+   },
+   "targets": "all",
+   "late": true,
+   "skill": 35,
+   "ops": [
+    {
+     "op": "status",
+     "kind": "poisoned",
+     "stat": "health",
+     "perSecond": 5,
+     "duration": 8,
+     "phase": "active"
+    }
+   ]
+  },
+  "LaserDIsco": {
+   "pt": "Disco laser",
+   "role": "Faz o grupo dançar sob lasers: dano contínuo por muito tempo.",
+   "mount": "floor",
+   "sensor": "footprint",
+   "targets": "all",
+   "late": true,
+   "skill": 60,
+   "ops": [
+    {
+     "op": "dot",
+     "stat": "health",
+     "perSecond": 6,
+     "phase": "active"
+    },
+    {
+     "op": "dot",
+     "stat": "resolve",
+     "perSecond": -2,
+     "phase": "active"
+    }
+   ]
+  },
+  "LaserWall": {
+   "pt": "Parede de laser",
+   "role": "Grade entre duas paredes: dano enquanto o agente fica nos feixes.",
+   "mount": "opposing_walls",
+   "sensor": "clear",
+   "targets": "all",
+   "late": true,
+   "skill": 40,
+   "ops": [
+    {
+     "op": "dot",
+     "stat": "health",
+     "perSecond": 14,
+     "phase": "active"
+    }
+   ]
+  },
+  "MagnetTrap": {
+   "pt": "Ímã gigante",
+   "role": "Atrai os agentes à frente e os segura grudados.",
+   "mount": "floor",
+   "sensor": {
+    "front": [
+     4,
+     8
+    ]
+   },
+   "zone": [
+    "footprint",
+    {
+     "front": [
+      4,
+      8
+     ]
+    }
+   ],
+   "targets": "all",
+   "late": true,
+   "skill": 45,
+   "ops": [
+    {
+     "op": "pull",
+     "to": "front",
+     "speed": 5,
+     "tag": "pulled",
+     "phase": "active"
+    }
+   ]
+  },
+  "Narrative_VenomGasTrap": {
+   "pt": "Armadilha V.E.N.O.M.",
+   "role": "Gás venenoso forte num único alvo.",
+   "mount": "floor",
+   "sensor": "footprint",
+   "targets": "single",
+   "skill": 50,
+   "ops": [
+    {
+     "op": "status",
+     "kind": "poisoned",
+     "stat": "health",
+     "perSecond": 9,
+     "duration": 8,
+     "phase": "active"
+    }
+   ]
+  },
+  "Paywall": {
+   "pt": "Pedágio",
+   "role": "Barra o corredor: cada agente para e paga para passar.",
+   "mount": "gate",
+   "sensor": "footprint",
+   "targets": "single",
+   "skill": null,
+   "lure": true,
+   "oncePerAgent": true,
+   "ops": [
+    {
+     "op": "toll",
+     "gold": 50,
+     "phase": "active"
+    }
+   ]
+  },
+  "PinballBumper": {
+   "pt": "Rebatedor de pinball",
+   "role": "Rebate na diagonal quem encosta, inclusive quem vem voando.",
+   "mount": "floor",
+   "sensor": "footprint",
+   "targets": "all",
+   "late": true,
+   "skill": 15,
+   "ops": [
+    {
+     "op": "damage",
+     "stat": "health",
+     "amount": 5,
+     "phase": "active"
+    },
+    {
+     "op": "launch",
+     "dir": "diagonal",
+     "distance": 5,
+     "speed": 9,
+     "tag": "bounced",
+     "phase": "active"
+    }
+   ]
+  },
+  "PoisonDarts": {
+   "pt": "Dardos venenosos",
+   "role": "Dardos entre duas paredes: veneno que continua agindo.",
+   "mount": "opposing_walls",
+   "sensor": "clear",
+   "targets": "all",
+   "late": true,
+   "skill": 25,
+   "ops": [
+    {
+     "op": "damage",
+     "stat": "health",
+     "amount": 10,
+     "phase": "active"
+    },
+    {
+     "op": "status",
+     "kind": "poisoned",
+     "stat": "health",
+     "perSecond": 6,
+     "duration": 8,
+     "phase": "active"
+    }
+   ]
+  },
+  "Robot_Dog_Trap": {
+   "pt": "Filhote da morte",
+   "role": "Distrai o grupo inteiro e depois ataca.",
+   "mount": "floor",
+   "blocks": true,
+   "sensor": {
+    "around": 3
+   },
+   "targets": "all",
+   "late": true,
+   "skill": 55,
+   "ops": [
+    {
+     "op": "pull",
+     "to": "edge",
+     "speed": 1.4,
+     "tag": "lured",
+     "phase": "windup",
+     "span": "windup+active"
+    },
+    {
+     "op": "damage",
+     "stat": "health",
+     "amount": 45,
+     "phase": "winddown"
+    }
+   ]
+  },
+  "SharkTank": {
+   "pt": "Tanque de tubarões",
+   "role": "O piso abre: quem está em cima cai na água com os tubarões.",
+   "mount": "floor",
+   "sensor": "footprint",
+   "targets": "all",
+   "late": true,
+   "skill": 60,
+   "ops": [
+    {
+     "op": "sink",
+     "tag": "pit",
+     "phase": "active"
+    },
+    {
+     "op": "dot",
+     "stat": "health",
+     "perSecond": 12,
+     "phase": "active"
+    }
+   ]
+  },
+  "SharkTank_SuperDiver": {
+   "pt": "Tanque do tubarão-branco",
+   "role": "Tanque maior e mais letal.",
+   "mount": "floor",
+   "sensor": "footprint",
+   "targets": "all",
+   "late": true,
+   "skill": 70,
+   "ops": [
+    {
+     "op": "sink",
+     "tag": "pit",
+     "phase": "active"
+    },
+    {
+     "op": "dot",
+     "stat": "health",
+     "perSecond": 20,
+     "phase": "active"
+    }
+   ]
+  },
+  "SoapTrap": {
+   "pt": "Piso escorregadio",
+   "role": "Derruba e faz deslizar na direção em que o agente vinha.",
+   "mount": "floor",
+   "sensor": "footprint",
+   "targets": "all",
+   "late": true,
+   "skill": 15,
+   "ops": [
+    {
+     "op": "damage",
+     "stat": "health",
+     "amount": 5,
+     "phase": "windup"
+    },
+    {
+     "op": "slide",
+     "dir": "heading",
+     "speed": 3.2,
+     "tag": "sliding",
+     "phase": "windup",
+     "span": "windup+active"
+    }
+   ]
+  },
+  "Venus_Mantrap": {
+   "pt": "Planta carnívora",
+   "role": "Engole um agente inteiro e o cospe depois.",
+   "mount": "floor",
+   "blocks": true,
+   "sensor": {
+    "around": 1
+   },
+   "targets": "single",
+   "skill": 65,
+   "ops": [
+    {
+     "op": "pull",
+     "to": "center",
+     "speed": 6,
+     "tag": "swallowed",
+     "phase": "windup"
+    },
+    {
+     "op": "sink",
+     "tag": "swallowed",
+     "phase": "active",
+     "hide": true
+    },
+    {
+     "op": "dot",
+     "stat": "health",
+     "perSecond": 14,
+     "phase": "active"
+    }
+   ]
+  }
+ },
+ "doors": {
+  "Door_Standard": {
+   "id": "Door_Standard",
+   "name": "Door",
+   "pt": "Porta",
+   "category": "door",
+   "role": "Fecha o corredor: o primeiro agente perde tempo arrombando; depois ela fica aberta por alguns segundos.",
+   "description": "Standard lair door.",
+   "cost": null,
+   "mount": "gate",
+   "gate": true,
+   "footprint": {
+    "w": 4,
+    "d": 1,
+    "origin": "inferred: door_standard_frame mede 4,4 de largura"
+   },
+   "cells": [
+    {
+     "i": 0,
+     "j": 0,
+     "clear": false,
+     "kind": 6,
+     "edges": [
+      6,
+      0,
+      6,
+      1
+     ],
+     "wall": [
+      3
+     ],
+     "solid": false
+    },
+    {
+     "i": 1,
+     "j": 0,
+     "clear": false,
+     "kind": 6,
+     "edges": [
+      6,
+      0,
+      6,
+      0
+     ],
+     "wall": [],
+     "solid": false
+    },
+    {
+     "i": 2,
+     "j": 0,
+     "clear": false,
+     "kind": 6,
+     "edges": [
+      6,
+      0,
+      6,
+      0
+     ],
+     "wall": [],
+     "solid": false
+    },
+    {
+     "i": 3,
+     "j": 0,
+     "clear": false,
+     "kind": 6,
+     "edges": [
+      6,
+      1,
+      6,
+      0
+     ],
+     "wall": [
+      1
+     ],
+     "solid": false
+    }
+   ],
+   "cellsOrigin": "assumed: mesma forma do registro Paywall (portal entre duas paredes)",
+   "timing": {
+    "windup": 0,
+    "active": 4,
+    "winddown": 6,
+    "recharge": 0,
+    "sabotaged": 0,
+    "origin": "assumed: tempo de arrombar e tempo aberta não foram lidos do jogo"
+   },
+   "sensor": {
+    "around": 1
+   },
+   "targets": "single",
+   "skill": null,
+   "ops": [],
+   "view": {
+    "models": [
+     "door_standard_frame",
+     "door_standard"
+    ],
+    "rig": null,
+    "rigModel": null,
+    "device": {},
+    "agent": {},
+    "audio": {},
+    "bindingOrigin": "extracted models; opening motion authored"
+   }
+  },
+  "Doorway": {
+   "id": "Doorway",
+   "name": "Open doorway",
+   "pt": "Vão de porta",
+   "category": "architecture",
+   "role": "Marco aberto entre duas paredes. Os agentes atravessam sem arrombar.",
+   "description": "Vão aberto com o marco nativo da porta, sem folha.",
+   "cost": null,
+   "mount": "gate",
+   "gate": false,
+   "footprint": {
+    "w": 4,
+    "d": 1,
+    "origin": "inferred: door_standard_frame mede 4,4 de largura"
+   },
+   "cells": [
+    {
+     "i": 0,
+     "j": 0,
+     "clear": false,
+     "kind": 6,
+     "edges": [
+      6,
+      0,
+      6,
+      1
+     ],
+     "wall": [
+      3
+     ],
+     "solid": false
+    },
+    {
+     "i": 1,
+     "j": 0,
+     "clear": false,
+     "kind": 6,
+     "edges": [
+      6,
+      0,
+      6,
+      0
+     ],
+     "wall": [],
+     "solid": false
+    },
+    {
+     "i": 2,
+     "j": 0,
+     "clear": false,
+     "kind": 6,
+     "edges": [
+      6,
+      0,
+      6,
+      0
+     ],
+     "wall": [],
+     "solid": false
+    },
+    {
+     "i": 3,
+     "j": 0,
+     "clear": false,
+     "kind": 6,
+     "edges": [
+      6,
+      1,
+      6,
+      0
+     ],
+     "wall": [
+      1
+     ],
+     "solid": false
+    }
+   ],
+   "cellsOrigin": "assumed: mesma forma do registro Paywall (portal entre duas paredes)",
+   "timing": {
+    "windup": 0,
+    "active": 0,
+    "winddown": 0,
+    "recharge": 0,
+    "sabotaged": 0,
+    "origin": "assumed: vão aberto, sem interação"
+   },
+   "sensor": [],
+   "targets": "single",
+   "skill": null,
+   "ops": [],
+   "view": {
+    "models": [
+     "door_standard_frame"
+    ],
+    "rig": null,
+    "rigModel": null,
+    "device": {},
+    "agent": {},
+    "audio": {},
+    "bindingOrigin": "observed: door_standard_frame; assumed: passagem aberta sem folha"
+   },
+   "passage": true
+  }
+ },
+ "rules": {
+  "disarmSeconds": 2.5,
+  "slamDamage": 8,
+  "recover": 1.2,
+  "fleeSpeed": 1.6,
+  "bubbleBoost": 2,
+  "retriggerGuard": 1.0,
+  "agentRadius": 0.25,
+  "waveGap": 8,
+  "origin": "assumed"
+ }
+}

@@ -1,0 +1,71 @@
+{
+  "schema": "eg2-handoff-sensor-research/1",
+  "date": "2026-10-02",
+  "originalExecuted": false,
+  "arenaIntegrated": false,
+  "exe": "~/Games/SteamReferences/evil-genius-2/bin/evilgenius_vulkan.exe",
+  "exeSha256": "c52e656a6bbdfdf4f59aa03bfa0f11425854299e61fb078744e5865847c79042",
+  "scope": "Preserved static research. Instruction bytes checked; semantic interpretation remains pending. Some functions are partial. Not part of consolidated native-source-audit yet.",
+  "files": [
+    {
+      "path": "eg2-receiver-research.py",
+      "sha256": "b3589ead14d41f473bf6553433a2be9ad36a39df1e3e512256eeea5559e0207b",
+      "bytes": 1930,
+      "instructionsByteChecked": 0
+    },
+    {
+      "path": "eg2-mask-blue-decoded.json",
+      "sha256": "01c9261d391626d08cf88a537e244d453ba8b02bb9fca01f0b4d893802d1c602",
+      "bytes": 718537,
+      "instructionsByteChecked": 0
+    },
+    {
+      "path": "eg2-mask-loader-full.asm",
+      "sha256": "1c12b4a4b34dfae8ec0a94e968779d975a541d4d6023ccc5c78ddd39dd4debbe",
+      "bytes": 33843,
+      "instructionsByteChecked": 818
+    },
+    {
+      "path": "eg2-property-array10f6a0.asm",
+      "sha256": "857b0915c57ef7291736508bb93154c7083586a7a3291679e57ac390b9a47727",
+      "bytes": 5014,
+      "instructionsByteChecked": 136
+    },
+    {
+      "path": "eg2-blue-trap-cells675170.asm",
+      "sha256": "9ce592f1962a37035754157f30b0968a4a6448195658a266d054ca2dd29427a0",
+      "bytes": 16403,
+      "instructionsByteChecked": 371
+    },
+    {
+      "path": "eg2-trapmask61a5f0.asm",
+      "sha256": "0761334e8afc7de53ec30bd444d2486be2394e6340e6df90410e4cbf78bd7fe2",
+      "bytes": 9696,
+      "instructionsByteChecked": 247
+    },
+    {
+      "path": "eg2-combine-masks61a4b0.asm",
+      "sha256": "42f7c155f57e2b55ebf65af0803873930df79082bd93b0a473717ab3ec36657e",
+      "bytes": 3862,
+      "instructionsByteChecked": 97
+    },
+    {
+      "path": "eg2-trapmask61a920.asm",
+      "sha256": "44e9bb14152994831416c7c3e41c2152c232425d6cccd5e51ae85bfd0fd725cf",
+      "bytes": 11459,
+      "instructionsByteChecked": 274
+    },
+    {
+      "path": "eg2-trapmask619e90.asm",
+      "sha256": "d52e1781f2463dc898b761ff836496d59c7db99f0eabeb13e3981910c6edcb31",
+      "bytes": 5365,
+      "instructionsByteChecked": 131
+    },
+    {
+      "path": "eg2-trigger61ad00.asm",
+      "sha256": "18baca89de77e69633eb63d3ea033733320fc123efcd083050046aff33b488e6",
+      "bytes": 5976,
+      "instructionsByteChecked": 139
+    }
+  ]
+}

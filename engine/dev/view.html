@@ -1,0 +1,31 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>Visualização de cenário</title>
+<script type="importmap">{"imports":{"three":"../../vendor/three/build/three.module.js"}}</script>
+<style>html,body{margin:0;height:100%;background:#20282b}#view{position:fixed;inset:0}canvas{display:block}</style></head>
+<body><div id="view"></div><script type="module">
+import { Assets } from '../render/assets.js';
+import { LairView } from '../render/lairview.js';
+import { World, normaliseScenario, STEP } from '../core/index.js';
+const q = new URLSearchParams(location.search);
+const assets = await new Assets(null).init();
+const view = new LairView(document.querySelector('#view'), assets);
+await view.prepare();
+const scenario = normaliseScenario(await assets.scenario(q.get('scenario') || 'espinha.json'));
+const world = new World(assets.content, scenario, { seed: +(q.get('seed') || 3) });
+view.setWorld(world, { frame: true });
+view.stage.setMode(q.get('mode') || 'perspective');
+if (q.get('zoom')) { view.stage.plan.zoom = +q.get('zoom'); view.stage.plan.updateProjectionMatrix(); }
+if (q.get('cam')) { const [x, y, z, tx, tz] = q.get('cam').split(',').map(Number); view.stage.perspective.position.set(x, y, z); view.stage.controls.target.set(tx, 0, tz); if (q.get('mode') === 'plan') { view.stage.plan.position.set(tx, 120, tz); view.stage.planControls.target.set(tx, 0, tz); } }
+const target = +(q.get('t') || 0);
+if (target > 0) world.startRun();
+// Warm up: step the world to the requested time, a little past it in real frames so clips load and blend.
+world.advance(Math.max(0, target - 3));
+let frames = 0;
+function loop() {
+  if (world.time < target) for (let i = 0; i < 2 && world.time < target; i++) world.step();
+  view.sync(); frames++;
+  if (world.time >= target && view.loading === 0 && frames > 150) { window.READY = true; window.REPORT = { time: world.time, stats: world.stats, gpu: view.stage.gpu, agents: world.agents.filter(a => !['escaped', 'gone'].includes(a.mode)).map(a => [a.id, a.type, a.mode, a.anim?.trap, a.anim?.phase, +a.x.toFixed(1), +a.z.toFixed(1)]), traps: world.traps.filter(t => t.state !== 'idle').map(t => [t.type, t.state]) }; }
+  requestAnimationFrame(loop);
+}
+loop();
+window.world = world; window.view = view;
+</script></body></html>

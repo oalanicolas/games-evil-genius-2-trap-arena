@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Covil · editor de armadilhas</title>
+<link rel="stylesheet" href="engine/editor/covil.css"><link rel="icon" href="favicon.svg" type="image/svg+xml">
+<script type="importmap">{"imports":{"three":"./vendor/three/build/three.module.js"}}</script>
+</head>
+<body>
+<header>
+ <div class="brand"><span class="insignia">COVIL</span><div><small>EDITOR DE ARMADILHAS</small><strong id="scenario-name">Carregando…</strong></div></div>
+ <div class="file">
+  <label class="sr" for="scenario-select">Cenário</label>
+  <select id="scenario-select" title="Abrir cenário"></select>
+  <button id="new" title="Começar um covil vazio">Novo</button>
+  <button id="save" title="Guardar neste navegador">Salvar</button>
+  <button id="export" title="Baixar o cenário em JSON">Exportar</button>
+  <button id="import" title="Abrir um cenário exportado">Importar</button>
+  <input id="import-file" type="file" accept="application/json,.json" hidden>
+ </div>
+ <div class="stats" aria-live="polite">
+  <div><small>INTEGRIDADE</small><strong id="stat-integrity">10</strong></div>
+  <div><small>NEUTRALIZADOS</small><strong id="stat-out">0</strong></div>
+  <div><small>FUGAS</small><strong id="stat-escaped">0</strong></div>
+  <div><small>MELHOR COMBO</small><strong id="stat-combo">—</strong></div>
+ </div>
+</header>
+<main>
+ <aside class="palette" aria-label="Ferramentas">
+  <section>
+   <h2>Planta</h2>
+   <div class="tools">
+    <button data-tool="select" class="tool" title="Selecionar e mover (V)"><b>V</b>Selecionar</button>
+    <button data-tool="floor" class="tool" title="Arraste para abrir piso (B)"><b>B</b>Abrir piso</button>
+    <button data-tool="rock" class="tool" title="Arraste para fechar com rocha (E)"><b>E</b>Fechar</button>
+    <button data-tool="entrance" class="tool" title="Entrada de agentes (N)"><b>N</b>Entrada</button>
+    <button data-tool="objective" class="tool" title="Objetivo dos agentes (O)"><b>O</b>Objetivo</button>
+   </div>
+  </section>
+  <section id="budget-summary" aria-label="Orçamento de montagem" aria-live="polite"></section>
+  <section class="grow">
+   <h2>Armadilhas <span id="trap-count"></span></h2>
+   <div id="trap-list"></div>
+  </section>
+ </aside>
+ <section id="viewport">
+  <div id="loading">Abrindo a biblioteca…</div>
+  <div class="view-bar">
+   <button id="view-plan" title="Vista de planta (P)">Planta</button>
+   <button id="view-persp" title="Vista em perspectiva (P)">Perspectiva</button>
+   <label><input type="checkbox" id="show-routes" checked> Rotas</label>
+   <label><input type="checkbox" id="show-zones" checked> Zonas</label>
+   <label><input type="checkbox" id="show-grid"> Grade</label>
+   <label><input type="checkbox" id="tall-walls"> Paredes altas</label>
+  </div>
+  <div id="hint" role="status"></div>
+  <div id="flash" role="status"></div>
+ </section>
+ <aside class="panel" aria-label="Detalhes">
+  <nav class="tabs" role="tablist">
+   <button role="tab" data-tab="selection" class="active">Seleção</button>
+   <button role="tab" data-tab="waves">Ondas</button>
+   <button role="tab" data-tab="scenario">Cenário</button>
+  </nav>
+  <div id="tab-selection" class="tab"></div>
+  <div id="tab-waves" class="tab" hidden></div>
+  <div id="tab-scenario" class="tab" hidden></div>
+ </aside>
+</main>
+<footer>
+ <div class="transport">
+  <button id="run" class="primary" title="Soltar todas as ondas (Enter)">▶ Soltar ondas</button>
+  <button id="pause" title="Pausar ou continuar (Espaço)">Pausar</button>
+  <button id="reset" title="Voltar ao início e rearmar tudo (Backspace)">Reiniciar</button>
+  <div class="speed" role="group" aria-label="Velocidade"><button data-speed="1" class="active">1×</button><button data-speed="2">2×</button><button data-speed="4">4×</button><button data-speed="8">8×</button></div>
+  <button id="sound" title="Sons das armadilhas">Som ligado</button>
+  <span id="clock">0,0 s</span>
+ </div>
+ <ol id="log" aria-label="Acontecimentos"></ol>
+ <div class="credit">Modelos, texturas, animações e sons extraídos de Evil Genius 2 (referência de estudo, só nesta máquina). Regras e números: veja a origem em cada armadilha. <a href="index.html">Laboratório de fidelidade ↗</a></div>
+</footer>
+<script type="module" src="engine/editor/editor.js"></script>
+</body>
+</html>

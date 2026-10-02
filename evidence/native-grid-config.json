@@ -1,0 +1,625 @@
+{
+  "schema": "eg2-native-grid-config/1",
+  "originalExecuted": false,
+  "arenaIntegrated": false,
+  "decoderSha256": "dea7d6e8a010bf65d664874b8de68c988876c1fa9ff90ee036c5459f5e933c2f",
+  "source": {
+    "path": "libraries/evil-genius-2/assets/resources/48a1644e954d5a3f24aa2892705925ce3588dd32fdab9c106266dae3c82bccb6.bin",
+    "sha256": "48a1644e954d5a3f24aa2892705925ce3588dd32fdab9c106266dae3c82bccb6",
+    "container": "misc/common.asr",
+    "chunkOffset": 671476
+  },
+  "parsed": {
+    "namespaces": [
+      {
+        "offset": 20,
+        "id": "0x212de4f7",
+        "groups": [
+          {
+            "offset": 28,
+            "id": "0x2666f252",
+            "version": 13,
+            "parent": "0x0",
+            "values": [
+              {
+                "offset": 48,
+                "key": "0x8e7fc668",
+                "field4": 0,
+                "field8": "0x35e57d",
+                "field12": 0,
+                "type": 3,
+                "valueOffset": 68,
+                "value": 2540477748,
+                "bytes": "68c67f8e000000007de535000000000003000000349d6c97"
+              },
+              {
+                "offset": 72,
+                "key": "0x86998788",
+                "field4": 0,
+                "field8": "0x35e57d",
+                "field12": 0,
+                "type": 3,
+                "valueOffset": 92,
+                "value": 2241740995,
+                "bytes": "88879986000000007de535000000000003000000c3409e85"
+              },
+              {
+                "offset": 96,
+                "key": "0xcc8a1978",
+                "field4": 0,
+                "field8": "0x35e57d",
+                "field12": 0,
+                "type": 3,
+                "valueOffset": 116,
+                "value": 4137072207,
+                "bytes": "78198acc000000007de5350000000000030000004fb696f6"
+              },
+              {
+                "offset": 120,
+                "key": "0x5bddf831",
+                "field4": 0,
+                "field8": "0x35e57d",
+                "field12": 0,
+                "type": 3,
+                "valueOffset": 140,
+                "value": 734038621,
+                "bytes": "31f8dd5b000000007de5350000000000030000005d8ac02b"
+              },
+              {
+                "offset": 144,
+                "key": "0x4d613d82",
+                "field4": 0,
+                "field8": "0x35e57d",
+                "field12": 0,
+                "type": 3,
+                "valueOffset": 164,
+                "value": 4140460,
+                "bytes": "823d614d000000007de535000000000003000000ac2d3f00"
+              },
+              {
+                "offset": 168,
+                "key": "0x618873d2",
+                "field4": 0,
+                "field8": "0x35e57d",
+                "field12": 0,
+                "type": 3,
+                "valueOffset": 188,
+                "value": 2032311405,
+                "bytes": "d2738861000000007de5350000000000030000006d9c2279"
+              },
+              {
+                "offset": 192,
+                "key": "0xd4aba755",
+                "field4": 0,
+                "field8": "0x0",
+                "field12": 0,
+                "type": 1,
+                "valueOffset": 212,
+                "value": 1.0,
+                "bytes": "55a7abd4000000000000000000000000010000000000803f"
+              },
+              {
+                "offset": 216,
+                "key": "0x9a7ce1ad",
+                "field4": 0,
+                "field8": "0x35e57d",
+                "field12": 0,
+                "type": 3,
+                "valueOffset": 236,
+                "value": 2363601047,
+                "bytes": "ade17c9a000000007de53500000000000300000097b0e18c"
+              },
+              {
+                "offset": 240,
+                "key": "0xf74d5345",
+                "field4": 0,
+                "field8": "0x0",
+                "field12": 0,
+                "type": 1,
+                "valueOffset": 260,
+                "value": 10000.0,
+                "bytes": "45534df70000000000000000000000000100000000401c46"
+              },
+              {
+                "offset": 264,
+                "key": "0xcdd5fd96",
+                "field4": 0,
+                "field8": "0x0",
+                "field12": 0,
+                "type": 1,
+                "valueOffset": 284,
+                "value": 3.0,
+                "bytes": "96fdd5cd0000000000000000000000000100000000004040"
+              },
+              {
+                "offset": 288,
+                "key": "0xe603206f",
+                "field4": 0,
+                "field8": "0x7523aa93",
+                "field12": 0,
+                "type": 3,
+                "valueOffset": 308,
+                "value": 1232078023,
+                "bytes": "6f2003e60000000093aa23750000000003000000c7047049"
+              },
+              {
+                "offset": 312,
+                "key": "0x8b99f777",
+                "field4": 0,
+                "field8": "0x0",
+                "field12": 0,
+                "type": 1,
+                "valueOffset": 332,
+                "value": 1.0,
+                "bytes": "77f7998b000000000000000000000000010000000000803f"
+              },
+              {
+                "offset": 336,
+                "key": "0xe8150ce7",
+                "field4": 0,
+                "field8": "0x0",
+                "field12": 0,
+                "type": 0,
+                "valueOffset": 356,
+                "value": 3,
+                "bytes": "e70c15e80000000000000000000000000000000003000000"
+              },
+              {
+                "offset": 360,
+                "key": "0x135b8247",
+                "field4": 0,
+                "field8": "0x35e57d",
+                "field12": 0,
+                "type": 3,
+                "valueOffset": 380,
+                "value": 0,
+                "bytes": "47825b13000000007de53500000000000300000000000000"
+              },
+              {
+                "offset": 384,
+                "key": "0x9b0ab957",
+                "field4": 0,
+                "field8": "0x35e57d",
+                "field12": 0,
+                "type": 3,
+                "valueOffset": 404,
+                "value": 4270647711,
+                "bytes": "57b90a9b000000007de5350000000000030000009fe98cfe"
+              }
+            ],
+            "endOffset": 408
+          },
+          {
+            "offset": 408,
+            "id": "0x8d0f8461",
+            "version": 13,
+            "parent": "0x9966a4a9",
+            "values": [
+              {
+                "offset": 428,
+                "key": "0xd6cc302",
+                "field4": 3,
+                "field8": "0x5e0c14e",
+                "field12": 0,
+                "type": 3,
+                "valueOffset": 448,
+                "value": 1565339025,
+                "bytes": "02c36c0d030000004ec1e0050000000003000000912d4d5d"
+              },
+              {
+                "offset": 452,
+                "key": "0x7464b144",
+                "field4": 3,
+                "field8": "0x0",
+                "field12": 0,
+                "type": 1,
+                "valueOffset": 472,
+                "value": 0.5,
+                "bytes": "44b16474030000000000000000000000010000000000003f"
+              }
+            ],
+            "endOffset": 476
+          },
+          {
+            "offset": 476,
+            "id": "0x9966a4a9",
+            "version": 13,
+            "parent": "0x0",
+            "values": [
+              {
+                "offset": 496,
+                "key": "0xd6cc302",
+                "field4": 0,
+                "field8": "0x5e0c14e",
+                "field12": 0,
+                "type": 3,
+                "valueOffset": 516,
+                "value": 0,
+                "bytes": "02c36c0d000000004ec1e005000000000300000000000000"
+              },
+              {
+                "offset": 520,
+                "key": "0x7464b144",
+                "field4": 0,
+                "field8": "0x0",
+                "field12": 0,
+                "type": 1,
+                "valueOffset": 540,
+                "value": 0.0,
+                "bytes": "44b164740000000000000000000000000100000000000000"
+              }
+            ],
+            "endOffset": 544
+          },
+          {
+            "offset": 544,
+            "id": "0x8ef008b1",
+            "version": 13,
+            "parent": "0x8e323dbe",
+            "values": [
+              {
+                "offset": 564,
+                "key": "0x9f47b7d0",
+                "field4": 3,
+                "field8": "0x0",
+                "field12": 0,
+                "type": 1,
+                "valueOffset": 584,
+                "value": 0.10000000149011612,
+                "bytes": "d0b7479f03000000000000000000000001000000cdcccc3d"
+              },
+              {
+                "offset": 588,
+                "key": "0x317e8dc3",
+                "field4": 3,
+                "field8": "0x0",
+                "field12": 0,
+                "type": 1,
+                "valueOffset": 608,
+                "value": 0.029999999329447746,
+                "bytes": "c38d7e31030000000000000000000000010000008fc2f53c"
+              },
+              {
+                "offset": 612,
+                "key": "0xb630233f",
+                "field4": 3,
+                "field8": "0x0",
+                "field12": 0,
+                "type": 1,
+                "valueOffset": 632,
+                "value": 0.10000000149011612,
+                "bytes": "3f2330b603000000000000000000000001000000cdcccc3d"
+              }
+            ],
+            "endOffset": 636
+          },
+          {
+            "offset": 636,
+            "id": "0xd4e0d97b",
+            "version": 13,
+            "parent": "0x0",
+            "values": [
+              {
+                "offset": 656,
+                "key": "0xb6c8ff8",
+                "field4": 0,
+                "field8": "0x0",
+                "field12": 0,
+                "type": 1,
+                "valueOffset": 676,
+                "value": 600.0,
+                "bytes": "f88f6c0b0000000000000000000000000100000000001644"
+              }
+            ],
+            "endOffset": 680
+          },
+          {
+            "offset": 680,
+            "id": "0xea09e593",
+            "version": 13,
+            "parent": "0x9966a4a9",
+            "values": [
+              {
+                "offset": 700,
+                "key": "0xd6cc302",
+                "field4": 3,
+                "field8": "0x5e0c14e",
+                "field12": 0,
+                "type": 3,
+                "valueOffset": 720,
+                "value": 1314214851,
+                "bytes": "02c36c0d030000004ec1e0050000000003000000c353554e"
+              },
+              {
+                "offset": 724,
+                "key": "0x7464b144",
+                "field4": 3,
+                "field8": "0x0",
+                "field12": 0,
+                "type": 1,
+                "valueOffset": 744,
+                "value": 1.5,
+                "bytes": "44b16474030000000000000000000000010000000000c03f"
+              }
+            ],
+            "endOffset": 748
+          },
+          {
+            "offset": 748,
+            "id": "0x24d20398",
+            "version": 13,
+            "parent": "0x0",
+            "values": [
+              {
+                "offset": 768,
+                "key": "0x2c5d9ef8",
+                "field4": 0,
+                "field8": "0x0",
+                "field12": 0,
+                "type": 1,
+                "valueOffset": 788,
+                "value": 75.0,
+                "bytes": "f89e5d2c0000000000000000000000000100000000009642"
+              },
+              {
+                "offset": 792,
+                "key": "0x2c5d9f00",
+                "field4": 0,
+                "field8": "0x0",
+                "field12": 0,
+                "type": 1,
+                "valueOffset": 812,
+                "value": 275.0,
+                "bytes": "009f5d2c0000000000000000000000000100000000808943"
+              },
+              {
+                "offset": 816,
+                "key": "0x2c5d9ef9",
+                "field4": 0,
+                "field8": "0x0",
+                "field12": 0,
+                "type": 1,
+                "valueOffset": 836,
+                "value": 100.0,
+                "bytes": "f99e5d2c000000000000000000000000010000000000c842"
+              },
+              {
+                "offset": 840,
+                "key": "0x2c5d9efa",
+                "field4": 0,
+                "field8": "0x0",
+                "field12": 0,
+                "type": 1,
+                "valueOffset": 860,
+                "value": 125.0,
+                "bytes": "fa9e5d2c000000000000000000000000010000000000fa42"
+              },
+              {
+                "offset": 864,
+                "key": "0x2c5d9efb",
+                "field4": 0,
+                "field8": "0x0",
+                "field12": 0,
+                "type": 1,
+                "valueOffset": 884,
+                "value": 150.0,
+                "bytes": "fb9e5d2c0000000000000000000000000100000000001643"
+              },
+              {
+                "offset": 888,
+                "key": "0x2c5d9efc",
+                "field4": 0,
+                "field8": "0x0",
+                "field12": 0,
+                "type": 1,
+                "valueOffset": 908,
+                "value": 175.0,
+                "bytes": "fc9e5d2c0000000000000000000000000100000000002f43"
+              },
+              {
+                "offset": 912,
+                "key": "0x2c5d9efd",
+                "field4": 0,
+                "field8": "0x0",
+                "field12": 0,
+                "type": 1,
+                "valueOffset": 932,
+                "value": 200.0,
+                "bytes": "fd9e5d2c0000000000000000000000000100000000004843"
+              },
+              {
+                "offset": 936,
+                "key": "0x2c5d9efe",
+                "field4": 0,
+                "field8": "0x0",
+                "field12": 0,
+                "type": 1,
+                "valueOffset": 956,
+                "value": 225.0,
+                "bytes": "fe9e5d2c0000000000000000000000000100000000006143"
+              },
+              {
+                "offset": 960,
+                "key": "0x2c5d9ef7",
+                "field4": 0,
+                "field8": "0x0",
+                "field12": 0,
+                "type": 1,
+                "valueOffset": 980,
+                "value": 50.0,
+                "bytes": "f79e5d2c0000000000000000000000000100000000004842"
+              },
+              {
+                "offset": 984,
+                "key": "0x2c5d9eff",
+                "field4": 0,
+                "field8": "0x0",
+                "field12": 0,
+                "type": 1,
+                "valueOffset": 1004,
+                "value": 250.0,
+                "bytes": "ff9e5d2c0000000000000000000000000100000000007a43"
+              }
+            ],
+            "endOffset": 1008
+          },
+          {
+            "offset": 1008,
+            "id": "0x8e323dbe",
+            "version": 13,
+            "parent": "0x0",
+            "values": [
+              {
+                "offset": 1028,
+                "key": "0x9f47b7d0",
+                "field4": 0,
+                "field8": "0x0",
+                "field12": 0,
+                "type": 1,
+                "valueOffset": 1048,
+                "value": 0.5,
+                "bytes": "d0b7479f000000000000000000000000010000000000003f"
+              },
+              {
+                "offset": 1052,
+                "key": "0x317e8dc3",
+                "field4": 0,
+                "field8": "0x0",
+                "field12": 0,
+                "type": 1,
+                "valueOffset": 1072,
+                "value": 0.5,
+                "bytes": "c38d7e31000000000000000000000000010000000000003f"
+              },
+              {
+                "offset": 1076,
+                "key": "0xaf3ebdcc",
+                "field4": 0,
+                "field8": "0xaf3ebdcc",
+                "field12": 0,
+                "type": 0,
+                "valueOffset": 1096,
+                "value": 4278716168,
+                "bytes": "ccbd3eaf00000000ccbd3eaf0000000000000000080708ff"
+              },
+              {
+                "offset": 1100,
+                "key": "0xba8879a4",
+                "field4": 0,
+                "field8": "0x0",
+                "field12": 0,
+                "type": 0,
+                "valueOffset": 1120,
+                "value": 0,
+                "bytes": "a47988ba0000000000000000000000000000000000000000"
+              },
+              {
+                "offset": 1124,
+                "key": "0xb630233f",
+                "field4": 0,
+                "field8": "0x0",
+                "field12": 0,
+                "type": 1,
+                "valueOffset": 1144,
+                "value": 0.5,
+                "bytes": "3f2330b6000000000000000000000000010000000000003f"
+              }
+            ],
+            "endOffset": 1148
+          },
+          {
+            "offset": 1148,
+            "id": "0x2ec4f9ea",
+            "version": 13,
+            "parent": "0x8e323dbe",
+            "values": [
+              {
+                "offset": 1168,
+                "key": "0x9f47b7d0",
+                "field4": 3,
+                "field8": "0x0",
+                "field12": 0,
+                "type": 1,
+                "valueOffset": 1188,
+                "value": 0.0,
+                "bytes": "d0b7479f0300000000000000000000000100000000000000"
+              },
+              {
+                "offset": 1192,
+                "key": "0xba8879a4",
+                "field4": 3,
+                "field8": "0x0",
+                "field12": 0,
+                "type": 0,
+                "valueOffset": 1212,
+                "value": 1,
+                "bytes": "a47988ba0300000000000000000000000000000001000000"
+              }
+            ],
+            "endOffset": 1216
+          }
+        ]
+      }
+    ],
+    "scalarGroupsEndOffset": 1216,
+    "namespaceExtension": {
+      "offset": 1216,
+      "count": 2,
+      "opaqueBytes": "912d4d5d04000000172700000100000002000000fffe7e3fb7958a3e59bc5d3e0000803f8081013f7c37b93d1e3a803d0000803fc353554e0400000017270000010000000200000090c2953e90c2153fdedd5d3f0000803f000000007018503ed0d8d83e0000803f"
+    },
+    "endOffset": 1324
+  },
+  "selected": {
+    "x": {
+      "offset": 312,
+      "key": "0x8b99f777",
+      "field4": 0,
+      "field8": "0x0",
+      "field12": 0,
+      "type": 1,
+      "valueOffset": 332,
+      "value": 1.0,
+      "bytes": "77f7998b000000000000000000000000010000000000803f"
+    },
+    "yBeforeNativeNegation": {
+      "offset": 264,
+      "key": "0xcdd5fd96",
+      "field4": 0,
+      "field8": "0x0",
+      "field12": 0,
+      "type": 1,
+      "valueOffset": 284,
+      "value": 3.0,
+      "bytes": "96fdd5cd0000000000000000000000000100000000004040"
+    },
+    "z": {
+      "offset": 192,
+      "key": "0xd4aba755",
+      "field4": 0,
+      "field8": "0x0",
+      "field12": 0,
+      "type": 1,
+      "valueOffset": 212,
+      "value": 1.0,
+      "bytes": "55a7abd4000000000000000000000000010000000000803f"
+    },
+    "defaultCellType": {
+      "offset": 288,
+      "key": "0xe603206f",
+      "field4": 0,
+      "field8": "0x7523aa93",
+      "field12": 0,
+      "type": 3,
+      "valueOffset": 308,
+      "value": 1232078023,
+      "bytes": "6f2003e60000000093aa23750000000003000000c7047049"
+    }
+  },
+  "scale": [
+    1.0,
+    -3.0,
+    1.0
+  ],
+  "defaultCellType": 1232078023,
+  "scope": "Package configuration bound to native loader5a71c0 and cell initializer5fb6f0. Does not prove live overrides, instantiated cells, trap eligibility or original execution."
+}

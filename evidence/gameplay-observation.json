@@ -1,0 +1,135 @@
+{
+  "schema": "eg2-gameplay-observation/1",
+  "source": {
+    "url": "https://www.youtube.com/watch?v=H8SlL7RRNBo",
+    "title": "Evil Genius 2 Trap",
+    "uploader": "Kiall vun Myeret",
+    "observedDurationDisplaySeconds": 39,
+    "originalBuild": "unknown",
+    "provenance": "external_reference",
+    "method": "CUA playback and paused seek through visible YouTube controls"
+  },
+  "originalClientExecutedLocally": false,
+  "numericPrecision": {
+    "displayTimeResolutionSeconds": 1,
+    "nativeSimulationSpeed": "unknown",
+    "worldScale": "unknown",
+    "camera": "moving and changing scale",
+    "physicsParametersMeasured": false
+  },
+  "observations": [
+    {
+      "id": "fan-floor-to-raised",
+      "cases": [
+        "apresentacao/animacoes",
+        "ventilador/direcao"
+      ],
+      "timesSeconds": [
+        0,
+        15
+      ],
+      "observed": "Ventilador inferior aparece como placa circular no piso no início e como corpo elevado com rotor vertical voltado para a direita em 15s. Alvo visível à direita; não há medição de força.",
+      "capture": "frame-15.png",
+      "limitation": "Ligação exata entre ativação, força, deslocamento e recuperação não resolvida. Não comprova fase de clipe nem duração de estado."
+    },
+    {
+      "id": "laser-grid",
+      "cases": [
+        "laser/sensor-e-geometria",
+        "apresentacao/efeitos-e-audio"
+      ],
+      "timesSeconds": [
+        17,
+        25
+      ],
+      "observed": "Na reprodução em 17s e no quadro pausado de 25s há uma grade de feixes horizontais vermelhos entre as paredes do corredor estreito à direita.",
+      "capture": "frame-25.png",
+      "limitation": "17s foi observado na ferramenta, sem captura persistida. Contagem de feixes, dano, alcance, largura e sensor continuam desconhecidos; áudio foi silenciado."
+    },
+    {
+      "id": "camera-tracking",
+      "cases": [
+        "apresentacao/cenario-e-camera"
+      ],
+      "timesSeconds": [
+        0,
+        10,
+        15,
+        25,
+        37
+      ],
+      "observed": "Câmera elevada acompanha a progressão do alvo por corredores com mudanças de direção e zoom. Piso verde claro e dispositivos laranja/cinza permanecem visíveis.",
+      "capture": "frame-25.png",
+      "limitation": "Parâmetros da câmera não medidos. Layout do vídeo inclui magnetismo e outros dispositivos; não é prova das cinco armadilhas deste recorte."
+    },
+    {
+      "id": "agent-stat-feedback",
+      "cases": [
+        "agente/deteccao-e-desarme",
+        "apresentacao/interface-e-feedback"
+      ],
+      "timesSeconds": [
+        19,
+        20,
+        25,
+        37
+      ],
+      "observed": "Painel selecionado mostra Medical Investigator, nome Paulos Scoops, Vitality, Skill, Resolve e trait Quality Poor. Vitality visível: 82 em 20s, 60 em 25s e 0 em 37s.",
+      "capture": "original-paused.png",
+      "limitation": "Valores são estados visíveis, não dano individual de armadilha. Nenhuma fórmula de desarme ou alvo idêntico entre todos os quadros foi comprovada."
+    }
+  ],
+  "differencesFromBaseline": [
+    {
+      "id": "D-REF-1",
+      "difference": "Arena baseline apresenta ventilador ativo permanentemente; vídeo mostra recolhimento no piso e elevação.",
+      "evidence": "frame-15.png e app.js loadModel/trap_fan_active; comparar o ciclo nativo na bancada antes da integração."
+    },
+    {
+      "id": "D-REF-2",
+      "difference": "Arena conta cadeia por histórico de cinco tipos; vídeo não demonstra esse critério e o texto nativo exige ausência de recuperação.",
+      "evidence": "simulation.js / hits; referência textual já incluída em fidelity-reference.json. Não inferir cadeia completa pelo vídeo."
+    }
+  ],
+  "media": {
+    "url": "https://drive.google.com/file/d/13WbkDGaVR0FeiAECIyaq9pgDD9ipQZzh/view?usp=drivesdk",
+    "archiveSha256": "1dfa1e9ca5092535c284fced03485ae96c1e1b576e49683f406d8e6a6e759954",
+    "sourceURL": "https://www.youtube.com/watch?v=H8SlL7RRNBo",
+    "scope": "Browser captures of observed public gameplay; no downloaded video or measured native physics",
+    "files": [
+      {
+        "name": "arena-baseline.png",
+        "sha256": "0ddd8173fa0db32169d5d60a385fc786b65dcfe70baab112c65757826d273b12"
+      },
+      {
+        "name": "contact-sheet.png",
+        "sha256": "7f983da9894d6a6a7eb864b3b900244fb48375e75b5b36346a4eec5ba5fa7ef0"
+      },
+      {
+        "name": "frame-05.png",
+        "sha256": "43994f989fdf56430c3120b4d2f2e0e486238f6e0238787e83a44d854491febf"
+      },
+      {
+        "name": "frame-10.png",
+        "sha256": "59984054c5b93f113eb888ca7bc6afcfc2a10879ed797ba840c5df79fa63ee1d"
+      },
+      {
+        "name": "frame-15.png",
+        "sha256": "cca61eefb1fd120b066fc1ae88b8744d88e32ec81a17c345083c4a3d2fc07ad3"
+      },
+      {
+        "name": "frame-20.png",
+        "sha256": "a9e4360c385baabe321ad2ec34252de858a52fcfdc58f5163694dac70aab80e8"
+      },
+      {
+        "name": "frame-25.png",
+        "sha256": "e0d20fc6ab06c45d3a5d61af7a63f4361d57510cb73a78354f1068f855976963"
+      },
+      {
+        "name": "original-paused.png",
+        "sha256": "9d91a436174d32e934b00097e4279dec2e289bb8aeb8783d6c306fc1aee5622f"
+      }
+    ]
+  },
+  "scope": "Partial qualitative reference. None of the 34 complete fidelity cases is closed by these observations."
+}

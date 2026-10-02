@@ -1,0 +1,29 @@
+{
+  "schema": "eg2-host-inventory/1",
+  "observed_date": "2026-10-02",
+  "source": "exec_command local + Desktop Commander list_devices/start_process somente leitura",
+  "scope": "hosts conectados; PATH e diretórios padrão de aplicações, Homebrew e suporte",
+  "connected_windows_hosts": 0,
+  "hosts": [
+    {
+      "label": "MacBook Pro local",
+      "os": "Darwin",
+      "architecture": "arm64",
+      "eg2_source_at_default_location": true,
+      "runtime_commands_found": [],
+      "compatibility_apps_found": []
+    },
+    {
+      "label": "Mac Studio remoto",
+      "os": "Darwin",
+      "architecture": "arm64",
+      "eg2_source_at_default_location": false,
+      "runtime_commands_found": [],
+      "compatibility_apps_found": []
+    }
+  ],
+  "searched_commands": ["wine", "wine64", "cxrun", "whisky", "prlctl", "qemu-system-x86_64", "qemu-system-aarch64", "virsh", "utmctl"],
+  "client_launch_attempted": false,
+  "client_launch_observed": false,
+  "limitation": "Ausência nas localizações inspecionadas não prova ausência em todo disco. Compatibilidade via software novo não foi testada."
+}

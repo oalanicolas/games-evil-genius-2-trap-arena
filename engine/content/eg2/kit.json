@@ -1,0 +1,69 @@
+{
+ "schema": "lair-kit/1",
+ "cell": 1.0,
+ "wallHeight": 3.0,
+ "models": [
+  "bear_trap_foliage",
+  "corridor_floor_basic",
+  "corridor_wall_corner_in_both",
+  "corridor_wall_corner_in_l",
+  "corridor_wall_corner_in_l_out_r",
+  "corridor_wall_corner_in_r",
+  "corridor_wall_corner_in_r_out_l",
+  "corridor_wall_corner_out_both",
+  "corridor_wall_corner_out_l",
+  "corridor_wall_corner_out_r",
+  "corridor_wall_straight_mid",
+  "corridor_wall_straight_mid_end_l",
+  "corridor_wall_straight_mid_end_r",
+  "door_standard",
+  "door_standard_frame",
+  "floor_innercorner",
+  "floor_outercorner",
+  "floor_straight",
+  "robo_doggo_base_box",
+  "trap_bubble_blower_pod",
+  "trap_disco_laser_base_box",
+  "trap_fake_safe_pod",
+  "trap_fan_active",
+  "trap_fan_base_box",
+  "trap_hopscotch_brush",
+  "trap_iceblock",
+  "trap_knockout_gas_base_box",
+  "trap_magnet_active",
+  "trap_magnet_base_box",
+  "trap_pay_wall_base_box",
+  "trap_pinball_triangle_bumper_base_box",
+  "trap_sharktank_active",
+  "trap_sharktank_base_box",
+  "trap_slippery_soap_base_box",
+  "wall_corner_in_l",
+  "wall_corner_out_l",
+  "wall_end_1m",
+  "wall_post_a",
+  "wall_straight"
+ ],
+ "extraClips": {
+  "Trap_SharkTank_Sharks_Loop_01": {
+   "name": "Trap_SharkTank_Sharks_Loop_01",
+   "path": "clips/Trap_SharkTank_Sharks_Loop_01.json",
+   "duration": 0.9999999403953552,
+   "bones": 4,
+   "peak": 0.4667
+  },
+  "Trap_SlipperySoap_MovementLoop_A_01": {
+   "name": "Trap_SlipperySoap_MovementLoop_A_01",
+   "path": "clips/Trap_SlipperySoap_MovementLoop_A_01.json",
+   "duration": 0.8666666150093079,
+   "bones": 56,
+   "peak": 0.3
+  },
+  "BounceOff_Mount_A_01": {
+   "name": "BounceOff_Mount_A_01",
+   "path": "clips/BounceOff_Mount_A_01.json",
+   "duration": 1.2999999523162842,
+   "bones": 71,
+   "peak": 0.4667
+  }
+ }
+}

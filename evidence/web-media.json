@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "archive": "eg2-trap-arena-qa-20261002.zip",
+  "bytes": 7456935,
+  "sha256": "57573405202f567c54038716c260b6f414c52a28fb44b42034ccc9c5c7196483",
+  "files": 20,
+  "media": "Google Drive",
+  "runtimeSources": {
+    "app.js": "6f1ceb29a8287a54ee433e7e646ea5c085da2ce6687d8973fe55eff644544c50",
+    "actor.js": "abc72a722e944150d713ea1932528e4a9cdc0613c5dbb2c6b6f5d88c20f31283",
+    "actor-rig.json": "ad93282fd05a89a700fcda6dd6300ca2e3ecd3b9e867e3e0b5e4330e092b987f",
+    "simulation.js": "5784c45c5b37aea6c91cd2b366d43c83072f27eb9c48000b995d6d78123896c8",
+    "rules.json": "ced2e069e93c68add62203295ede31a1d557b54edc063fab7d7a574253a250a4",
+    "asset-manifest.json": "6bf684f2837425e1760fbd25748d0d1fda4b1496d9de3226514b46244cc603ae",
+    "index.html": "2519dbcff198d83189b22f51ea1657cba6a424ac4f34fca711200ec390dadcbf",
+    "style.css": "db70fdf0a5d8aeeffcc11a9557bf22ba384ed30a4c46cc3d57e4672989a99f71"
+  },
+  "driveFileId": "14OG5enbLOQx2vXIKiPnOYHrkds7et4vK",
+  "url": "https://drive.google.com/file/d/14OG5enbLOQx2vXIKiPnOYHrkds7et4vK/view?usp=drivesdk"
+}

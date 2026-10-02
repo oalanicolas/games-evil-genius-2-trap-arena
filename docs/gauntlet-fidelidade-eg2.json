@@ -1,0 +1,657 @@
+{
+  "formato": "goal-gauntlet/1",
+  "objetivo": "Reproduzir o recorte do agente e de ventilador, luva, bolha, piso escorregadio e laser de Evil Genius 2 com fidelidade visual e comportamental verificável na arena web isolada, eliminando diferenças materiais observadas no jogo real.",
+  "alvo": {
+    "caminho": "prototypes/evil-genius-2-trap-arena",
+    "tipo": "jogo",
+    "modulo": null,
+    "skill_de_trabalho": "game-dev"
+  },
+  "documento": "prototypes/evil-genius-2-trap-arena/docs/gauntlet-fidelidade-eg2.md",
+  "criado": "2026-10-02",
+  "regra": "Uma rodada por vez; só fechar conclui (gates verdes + prova); livro selado; duas tentativas sem evidência nova bloqueiam; decisão de Alan vira aguarda-alan.",
+  "pronto_quando": "Goal atingido somente com os 34 casos enumerados comparados em movimento ao original, sem divergência material aberta ou regra relevante sem fonte, gates técnicos verdes e aceite visual de Alan registrado. GAUNTLET FECHADO com rodadas bloqueadas ou aguarda-alan significa encerramento administrativo, não objetivo atingido nem 100% de fidelidade.",
+  "contexto": [
+    [
+      "python3",
+      "framework/scripts/game.py",
+      "context",
+      "prototypes/evil-genius-2-trap-arena",
+      "--event",
+      "resume"
+    ]
+  ],
+  "gates": [
+    {
+      "nome": "simulation-syntax",
+      "argv": [
+        "node",
+        "--check",
+        "simulation.js"
+      ],
+      "cwd": "prototypes/evil-genius-2-trap-arena"
+    },
+    {
+      "nome": "actor-syntax",
+      "argv": [
+        "node",
+        "--check",
+        "actor.js"
+      ],
+      "cwd": "prototypes/evil-genius-2-trap-arena"
+    },
+    {
+      "nome": "app-syntax",
+      "argv": [
+        "node",
+        "--check",
+        "app.js"
+      ],
+      "cwd": "prototypes/evil-genius-2-trap-arena"
+    }
+  ],
+  "limites": [
+    "Sem commit nem push sem pedido de Alan; publicar é pelo gameops.",
+    "Caminhos portáveis (relativos, <repo-root>, ~); nenhum caminho absoluto de máquina, .env, chave ou credencial em arquivo versionado.",
+    "Preservar alterações de outras sessões: um escritor por área; não matar processo que esta sessão não iniciou.",
+    "Testes headless com a GPU real (--use-angle=metal --ignore-gpu-blocklist), sem Claude in Chrome e sem roubar foco.",
+    "O piso visual e sonoro aprovado não se troca por desempenho, custo ou prazo.",
+    "Vídeos, renders e capturas vão para o acervo do Drive, não para o Git.",
+    "Subagente só no modelo mais barato capaz, com brief fechado e conferência na fonte; julgamento visual e revisão crítica ficam na sessão principal.",
+    "Decisão de design aprovada só muda com Alan; uma variável por vez quando a causa importa.",
+    "Continuidade no canônico do framework (Devlog/plano); game.py context antes de cada fatia.",
+    "Escrever somente no protótipo; Rabisco e libraries/evil-genius-2 são preservados, a biblioteca é somente leitura.",
+    "Three.js é a reconstrução web autorizada; não alegar execução do Asura nem trocar o motor silenciosamente.",
+    "A referência é Evil Genius 2 no recorte destas cinco armadilhas e deste agente, sem reconstruir campanha, economia ou outros jogos.",
+    "Não afrouxar critérios para fechar o goal; valores desconhecidos não viram valores originais por ajuste de aparência.",
+    "Não instalar dependências, comprar, publicar ou enviar mensagens a terceiros; reutilizar o runtime e os assets existentes."
+  ],
+  "limites_goal": [
+    "Só o protótipo; biblioteca em leitura e Rabisco preservados. Sem commit, push, publicação, instalação ou troca de motor. Comparar movimento com gameplay real; testes verdes não provam fidelidade. Rodada bloqueada não satisfaz o objetivo."
+  ],
+  "estado_inicial": [
+    "prototypes/evil-genius-2-trap-arena/README.md",
+    "prototypes/evil-genius-2-trap-arena/game-design.md",
+    "prototypes/evil-genius-2-trap-arena/simulation.js",
+    "prototypes/evil-genius-2-trap-arena/actor.js",
+    "prototypes/evil-genius-2-trap-arena/rules.json",
+    "prototypes/evil-genius-2-trap-arena/asset-manifest.json",
+    "prototypes/evil-genius-2-trap-arena/evidence/web-qa.json",
+    "prototypes/evil-genius-2-trap-arena/evidence/walking-qa.json",
+    "prototypes/evil-genius-2-trap-arena/evidence/web-media.json"
+  ],
+  "rodadas": [
+    {
+      "id": "R0",
+      "titulo": "Ponto de partida e divergências",
+      "fazer": [
+        "Rodar contexto e registrar hashes dos arquivos de runtime, manifesto e recibos.",
+        "Executar os testes existentes como baseline técnico; registrar por que eles não provam equivalência.",
+        "Inventariar as divergências: bolha forçada para +x, piso com propulsão própria, imunidade permanente por tipo, recuperação instantânea, dano e tempos assumidos, marcha procedural e efeitos reconstruídos."
+      ],
+      "criterio": "Baseline reproduzível com hashes e testes; divergências conhecidas numeradas em game-design.md; nenhuma regressão ou aprovação antiga reinterpretada como fidelidade.",
+      "gates": [
+        {
+          "nome": "simulation-regression",
+          "argv": [
+            "node",
+            "test-simulation.mjs"
+          ],
+          "cwd": "prototypes/evil-genius-2-trap-arena"
+        }
+      ],
+      "depende": [],
+      "status": "concluida",
+      "prova": [
+        "evidence/fidelity-baseline.json: 15 hashes e regras do runtime congeladas; game-design.md: 12 divergências enumeradas; contexto atual inspecionado. Testes existentes medem apenas a reconstrução autoral.",
+        "gates verdes em 2026-10-02T05:39:13Z (4): simulation-regression, simulation-syntax, actor-syntax, app-syntax"
+      ],
+      "inicio": "2026-10-02T05:37:33Z",
+      "execucao_inicio": {
+        "quando": "2026-10-02T05:37:33Z",
+        "revisoes": {
+          ".": "7b5799b437a388d9277a239769d9d82d5be0222b"
+        }
+      },
+      "fim": "2026-10-02T05:39:13Z"
+    },
+    {
+      "id": "R1",
+      "titulo": "Referência observada e contrato de fidelidade",
+      "fazer": [
+        "Inspecionar gameplay real e dados extraídos para os 34 casos definidos neste livro.",
+        "Para cada caso registrar fonte, versão quando conhecida, timecode ou arquivo/campo, observação, unidade e limites de medição.",
+        "Gravar evidence/fidelity-reference.json com os 34 IDs, esperado fundamentado ou unknown, e comparação inicial; derivar tolerâncias da resolução da fonte, sem escolher folgas para passar.",
+        "Não generalizar clipe promocional, nome de arquivo ou comentário como regra; uma fonte inacessível exige outra fonte verificável."
+      ],
+      "criterio": "34 de 34 casos inventariados com fonte e observação direta ou lacuna explícita; diferenças iniciais enumeradas; contrato numérico tem resolução e origem. Lacuna relevante impede fechar a rodada como concluída.",
+      "gates": [],
+      "depende": [
+        "R0"
+      ],
+      "status": "em-andamento",
+      "prova": [],
+      "inicio": "2026-10-02T05:44:44Z",
+      "execucao_inicio": {
+        "quando": "2026-10-02T05:44:44Z",
+        "revisoes": {
+          ".": "7b5799b437a388d9277a239769d9d82d5be0222b"
+        }
+      }
+    },
+    {
+      "id": "R2",
+      "titulo": "Agente fiel em movimento",
+      "fazer": [
+        "Investigar os HCAN nativos já extraídos no recorte; guardar qualquer decodificação derivada dentro do protótipo com hashes e validação.",
+        "Corrigir caminhada, orientação, apoio de pés, curvas, percurso e recuperação, comparando sequências completas.",
+        "Reproduzir a elegibilidade do agente para perceber e desarmar as armadilhas conforme o caso observado; não fingir implementação com randomização inventada.",
+        "Atualizar walk-qa.mjs para provar comportamento e pausa; filmar antes/depois sob enquadramento equivalente."
+      ],
+      "criterio": "5 de 5 casos de agente sem diferença material na comparação em movimento; origem das animações e regras explícita; transições não usam teleporte nem retorno instantâneo; teste de caminhada verde. Animação procedural sem comparação verificável não satisfaz o critério.",
+      "gates": [
+        {
+          "nome": "walking-real-gpu",
+          "argv": [
+            "node",
+            "walk-qa.mjs"
+          ],
+          "cwd": "prototypes/evil-genius-2-trap-arena"
+        }
+      ],
+      "depende": [
+        "R1"
+      ],
+      "status": "aberta",
+      "prova": []
+    },
+    {
+      "id": "R3",
+      "titulo": "Cinco armadilhas com regras fundamentadas",
+      "fazer": [
+        "Corrigir os 20 casos das armadilhas definidos no contrato, incluindo detecção, antecipação, direção, momento do impacto, colisões, estados e recuperação.",
+        "Separar impulso e condição do agente; eliminar a direção global forçada da bolha, o motor próprio do piso e a imunidade permanente por tipo, conforme a referência comprovar o comportamento correto.",
+        "Fundamentar danos, recargas, duração, alcance e elegibilidade em dados ou medição do original; manter unknown onde faltar evidência.",
+        "Substituir os testes que só repetem as regras inventadas por cenários independentes com esperado e fonte."
+      ],
+      "criterio": "20 de 20 casos das cinco armadilhas comparados ao original sem diferença material aberta; parâmetros relevantes têm fonte, não assumed; casos negativos e de recuperação passam. Os valores antigos não são o esperado de referência.",
+      "gates": [
+        {
+          "nome": "simulation-regression",
+          "argv": [
+            "node",
+            "test-simulation.mjs"
+          ],
+          "cwd": "prototypes/evil-genius-2-trap-arena"
+        }
+      ],
+      "depende": [
+        "R1",
+        "R2"
+      ],
+      "status": "aberta",
+      "prova": []
+    },
+    {
+      "id": "R4",
+      "titulo": "Cadeia completa sem atalhos",
+      "fazer": [
+        "Montar uma arena em que o mesmo agente receba as cinco armadilhas por mecanismos espaciais e estados comprovados.",
+        "Distinguir lista histórica de acertos de combo contínuo; permitir repetição conforme o original e encerrar o combo quando houver recuperação conforme a referência.",
+        "Testar posição, direção, energia, recarga, agentes próximos e controles negativos; gravar uma execução ao vivo sem advance nem eventos injetados."
+      ],
+      "criterio": "4 de 4 casos de cadeia passam; cinco dispositivos no mesmo agente em execução ao vivo; alterar montagem ou elegibilidade muda o resultado; nenhuma passagem é forçada por direção +x, teleporte, script de sequência ou dano ajustado só para terminar.",
+      "gates": [
+        {
+          "nome": "simulation-regression",
+          "argv": [
+            "node",
+            "test-simulation.mjs"
+          ],
+          "cwd": "prototypes/evil-genius-2-trap-arena"
+        },
+        {
+          "nome": "browser-real-gpu",
+          "argv": [
+            "node",
+            "qa.mjs"
+          ],
+          "cwd": "prototypes/evil-genius-2-trap-arena"
+        }
+      ],
+      "depende": [
+        "R3"
+      ],
+      "status": "aberta",
+      "prova": []
+    },
+    {
+      "id": "R5",
+      "titulo": "Apresentação comparada ao jogo",
+      "fazer": [
+        "Comparar câmera, proporção, cenário, montagem das peças, iluminação, materiais, personagem, máquinas, VFX, áudio e feedback com fontes realmente vistas.",
+        "Corrigir diferenças materiais preservando detalhe e qualidade nativos; não usar screenshot estático para aprovar movimento.",
+        "Gravar comparação antes/depois com condições equivalentes; enviar mídia ao acervo Drive e guardar recibos com hashes no protótipo."
+      ],
+      "criterio": "5 de 5 casos de apresentação comparados em movimento, com fontes, capturas e diferenças numeradas; zero divergência material aberta no recorte; nenhuma redução de qualidade para alcançar FPS.",
+      "gates": [
+        {
+          "nome": "browser-real-gpu",
+          "argv": [
+            "node",
+            "qa.mjs"
+          ],
+          "cwd": "prototypes/evil-genius-2-trap-arena"
+        },
+        {
+          "nome": "walking-real-gpu",
+          "argv": [
+            "node",
+            "walk-qa.mjs"
+          ],
+          "cwd": "prototypes/evil-genius-2-trap-arena"
+        }
+      ],
+      "depende": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "status": "aberta",
+      "prova": []
+    },
+    {
+      "id": "R6",
+      "titulo": "Verificação integrada e proveniência",
+      "fazer": [
+        "Reexecutar os 34 casos contra o runtime final e registrar hashes, resultados, métricas e links da mídia em evidence/fidelity-comparison.json.",
+        "Rodar QA de pausa, reinício, salvamento, recarga, cenário, edição, onda, áudio, console, câmera e viewport; registrar renderer WebGL e timings com GPU real.",
+        "Revisar README e game-design.md para distinguir original executado, extraído, inferido e reconstruído; substituir alegações antigas incompatíveis com a prova.",
+        "Abrir a versão funcional no navegador de Alan com a comparação pronta e lista de diferenças materiais vazia."
+      ],
+      "criterio": "34 de 34 casos verificados na versão final, sem unknown relevante ou diferença material aberta; QA técnico verde; mídia e parâmetros rastreáveis; navegador mostra a versão funcional. Um PASS técnico não fecha por si só a fidelidade.",
+      "gates": [
+        {
+          "nome": "simulation-regression",
+          "argv": [
+            "node",
+            "test-simulation.mjs"
+          ],
+          "cwd": "prototypes/evil-genius-2-trap-arena"
+        },
+        {
+          "nome": "browser-real-gpu",
+          "argv": [
+            "node",
+            "qa.mjs"
+          ],
+          "cwd": "prototypes/evil-genius-2-trap-arena"
+        },
+        {
+          "nome": "walking-real-gpu",
+          "argv": [
+            "node",
+            "walk-qa.mjs"
+          ],
+          "cwd": "prototypes/evil-genius-2-trap-arena"
+        }
+      ],
+      "depende": [
+        "R4",
+        "R5"
+      ],
+      "status": "aberta",
+      "prova": []
+    },
+    {
+      "id": "R7",
+      "titulo": "Aceite visual e de comportamento de Alan",
+      "fazer": [
+        "Apresentar o recorte funcional e a comparação em movimento para Alan; não fabricar aprovação.",
+        "Registrar a mensagem de aprovação com sua origem; enquanto não houver aprovação, marcar aguarda-alan e conservar as provas."
+      ],
+      "criterio": "Alan aprova explicitamente o recorte em movimento como fiel ao jogo real, com mensagem citada; autorrevisão e testes automáticos não contam como sua aprovação.",
+      "gates": [],
+      "depende": [
+        "R6"
+      ],
+      "status": "aberta",
+      "prova": []
+    },
+    {
+      "id": "RF",
+      "titulo": "Consolidação honesta",
+      "fazer": [
+        "Atualizar os canônicos e recibos, com o placar das 34 comparações e todas as lacunas/bloqueios.",
+        "Rodar gates finais, registrar o estado verificável e próxima ação; não fazer commit ou publicação.",
+        "Concluir o goal ativo somente se os critérios reais estiverem atingidos; GAUNTLET FECHADO com bloqueios é resultado parcial."
+      ],
+      "criterio": "Gates finais verdes; documentação corresponde ao runtime; resultado distingue atingido de parcial; goal nunca marcado complete com divergência relevante, unknown, rodada bloqueada ou aceite de Alan ausente.",
+      "gates": [
+        {
+          "nome": "simulation-regression",
+          "argv": [
+            "node",
+            "test-simulation.mjs"
+          ],
+          "cwd": "prototypes/evil-genius-2-trap-arena"
+        },
+        {
+          "nome": "browser-real-gpu",
+          "argv": [
+            "node",
+            "qa.mjs"
+          ],
+          "cwd": "prototypes/evil-genius-2-trap-arena"
+        },
+        {
+          "nome": "walking-real-gpu",
+          "argv": [
+            "node",
+            "walk-qa.mjs"
+          ],
+          "cwd": "prototypes/evil-genius-2-trap-arena"
+        }
+      ],
+      "depende": [
+        "R0",
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5",
+        "R6",
+        "R7"
+      ],
+      "status": "aberta",
+      "prova": [],
+      "final": true
+    }
+  ],
+  "decisoes_pendentes_de_alan": [],
+  "selo": {
+    "sha256": "5664948047250f3bdc6641260c652fa5d7eeee1aa996788da53cd5865af8454f",
+    "quando": "2026-10-02T05:25:52Z"
+  },
+  "recibos": [
+    {
+      "rodada": "R0",
+      "quando": "2026-10-02T05:39:13Z",
+      "ok": true,
+      "gates": [
+        {
+          "exit": 0,
+          "segundos": 0.288,
+          "log_sha256": "7b93b5f638a54460d28592c41243c0a9b8075e12f62c75a4f9fc955ce66c645f",
+          "via": "game.py verify",
+          "recibo": "output/goal-gauntlet/prototypes-evil-genius-2-trap-arena-docs-gauntlet-fidelidade-eg2/R0-20261002T053847Z/01-simulation-regression/verification.json",
+          "log": "output/goal-gauntlet/prototypes-evil-genius-2-trap-arena-docs-gauntlet-fidelidade-eg2/R0-20261002T053847Z/01-simulation-regression/01.log",
+          "ok": true,
+          "nome": "simulation-regression",
+          "argv": [
+            "node",
+            "test-simulation.mjs"
+          ],
+          "cwd": "prototypes/evil-genius-2-trap-arena"
+        },
+        {
+          "exit": 0,
+          "segundos": 0.126,
+          "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "via": "game.py verify",
+          "recibo": "output/goal-gauntlet/prototypes-evil-genius-2-trap-arena-docs-gauntlet-fidelidade-eg2/R0-20261002T053847Z/02-simulation-syntax/verification.json",
+          "log": "output/goal-gauntlet/prototypes-evil-genius-2-trap-arena-docs-gauntlet-fidelidade-eg2/R0-20261002T053847Z/02-simulation-syntax/01.log",
+          "ok": true,
+          "nome": "simulation-syntax",
+          "argv": [
+            "node",
+            "--check",
+            "simulation.js"
+          ],
+          "cwd": "prototypes/evil-genius-2-trap-arena"
+        },
+        {
+          "exit": 0,
+          "segundos": 0.179,
+          "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "via": "game.py verify",
+          "recibo": "output/goal-gauntlet/prototypes-evil-genius-2-trap-arena-docs-gauntlet-fidelidade-eg2/R0-20261002T053847Z/03-actor-syntax/verification.json",
+          "log": "output/goal-gauntlet/prototypes-evil-genius-2-trap-arena-docs-gauntlet-fidelidade-eg2/R0-20261002T053847Z/03-actor-syntax/01.log",
+          "ok": true,
+          "nome": "actor-syntax",
+          "argv": [
+            "node",
+            "--check",
+            "actor.js"
+          ],
+          "cwd": "prototypes/evil-genius-2-trap-arena"
+        },
+        {
+          "exit": 0,
+          "segundos": 0.236,
+          "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "via": "game.py verify",
+          "recibo": "output/goal-gauntlet/prototypes-evil-genius-2-trap-arena-docs-gauntlet-fidelidade-eg2/R0-20261002T053847Z/04-app-syntax/verification.json",
+          "log": "output/goal-gauntlet/prototypes-evil-genius-2-trap-arena-docs-gauntlet-fidelidade-eg2/R0-20261002T053847Z/04-app-syntax/01.log",
+          "ok": true,
+          "nome": "app-syntax",
+          "argv": [
+            "node",
+            "--check",
+            "app.js"
+          ],
+          "cwd": "prototypes/evil-genius-2-trap-arena"
+        }
+      ],
+      "prova": [
+        "evidence/fidelity-baseline.json: 15 hashes e regras do runtime congeladas; game-design.md: 12 divergências enumeradas; contexto atual inspecionado. Testes existentes medem apenas a reconstrução autoral."
+      ],
+      "revisao": "própria",
+      "execucao": [
+        {
+          "repo": ".",
+          "de": "7b5799b437a388d9277a239769d9d82d5be0222b",
+          "ate": "7b5799b437a388d9277a239769d9d82d5be0222b",
+          "commits": 0,
+          "arquivos_total": 0,
+          "arquivos": [],
+          "sem_commit_total": 15,
+          "sem_commit": [
+            "M docs",
+            "M games/bastioes-de-eldoria",
+            "M games/bastioes-rabisco",
+            "M libraries/a-valquiria",
+            "M libraries/age-of-empires-iv",
+            "M libraries/brawlhalla-lab",
+            "M libraries/counter-strike-2",
+            "M libraries/evil-genius-2",
+            "M libraries/metal-assault",
+            "M libraries/orcs-must-die",
+            "?? libraries/orcs-must-die-2/",
+            "?? libraries/orcs-must-die-3/",
+            "?? libraries/orcs-must-die-deathtrap/",
+            "?? libraries/orcs-must-die-unchained/",
+            "?? prototypes/evil-genius-2-trap-arena/"
+          ]
+        }
+      ]
+    }
+  ],
+  "historico": [
+    {
+      "quando": "2026-10-02T05:14:48Z",
+      "evento": "criado",
+      "por": "gauntlet.py novo"
+    },
+    {
+      "quando": "2026-10-02T05:24:30Z",
+      "evento": "selado",
+      "motivo": "selo inicial"
+    },
+    {
+      "quando": "2026-10-02T05:25:52Z",
+      "evento": "resselado",
+      "motivo": "Finalização da preparação inicial pedida por Alan; esqueleto preenchido antes de qualquer rodada de execução."
+    },
+    {
+      "quando": "2026-10-02T05:36:19Z",
+      "evento": "escritor: ninguém → codex-eg2-fidelidade",
+      "motivo": "Goal autorizado nesta conversa; análises paralelas possuem saídas separadas e não escrevem no livro."
+    },
+    {
+      "quando": "2026-10-02T05:37:33Z",
+      "evento": "R0 → em-andamento"
+    },
+    {
+      "quando": "2026-10-02T05:39:13Z",
+      "evento": "R0 → concluida"
+    },
+    {
+      "quando": "2026-10-02T05:44:44Z",
+      "evento": "R1 → em-andamento"
+    },
+    {
+      "quando": "2026-10-02T06:10:13Z",
+      "evento": "R1 → em-andamento",
+      "nota": "52 clipes HCAN22 e 65 controles; quantizador, nlerp e composição local confirmados no executável original (11 janelas conferidas). Bancada native-motion.html aberta no Chrome; native-motion-qa.json registra 11/11 checks na GPU Metal. Contrato inventaria 34/34 casos, zero casos completos certificados. Campos FNTR B+280..300 mapeados ao objeto +0x158..16c, significado ainda unknown. Próximo: rastrear consumidores FNTR e fator de retarget/movimento mundial. R1 não concluída; critérios preservados."
+    },
+    {
+      "quando": "2026-10-02T07:00:25Z",
+      "evento": "R1 → em-andamento",
+      "nota": "Fonte direta avançou: TRPA3 estrito 5 registros,7 grupos,175 mapas,685 referencias resolvidas/61 clipes;26 faixas nativas de animacao e7 TRPA +25 de regras conferidas byte a byte. 25 thresholds FNTR em segundos de simulacao provados via QPC/QPF, eventos TrapTriggered/TrapSabotaged ligados; saídas antecipadas mantidas. Retarget xmm9=1 e guarda f32(0.01) corrigidos no sampler antes das flags. QA14/14 em Chrome Metal e52clipes; evidencia native-motion-source-qa.json, midia Drive1ORsWfpwmE0HMlGUbW7jr_IKxs4ezP9gB. Bancada atualizada aberta; 34inventariados,0casosinteirosverificados. R1 segueaberta: slots/grupos TRPA,nomes dosestados/modifiers,navegacao/colisao ecomparacao original pendentes. Proximorastreio: consumidores nativos dos grupos0x20/0x8d8 e selectionflag0x8d0, para ligar phases as reacoes sem supor."
+    },
+    {
+      "quando": "2026-10-02T07:02:47Z",
+      "evento": "R1 → em-andamento",
+      "nota": "Avanco por fonte direta: cinco registros TRPA3, sete grupos, 175 mapas e 685 referencias resolvidas para 61 clipes. Conferidos 33 trechos nativos de animacao/TRPA e 25 de regras. Os 25 limites temporais FNTR usam segundos de simulacao, com pausa e velocidade; TrapTriggered e TrapSabotaged foram ligados aos estados, preservando saidas antecipadas. Retarget comprovado como 1, com guarda f32(0.01), corrigido antes das flags. Bancada aberta e QA 14/14 em Chrome Metal com 52 clipes; recibo evidence/native-motion-source-qa.json e midia no Drive. Contrato: 34 casos inventariados, nenhum completo verificado. R1 permanece em andamento. Proximo passo: rastrear quem escolhe os slots e os grupos TRPA, e ligar essas escolhas as fases da reacao. Pendentes tambem nomes de estados, modifiers, navegacao/colisao e comparacao com gameplay original."
+    },
+    {
+      "quando": "2026-10-02T07:31:47Z",
+      "evento": "R1 → em-andamento",
+      "nota": "Selecao original TRPA rastreada em 75be50/75ba90: actor+118 indice0-24, fase por hash, primeiro clip do vetor, FNTR+194 primario e alternativas condicionais da interacao. Transplante limitado a bancada native-trpa-selector.js, inputs de inspecao explicitos, sem promover arena. QA22/22 com52clipes em Metal; 101faixas nativas conferidas,760 referencias de clipes incluindo75do conjunto padrao compartilhado,18corruptos rejeitados. Transporte evento808e e controller85 ligado ao seletor; evento267d5762 ligado ao setter da faseativa, produtor ainda desconhecido. Binder motion/model, copia da posicao aos registros e conversao gridXZ com Y preservado rastreados. Midia Drive1QspnIWNr9WI9WEuy9o625pJDNwPPpIxy. Contrato34inventariados/0casoscompletos; R1 permanece aberta. Proximo: seguir produtor do indice actor+118 e callback do controller85/fallbacka90fe010 ate a fase267d5762, e origem do alternateUID source+60. Colisao geral, formulas e comparacao original continuam pendentes."
+    },
+    {
+      "quando": "2026-10-02T12:50:07Z",
+      "evento": "R1 → em-andamento",
+      "nota": "Novo: parâmetro alternativo vem do mapa por ator e de record+40/+44 via actor+548; transporte controller85 é evento E8. Default actor+118=0 provado, atual desconhecido; snapshot/base virtual excluídos como writers diretos. Auditoria 122 regiões nativas, 760 referências; 52 HCAN e 65 controles sem falhas. Gameplay H8SlL7RRNBo observado e capturas no Drive; câmera móvel impede medidas físicas. R1 segue aberta, 0/34 casos completos. Próximo: receptor E8 e serializer da tabela141a213d0 para identificar o registro alternativo, depois callback267d5762 e índice atual. Não repetir varreduras literais já inconclusivas."
+    },
+    {
+      "quando": "2026-10-02T13:00:42Z",
+      "evento": "R1 → em-andamento",
+      "nota": "Caminhada HCAN Investigator_walk_revolvers_01 integrada na arena pelo mesmo sampler da bancada; gait seno e correção autoral de pés removidos. Arena9/9 caminhada/pausa/retorno, bancada22/22 e52clipes preservados. Velocidade1,7 e transições continuam reconstruídas; revólveres ausentes e seleção por nome ainda não provam actor runtime. Próximo: vínculo native weapon e curva extra de deslocamento (1,29999995 em1,13333333s), sem ajuste visual; manter também investigação receptorE8/record40/44 e índice118. R1 aberta0/34, não certificar R2 por integração técnica."
+    },
+    {
+      "quando": "2026-10-02T13:16:40Z",
+      "evento": "R1 → em-andamento",
+      "nota": "Avanço linear derivado do canal extra HCAN e retarget, ~1,147059 unidades/s, aplicado na arena com relógio compartilhado da pose; revólveres extraídos nos ossos sem offsets, associação inferida. Arena 13/13, bancada 22/22, 140 janelas originais validadas e 760 referências verificadas. Registro alternativo +40/+44 ligado ao parser por hashes com fallback comprovado. Unknowns: inputs e índice atual do ator, equipamentos, eventos de fase, navegação/colisão, física/reações e cadeia. Próximo alvo original com owner comprovado: 757840(actor,0,actor434), depois receptor E8. R1 e goal continuam abertos; 0/34 casos integralmente fiéis."
+    },
+    {
+      "quando": "2026-10-02T13:53:27Z",
+      "evento": "R1 → em-andamento",
+      "nota": "Cinco poses loop extraídas integradas na arena via seletor TRPA: slot0/group0 e alternates da família são inputs declarados reconstruídos. 35/35 verificações entre arena e bancada, 81 posições/rotações por amostra com erro0 após transição. Removidas poses procedurais e parábola vertical; corrigida normalização do slerp após a mistura. Caminhada 13/13. Quatro novas janelas e 856 instruções excluem stores diretas118 em757840/75b920 e confirmam getter71c880→actor4cc; total144 janelas validadas, 760refs. Entrada/recuperação, seleção runtime, transporte de fase, navegação/colisão e impulsos/dano ainda unknown/reconstruídos; atalhos da cadeia continuam pendentes. Próximo alvo: eventos das fases mount/dismount e integração de movimento da interação. R1 permanece aberta, 0/34 casos integralmente fiéis."
+    },
+    {
+      "quando": "2026-10-02T14:33:21Z",
+      "evento": "R1 → em-andamento",
+      "nota": "Controlador85: 12 janelas de código+3 de dados ligam fábrica, loader, FNTR+1b0, produtor de direção inteira e canais até receiver virtual38; cinco registros decodificados e 15 prefixes malformados rejeitados. Auditoria159 janelas/760refs. Removidos imunidade histórica por tipo e falso combo de cinco acertos com recuperação. Montagem atual acerta cinco tipos, tem duas recuperações e zero cadeias contínuas; parâmetros físicos autorais preservados. Controles11/11, caminhada13/13, poses35/35. Recibo evidence/contact-episode-qa.json. Receptor concreto do vetor, inputs/fases/física/recuperação permanecem unknown. Próximo alvo: receiver virtual38 dos eventosf05c69fc/d87366dd, antes de transplantar movimento. R1 e goal ativos, 0/34 casos integralmente fiéis."
+    },
+    {
+      "quando": "2026-10-02T14:59:59Z",
+      "evento": "R1 → em-andamento",
+      "nota": "Receptores concretos do vetor provados por registro, hash, ID e vtables: f05c69fc produz quaternion de orientação; d87366dd recebe destino XYZ e scalar extra. Endpoints channel8/c limitados a0..1 e modo50 rastreados; interpolação de posição pode seguir comprimento do canal extra HCAN ou fallback temporal, com Y relativo por substituição no modo1. Auditoria183 janelas,760refs,2receptores/6estados; 15FNTR e18TRPA malformados rejeitados. Relatório evidence/native-controller85-route.{json,md}. Runtime da arena preservado; QA anterior segue sendo a última observação web. Original não executado e0/34casos completos. Próximo: registros desses canais, conversão do progresso e setters owner70->30 para integrar movimento com inputs nativos. R1 egoal ativos; sem afrouxar critérios."
+    },
+    {
+      "quando": "2026-10-02T15:33:16Z",
+      "evento": "R1 → em-andamento",
+      "nota": "Ventilador da arena passou a usar trap_fan, skin nativa de oito influências/sete ossos e três clipes HCAN Mount/Loop/Dismount, com durações extraídas. 42/42 checks de sete amostras contra a bancada, pausa/novo disparo/reinício; caminhada13/13, reações35/35 e controles11/11 em Metal na versão final. Caixa enterrada oculta em Y=0 na apresentação, sem alterar poses. Fontes6 hashes confrontados com biblioteca readonly; auditoria183 janelas/760refs permanece verde. Literal de quatro hashes em1502FAAN/COMA e483fnas sem matches: exclusão limitada, rota mudou para integração de pose útil, não repetir scan. evidence/native-fan-cycle.json registra escolhas de schedule/repouso reconstruídas. Zero cadeias contínuas no default e0/34casos completos. R1/goal ativos. Próximo: registro estrutural dos canais e binding de fases/owner para movimento, sem ajustar impulso/dano por tentativa."
+    },
+    {
+      "quando": "2026-10-02T16:03:42Z",
+      "evento": "R1 → em-andamento",
+      "nota": "Rota estrutural nova comprovada: listeners vivem no tail HCAN apos hashes de ossos/metadados. Decoder85 clipes (uniao52bank/70TRPA),35 registros,28 bases e2 canais vetoriais completos de BounceOff_Mount_A_01 referenciado por FanTrap em20 entradas. IDs TrapBouncePosition e MoveToPinnedPos, intervalos normalizados, modo0; produtor545xxx emite destino e escreveactor420; consulta5a25bc recupera pinnedposition tipo1. Evidencia native-hcan-listeners-{data,code}.json/.md;207janelas/760refs/360corrupcoes rejeitadas. Nenhuma velocidade, cooldown ou fisica ajustados. Origem dos endpoints de colisao,guards e clock/objectbinding pendentes. R1/goal ativos0/34; runtime unchanged e ultimaQA fan42/walk13/reactions35 preservada. Proximo: inputs/callers do produtor545xxx e scene setters, com vinculo comprovado ate objeto."
+    },
+    {
+      "quando": "2026-10-02T16:28:34Z",
+      "evento": "R1 → em-andamento",
+      "nota": "Update543370 ligado a543c10/call543556 e5449e0/call543569; flagsactor5c1/5c2 suspendem translacao normal. Grade0/1/2, lookahead e busca9vizinhas; coords/centering20/.05 nativos float32. Porte isolado native-grid-transport.js,19checks; callbacks/celulas/config/owner/progresso ainda pendentes e nao integrados. Loader5a71c0 alteraescala pornamespace212de4f7/group2666f252;defaults1/-1/1 nao certificammapa. Busca5hashesem483fnas negativa somente literal; nao repetir, seguirlookuptipado. evidence/native-bounce-grid-route.json/.md,234janelas/760refs/360corrupcoesHCAN,9constantes/3calls. Runtime10hashes coincidemultimaQA, semmidianova;0cadeiasdefault/0de34completos. R1/goalativos. Proximo:110730/110ab0/10e3a0 e populacaodebytesdacelula, depoisintegrarportcominputsfundamentados."
+    },
+    {
+      "quando": "2026-10-02T16:46:54Z",
+      "evento": "R1 → em-andamento",
+      "nota": "BLUE comprovado no dispatcher12841b→1284be/113fd0→1105e0; lookup110730/110ab0/10e3a0 liga config misc/common.asr SHA48a1644e ao loader5a71c0. Nove grupos/42 propriedades, escala1/-3/1 (Y3 negado, default imagemY-1 não usado como valor do mapa), tipo padrão497004c7 viae603206f/5fb772. Extensão contador2/104bytes opaca.16janelas novas,250janelas totais;4valores por offset/5calls/14configurações inválidas recusadas. Fonte novo decode-native-grid-config.py, trace-grid-config-source.py e evidence/native-grid-config-route.md/JSON/config.5fe100 liga recurso96bit0 a cell4abit7 e98bit0 a bit6, classe1 depende sinal4a. Falta factory/leitor desses recursos/tabela661d40, ENTI moderno, pisos, overrides, providers e clock. Runtime não mudou, últimaQA ainda não prova fidelidade; zero cadeias default/0de34 casos completos. R1/goalativos. Próximo recursos661d40 e população moderna da célula, então integração com inputs nativos."
+    },
+    {
+      "quando": "2026-10-02T17:01:38Z",
+      "evento": "R1 → em-andamento",
+      "nota": "Factory694800→662030/660770 e tabela141cb1358 ligada a661d40. BLUEdc34cd11 ns94de9754 contém195grupos/59descendentes997288ff,39filhosdiretos/49folhas conforme global+28 não verificado em execução.118flagsafe7e835/fed53b01→resource96/98 com herança e offsets comprovados; Dirt497004c7 cell4a132/classe1 e Corridor2a5b912a cell4a4/classe0 somente baseline do construtor. Parser novo decode-native-cell-types.py;8janelas novas no trace-grid-config-source,258total;7calls/7corrupções recusadas/5assertsherança. Porte isolado bits6/7 e prefixo5453a0,1424checks incluem1280combinaçõespreservaçãobits; cena unresolved retorna requiresScene. Fontes e limites consolidados native-grid-config-route.md/JSON/native-cell-types.json. Arena não consome porte, runtimevisual não mudou, sem originalexecutado/sem capturanova/0cadeiasdefault/0de34casoscompletos. Goal/R1ativos. Próximo produtor/refreshcell48 via5f4820/ENTImoderno/pisos e bindingregistroclock antesintegração."
+    },
+    {
+      "quando": "2026-10-02T17:06:23Z",
+      "evento": "R1 → em-andamento",
+      "nota": "Continuação: produtor48bit7 encontrado em6024b0 e remoção6026d0, não5f4820.5d36ae resolve floorf18/cella8, passa objeto/slot e bool derivado de kind2 em metadadosfootprint36bytes(resource298/count2a4) ou override144bytes. Setterliga48bit7/gravaIDslots84/88/8c;slot2atualiza48bit0. RemoçãoexigeIDmatching/grava999/recalcula48bit7pelostrêsslots.5f4820consulta floor2a0 mapa donosZ*width+X soblockvia2c0e60, semstorecell48. Mais4janelas/3calls, total262janelasvalidadas; novoportisoladotipos/prefixopassa1424checks, table59tipos118valores;7definiçõesinválidasrecusadas. Fonteconsolidadaevidence/native-grid-config-route.md/JSON/native-cell-types.json. Nenhumsetterdedevice simplificadofoiintroduzidonaArena;flagsmodernosinstanciados,footprintsFNTR5famílias,donos,pisos,clockbindingpendentes. Runtimevisualinalterado/semcapturanova/originalnãoexecutado/0cadeiasdefault/0de34casoscompletos. Próximo partircaller5d34c0/setup5d3140 e removecaller5d3acb, seguirresource298/250 atérecursosfootprintdasarmadilhas, depoisbindingprovidersregistroclock. R1/goalativos."
+    },
+    {
+      "quando": "2026-10-02T17:21:26Z",
+      "evento": "R1 → em-andamento",
+      "nota": "Progresso:decode-native-footprints.py parteprefixFNTRB+355/398 e lêseq155até653bc8→653ce0/658950;52payloads16 completos(Fan16/glove8/bubble8/soap4/laser16),260camposrelidos/40seleçõesmalformadasouambíguasrecusadas.2envelopes1e0/230porrecursoopacos. Todosfield4=0;flag15trueFan16, falseoutras36;field8=0/2mantidosemrótuloKeepClear. Fontebind545456→5d2ff0→5d3140;lookupmetadataporíndice1based/deltasint32/dimensionsinstância/mismatchFNTR68/6a. PortnativeFootprintQueryeclassificador5453a0completonativeClassifyCell:guardcomponent78+332u16valores2..4/record15;segundolookupcomponenta0+7c!=34264a;releitura48apósownermap.1715checksfixturesincluem52records*4cardinais,prioridade/ausência/mismatch/floor/wrap/guards/segundolookup.33janelasgridroute/267totais/4callsnovasvalidadas. Provasnative-footprints.json/native-grid-config-route.md/JSON/native-grid-transport-qa.json. Biblioteca/Rabiscopreservados;semvelocidade/sensor/dano/cooldownporajuste. PortsisoladosaindanãoligadosàArena;originalnãoexecutado/semcapturanova/0de34completos/0cadeiasdefault. R1/goalativos. Próximonativecomponent78/a0produtores332/7c,instânciaorigem/deltas/cardinalrotation/overrides,ENTImoderno/pisoseclock/motionrecordprovidersparaintegração."
+    },
+    {
+      "quando": "2026-10-02T17:39:29Z",
+      "evento": "R1 → em-andamento",
+      "nota": "Component78+332 do contato ligado ao controlador de armadilhas já comprovado. Porte separado native-trap-state.js da decisão613d90/619af0/619ba0 e posição613000 com duas máscaras:659 checks verdes,25 limites FNTR relidos,flag18fB+330true nas cinco fontes. Ordemfloat32 clock−threshold>stamp estrita; predicado5cfa60 não é presença de inimigo; override e state3early preservados. Retorno é solicitação de estado:entrada1 em618240 chama618080 e pode transitar novamente; não alegar uma transição por atualização nem efeitos de entrada completos. Auditoria285 janelas e11calls adicionais;1715 checks do porte de grade preservados. Arena e mídia anteriores inalteradas; nenhuma execução original,zero cadeias contínuas default,0/34 casos completos. Próximo:produtores das máscaras/coleção de atores,615210/616d80,efeitos de entrada618240 e flag18c;depois binding ao runtime web,sem parâmetros por tentativa."
+    }
+  ],
+  "contrato_fidelidade": {
+    "casos": [
+      "agente/caminhada",
+      "agente/curva",
+      "agente/rota-e-obstaculo",
+      "agente/recuperacao",
+      "agente/deteccao-e-desarme",
+      "ventilador/sensor",
+      "ventilador/direcao",
+      "ventilador/colisao-com-parede",
+      "ventilador/bolha-soprada",
+      "luva/antecipacao-e-impacto",
+      "luva/trajetoria",
+      "luva/captura-em-bolha",
+      "luva/aterrissagem",
+      "bolha/captura",
+      "bolha/suspensao-sem-impulso",
+      "bolha/impulso-externo",
+      "bolha/estouro-e-recuperacao",
+      "piso/ativacao",
+      "piso/escorregao-sem-impulso",
+      "piso/impulso-externo",
+      "piso/recuperacao",
+      "laser/sensor-e-geometria",
+      "laser/tempo-ativo",
+      "laser/dano",
+      "laser/interrupcao",
+      "cadeia/cinco-dispositivos",
+      "cadeia/combo-sem-recuperar",
+      "cadeia/acerto-repetido",
+      "cadeia/montagem-alterada",
+      "apresentacao/cenario-e-camera",
+      "apresentacao/materiais-e-escala",
+      "apresentacao/animacoes",
+      "apresentacao/efeitos-e-audio",
+      "apresentacao/interface-e-feedback"
+    ],
+    "total": 34,
+    "fonte_minima": "Observação em movimento do original ou dado nativo decodificado com semântica demonstrada.",
+    "tolerancia": "Derivada e registrada a partir de fps, escala e precisão da fonte antes da comparação; nenhum valor numérico inventado.",
+    "tipos_proveniencia": [
+      "original_executado",
+      "extraido",
+      "inferido",
+      "reconstruido"
+    ],
+    "aprovacao": "Somente Alan; sem aprovação registrada o goal não está atingido."
+  },
+  "escritor": {
+    "nome": "codex-eg2-fidelidade",
+    "desde": "2026-10-02T05:36:19Z",
+    "motivo": "Goal autorizado nesta conversa; análises paralelas possuem saídas separadas e não escrevem no livro."
+  }
+}

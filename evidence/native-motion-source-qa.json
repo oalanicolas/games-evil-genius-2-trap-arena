@@ -1,0 +1,198 @@
+{
+  "schema": "eg2-native-motion-source-qa/3",
+  "scope": "Native source decoding, sample reproduction and original TRPA selector operations transplanted into inspection UI. Does not prove original-client execution, native interaction inputs or main arena fidelity.",
+  "originalClientExecuted": false,
+  "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M3 Max, Unspecified Version)",
+  "checks": {
+    "shortArcNlerp": true,
+    "retargetAbsoluteBeforeFlags": true,
+    "retargetStrictNativeThreshold": true,
+    "staticNotNormalized": true,
+    "absolutePreserved": true,
+    "relativeBind": true,
+    "timeTiesEven": true,
+    "all52Clips": true,
+    "finiteNativePoses": true,
+    "allDeviceNamesMapped": true,
+    "paused": true,
+    "noErrors": true,
+    "nativePhaseAssociation": true,
+    "nativeIndexRange": true,
+    "nativePrimarySelection": true,
+    "nativeSecondaryAbsent": true,
+    "nativeAlternateSelection": true,
+    "nativeSecondarySelection": true,
+    "nativeStopOverride": true,
+    "nativeMissingPhaseZero": true,
+    "nativeSelectorUI": true,
+    "noMobileOverflow": true
+  },
+  "passed": 22,
+  "total": 22,
+  "clipsChecked": 52,
+  "sources": [
+    {
+      "file": "native-player.js",
+      "sha256": "ab89a9a79bfbf5391b2465e0fb1cdaa2f4ec5f3c4af0fc14cc469efa0b33e808"
+    },
+    {
+      "file": "native-motion.js",
+      "sha256": "12e5beac5c38fd529a15eab1e0208cbadc541ff0697a2a5bf3d7196843a68c9f"
+    },
+    {
+      "file": "native-motion.html",
+      "sha256": "604c0fa8e4547603b882e8a68adb72e0f557d717d6b0c69cd3ad0026631c1a47"
+    },
+    {
+      "file": "native-motion-qa.mjs",
+      "sha256": "42558daf40a72f5dc447ace2f5f8aeef33a98299525e03fd27888c5d92715cb4"
+    },
+    {
+      "file": "decode-animation.py",
+      "sha256": "c30086b9e376649df1ffafb4511d70e60aa12e222ebfe56022670e89248490b6"
+    },
+    {
+      "file": "decode-trap-animation-data.py",
+      "sha256": "de5dacd96685d9475d3e830bcf75d24b6693690ba82c467bd13609ffcb274619"
+    },
+    {
+      "file": "validate-native-sources.py",
+      "sha256": "758b9a963fea85d6fcfbb63375e9e94241486de08ba97da9ce1b624d9ebaf85a"
+    },
+    {
+      "file": "build_fidelity_reference.py",
+      "sha256": "00fdec01120e57b7e509b7eef6c96314d4522e5624b196cd272399085cb973d2"
+    },
+    {
+      "file": "evidence/native-animation-code.json",
+      "sha256": "4abfe0c3f173aacba3e0bb3d7fbcbebf6cc04caff0e8ebc5f390f55ee7626817"
+    },
+    {
+      "file": "evidence/native-rules-research.json",
+      "sha256": "8a78b07fa76a0342d1880e5cf8019b919bb586a6de96c3662c32f0cbd4de510a"
+    },
+    {
+      "file": "evidence/native-trap-animation-data.json",
+      "sha256": "34fe036eed607a7c907419a6ee464a3732c28965dbfd895dbf03b2b945f103a2"
+    },
+    {
+      "file": "evidence/native-source-audit.json",
+      "sha256": "0accc8bf6229680e0cc114d293876e20e2b3b4fb1dce5e9cee98372a3580c390"
+    },
+    {
+      "file": "evidence/fidelity-reference.json",
+      "sha256": "34b9d7b916bdee785790bd7229bc76c6b3fb123d8d3d55e057ce302f3b9e90b9"
+    },
+    {
+      "file": "native-trpa-selector.js",
+      "sha256": "34e0d576c6d8dd9b1e1e730d686ed593e770f71677980100405802ee64f997a4"
+    }
+  ],
+  "sourceAudit": {
+    "schema": "eg2-native-source-audit/1",
+    "originalExecuted": false,
+    "checks": {
+      "nativeByteWindows": 54,
+      "nativeRuleByteWindows": 47,
+      "boundedMalformedResourcesRejected": 18,
+      "allSelectedResourcesDecoded": 5,
+      "linkedDefaultResourcesDecoded": 1,
+      "clipHashReferencesChecked": 760,
+      "selectedFiveClipReferences": 685,
+      "hcanSourceReportHashCurrent": true,
+      "sealedCasesInventoried": 34,
+      "nativeUnitsKnown": 25
+    },
+    "scope": "Original executable bytes and source decoding; not native runtime equivalence"
+  },
+  "mediaArchive": {
+    "id": "1gCiP8xYj-HPEbJwvOTymNQVVy_k7aLAw",
+    "url": "https://drive.google.com/file/d/1gCiP8xYj-HPEbJwvOTymNQVVy_k7aLAw/view?usp=drivesdk",
+    "sha256": "feef8900e0c46e4e4c05959c51c77a2d0a836720699a9ddf6c6070978a3b61d5",
+    "files": 29
+  },
+  "browser": {
+    "url": "http://localhost:8766/",
+    "tab": "2138694324",
+    "state": "updated arena ready and agent spawned via ordinary follow button; current bank visibly reproducing original walk with both revolvers"
+  },
+  "goal": {
+    "status": "active",
+    "round": "R1 em-andamento",
+    "fullCasesVerified": 0,
+    "pending": [
+      "Current value/producer of actor+0x118 index",
+      "Type/serializer of alternate record+40/+44 and phase controller event E8 receiver",
+      "Native interaction flags, gameplay state names/modifiers, activation/physics rules",
+      "Movement integration with navigation/collision",
+      "Full original gameplay comparison; qualitative source observation now persisted"
+    ]
+  },
+  "nativeSourceAudit": {
+    "schema": "eg2-native-source-audit/1",
+    "originalExecuted": false,
+    "checks": {
+      "nativeByteWindows": 81,
+      "nativeRuleByteWindows": 63,
+      "boundedMalformedResourcesRejected": 18,
+      "allSelectedResourcesDecoded": 5,
+      "linkedDefaultResourcesDecoded": 1,
+      "clipHashReferencesChecked": 760,
+      "selectedFiveClipReferences": 685,
+      "hcanSourceReportHashCurrent": true,
+      "sealedCasesInventoried": 34,
+      "nativeUnitsKnown": 25
+    },
+    "scope": "Original executable bytes and source decoding; not native runtime equivalence"
+  },
+  "integrationReceipt": "evidence/native-walk-integration.json",
+  "previousMediaArchives": [
+    {
+      "id": "1By0HM4ErkvuM3cGSNhRSQu44sPESPrlV",
+      "url": "https://drive.google.com/file/d/1By0HM4ErkvuM3cGSNhRSQu44sPESPrlV/view?usp=drivesdk",
+      "files": 20,
+      "sha256": "4955056189b1648a40f2a5447666588dad18a73504e1ddea913a04aa7d00166e"
+    },
+    {
+      "id": "13_PX8Q2kbWOg2Z5Mh2OgLlyBNJOAh3F3",
+      "url": "https://drive.google.com/file/d/13_PX8Q2kbWOg2Z5Mh2OgLlyBNJOAh3F3/view?usp=drivesdk",
+      "files": 23,
+      "sha256": "98930e1b5d11172bd5f6ec4a4918288ab7635455d3df5a89a055e5d5cdab1909"
+    }
+  ],
+  "sourceSha256": {
+    "actor.js": "9bfb4ebbcaa8d77ef7fb6a73ac7ec4d7236e42aa124cbbf9c5ad87dcbdcbcdbc",
+    "app.js": "c90c65af07c6023baa6f318e38eab50e9c48c26501aa451823898c2845f39e96",
+    "simulation.js": "58e82d36f4ff0ed2447805f6316f07dfd6a59ea94fd3330115ce7705d3b3e7cd",
+    "native-player.js": "ab89a9a79bfbf5391b2465e0fb1cdaa2f4ec5f3c4af0fc14cc469efa0b33e808",
+    "native-skinning.js": "67f9c0fd2c5d3c6e29e99fd18c080ef871a83e8819570e09421122ec8d975413",
+    "native-walk-motion.js": "83f2500eda4b18d79646a481e3fe8fe41941bc3da33af8c959274f93824feed2",
+    "native-weapon-attachments.js": "c3be48aa2041487b5b68d0db434ae82b50c2cc28a8ef94468b0d64d8e0797f5f",
+    "native-motion.js": "12e5beac5c38fd529a15eab1e0208cbadc541ff0697a2a5bf3d7196843a68c9f",
+    "walk-qa.mjs": "acf6d66dcc7b7b1acc2b4720fd0041648452b51306749e2301e65b8811403c6d",
+    "test-simulation.mjs": "ba20ea412358fc9886f21f805a3a503e66681b3421cbd602fed2eb8fd8bf9f58",
+    "asset-manifest.json": "9e9c1b126727b6e35e94ff70edcf79436694df8d9950705726de2a8b02df4f80",
+    "actor-rig.json": "ad93282fd05a89a700fcda6dd6300ca2e3ecd3b9e867e3e0b5e4330e092b987f",
+    "index.html": "dc7d1189a637acf31fcfdba4c5c25516aeef118bac4ebf250baf1bffe75002f9",
+    "animation-data/index.json": "29e2baddbc8f4abd1a93ca13950590149e218bfddabf1863f02fa9dc356e8eed",
+    "animation-data/Investigator_walk_revolvers_01.json": "6ecdabd6071fee37052f95460ed91f2b0b53fac56ac0fb1607982a08e7bb950a",
+    "evidence/native-animation-code.json": "4abfe0c3f173aacba3e0bb3d7fbcbebf6cc04caff0e8ebc5f390f55ee7626817",
+    "evidence/native-rules-research.json": "8a78b07fa76a0342d1880e5cf8019b919bb586a6de96c3662c32f0cbd4de510a",
+    "server.py": "28d31e9de43219cb8814dbf30a9244948e027e8391d5a3b6c517612440007c56",
+    "rules.json": "c837b57c8da3987a3c2da458f479d5dec699c1640ef6891c89841c787049d88b",
+    "native-reaction-bindings.js": "ee5c6ee6e53c4a1d4fdf2c992fb09218629a0e35545a65fac87c03b0ecb249d9",
+    "native-trpa-selector.js": "34e0d576c6d8dd9b1e1e730d686ed593e770f71677980100405802ee64f997a4",
+    "reaction-qa.mjs": "2171a61cc8934bac8b7773ff8742fe0dab9bb3d21faf47194547514647f70336",
+    "qa.mjs": "93dc632ceb99a6179fd4a487e1e5fd13161fff5e22c9d0be7a3ee90bc02696a9",
+    "validate-native-sources.py": "758b9a963fea85d6fcfbb63375e9e94241486de08ba97da9ce1b624d9ebaf85a",
+    "evidence/native-trap-animation-data.json": "34fe036eed607a7c907419a6ee464a3732c28965dbfd895dbf03b2b945f103a2",
+    "evidence/native-actor-slot-route.json": "6902cd12292f9ca1fe82c69c07a3c524747b52dd3d0586fc8e29e94ef0f07af0",
+    "animation-data/Giant_Fan_Loop_A_01.json": "daea695a6a2f71bb2ac5e8065dbcf59c34dc1048475c90ed7d4c3704116bda06",
+    "animation-data/Trap_GloveOnSpring_Loop_A_01.json": "255f53c7d6175288bc68f2c2603ec2a252e248d828a5ddefcd9b6b110ad5722d",
+    "animation-data/Trap_BubbleCannon_Loop_A_01.json": "6b583e6b739b7d3f5c2c95b8201bd772bf07e0bc4d0cf20fcf23fdd06428c4a5",
+    "animation-data/Trap_SlipperySoap_Loop_A_01.json": "04dba56813405ad6c2705a86fab8a7391b54fd2912ec4cdd43df61ae2fbb0f69",
+    "animation-data/Trap_Laser_Loop_A_01.json": "2aa29f3eb8b13fd693db4c764796cc9d073342dcda40f7415949638353bd9c79"
+  },
+  "browserCacheCheck": "PASS: current module served with Cache-Control no-store; Chrome localhost page visibly includes inferred weapon association and both revolvers",
+  "reactionIntegrationReceipt": "evidence/native-reaction-integration.json"
+}

@@ -1,0 +1,706 @@
+{
+  "schema": "eg2-native-motion-qa/1",
+  "scope": "Native sample reproduction in Three.js; not original-client equivalence or full-chain proof",
+  "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M3 Max, Unspecified Version)",
+  "checks": {
+    "shortArcNlerp": true,
+    "staticNotNormalized": true,
+    "absolutePreserved": true,
+    "relativeBind": true,
+    "timeTiesEven": true,
+    "all52Clips": true,
+    "finiteNativePoses": true,
+    "allDeviceNamesMapped": true,
+    "paused": true,
+    "noErrors": true,
+    "noMobileOverflow": true
+  },
+  "results": [
+    {
+      "name": "Giant_Fan_WallMount_B_01",
+      "mapped": 53,
+      "nativeTracks": 54,
+      "bones": 81,
+      "unmapped": [
+        "cBn_hipBag"
+      ],
+      "finite": true,
+      "animated": true
+    },
+    {
+      "name": "Captured_B_walk_01",
+      "mapped": 53,
+      "nativeTracks": 54,
+      "bones": 81,
+      "unmapped": [
+        "cBn_hipBag"
+      ],
+      "finite": true,
+      "animated": true
+    },
+    {
+      "name": "Giant_Fan_WallLoop_B_01",
+      "mapped": 53,
+      "nativeTracks": 54,
+      "bones": 81,
+      "unmapped": [
+        "cBn_hipBag"
+      ],
+      "finite": true,
+      "animated": true
+    },
+    {
+      "name": "Giant_Fan_WallLoop_A_01",
+      "mapped": 58,
+      "nativeTracks": 58,
+      "bones": 81,
+      "unmapped": [],
+      "finite": true,
+      "animated": true
+    },
+    {
+      "name": "superInvestigator_walk_neutral_01",
+      "mapped": 58,
+      "nativeTracks": 71,
+      "bones": 81,
+      "unmapped": [
+        "cBn_L_upLegCloth",
+        "cBn_L_lowLegCloth",
+        "cBn_R_upLegCloth",
+        "cBn_R_lowLegCloth",
+        "cBn_L_upArmShoulderFix",
+        "cBn_neckACollar",
+        "cBn_R_upArmShoulderFix",
+        "cBn_M_upLegCloth",
+        "cBn_M_lowLegCloth",
+        "bn_jubeiHair01",
+        "bn_jubeiHair02",
+        "bn_jubeiHair03",
+        "bn_jubeiHair04"
+      ],
+      "finite": true,
+      "animated": true
+    },
+    {
+      "name": "Giant_Fan_WallMount_A_01",
+      "mapped": 58,
+      "nativeTracks": 58,
+      "bones": 81,
+      "unmapped": [],
+      "finite": true,
+      "animated": true
+    },
+    {
+      "name": "Giant_Fan_WallDismount_B_01",
+      "mapped": 53,
+      "nativeTracks": 54,
+      "bones": 81,
+      "unmapped": [
+        "cBn_hipBag"
+      ],
+      "finite": true,
+      "animated": true
+    },
+    {
+      "name": "Giant_Fan_WallDismount_A_01",
+      "mapped": 58,
+      "nativeTracks": 58,
+      "bones": 81,
+      "unmapped": [],
+      "finite": true,
+      "animated": true
+    },
+    {
+      "name": "Giant_Fan_Loop_01",
+      "mapped": 7,
+      "nativeTracks": 7,
+      "bones": 7,
+      "unmapped": [],
+      "finite": true,
+      "animated": true
+    },
+    {
+      "name": "Investigator_walk_revolvers_01",
+      "mapped": 58,
+      "nativeTracks": 71,
+      "bones": 81,
+      "unmapped": [
+        "cBn_L_upLegCloth",
+        "cBn_L_lowLegCloth",
+        "cBn_R_upLegCloth",
+        "cBn_R_lowLegCloth",
+        "cBn_L_upArmShoulderFix",
+        "cBn_neckACollar",
+        "cBn_R_upArmShoulderFix",
+        "cBn_M_upLegCloth",
+        "cBn_M_lowLegCloth",
+        "bn_jubeiHair01",
+        "bn_jubeiHair02",
+        "bn_jubeiHair03",
+        "bn_jubeiHair04"
+      ],
+      "finite": true,
+      "animated": true
+    },
+    {
+      "name": "Trap_Laser_Dismount_A_01",
+      "mapped": 58,
+      "nativeTracks": 71,
+      "bones": 81,
+      "unmapped": [
+        "cBn_L_upLegCloth",
+        "cBn_L_lowLegCloth",
+        "cBn_R_upLegCloth",
+        "cBn_R_lowLegCloth",
+        "cBn_L_upArmShoulderFix",
+        "cBn_neckACollar",
+        "cBn_R_upArmShoulderFix",
+        "cBn_M_upLegCloth",
+        "cBn_M_lowLegCloth",
+        "bn_jubeiHair01",
+        "bn_jubeiHair02",
+        "bn_jubeiHair03",
+        "bn_jubeiHair04"
+      ],
+      "finite": true,
+      "animated": true
+    },
+    {
+      "name": "Giant_Fan_Dismount_A_01",
+      "mapped": 58,
+      "nativeTracks": 58,
+      "bones": 81,
+      "unmapped": [],
+      "finite": true,
+      "animated": true
+    },
+    {
+      "name": "Trap_Laser_Loop_A_01",
+      "mapped": 58,
+      "nativeTracks": 71,
+      "bones": 81,
+      "unmapped": [
+        "cBn_L_upLegCloth",
+        "cBn_L_lowLegCloth",
+        "cBn_R_upLegCloth",
+        "cBn_R_lowLegCloth",
+        "cBn_L_upArmShoulderFix",
+        "cBn_neckACollar",
+        "cBn_R_upArmShoulderFix",
+        "cBn_M_upLegCloth",
+        "cBn_M_lowLegCloth",
+        "bn_jubeiHair01",
+        "bn_jubeiHair02",
+        "bn_jubeiHair03",
+        "bn_jubeiHair04"
+      ],
+      "finite": true,
+      "animated": true
+    },
+    {
+      "name": "Trap_GloveOnSpring_Dismount_B_01",
+      "mapped": 53,
+      "nativeTracks": 54,
+      "bones": 81,
+      "unmapped": [
+        "cBn_hipBag"
+      ],
+      "finite": true,
+      "animated": true
+    },
+    {
+      "name": "Giant_Fan_Dismount_01",
+      "mapped": 7,
+      "nativeTracks": 7,
+      "bones": 7,
+      "unmapped": [],
+      "finite": true,
+      "animated": true
+    },
+    {
+      "name": "Giant_Fan_Mount_A_01",
+      "mapped": 58,
+      "nativeTracks": 58,
+      "bones": 81,
+      "unmapped": [],
+      "finite": true,
+      "animated": true
+    },
+    {
+      "name": "Trap_GloveOnSpring_Loop_B_01",
+      "mapped": 53,
+      "nativeTracks": 54,
+      "bones": 81,
+      "unmapped": [
+        "cBn_hipBag"
+      ],
+      "finite": true,
+      "animated": true
+    },
+    {
+      "name": "Trap_GloveOnSpring_Loop_01",
+      "mapped": 9,
+      "nativeTracks": 9,
+      "bones": 9,
+      "unmapped": [],
+      "finite": true,
+      "animated": false
+    },
+    {
+      "name": "Trap_Laser_Dismount_B_01",
+      "mapped": 53,
+      "nativeTracks": 54,
+      "bones": 81,
+      "unmapped": [
+        "cBn_hipBag"
+      ],
+      "finite": true,
+      "animated": true
+    },
+    {
+      "name": "Trap_SlipperySoap_MovementLoop_A_01",
+      "mapped": 56,
+      "nativeTracks": 56,
+      "bones": 81,
+      "unmapped": [],
+      "finite": true,
+      "animated": true
+    },
+    {
+      "name": "Trap_Laser_Loop_B_01",
+      "mapped": 53,
+      "nativeTracks": 54,
+      "bones": 81,
+      "unmapped": [
+        "cBn_hipBag"
+      ],
+      "finite": true,
+      "animated": true
+    },
+    {
+      "name": "Giant_Fan_Mount_B_01",
+      "mapped": 53,
+      "nativeTracks": 54,
+      "bones": 81,
+      "unmapped": [
+        "cBn_hipBag"
+      ],
+      "finite": true,
+      "animated": true
+    },
+    {
+      "name": "Trap_Bubble_Blower_Dismount_01",
+      "mapped": 5,
+      "nativeTracks": 5,
+      "bones": 5,
+      "unmapped": [],
+      "finite": true,
+      "animated": true
+    },
+    {
+      "name": "Trap_SlipperySoap_Dismount_01",
+      "mapped": 3,
+      "nativeTracks": 3,
+      "bones": 3,
+      "unmapped": [],
+      "finite": true,
+      "animated": true
+    },
+    {
+      "name": "Trap_SlipperySoap_Dismount_A_01",
+      "mapped": 56,
+      "nativeTracks": 56,
+      "bones": 81,
+      "unmapped": [],
+      "finite": true,
+      "animated": true
+    },
+    {
+      "name": "Trap_Bubble_Blower_Mount_01",
+      "mapped": 5,
+      "nativeTracks": 5,
+      "bones": 5,
+      "unmapped": [],
+      "finite": true,
+      "animated": true
+    },
+    {
+      "name": "Trap_BubbleCannon_Loop_A_01",
+      "mapped": 56,
+      "nativeTracks": 56,
+      "bones": 81,
+      "unmapped": [],
+      "finite": true,
+      "animated": true
+    },
+    {
+      "name": "Trap_GloveOnSpring_Mount_01",
+      "mapped": 9,
+      "nativeTracks": 9,
+      "bones": 9,
+      "unmapped": [],
+      "finite": true,
+      "animated": true
+    },
+    {
+      "name": "Trap_SlipperySoap_Mount_01",
+      "mapped": 3,
+      "nativeTracks": 3,
+      "bones": 3,
+      "unmapped": [],
+      "finite": true,
+      "animated": true
+    },
+    {
+      "name": "Trap_BubbleCannon_Dismount_A_01",
+      "mapped": 56,
+      "nativeTracks": 56,
+      "bones": 81,
+      "unmapped": [],
+      "finite": true,
+      "animated": true
+    },
+    {
+      "name": "Trap_SlipperySoap_Loop_A_01",
+      "mapped": 56,
+      "nativeTracks": 56,
+      "bones": 81,
+      "unmapped": [],
+      "finite": true,
+      "animated": true
+    },
+    {
+      "name": "Trap_Laser_Mount_B_01",
+      "mapped": 53,
+      "nativeTracks": 54,
+      "bones": 81,
+      "unmapped": [
+        "cBn_hipBag"
+      ],
+      "finite": true,
+      "animated": true
+    },
+    {
+      "name": "Trap_SlipperySoap_Dismount_B_01",
+      "mapped": 53,
+      "nativeTracks": 54,
+      "bones": 81,
+      "unmapped": [
+        "cBn_hipBag"
+      ],
+      "finite": true,
+      "animated": true
+    },
+    {
+      "name": "Trap_GloveOnSpring_Dismount_01",
+      "mapped": 9,
+      "nativeTracks": 9,
+      "bones": 9,
+      "unmapped": [],
+      "finite": true,
+      "animated": true
+    },
+    {
+      "name": "Trap_Laser_Mount_A_01",
+      "mapped": 58,
+      "nativeTracks": 71,
+      "bones": 81,
+      "unmapped": [
+        "cBn_L_upLegCloth",
+        "cBn_L_lowLegCloth",
+        "cBn_R_upLegCloth",
+        "cBn_R_lowLegCloth",
+        "cBn_L_upArmShoulderFix",
+        "cBn_neckACollar",
+        "cBn_R_upArmShoulderFix",
+        "cBn_M_upLegCloth",
+        "cBn_M_lowLegCloth",
+        "bn_jubeiHair01",
+        "bn_jubeiHair02",
+        "bn_jubeiHair03",
+        "bn_jubeiHair04"
+      ],
+      "finite": true,
+      "animated": true
+    },
+    {
+      "name": "Trap_GloveOnSpring_Dismount_A_01",
+      "mapped": 58,
+      "nativeTracks": 71,
+      "bones": 81,
+      "unmapped": [
+        "cBn_L_upLegCloth",
+        "cBn_L_lowLegCloth",
+        "cBn_R_upLegCloth",
+        "cBn_R_lowLegCloth",
+        "cBn_L_upArmShoulderFix",
+        "cBn_neckACollar",
+        "cBn_R_upArmShoulderFix",
+        "cBn_M_upLegCloth",
+        "cBn_M_lowLegCloth",
+        "bn_jubeiHair01",
+        "bn_jubeiHair02",
+        "bn_jubeiHair03",
+        "bn_jubeiHair04"
+      ],
+      "finite": true,
+      "animated": true
+    },
+    {
+      "name": "Trap_Bubble_Blower_Loop_01",
+      "mapped": 5,
+      "nativeTracks": 5,
+      "bones": 5,
+      "unmapped": [],
+      "finite": true,
+      "animated": true
+    },
+    {
+      "name": "Trap_GloveOnSpring_Loop_A_01",
+      "mapped": 58,
+      "nativeTracks": 71,
+      "bones": 81,
+      "unmapped": [
+        "cBn_L_upLegCloth",
+        "cBn_L_lowLegCloth",
+        "cBn_R_upLegCloth",
+        "cBn_R_lowLegCloth",
+        "cBn_L_upArmShoulderFix",
+        "cBn_neckACollar",
+        "cBn_R_upArmShoulderFix",
+        "cBn_M_upLegCloth",
+        "cBn_M_lowLegCloth",
+        "bn_jubeiHair01",
+        "bn_jubeiHair02",
+        "bn_jubeiHair03",
+        "bn_jubeiHair04"
+      ],
+      "finite": true,
+      "animated": true
+    },
+    {
+      "name": "Trap_BubbleCannon_Loop_B_01",
+      "mapped": 53,
+      "nativeTracks": 54,
+      "bones": 81,
+      "unmapped": [
+        "cBn_hipBag"
+      ],
+      "finite": true,
+      "animated": true
+    },
+    {
+      "name": "Trap_SlipperySoap_Mount_B_01",
+      "mapped": 53,
+      "nativeTracks": 54,
+      "bones": 81,
+      "unmapped": [
+        "cBn_hipBag"
+      ],
+      "finite": true,
+      "animated": true
+    },
+    {
+      "name": "Trap_SlipperySoap_Loop_01",
+      "mapped": 3,
+      "nativeTracks": 3,
+      "bones": 3,
+      "unmapped": [],
+      "finite": true,
+      "animated": false
+    },
+    {
+      "name": "Trap_BubbleCannon_Mount_B_01",
+      "mapped": 53,
+      "nativeTracks": 54,
+      "bones": 81,
+      "unmapped": [
+        "cBn_hipBag"
+      ],
+      "finite": true,
+      "animated": true
+    },
+    {
+      "name": "Giant_Fan_Loop_B_01",
+      "mapped": 53,
+      "nativeTracks": 54,
+      "bones": 81,
+      "unmapped": [
+        "cBn_hipBag"
+      ],
+      "finite": true,
+      "animated": true
+    },
+    {
+      "name": "Trap_BubbleCannon_Dismount_B_01",
+      "mapped": 53,
+      "nativeTracks": 54,
+      "bones": 81,
+      "unmapped": [
+        "cBn_hipBag"
+      ],
+      "finite": true,
+      "animated": true
+    },
+    {
+      "name": "Trap_GloveOnSpring_Mount_B_01",
+      "mapped": 53,
+      "nativeTracks": 54,
+      "bones": 81,
+      "unmapped": [
+        "cBn_hipBag"
+      ],
+      "finite": true,
+      "animated": true
+    },
+    {
+      "name": "Trap_SlipperySoap_Loop_B_01",
+      "mapped": 53,
+      "nativeTracks": 54,
+      "bones": 81,
+      "unmapped": [
+        "cBn_hipBag"
+      ],
+      "finite": true,
+      "animated": true
+    },
+    {
+      "name": "Trap_SlipperySoap_Mount_A_01",
+      "mapped": 56,
+      "nativeTracks": 56,
+      "bones": 81,
+      "unmapped": [],
+      "finite": true,
+      "animated": true
+    },
+    {
+      "name": "Trap_BubbleCannon_Mount_A_01",
+      "mapped": 56,
+      "nativeTracks": 56,
+      "bones": 81,
+      "unmapped": [],
+      "finite": true,
+      "animated": true
+    },
+    {
+      "name": "Giant_Fan_Mount_01",
+      "mapped": 7,
+      "nativeTracks": 7,
+      "bones": 7,
+      "unmapped": [],
+      "finite": true,
+      "animated": true
+    },
+    {
+      "name": "Giant_Fan_Loop_A_01",
+      "mapped": 58,
+      "nativeTracks": 58,
+      "bones": 81,
+      "unmapped": [],
+      "finite": true,
+      "animated": true
+    },
+    {
+      "name": "Giant_Fan_Dismount_B_01",
+      "mapped": 53,
+      "nativeTracks": 54,
+      "bones": 81,
+      "unmapped": [
+        "cBn_hipBag"
+      ],
+      "finite": true,
+      "animated": true
+    },
+    {
+      "name": "Trap_GloveOnSpring_Mount_A_01",
+      "mapped": 58,
+      "nativeTracks": 71,
+      "bones": 81,
+      "unmapped": [
+        "cBn_L_upLegCloth",
+        "cBn_L_lowLegCloth",
+        "cBn_R_upLegCloth",
+        "cBn_R_lowLegCloth",
+        "cBn_L_upArmShoulderFix",
+        "cBn_neckACollar",
+        "cBn_R_upArmShoulderFix",
+        "cBn_M_upLegCloth",
+        "cBn_M_lowLegCloth",
+        "bn_jubeiHair01",
+        "bn_jubeiHair02",
+        "bn_jubeiHair03",
+        "bn_jubeiHair04"
+      ],
+      "finite": true,
+      "animated": true
+    }
+  ],
+  "errors": [],
+  "sourceSha256": {
+    "native-player.js": "012308ca9365ce5eefa49044963130718194a75f68f48519797df11b6d3314f8",
+    "native-motion.js": "659bc2f7ea30d31eea08ff5f34078b1dbbe09ca09e15b02d4d18f8a6df8d7e67",
+    "native-motion.html": "8b44865834d32870f6c7584b0a808dbe5c560145ec07958af9fae047d3298bb3",
+    "native-motion-qa.mjs": "2e818b523cc7035f4a2554e6ddef812a00dfbf7b0ab69eaa117dfa4704160806",
+    "actor.js": "724f9d1e8c11bac7189efbae844eba29d19eff017bc30202e1271d6ca1a1765d",
+    "asset-manifest.json": "c7d93e2d3c1dce9d5ef46424dec5de1662bc23f8979a164c0cb1d995f730b8cd",
+    "actor-rig.json": "ad93282fd05a89a700fcda6dd6300ca2e3ecd3b9e867e3e0b5e4330e092b987f",
+    "device-rigs.json": "ff53377eda4a79633897228fa63c399e9c976d665ce39b57fe03997bfceb6f6c",
+    "decode-animation.py": "e6f7d42eaa4a1d28050c2164096e13c3dfa44273f7e3bffddc0a58308a1a0c01",
+    "animation-data/index.json": "29e2baddbc8f4abd1a93ca13950590149e218bfddabf1863f02fa9dc356e8eed",
+    "evidence/native-animation-code.json": "c5ebf78b5b8e7d74a4dca6523e51533b52185abfc92e0a1a80bbf3502e6ceb59",
+    "evidence/native-rules-research.json": "99acede012ece63724ccd7c21075f9fdcef097e992157af2f54f324141b3f53b",
+    "evidence/fidelity-reference.json": "41df304bf5a42619680b21045ac976c8529079f79d574b7722af7a3639c92d77"
+  },
+  "nativeCodeAudit": {
+    "originalExeHashMatched": true,
+    "codeWindowsMatched": 11,
+    "originalExecuted": false
+  },
+  "media": {
+    "url": "https://drive.google.com/file/d/1dPpHdc-gt_zjaHft7wqzGCZpIJlQMHkZ/view?usp=drivesdk",
+    "sha256": "2c97671965dffad883ffb8aead9b211d69e9c23fd244c554840628dd7c73043f",
+    "files": 10
+  },
+  "browser": {
+    "url": "http://127.0.0.1:8766/native-motion.html",
+    "shownInChrome": true,
+    "clip": "Investigator_walk_revolvers_01",
+    "tabMarkedDeliverable": true
+  },
+  "goal": {
+    "status": "active",
+    "round": "R1",
+    "originalEquivalenceCertified": false,
+    "casesInventoried": 34,
+    "completeCasesVerified": 0
+  },
+  "continuity": {
+    "next": "Trace provenance-linked consumers of FNTR object offsets 0x158..0x16c and resolve extra retarget/world motion before R2 integration",
+    "round": "R1",
+    "requiresAlanNow": false
+  },
+  "arenaRegression": {
+    "scope": "Authored baseline regression only; no original equivalence claim",
+    "checks": {
+      "chain": true,
+      "disabled": true,
+      "rotated": true,
+      "pause": true,
+      "wave": true,
+      "audio": true,
+      "placement": true,
+      "saved": true,
+      "scenario": true,
+      "noErrors": true
+    },
+    "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M3 Max, Unspecified Version)",
+    "timing": {
+      "activeAgents": 6,
+      "samples": 60,
+      "medianMs": 16.600000023841858,
+      "p95Ms": 18.100000023841858
+    },
+    "errors": [],
+    "failed": []
+  }
+}

@@ -1,0 +1,282 @@
+{
+ "schema": "lair-agents/1",
+ "origin": "Roster: tipos e qualidades 01-05 e Super existem no pacote (MinionTrait_*_Quality_*); nomes das tabelas de texto. Atributos num\u00e9ricos s\u00e3o assumed: os valores do jogo n\u00e3o foram decodificados.",
+ "stats": [
+  "health",
+  "resolve",
+  "skill"
+ ],
+ "levels": {
+  "1": {
+   "label": "N\u00edvel 1",
+   "health": 60,
+   "resolve": 60,
+   "skill": 10
+  },
+  "2": {
+   "label": "N\u00edvel 2",
+   "health": 90,
+   "resolve": 80,
+   "skill": 25
+  },
+  "3": {
+   "label": "N\u00edvel 3",
+   "health": 130,
+   "resolve": 110,
+   "skill": 45
+  },
+  "4": {
+   "label": "N\u00edvel 4",
+   "health": 180,
+   "resolve": 150,
+   "skill": 70
+  },
+  "5": {
+   "label": "N\u00edvel 5",
+   "health": 240,
+   "resolve": 200,
+   "skill": 100
+  },
+  "super": {
+   "label": "Super",
+   "health": 420,
+   "resolve": 320,
+   "skill": 160
+  }
+ },
+ "levelsOrigin": "assumed",
+ "types": {
+  "investigator": {
+   "name": "Investigator",
+   "pt": "Investigador",
+   "color": "#e8b54a",
+   "role": "Equilibrado. Procura provas; per\u00edcia m\u00e9dia.",
+   "mult": {
+    "health": 1.0,
+    "resolve": 1.0,
+    "skill": 1.2
+   },
+   "multOrigin": "assumed",
+   "view": {
+    "family": "A",
+    "body": "ma_bodyhands_investigator",
+    "head": "ma_head_white01",
+    "parts": [],
+    "walk": "Investigator_walk_revolvers_01",
+    "attach": [
+     {
+      "bone": "bn_L_weapon",
+      "model": "ohw_ranged_pistolinvestigatorsrevolver"
+     },
+     {
+      "bone": "bn_R_weapon",
+      "model": "ohw_ranged_pistolinvestigatorsrevolver"
+     }
+    ],
+    "extraModels": [
+     "ohw_ranged_pistolinvestigatorsrevolver"
+    ],
+    "resolved": {
+     "body": {
+      "model": "ma_bodyhands_investigator",
+      "path": "rigs/ma_bodyhands_investigator.json",
+      "bones": 81
+     },
+     "head": {
+      "model": "ma_head_white01",
+      "path": "rigs/ma_head_white01.json",
+      "bones": 81
+     },
+     "walk": {
+      "name": "Investigator_walk_revolvers_01",
+      "path": "clips/Investigator_walk_revolvers_01.json",
+      "duration": 1.1333333253860474,
+      "bones": 71,
+      "peak": 0.6333
+     },
+     "parts": [],
+     "walkSpeed": {
+      "speed": 1.1470587069082947,
+      "retarget": 0.9999999279977766,
+      "origin": "inferred: clip extra root-motion channel and native bone-length retarget"
+     }
+    }
+   }
+  },
+  "saboteur": {
+   "name": "Saboteur",
+   "pt": "Sabotador",
+   "color": "#7fc4d8",
+   "role": "Per\u00edcia alta: desarma armadilhas antes de cair nelas. Fr\u00e1gil.",
+   "mult": {
+    "health": 0.8,
+    "resolve": 0.9,
+    "skill": 1.7
+   },
+   "multOrigin": "assumed",
+   "view": {
+    "family": "A",
+    "body": "ma_bodynone_saboteur",
+    "head": "ma_head_black01",
+    "parts": [
+     "ma_hands_gloves"
+    ],
+    "walk": "Saboteur_walk_neutral_01",
+    "attach": [],
+    "extraModels": [],
+    "resolved": {
+     "body": {
+      "model": "ma_bodynone_saboteur",
+      "path": "rigs/ma_bodynone_saboteur.json",
+      "bones": 81
+     },
+     "head": {
+      "model": "ma_head_black01",
+      "path": "rigs/ma_head_black01.json",
+      "bones": 81
+     },
+     "walk": {
+      "name": "Saboteur_walk_neutral_01",
+      "path": "clips/Saboteur_walk_neutral_01.json",
+      "duration": 1.3333333730697632,
+      "bones": 58,
+      "peak": 0.4
+     },
+     "parts": [
+      {
+       "model": "ma_hands_gloves",
+       "path": "rigs/ma_hands_gloves.json",
+       "bones": 81
+      }
+     ],
+     "walkSpeed": {
+      "speed": 1.1836764161683198,
+      "retarget": 1.0,
+      "origin": "inferred: clip extra root-motion channel and native bone-length retarget"
+     }
+    }
+   }
+  },
+  "soldier": {
+   "name": "Soldier",
+   "pt": "Soldado",
+   "color": "#d86a5a",
+   "role": "Vitalidade e determina\u00e7\u00e3o altas; quase sem per\u00edcia. Marcha r\u00e1pido e aguenta dano.",
+   "mult": {
+    "health": 1.7,
+    "resolve": 1.3,
+    "skill": 0.4
+   },
+   "multOrigin": "assumed",
+   "view": {
+    "family": "B",
+    "body": "mb_bodynone_soldier",
+    "head": "mb_head_white01",
+    "parts": [
+     "mb_hands_gloves"
+    ],
+    "walk": "Soldier_walk_SMG_01",
+    "attach": [
+     {
+      "bone": "bn_R_weapon",
+      "model": "thw_ranged_smgsoldier"
+     }
+    ],
+    "extraModels": [
+     "thw_ranged_smgsoldier"
+    ],
+    "resolved": {
+     "body": {
+      "model": "mb_bodynone_soldier",
+      "path": "rigs/mb_bodynone_soldier.json",
+      "bones": 77
+     },
+     "head": {
+      "model": "mb_head_white01",
+      "path": "rigs/mb_head_white01.json",
+      "bones": 77
+     },
+     "walk": {
+      "name": "Soldier_walk_SMG_01",
+      "path": "clips/Soldier_walk_SMG_01.json",
+      "duration": 1.0666667222976685,
+      "bones": 54,
+      "peak": 0.2667
+     },
+     "parts": [
+      {
+       "model": "mb_hands_gloves",
+       "path": "rigs/mb_hands_gloves.json",
+       "bones": 77
+      }
+     ],
+     "walkSpeed": {
+      "speed": 1.6111461424008462,
+      "retarget": 1.000000027686403,
+      "origin": "inferred: clip extra root-motion channel and native bone-length retarget"
+     }
+    }
+   }
+  },
+  "rogue": {
+   "name": "Rogue",
+   "pt": "Ladr\u00e3o",
+   "color": "#b58be0",
+   "role": "Sorrateiro e habilidoso; anda devagar e tem pouca vitalidade.",
+   "mult": {
+    "health": 0.7,
+    "resolve": 0.8,
+    "skill": 1.4
+   },
+   "multOrigin": "assumed",
+   "view": {
+    "family": "C",
+    "body": "mc_bodynone_thief",
+    "head": "mc_head_asian01",
+    "parts": [
+     "mc_hands_gloves",
+     "mc_hair_sidepart"
+    ],
+    "walk": "Thief_walk_neutral_01",
+    "attach": [],
+    "extraModels": [],
+    "resolved": {
+     "body": {
+      "model": "mc_bodynone_thief",
+      "path": "rigs/mc_bodynone_thief.json",
+      "bones": 84
+     },
+     "head": {
+      "model": "mc_head_asian01",
+      "path": "rigs/mc_head_asian01.json",
+      "bones": 84
+     },
+     "walk": {
+      "name": "Thief_walk_neutral_01",
+      "path": "clips/Thief_walk_neutral_01.json",
+      "duration": 2.066666603088379,
+      "bones": 61,
+      "peak": 1.3666
+     },
+     "parts": [
+      {
+       "model": "mc_hands_gloves",
+       "path": "rigs/mc_hands_gloves.json",
+       "bones": 84
+      },
+      {
+       "model": "mc_hair_sidepart",
+       "path": "rigs/mc_hair_sidepart.json",
+       "bones": 84
+      }
+     ],
+     "walkSpeed": {
+      "speed": 0.8584425197985752,
+      "retarget": 0.9999999981869214,
+      "origin": "inferred: clip extra root-motion channel and native bone-length retarget"
+     }
+    }
+   }
+  }
+ }
+}

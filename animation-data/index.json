@@ -1,0 +1,2201 @@
+{
+  "schema": "eg2-hcan-native-index/1",
+  "clips": [
+    {
+      "name": "Giant_Fan_WallMount_B_01",
+      "path": "animation-data/Giant_Fan_WallMount_B_01.json",
+      "sourceSha256": "ea99a2433f1770bab50d2351f1acf91f50418dd5d7fc60d78894823e5c8d51c4",
+      "channelTracks": 55,
+      "rotationSamples": 217,
+      "positionSamples": 100,
+      "maxQuaternionNormError": 1.575949005361288e-05,
+      "arraysEnd": 4310,
+      "descriptorExtentValid": true,
+      "channelOffsetsContiguous": true,
+      "timeArraysMonotonic": true,
+      "finitePositions": true,
+      "rotationValueOffset": 740,
+      "rotationTimeOffset": 2476,
+      "positionValueOffset": 2910,
+      "positionTimeOffset": 4110,
+      "extraChannel": {
+        "trackIndex": 54,
+        "nativeBoneName": null,
+        "positionFirst": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "positionLast": [
+          -1.4210854397564648e-16,
+          2.8421708795129297e-16,
+          -1.0061639547348022
+        ],
+        "rotationFirst": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "rotationLast": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "semantics": "Additional channel agrees with header flag0x10 and HANM predecessor extra model motion. Not an HSKN bone. World-space purpose/axes are inferred, not client-verified."
+      },
+      "nativeNamesResolved": 54,
+      "actorBonesMapped": 53,
+      "boneHashOffset": 4590,
+      "uniqueNativeHashRun": true,
+      "opaqueTailBytes": 680
+    },
+    {
+      "name": "Captured_B_walk_01",
+      "path": "animation-data/Captured_B_walk_01.json",
+      "sourceSha256": "235207a4aca95148297b9977bc5071ed5e66faa8a81b87766b16dcf756c328d2",
+      "channelTracks": 55,
+      "rotationSamples": 1181,
+      "positionSamples": 180,
+      "maxQuaternionNormError": 1.6940351254213226e-05,
+      "arraysEnd": 15062,
+      "descriptorExtentValid": true,
+      "channelOffsetsContiguous": true,
+      "timeArraysMonotonic": true,
+      "finitePositions": true,
+      "rotationValueOffset": 732,
+      "rotationTimeOffset": 10180,
+      "positionValueOffset": 12542,
+      "positionTimeOffset": 14702,
+      "extraChannel": {
+        "trackIndex": 54,
+        "nativeBoneName": null,
+        "positionFirst": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "positionLast": [
+          0.0,
+          0.0,
+          1.7196600437164307
+        ],
+        "rotationFirst": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "rotationLast": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "semantics": "Additional channel agrees with header flag0x10 and HANM predecessor extra model motion. Not an HSKN bone. World-space purpose/axes are inferred, not client-verified."
+      },
+      "nativeNamesResolved": 54,
+      "actorBonesMapped": 53,
+      "boneHashOffset": 15370,
+      "uniqueNativeHashRun": true,
+      "opaqueTailBytes": 552
+    },
+    {
+      "name": "Giant_Fan_WallLoop_B_01",
+      "path": "animation-data/Giant_Fan_WallLoop_B_01.json",
+      "sourceSha256": "e3063519671ce2a6a57a46d1e895669580d4fcf9231f9872d2c35a8b6e104fdd",
+      "channelTracks": 55,
+      "rotationSamples": 991,
+      "positionSamples": 638,
+      "maxQuaternionNormError": 1.8564186928471393e-05,
+      "arraysEnd": 19578,
+      "descriptorExtentValid": true,
+      "channelOffsetsContiguous": true,
+      "timeArraysMonotonic": true,
+      "finitePositions": true,
+      "rotationValueOffset": 736,
+      "rotationTimeOffset": 8664,
+      "positionValueOffset": 10646,
+      "positionTimeOffset": 18302,
+      "extraChannel": {
+        "trackIndex": 54,
+        "nativeBoneName": null,
+        "positionFirst": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "positionLast": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotationFirst": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "rotationLast": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "semantics": "Additional channel agrees with header flag0x10 and HANM predecessor extra model motion. Not an HSKN bone. World-space purpose/axes are inferred, not client-verified."
+      },
+      "nativeNamesResolved": 54,
+      "actorBonesMapped": 53,
+      "boneHashOffset": 19830,
+      "uniqueNativeHashRun": true,
+      "opaqueTailBytes": 496
+    },
+    {
+      "name": "Giant_Fan_WallLoop_A_01",
+      "path": "animation-data/Giant_Fan_WallLoop_A_01.json",
+      "sourceSha256": "a00bcf962d2a2e7e4dd17fd2d0c07ebf936251af3052b06ce2da618a917ccde8",
+      "channelTracks": 59,
+      "rotationSamples": 1018,
+      "positionSamples": 632,
+      "maxQuaternionNormError": 1.65446264445146e-05,
+      "arraysEnd": 19812,
+      "descriptorExtentValid": true,
+      "channelOffsetsContiguous": true,
+      "timeArraysMonotonic": true,
+      "finitePositions": true,
+      "rotationValueOffset": 784,
+      "rotationTimeOffset": 8928,
+      "positionValueOffset": 10964,
+      "positionTimeOffset": 18548,
+      "extraChannel": {
+        "trackIndex": 58,
+        "nativeBoneName": null,
+        "positionFirst": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "positionLast": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotationFirst": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "rotationLast": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "semantics": "Additional channel agrees with header flag0x10 and HANM predecessor extra model motion. Not an HSKN bone. World-space purpose/axes are inferred, not client-verified."
+      },
+      "nativeNamesResolved": 58,
+      "actorBonesMapped": 58,
+      "boneHashOffset": 19848,
+      "uniqueNativeHashRun": true,
+      "opaqueTailBytes": 296
+    },
+    {
+      "name": "superInvestigator_walk_neutral_01",
+      "path": "animation-data/superInvestigator_walk_neutral_01.json",
+      "sourceSha256": "43b39585d4bb3c60c87dfa9fdd7493e417d415c828711412d1a73a072e26060e",
+      "channelTracks": 72,
+      "rotationSamples": 1450,
+      "positionSamples": 389,
+      "maxQuaternionNormError": 1.4322309804915001e-05,
+      "arraysEnd": 20898,
+      "descriptorExtentValid": true,
+      "channelOffsetsContiguous": true,
+      "timeArraysMonotonic": true,
+      "finitePositions": true,
+      "rotationValueOffset": 952,
+      "rotationTimeOffset": 12552,
+      "positionValueOffset": 15452,
+      "positionTimeOffset": 20120,
+      "extraChannel": {
+        "trackIndex": 71,
+        "nativeBoneName": null,
+        "positionFirst": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "positionLast": [
+          0.0,
+          0.0,
+          1.3001333475112915
+        ],
+        "rotationFirst": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "rotationLast": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "semantics": "Additional channel agrees with header flag0x10 and HANM predecessor extra model motion. Not an HSKN bone. World-space purpose/axes are inferred, not client-verified."
+      },
+      "nativeNamesResolved": 71,
+      "actorBonesMapped": 58,
+      "boneHashOffset": 21314,
+      "uniqueNativeHashRun": true,
+      "opaqueTailBytes": 728
+    },
+    {
+      "name": "Giant_Fan_WallMount_A_01",
+      "path": "animation-data/Giant_Fan_WallMount_A_01.json",
+      "sourceSha256": "4a7e772499b5b1de550b16b86e7cb591f7addfd1f41809799c29d24518870c77",
+      "channelTracks": 59,
+      "rotationSamples": 226,
+      "positionSamples": 112,
+      "maxQuaternionNormError": 1.8825303651714975e-05,
+      "arraysEnd": 4616,
+      "descriptorExtentValid": true,
+      "channelOffsetsContiguous": true,
+      "timeArraysMonotonic": true,
+      "finitePositions": true,
+      "rotationValueOffset": 788,
+      "rotationTimeOffset": 2596,
+      "positionValueOffset": 3048,
+      "positionTimeOffset": 4392,
+      "extraChannel": {
+        "trackIndex": 58,
+        "nativeBoneName": null,
+        "positionFirst": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "positionLast": [
+          -1.4210854397564648e-16,
+          2.8421708795129297e-16,
+          -1.0061639547348022
+        ],
+        "rotationFirst": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "rotationLast": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "semantics": "Additional channel agrees with header flag0x10 and HANM predecessor extra model motion. Not an HSKN bone. World-space purpose/axes are inferred, not client-verified."
+      },
+      "nativeNamesResolved": 58,
+      "actorBonesMapped": 58,
+      "boneHashOffset": 4652,
+      "uniqueNativeHashRun": true,
+      "opaqueTailBytes": 543
+    },
+    {
+      "name": "Giant_Fan_WallDismount_B_01",
+      "path": "animation-data/Giant_Fan_WallDismount_B_01.json",
+      "sourceSha256": "3bf6358ced1242ba4b3e9b353d469665cea131a9aad4cd8ef9ce97d54d864be4",
+      "channelTracks": 55,
+      "rotationSamples": 1218,
+      "positionSamples": 212,
+      "maxQuaternionNormError": 1.5610889835038222e-05,
+      "arraysEnd": 15888,
+      "descriptorExtentValid": true,
+      "channelOffsetsContiguous": true,
+      "timeArraysMonotonic": true,
+      "finitePositions": true,
+      "rotationValueOffset": 740,
+      "rotationTimeOffset": 10484,
+      "positionValueOffset": 12920,
+      "positionTimeOffset": 15464,
+      "extraChannel": {
+        "trackIndex": 54,
+        "nativeBoneName": null,
+        "positionFirst": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "positionLast": [
+          0.0,
+          0.0,
+          0.18449920415878296
+        ],
+        "rotationFirst": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "rotationLast": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "semantics": "Additional channel agrees with header flag0x10 and HANM predecessor extra model motion. Not an HSKN bone. World-space purpose/axes are inferred, not client-verified."
+      },
+      "nativeNamesResolved": 54,
+      "actorBonesMapped": 53,
+      "boneHashOffset": 16224,
+      "uniqueNativeHashRun": true,
+      "opaqueTailBytes": 580
+    },
+    {
+      "name": "Giant_Fan_WallDismount_A_01",
+      "path": "animation-data/Giant_Fan_WallDismount_A_01.json",
+      "sourceSha256": "1800eaa3e3e9f74f755943ca70d062d67268a13edcb8f37dfa73e648b75f6d4b",
+      "channelTracks": 59,
+      "rotationSamples": 1450,
+      "positionSamples": 336,
+      "maxQuaternionNormError": 1.9524268835335867e-05,
+      "arraysEnd": 19992,
+      "descriptorExtentValid": true,
+      "channelOffsetsContiguous": true,
+      "timeArraysMonotonic": true,
+      "finitePositions": true,
+      "rotationValueOffset": 788,
+      "rotationTimeOffset": 12388,
+      "positionValueOffset": 15288,
+      "positionTimeOffset": 19320,
+      "extraChannel": {
+        "trackIndex": 58,
+        "nativeBoneName": null,
+        "positionFirst": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "positionLast": [
+          0.0,
+          0.0,
+          0.18449920415878296
+        ],
+        "rotationFirst": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "rotationLast": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "semantics": "Additional channel agrees with header flag0x10 and HANM predecessor extra model motion. Not an HSKN bone. World-space purpose/axes are inferred, not client-verified."
+      },
+      "nativeNamesResolved": 58,
+      "actorBonesMapped": 58,
+      "boneHashOffset": 20084,
+      "uniqueNativeHashRun": true,
+      "opaqueTailBytes": 352
+    },
+    {
+      "name": "Giant_Fan_Loop_01",
+      "path": "animation-data/Giant_Fan_Loop_01.json",
+      "sourceSha256": "2895f6de072afa0f08709ec6bcfc84fe0d35fe8056ef4f6b8d848ab793c427a5",
+      "channelTracks": 7,
+      "rotationSamples": 115,
+      "positionSamples": 7,
+      "maxQuaternionNormError": 1.1902526707352479e-05,
+      "arraysEnd": 1404,
+      "descriptorExtentValid": true,
+      "channelOffsetsContiguous": true,
+      "timeArraysMonotonic": true,
+      "finitePositions": true,
+      "rotationValueOffset": 156,
+      "rotationTimeOffset": 1076,
+      "positionValueOffset": 1306,
+      "positionTimeOffset": 1390,
+      "nativeNamesResolved": 7,
+      "actorBonesMapped": 0,
+      "boneHashOffset": 1468,
+      "uniqueNativeHashRun": true,
+      "opaqueTailBytes": 120
+    },
+    {
+      "name": "Investigator_walk_revolvers_01",
+      "path": "animation-data/Investigator_walk_revolvers_01.json",
+      "sourceSha256": "457cb9c58b7a084993a899545a480ed81ef490c608c0020dc8a756ce0ff5cbae",
+      "channelTracks": 72,
+      "rotationSamples": 1098,
+      "positionSamples": 416,
+      "maxQuaternionNormError": 1.5065185880569487e-05,
+      "arraysEnd": 17752,
+      "descriptorExtentValid": true,
+      "channelOffsetsContiguous": true,
+      "timeArraysMonotonic": true,
+      "finitePositions": true,
+      "rotationValueOffset": 948,
+      "rotationTimeOffset": 9732,
+      "positionValueOffset": 11928,
+      "positionTimeOffset": 16920,
+      "extraChannel": {
+        "trackIndex": 71,
+        "nativeBoneName": null,
+        "positionFirst": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "positionLast": [
+          0.0,
+          0.0,
+          1.2999999523162842
+        ],
+        "rotationFirst": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "rotationLast": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "semantics": "Additional channel agrees with header flag0x10 and HANM predecessor extra model motion. Not an HSKN bone. World-space purpose/axes are inferred, not client-verified."
+      },
+      "nativeNamesResolved": 71,
+      "actorBonesMapped": 58,
+      "boneHashOffset": 18128,
+      "uniqueNativeHashRun": true,
+      "opaqueTailBytes": 688
+    },
+    {
+      "name": "Trap_Laser_Dismount_A_01",
+      "path": "animation-data/Trap_Laser_Dismount_A_01.json",
+      "sourceSha256": "d3f7b117b3f705679d799b7f49af6318d3ec2dea051eb5be09c027a917a28a3f",
+      "channelTracks": 71,
+      "rotationSamples": 1981,
+      "positionSamples": 965,
+      "maxQuaternionNormError": 1.6255153902799968e-05,
+      "arraysEnd": 34252,
+      "descriptorExtentValid": true,
+      "channelOffsetsContiguous": true,
+      "timeArraysMonotonic": true,
+      "finitePositions": true,
+      "rotationValueOffset": 932,
+      "rotationTimeOffset": 16780,
+      "positionValueOffset": 20742,
+      "positionTimeOffset": 32322,
+      "nativeNamesResolved": 71,
+      "actorBonesMapped": 58,
+      "boneHashOffset": 34656,
+      "uniqueNativeHashRun": true,
+      "opaqueTailBytes": 716
+    },
+    {
+      "name": "Giant_Fan_Dismount_A_01",
+      "path": "animation-data/Giant_Fan_Dismount_A_01.json",
+      "sourceSha256": "495258ee75f299f15f2cca4020292e7e2e25238712bf65c8bd323b521ba7a2e4",
+      "channelTracks": 59,
+      "rotationSamples": 1468,
+      "positionSamples": 538,
+      "maxQuaternionNormError": 1.5565042608134405e-05,
+      "arraysEnd": 22996,
+      "descriptorExtentValid": true,
+      "channelOffsetsContiguous": true,
+      "timeArraysMonotonic": true,
+      "finitePositions": true,
+      "rotationValueOffset": 784,
+      "rotationTimeOffset": 12528,
+      "positionValueOffset": 15464,
+      "positionTimeOffset": 21920,
+      "extraChannel": {
+        "trackIndex": 58,
+        "nativeBoneName": null,
+        "positionFirst": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "positionLast": [
+          -1.4210854397564648e-16,
+          2.8421708795129297e-16,
+          -0.4205102026462555
+        ],
+        "rotationFirst": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "rotationLast": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "semantics": "Additional channel agrees with header flag0x10 and HANM predecessor extra model motion. Not an HSKN bone. World-space purpose/axes are inferred, not client-verified."
+      },
+      "nativeNamesResolved": 58,
+      "actorBonesMapped": 58,
+      "boneHashOffset": 23144,
+      "uniqueNativeHashRun": true,
+      "opaqueTailBytes": 408
+    },
+    {
+      "name": "Trap_Laser_Loop_A_01",
+      "path": "animation-data/Trap_Laser_Loop_A_01.json",
+      "sourceSha256": "8d8644c351121ec4dd111cb260b1ac832d10baa17be1f01b191dedf0ac7ff13c",
+      "channelTracks": 71,
+      "rotationSamples": 5332,
+      "positionSamples": 2222,
+      "maxQuaternionNormError": 1.8371940815331556e-05,
+      "arraysEnd": 85356,
+      "descriptorExtentValid": true,
+      "channelOffsetsContiguous": true,
+      "timeArraysMonotonic": true,
+      "finitePositions": true,
+      "rotationValueOffset": 928,
+      "rotationTimeOffset": 43584,
+      "positionValueOffset": 54248,
+      "positionTimeOffset": 80912,
+      "nativeNamesResolved": 71,
+      "actorBonesMapped": 58,
+      "boneHashOffset": 85956,
+      "uniqueNativeHashRun": true,
+      "opaqueTailBytes": 912
+    },
+    {
+      "name": "Trap_GloveOnSpring_Dismount_B_01",
+      "path": "animation-data/Trap_GloveOnSpring_Dismount_B_01.json",
+      "sourceSha256": "5de44dd1ae3f912c2c72195cd418b14f8169898b1bcc5c2c756b7b3c1c204767",
+      "channelTracks": 55,
+      "rotationSamples": 1944,
+      "positionSamples": 276,
+      "maxQuaternionNormError": 1.5594869270163514e-05,
+      "arraysEnd": 24052,
+      "descriptorExtentValid": true,
+      "channelOffsetsContiguous": true,
+      "timeArraysMonotonic": true,
+      "finitePositions": true,
+      "rotationValueOffset": 748,
+      "rotationTimeOffset": 16300,
+      "positionValueOffset": 20188,
+      "positionTimeOffset": 23500,
+      "extraChannel": {
+        "trackIndex": 54,
+        "nativeBoneName": null,
+        "positionFirst": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "positionLast": [
+          -2.518476963043213,
+          0.0,
+          -0.5006317496299744
+        ],
+        "rotationFirst": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "rotationLast": [
+          0.0,
+          0.6487929929502243,
+          0.0,
+          0.7609521629663538
+        ],
+        "semantics": "Additional channel agrees with header flag0x10 and HANM predecessor extra model motion. Not an HSKN bone. World-space purpose/axes are inferred, not client-verified."
+      },
+      "nativeNamesResolved": 54,
+      "actorBonesMapped": 53,
+      "boneHashOffset": 24388,
+      "uniqueNativeHashRun": true,
+      "opaqueTailBytes": 728
+    },
+    {
+      "name": "Giant_Fan_Dismount_01",
+      "path": "animation-data/Giant_Fan_Dismount_01.json",
+      "sourceSha256": "a99e045cdf791f8c57e7bc1be77ca67ff7451f9805c66549f985b3c2f0ce3c71",
+      "channelTracks": 7,
+      "rotationSamples": 67,
+      "positionSamples": 50,
+      "maxQuaternionNormError": 1.1902526707352479e-05,
+      "arraysEnd": 1530,
+      "descriptorExtentValid": true,
+      "channelOffsetsContiguous": true,
+      "timeArraysMonotonic": true,
+      "finitePositions": true,
+      "rotationValueOffset": 160,
+      "rotationTimeOffset": 696,
+      "positionValueOffset": 830,
+      "positionTimeOffset": 1430,
+      "nativeNamesResolved": 7,
+      "actorBonesMapped": 0,
+      "boneHashOffset": 1594,
+      "uniqueNativeHashRun": true,
+      "opaqueTailBytes": 120
+    },
+    {
+      "name": "Giant_Fan_Mount_A_01",
+      "path": "animation-data/Giant_Fan_Mount_A_01.json",
+      "sourceSha256": "31d4defe4a2b86e2797ef05549f30e464f64bd46069889e19fc84b9ab7fcde2d",
+      "channelTracks": 59,
+      "rotationSamples": 684,
+      "positionSamples": 223,
+      "maxQuaternionNormError": 1.3601145681829685e-05,
+      "arraysEnd": 10746,
+      "descriptorExtentValid": true,
+      "channelOffsetsContiguous": true,
+      "timeArraysMonotonic": true,
+      "finitePositions": true,
+      "rotationValueOffset": 784,
+      "rotationTimeOffset": 6256,
+      "positionValueOffset": 7624,
+      "positionTimeOffset": 10300,
+      "extraChannel": {
+        "trackIndex": 58,
+        "nativeBoneName": null,
+        "positionFirst": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "positionLast": [
+          0.0,
+          0.0,
+          -4.584718704223633
+        ],
+        "rotationFirst": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "rotationLast": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "semantics": "Additional channel agrees with header flag0x10 and HANM predecessor extra model motion. Not an HSKN bone. World-space purpose/axes are inferred, not client-verified."
+      },
+      "nativeNamesResolved": 58,
+      "actorBonesMapped": 58,
+      "boneHashOffset": 11014,
+      "uniqueNativeHashRun": true,
+      "opaqueTailBytes": 528
+    },
+    {
+      "name": "Trap_GloveOnSpring_Loop_B_01",
+      "path": "animation-data/Trap_GloveOnSpring_Loop_B_01.json",
+      "sourceSha256": "c4364e5b9bf69650b833a3e5f78c839a2abd978edd05c745f5ee521e0c4819dc",
+      "channelTracks": 55,
+      "rotationSamples": 225,
+      "positionSamples": 104,
+      "maxQuaternionNormError": 1.5006577164689006e-05,
+      "arraysEnd": 4450,
+      "descriptorExtentValid": true,
+      "channelOffsetsContiguous": true,
+      "timeArraysMonotonic": true,
+      "finitePositions": true,
+      "rotationValueOffset": 744,
+      "rotationTimeOffset": 2544,
+      "positionValueOffset": 2994,
+      "positionTimeOffset": 4242,
+      "extraChannel": {
+        "trackIndex": 54,
+        "nativeBoneName": null,
+        "positionFirst": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "positionLast": [
+          0.0,
+          0.0,
+          -4.599824905395508
+        ],
+        "rotationFirst": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "rotationLast": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "semantics": "Additional channel agrees with header flag0x10 and HANM predecessor extra model motion. Not an HSKN bone. World-space purpose/axes are inferred, not client-verified."
+      },
+      "nativeNamesResolved": 54,
+      "actorBonesMapped": 53,
+      "boneHashOffset": 4730,
+      "uniqueNativeHashRun": true,
+      "opaqueTailBytes": 524
+    },
+    {
+      "name": "Trap_GloveOnSpring_Loop_01",
+      "path": "animation-data/Trap_GloveOnSpring_Loop_01.json",
+      "sourceSha256": "ba4989c7f9578ca0f023c4d1d3e88f0531ffb7b66906d71877e27bf5620f81fd",
+      "channelTracks": 10,
+      "rotationSamples": 10,
+      "positionSamples": 10,
+      "maxQuaternionNormError": 5.841821053786944e-06,
+      "arraysEnd": 440,
+      "descriptorExtentValid": true,
+      "channelOffsetsContiguous": true,
+      "timeArraysMonotonic": true,
+      "finitePositions": true,
+      "rotationValueOffset": 200,
+      "rotationTimeOffset": 280,
+      "positionValueOffset": 300,
+      "positionTimeOffset": 420,
+      "extraChannel": {
+        "trackIndex": 9,
+        "nativeBoneName": null,
+        "positionFirst": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "positionLast": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotationFirst": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "rotationLast": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "semantics": "Additional channel agrees with header flag0x10 and HANM predecessor extra model motion. Not an HSKN bone. World-space purpose/axes are inferred, not client-verified."
+      },
+      "nativeNamesResolved": 9,
+      "actorBonesMapped": 0,
+      "boneHashOffset": 452,
+      "uniqueNativeHashRun": true,
+      "opaqueTailBytes": 76
+    },
+    {
+      "name": "Trap_Laser_Dismount_B_01",
+      "path": "animation-data/Trap_Laser_Dismount_B_01.json",
+      "sourceSha256": "505fdd091d848aeafe88b0c508f58c9b6cffb5fcdf30b804e87e4b6ce511308c",
+      "channelTracks": 54,
+      "rotationSamples": 1713,
+      "positionSamples": 554,
+      "maxQuaternionNormError": 1.6577618529800553e-05,
+      "arraysEnd": 25614,
+      "descriptorExtentValid": true,
+      "channelOffsetsContiguous": true,
+      "timeArraysMonotonic": true,
+      "finitePositions": true,
+      "rotationValueOffset": 728,
+      "rotationTimeOffset": 14432,
+      "positionValueOffset": 17858,
+      "positionTimeOffset": 24506,
+      "nativeNamesResolved": 54,
+      "actorBonesMapped": 53,
+      "boneHashOffset": 25950,
+      "uniqueNativeHashRun": true,
+      "opaqueTailBytes": 580
+    },
+    {
+      "name": "Trap_SlipperySoap_MovementLoop_A_01",
+      "path": "animation-data/Trap_SlipperySoap_MovementLoop_A_01.json",
+      "sourceSha256": "2ab94197376da9e6b24843a4425e9a1705a8c383fb4823b157894250a5638c3f",
+      "channelTracks": 57,
+      "rotationSamples": 1012,
+      "positionSamples": 239,
+      "maxQuaternionNormError": 1.3800652787887557e-05,
+      "arraysEnd": 14238,
+      "descriptorExtentValid": true,
+      "channelOffsetsContiguous": true,
+      "timeArraysMonotonic": true,
+      "finitePositions": true,
+      "rotationValueOffset": 772,
+      "rotationTimeOffset": 8868,
+      "positionValueOffset": 10892,
+      "positionTimeOffset": 13760,
+      "extraChannel": {
+        "trackIndex": 56,
+        "nativeBoneName": null,
+        "positionFirst": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "positionLast": [
+          -1.4406396076083183e-09,
+          0.0,
+          1.7869751900434494e-08
+        ],
+        "rotationFirst": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "rotationLast": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "semantics": "Additional channel agrees with header flag0x10 and HANM predecessor extra model motion. Not an HSKN bone. World-space purpose/axes are inferred, not client-verified."
+      },
+      "nativeNamesResolved": 56,
+      "actorBonesMapped": 56,
+      "boneHashOffset": 14610,
+      "uniqueNativeHashRun": true,
+      "opaqueTailBytes": 624
+    },
+    {
+      "name": "Trap_Laser_Loop_B_01",
+      "path": "animation-data/Trap_Laser_Loop_B_01.json",
+      "sourceSha256": "8e15efd8e1d91ad7c28e2811082ff77a0c8b7fe9468a17de7d80823daa4bc537",
+      "channelTracks": 54,
+      "rotationSamples": 4431,
+      "positionSamples": 1165,
+      "maxQuaternionNormError": 1.7994710376778578e-05,
+      "arraysEnd": 61344,
+      "descriptorExtentValid": true,
+      "channelOffsetsContiguous": true,
+      "timeArraysMonotonic": true,
+      "finitePositions": true,
+      "rotationValueOffset": 724,
+      "rotationTimeOffset": 36172,
+      "positionValueOffset": 45034,
+      "positionTimeOffset": 59014,
+      "nativeNamesResolved": 54,
+      "actorBonesMapped": 53,
+      "boneHashOffset": 61876,
+      "uniqueNativeHashRun": true,
+      "opaqueTailBytes": 776
+    },
+    {
+      "name": "Giant_Fan_Mount_B_01",
+      "path": "animation-data/Giant_Fan_Mount_B_01.json",
+      "sourceSha256": "e0b1d8af99eb07b00533fb53779c8013304827dce4ce60ff4c4ded513e67ec01",
+      "channelTracks": 55,
+      "rotationSamples": 653,
+      "positionSamples": 155,
+      "maxQuaternionNormError": 1.4029106692792226e-05,
+      "arraysEnd": 9436,
+      "descriptorExtentValid": true,
+      "channelOffsetsContiguous": true,
+      "timeArraysMonotonic": true,
+      "finitePositions": true,
+      "rotationValueOffset": 736,
+      "rotationTimeOffset": 5960,
+      "positionValueOffset": 7266,
+      "positionTimeOffset": 9126,
+      "extraChannel": {
+        "trackIndex": 54,
+        "nativeBoneName": null,
+        "positionFirst": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "positionLast": [
+          0.0,
+          0.0,
+          -4.584719181060791
+        ],
+        "rotationFirst": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "rotationLast": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "semantics": "Additional channel agrees with header flag0x10 and HANM predecessor extra model motion. Not an HSKN bone. World-space purpose/axes are inferred, not client-verified."
+      },
+      "nativeNamesResolved": 54,
+      "actorBonesMapped": 53,
+      "boneHashOffset": 9800,
+      "uniqueNativeHashRun": true,
+      "opaqueTailBytes": 608
+    },
+    {
+      "name": "Trap_Bubble_Blower_Dismount_01",
+      "path": "animation-data/Trap_Bubble_Blower_Dismount_01.json",
+      "sourceSha256": "94b9265b27d1075becc6aa02ae247ba4f5945682dde7947e51ce4428acd7e738",
+      "channelTracks": 5,
+      "rotationSamples": 28,
+      "positionSamples": 88,
+      "maxQuaternionNormError": 1.4766464148330272e-05,
+      "arraysEnd": 1656,
+      "descriptorExtentValid": true,
+      "channelOffsetsContiguous": true,
+      "timeArraysMonotonic": true,
+      "finitePositions": true,
+      "rotationValueOffset": 144,
+      "rotationTimeOffset": 368,
+      "positionValueOffset": 424,
+      "positionTimeOffset": 1480,
+      "nativeNamesResolved": 5,
+      "actorBonesMapped": 0,
+      "boneHashOffset": 1668,
+      "uniqueNativeHashRun": true,
+      "opaqueTailBytes": 60
+    },
+    {
+      "name": "Trap_SlipperySoap_Dismount_01",
+      "path": "animation-data/Trap_SlipperySoap_Dismount_01.json",
+      "sourceSha256": "10ceafe27a27866f4e1abb8fb7d5c478bd0a08e83a7615cc743f9ab9f0322590",
+      "channelTracks": 3,
+      "rotationSamples": 25,
+      "positionSamples": 28,
+      "maxQuaternionNormError": 1.4718337197905385e-05,
+      "arraysEnd": 762,
+      "descriptorExtentValid": true,
+      "channelOffsetsContiguous": true,
+      "timeArraysMonotonic": true,
+      "finitePositions": true,
+      "rotationValueOffset": 120,
+      "rotationTimeOffset": 320,
+      "positionValueOffset": 370,
+      "positionTimeOffset": 706,
+      "nativeNamesResolved": 3,
+      "actorBonesMapped": 0,
+      "boneHashOffset": 774,
+      "uniqueNativeHashRun": true,
+      "opaqueTailBytes": 52
+    },
+    {
+      "name": "Trap_SlipperySoap_Dismount_A_01",
+      "path": "animation-data/Trap_SlipperySoap_Dismount_A_01.json",
+      "sourceSha256": "af25faa074ee3c075cdedcbbb8cef0e8cf5c4068d1c0677ef50d856c4ebf0eb9",
+      "channelTracks": 57,
+      "rotationSamples": 1247,
+      "positionSamples": 167,
+      "maxQuaternionNormError": 1.484459129463822e-05,
+      "arraysEnd": 15576,
+      "descriptorExtentValid": true,
+      "channelOffsetsContiguous": true,
+      "timeArraysMonotonic": true,
+      "finitePositions": true,
+      "rotationValueOffset": 768,
+      "rotationTimeOffset": 10744,
+      "positionValueOffset": 13238,
+      "positionTimeOffset": 15242,
+      "extraChannel": {
+        "trackIndex": 56,
+        "nativeBoneName": null,
+        "positionFirst": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "positionLast": [
+          0.0,
+          0.0,
+          0.28278958797454834
+        ],
+        "rotationFirst": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "rotationLast": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "semantics": "Additional channel agrees with header flag0x10 and HANM predecessor extra model motion. Not an HSKN bone. World-space purpose/axes are inferred, not client-verified."
+      },
+      "nativeNamesResolved": 56,
+      "actorBonesMapped": 56,
+      "boneHashOffset": 15920,
+      "uniqueNativeHashRun": true,
+      "opaqueTailBytes": 596
+    },
+    {
+      "name": "Trap_Bubble_Blower_Mount_01",
+      "path": "animation-data/Trap_Bubble_Blower_Mount_01.json",
+      "sourceSha256": "fd2c3cf3ac92d15469df27aea9cee4af5d1cf4feade56617f5b40197ebfd2ee9",
+      "channelTracks": 5,
+      "rotationSamples": 14,
+      "positionSamples": 50,
+      "maxQuaternionNormError": 7.364965658451794e-06,
+      "arraysEnd": 980,
+      "descriptorExtentValid": true,
+      "channelOffsetsContiguous": true,
+      "timeArraysMonotonic": true,
+      "finitePositions": true,
+      "rotationValueOffset": 140,
+      "rotationTimeOffset": 252,
+      "positionValueOffset": 280,
+      "positionTimeOffset": 880,
+      "nativeNamesResolved": 5,
+      "actorBonesMapped": 0,
+      "boneHashOffset": 992,
+      "uniqueNativeHashRun": true,
+      "opaqueTailBytes": 60
+    },
+    {
+      "name": "Trap_BubbleCannon_Loop_A_01",
+      "path": "animation-data/Trap_BubbleCannon_Loop_A_01.json",
+      "sourceSha256": "204eb1b48dccb3f1ca9ee16bc0d2fabbcb9ba0a103c4457a62b214ec1d911627",
+      "channelTracks": 57,
+      "rotationSamples": 5111,
+      "positionSamples": 519,
+      "maxQuaternionNormError": 1.6996162433779993e-05,
+      "arraysEnd": 59140,
+      "descriptorExtentValid": true,
+      "channelOffsetsContiguous": true,
+      "timeArraysMonotonic": true,
+      "finitePositions": true,
+      "rotationValueOffset": 764,
+      "rotationTimeOffset": 41652,
+      "positionValueOffset": 51874,
+      "positionTimeOffset": 58102,
+      "extraChannel": {
+        "trackIndex": 56,
+        "nativeBoneName": null,
+        "positionFirst": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "positionLast": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotationFirst": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "rotationLast": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "semantics": "Additional channel agrees with header flag0x10 and HANM predecessor extra model motion. Not an HSKN bone. World-space purpose/axes are inferred, not client-verified."
+      },
+      "nativeNamesResolved": 56,
+      "actorBonesMapped": 56,
+      "boneHashOffset": 59400,
+      "uniqueNativeHashRun": true,
+      "opaqueTailBytes": 599
+    },
+    {
+      "name": "Trap_GloveOnSpring_Mount_01",
+      "path": "animation-data/Trap_GloveOnSpring_Mount_01.json",
+      "sourceSha256": "e910d7b411c7f700b69eed4c63901bce192a1b3662fe26fd0505e61020642bb2",
+      "channelTracks": 10,
+      "rotationSamples": 108,
+      "positionSamples": 349,
+      "maxQuaternionNormError": 9.822307928675222e-06,
+      "arraysEnd": 6166,
+      "descriptorExtentValid": true,
+      "channelOffsetsContiguous": true,
+      "timeArraysMonotonic": true,
+      "finitePositions": true,
+      "rotationValueOffset": 200,
+      "rotationTimeOffset": 1064,
+      "positionValueOffset": 1280,
+      "positionTimeOffset": 5468,
+      "extraChannel": {
+        "trackIndex": 9,
+        "nativeBoneName": null,
+        "positionFirst": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "positionLast": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotationFirst": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "rotationLast": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "semantics": "Additional channel agrees with header flag0x10 and HANM predecessor extra model motion. Not an HSKN bone. World-space purpose/axes are inferred, not client-verified."
+      },
+      "nativeNamesResolved": 9,
+      "actorBonesMapped": 0,
+      "boneHashOffset": 6206,
+      "uniqueNativeHashRun": true,
+      "opaqueTailBytes": 104
+    },
+    {
+      "name": "Trap_SlipperySoap_Mount_01",
+      "path": "animation-data/Trap_SlipperySoap_Mount_01.json",
+      "sourceSha256": "7c6332f896d87149e6d8b4500bff5828a9735a381db0727abcf27f6b0f68a744",
+      "channelTracks": 3,
+      "rotationSamples": 29,
+      "positionSamples": 36,
+      "maxQuaternionNormError": 1.5310139602653372e-05,
+      "arraysEnd": 910,
+      "descriptorExtentValid": true,
+      "channelOffsetsContiguous": true,
+      "timeArraysMonotonic": true,
+      "finitePositions": true,
+      "rotationValueOffset": 116,
+      "rotationTimeOffset": 348,
+      "positionValueOffset": 406,
+      "positionTimeOffset": 838,
+      "nativeNamesResolved": 3,
+      "actorBonesMapped": 0,
+      "boneHashOffset": 922,
+      "uniqueNativeHashRun": true,
+      "opaqueTailBytes": 52
+    },
+    {
+      "name": "Trap_BubbleCannon_Dismount_A_01",
+      "path": "animation-data/Trap_BubbleCannon_Dismount_A_01.json",
+      "sourceSha256": "f5252efd663ea01db5aa2b277c905a3f455294f547796206d7502e6c4171e8c9",
+      "channelTracks": 57,
+      "rotationSamples": 1546,
+      "positionSamples": 171,
+      "maxQuaternionNormError": 1.2990197112650037e-05,
+      "arraysEnd": 18622,
+      "descriptorExtentValid": true,
+      "channelOffsetsContiguous": true,
+      "timeArraysMonotonic": true,
+      "finitePositions": true,
+      "rotationValueOffset": 768,
+      "rotationTimeOffset": 13136,
+      "positionValueOffset": 16228,
+      "positionTimeOffset": 18280,
+      "extraChannel": {
+        "trackIndex": 56,
+        "nativeBoneName": null,
+        "positionFirst": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "positionLast": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotationFirst": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "rotationLast": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "semantics": "Additional channel agrees with header flag0x10 and HANM predecessor extra model motion. Not an HSKN bone. World-space purpose/axes are inferred, not client-verified."
+      },
+      "nativeNamesResolved": 56,
+      "actorBonesMapped": 56,
+      "boneHashOffset": 18938,
+      "uniqueNativeHashRun": true,
+      "opaqueTailBytes": 799
+    },
+    {
+      "name": "Trap_SlipperySoap_Loop_A_01",
+      "path": "animation-data/Trap_SlipperySoap_Loop_A_01.json",
+      "sourceSha256": "2c0520f5052d6541d8fbcfd1bf12241faf54503588333e74750a1de595cbae44",
+      "channelTracks": 57,
+      "rotationSamples": 692,
+      "positionSamples": 97,
+      "maxQuaternionNormError": 1.4456121145700607e-05,
+      "arraysEnd": 9042,
+      "descriptorExtentValid": true,
+      "channelOffsetsContiguous": true,
+      "timeArraysMonotonic": true,
+      "finitePositions": true,
+      "rotationValueOffset": 764,
+      "rotationTimeOffset": 6300,
+      "positionValueOffset": 7684,
+      "positionTimeOffset": 8848,
+      "extraChannel": {
+        "trackIndex": 56,
+        "nativeBoneName": null,
+        "positionFirst": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "positionLast": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotationFirst": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "rotationLast": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "semantics": "Additional channel agrees with header flag0x10 and HANM predecessor extra model motion. Not an HSKN bone. World-space purpose/axes are inferred, not client-verified."
+      },
+      "nativeNamesResolved": 56,
+      "actorBonesMapped": 56,
+      "boneHashOffset": 9302,
+      "uniqueNativeHashRun": true,
+      "opaqueTailBytes": 512
+    },
+    {
+      "name": "Trap_Laser_Mount_B_01",
+      "path": "animation-data/Trap_Laser_Mount_B_01.json",
+      "sourceSha256": "c90407b74ee60a0ef0294c052395d1b178cd0d12a871199e706aeae8f47c39f3",
+      "channelTracks": 54,
+      "rotationSamples": 430,
+      "positionSamples": 157,
+      "maxQuaternionNormError": 1.4460496016721613e-05,
+      "arraysEnd": 7222,
+      "descriptorExtentValid": true,
+      "channelOffsetsContiguous": true,
+      "timeArraysMonotonic": true,
+      "finitePositions": true,
+      "rotationValueOffset": 724,
+      "rotationTimeOffset": 4164,
+      "positionValueOffset": 5024,
+      "positionTimeOffset": 6908,
+      "nativeNamesResolved": 54,
+      "actorBonesMapped": 53,
+      "boneHashOffset": 7474,
+      "uniqueNativeHashRun": true,
+      "opaqueTailBytes": 496
+    },
+    {
+      "name": "Trap_SlipperySoap_Dismount_B_01",
+      "path": "animation-data/Trap_SlipperySoap_Dismount_B_01.json",
+      "sourceSha256": "0479ac8c8aafaee331af7da1e5222aee1158c65a40625ad4ddaf72afb4696a26",
+      "channelTracks": 55,
+      "rotationSamples": 1291,
+      "positionSamples": 188,
+      "maxQuaternionNormError": 1.5895731097281818e-05,
+      "arraysEnd": 16286,
+      "descriptorExtentValid": true,
+      "channelOffsetsContiguous": true,
+      "timeArraysMonotonic": true,
+      "finitePositions": true,
+      "rotationValueOffset": 744,
+      "rotationTimeOffset": 11072,
+      "positionValueOffset": 13654,
+      "positionTimeOffset": 15910,
+      "extraChannel": {
+        "trackIndex": 54,
+        "nativeBoneName": null,
+        "positionFirst": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "positionLast": [
+          0.0,
+          0.0,
+          0.28278958797454834
+        ],
+        "rotationFirst": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "rotationLast": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "semantics": "Additional channel agrees with header flag0x10 and HANM predecessor extra model motion. Not an HSKN bone. World-space purpose/axes are inferred, not client-verified."
+      },
+      "nativeNamesResolved": 54,
+      "actorBonesMapped": 53,
+      "boneHashOffset": 16622,
+      "uniqueNativeHashRun": true,
+      "opaqueTailBytes": 580
+    },
+    {
+      "name": "Trap_GloveOnSpring_Dismount_01",
+      "path": "animation-data/Trap_GloveOnSpring_Dismount_01.json",
+      "sourceSha256": "089c1cc70bd324df958e549f016491a03340cc1d4d972173e0ac9b90a5b44aa2",
+      "channelTracks": 10,
+      "rotationSamples": 69,
+      "positionSamples": 256,
+      "maxQuaternionNormError": 1.0518312051788214e-05,
+      "arraysEnd": 4478,
+      "descriptorExtentValid": true,
+      "channelOffsetsContiguous": true,
+      "timeArraysMonotonic": true,
+      "finitePositions": true,
+      "rotationValueOffset": 204,
+      "rotationTimeOffset": 756,
+      "positionValueOffset": 894,
+      "positionTimeOffset": 3966,
+      "extraChannel": {
+        "trackIndex": 9,
+        "nativeBoneName": null,
+        "positionFirst": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "positionLast": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotationFirst": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "rotationLast": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "semantics": "Additional channel agrees with header flag0x10 and HANM predecessor extra model motion. Not an HSKN bone. World-space purpose/axes are inferred, not client-verified."
+      },
+      "nativeNamesResolved": 9,
+      "actorBonesMapped": 0,
+      "boneHashOffset": 4518,
+      "uniqueNativeHashRun": true,
+      "opaqueTailBytes": 104
+    },
+    {
+      "name": "Trap_Laser_Mount_A_01",
+      "path": "animation-data/Trap_Laser_Mount_A_01.json",
+      "sourceSha256": "b543d24faa87be4c0f7c669bff2fcb3d159169a7e47519a92a477f0b8735b1ad",
+      "channelTracks": 71,
+      "rotationSamples": 497,
+      "positionSamples": 258,
+      "maxQuaternionNormError": 1.573869069992906e-05,
+      "arraysEnd": 9510,
+      "descriptorExtentValid": true,
+      "channelOffsetsContiguous": true,
+      "timeArraysMonotonic": true,
+      "finitePositions": true,
+      "rotationValueOffset": 928,
+      "rotationTimeOffset": 4904,
+      "positionValueOffset": 5898,
+      "positionTimeOffset": 8994,
+      "nativeNamesResolved": 71,
+      "actorBonesMapped": 58,
+      "boneHashOffset": 9830,
+      "uniqueNativeHashRun": true,
+      "opaqueTailBytes": 632
+    },
+    {
+      "name": "Trap_GloveOnSpring_Dismount_A_01",
+      "path": "animation-data/Trap_GloveOnSpring_Dismount_A_01.json",
+      "sourceSha256": "42d5ca625333277dfaa4b9b2a90f930cfa1a8c96ddd5685a09e72fe48ed09494",
+      "channelTracks": 72,
+      "rotationSamples": 2397,
+      "positionSamples": 743,
+      "maxQuaternionNormError": 1.5594869270163514e-05,
+      "arraysEnd": 35324,
+      "descriptorExtentValid": true,
+      "channelOffsetsContiguous": true,
+      "timeArraysMonotonic": true,
+      "finitePositions": true,
+      "rotationValueOffset": 952,
+      "rotationTimeOffset": 20128,
+      "positionValueOffset": 24922,
+      "positionTimeOffset": 33838,
+      "extraChannel": {
+        "trackIndex": 71,
+        "nativeBoneName": null,
+        "positionFirst": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "positionLast": [
+          -2.518476963043213,
+          0.0,
+          -0.5006317496299744
+        ],
+        "rotationFirst": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "rotationLast": [
+          0.0,
+          0.6487929929502243,
+          0.0,
+          0.7609521629663538
+        ],
+        "semantics": "Additional channel agrees with header flag0x10 and HANM predecessor extra model motion. Not an HSKN bone. World-space purpose/axes are inferred, not client-verified."
+      },
+      "nativeNamesResolved": 71,
+      "actorBonesMapped": 58,
+      "boneHashOffset": 35756,
+      "uniqueNativeHashRun": true,
+      "opaqueTailBytes": 892
+    },
+    {
+      "name": "Trap_Bubble_Blower_Loop_01",
+      "path": "animation-data/Trap_Bubble_Blower_Loop_01.json",
+      "sourceSha256": "e3ba25324db5ab25801a9c36ad7df4c02086772a2b2439b28644c17323be6b5b",
+      "channelTracks": 5,
+      "rotationSamples": 56,
+      "positionSamples": 200,
+      "maxQuaternionNormError": 1.4265979516370209e-05,
+      "arraysEnd": 3500,
+      "descriptorExtentValid": true,
+      "channelOffsetsContiguous": true,
+      "timeArraysMonotonic": true,
+      "finitePositions": true,
+      "rotationValueOffset": 140,
+      "rotationTimeOffset": 588,
+      "positionValueOffset": 700,
+      "positionTimeOffset": 3100,
+      "nativeNamesResolved": 5,
+      "actorBonesMapped": 0,
+      "boneHashOffset": 3512,
+      "uniqueNativeHashRun": true,
+      "opaqueTailBytes": 60
+    },
+    {
+      "name": "Trap_GloveOnSpring_Loop_A_01",
+      "path": "animation-data/Trap_GloveOnSpring_Loop_A_01.json",
+      "sourceSha256": "60db9022b45dfdc9eafe00522962e552ade80c0fb992434e5ac3b2b6c47aeaf3",
+      "channelTracks": 72,
+      "rotationSamples": 324,
+      "positionSamples": 185,
+      "maxQuaternionNormError": 1.789223786752281e-05,
+      "arraysEnd": 6778,
+      "descriptorExtentValid": true,
+      "channelOffsetsContiguous": true,
+      "timeArraysMonotonic": true,
+      "finitePositions": true,
+      "rotationValueOffset": 948,
+      "rotationTimeOffset": 3540,
+      "positionValueOffset": 4188,
+      "positionTimeOffset": 6408,
+      "extraChannel": {
+        "trackIndex": 71,
+        "nativeBoneName": null,
+        "positionFirst": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "positionLast": [
+          0.0,
+          0.0,
+          -4.599824905395508
+        ],
+        "rotationFirst": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "rotationLast": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "semantics": "Additional channel agrees with header flag0x10 and HANM predecessor extra model motion. Not an HSKN bone. World-space purpose/axes are inferred, not client-verified."
+      },
+      "nativeNamesResolved": 71,
+      "actorBonesMapped": 58,
+      "boneHashOffset": 7098,
+      "uniqueNativeHashRun": true,
+      "opaqueTailBytes": 632
+    },
+    {
+      "name": "Trap_BubbleCannon_Loop_B_01",
+      "path": "animation-data/Trap_BubbleCannon_Loop_B_01.json",
+      "sourceSha256": "c3eec6915902f657e3854d5458362591fab1efbf4e45da39fc15b2116e303fc1",
+      "channelTracks": 55,
+      "rotationSamples": 5147,
+      "positionSamples": 566,
+      "maxQuaternionNormError": 1.6129064064118737e-05,
+      "arraysEnd": 60134,
+      "descriptorExtentValid": true,
+      "channelOffsetsContiguous": true,
+      "timeArraysMonotonic": true,
+      "finitePositions": true,
+      "rotationValueOffset": 740,
+      "rotationTimeOffset": 41916,
+      "positionValueOffset": 52210,
+      "positionTimeOffset": 59002,
+      "extraChannel": {
+        "trackIndex": 54,
+        "nativeBoneName": null,
+        "positionFirst": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "positionLast": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotationFirst": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "rotationLast": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "semantics": "Additional channel agrees with header flag0x10 and HANM predecessor extra model motion. Not an HSKN bone. World-space purpose/axes are inferred, not client-verified."
+      },
+      "nativeNamesResolved": 54,
+      "actorBonesMapped": 53,
+      "boneHashOffset": 60386,
+      "uniqueNativeHashRun": true,
+      "opaqueTailBytes": 583
+    },
+    {
+      "name": "Trap_SlipperySoap_Mount_B_01",
+      "path": "animation-data/Trap_SlipperySoap_Mount_B_01.json",
+      "sourceSha256": "8cf1983ee678835787ac5f1e1a43a7df8e8bb73eb61638c5779f9449901eda5f",
+      "channelTracks": 55,
+      "rotationSamples": 1128,
+      "positionSamples": 142,
+      "maxQuaternionNormError": 1.4316209448139716e-05,
+      "arraysEnd": 14012,
+      "descriptorExtentValid": true,
+      "channelOffsetsContiguous": true,
+      "timeArraysMonotonic": true,
+      "finitePositions": true,
+      "rotationValueOffset": 744,
+      "rotationTimeOffset": 9768,
+      "positionValueOffset": 12024,
+      "positionTimeOffset": 13728,
+      "extraChannel": {
+        "trackIndex": 54,
+        "nativeBoneName": null,
+        "positionFirst": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "positionLast": [
+          0.0,
+          0.0,
+          -0.28278958797454834
+        ],
+        "rotationFirst": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "rotationLast": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "semantics": "Additional channel agrees with header flag0x10 and HANM predecessor extra model motion. Not an HSKN bone. World-space purpose/axes are inferred, not client-verified."
+      },
+      "nativeNamesResolved": 54,
+      "actorBonesMapped": 53,
+      "boneHashOffset": 14292,
+      "uniqueNativeHashRun": true,
+      "opaqueTailBytes": 524
+    },
+    {
+      "name": "Trap_SlipperySoap_Loop_01",
+      "path": "animation-data/Trap_SlipperySoap_Loop_01.json",
+      "sourceSha256": "0d739069e89abacc292d403d4c079cb86378715d4d5d93872a654602638543e2",
+      "channelTracks": 3,
+      "rotationSamples": 3,
+      "positionSamples": 3,
+      "maxQuaternionNormError": 1.4402866250762258e-06,
+      "arraysEnd": 188,
+      "descriptorExtentValid": true,
+      "channelOffsetsContiguous": true,
+      "timeArraysMonotonic": true,
+      "finitePositions": true,
+      "rotationValueOffset": 116,
+      "rotationTimeOffset": 140,
+      "positionValueOffset": 146,
+      "positionTimeOffset": 182,
+      "nativeNamesResolved": 3,
+      "actorBonesMapped": 0,
+      "boneHashOffset": 200,
+      "uniqueNativeHashRun": true,
+      "opaqueTailBytes": 52
+    },
+    {
+      "name": "Trap_BubbleCannon_Mount_B_01",
+      "path": "animation-data/Trap_BubbleCannon_Mount_B_01.json",
+      "sourceSha256": "ac8350d51d03cafd5b1f4164a357a6e4c2fc6395d629c07ad7dc0763ae620650",
+      "channelTracks": 55,
+      "rotationSamples": 1343,
+      "positionSamples": 231,
+      "maxQuaternionNormError": 1.4989629576911412e-05,
+      "arraysEnd": 17408,
+      "descriptorExtentValid": true,
+      "channelOffsetsContiguous": true,
+      "timeArraysMonotonic": true,
+      "finitePositions": true,
+      "rotationValueOffset": 744,
+      "rotationTimeOffset": 11488,
+      "positionValueOffset": 14174,
+      "positionTimeOffset": 16946,
+      "extraChannel": {
+        "trackIndex": 54,
+        "nativeBoneName": null,
+        "positionFirst": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "positionLast": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotationFirst": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "rotationLast": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "semantics": "Additional channel agrees with header flag0x10 and HANM predecessor extra model motion. Not an HSKN bone. World-space purpose/axes are inferred, not client-verified."
+      },
+      "nativeNamesResolved": 54,
+      "actorBonesMapped": 53,
+      "boneHashOffset": 17688,
+      "uniqueNativeHashRun": true,
+      "opaqueTailBytes": 611
+    },
+    {
+      "name": "Giant_Fan_Loop_B_01",
+      "path": "animation-data/Giant_Fan_Loop_B_01.json",
+      "sourceSha256": "3648acecd506e8ff5fd8de7f637170d4a5f7ac4a8a84d38a91d2af8b29209141",
+      "channelTracks": 55,
+      "rotationSamples": 544,
+      "positionSamples": 121,
+      "maxQuaternionNormError": 1.3408550632365568e-05,
+      "arraysEnd": 7866,
+      "descriptorExtentValid": true,
+      "channelOffsetsContiguous": true,
+      "timeArraysMonotonic": true,
+      "finitePositions": true,
+      "rotationValueOffset": 732,
+      "rotationTimeOffset": 5084,
+      "positionValueOffset": 6172,
+      "positionTimeOffset": 7624,
+      "extraChannel": {
+        "trackIndex": 54,
+        "nativeBoneName": null,
+        "positionFirst": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "positionLast": [
+          0.0,
+          0.0,
+          -9.999999046325684
+        ],
+        "rotationFirst": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "rotationLast": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "semantics": "Additional channel agrees with header flag0x10 and HANM predecessor extra model motion. Not an HSKN bone. World-space purpose/axes are inferred, not client-verified."
+      },
+      "nativeNamesResolved": 54,
+      "actorBonesMapped": 53,
+      "boneHashOffset": 8118,
+      "uniqueNativeHashRun": true,
+      "opaqueTailBytes": 496
+    },
+    {
+      "name": "Trap_BubbleCannon_Dismount_B_01",
+      "path": "animation-data/Trap_BubbleCannon_Dismount_B_01.json",
+      "sourceSha256": "d122757b167658cbaf22efd91b349291521499745fedbda6e0dc91beffca74d2",
+      "channelTracks": 55,
+      "rotationSamples": 1580,
+      "positionSamples": 175,
+      "maxQuaternionNormError": 1.4877393339829403e-05,
+      "arraysEnd": 18994,
+      "descriptorExtentValid": true,
+      "channelOffsetsContiguous": true,
+      "timeArraysMonotonic": true,
+      "finitePositions": true,
+      "rotationValueOffset": 744,
+      "rotationTimeOffset": 13384,
+      "positionValueOffset": 16544,
+      "positionTimeOffset": 18644,
+      "extraChannel": {
+        "trackIndex": 54,
+        "nativeBoneName": null,
+        "positionFirst": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "positionLast": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotationFirst": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "rotationLast": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "semantics": "Additional channel agrees with header flag0x10 and HANM predecessor extra model motion. Not an HSKN bone. World-space purpose/axes are inferred, not client-verified."
+      },
+      "nativeNamesResolved": 54,
+      "actorBonesMapped": 53,
+      "boneHashOffset": 19330,
+      "uniqueNativeHashRun": true,
+      "opaqueTailBytes": 811
+    },
+    {
+      "name": "Trap_GloveOnSpring_Mount_B_01",
+      "path": "animation-data/Trap_GloveOnSpring_Mount_B_01.json",
+      "sourceSha256": "b0f497f90a2f5ed08edaf90df41e5901f6968af64551e75beaf3641d322c55fb",
+      "channelTracks": 55,
+      "rotationSamples": 354,
+      "positionSamples": 97,
+      "maxQuaternionNormError": 1.1663257307725772e-05,
+      "arraysEnd": 5642,
+      "descriptorExtentValid": true,
+      "channelOffsetsContiguous": true,
+      "timeArraysMonotonic": true,
+      "finitePositions": true,
+      "rotationValueOffset": 744,
+      "rotationTimeOffset": 3576,
+      "positionValueOffset": 4284,
+      "positionTimeOffset": 5448,
+      "extraChannel": {
+        "trackIndex": 54,
+        "nativeBoneName": null,
+        "positionFirst": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "positionLast": [
+          0.0,
+          0.0,
+          -1.4001750946044922
+        ],
+        "rotationFirst": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "rotationLast": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "semantics": "Additional channel agrees with header flag0x10 and HANM predecessor extra model motion. Not an HSKN bone. World-space purpose/axes are inferred, not client-verified."
+      },
+      "nativeNamesResolved": 54,
+      "actorBonesMapped": 53,
+      "boneHashOffset": 5922,
+      "uniqueNativeHashRun": true,
+      "opaqueTailBytes": 833
+    },
+    {
+      "name": "Trap_SlipperySoap_Loop_B_01",
+      "path": "animation-data/Trap_SlipperySoap_Loop_B_01.json",
+      "sourceSha256": "23907e39f2953b869ce027de04fd092198136a089abb4ed4451121ec4dd75eb4",
+      "channelTracks": 55,
+      "rotationSamples": 702,
+      "positionSamples": 84,
+      "maxQuaternionNormError": 1.4370006591990503e-05,
+      "arraysEnd": 8936,
+      "descriptorExtentValid": true,
+      "channelOffsetsContiguous": true,
+      "timeArraysMonotonic": true,
+      "finitePositions": true,
+      "rotationValueOffset": 740,
+      "rotationTimeOffset": 6356,
+      "positionValueOffset": 7760,
+      "positionTimeOffset": 8768,
+      "extraChannel": {
+        "trackIndex": 54,
+        "nativeBoneName": null,
+        "positionFirst": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "positionLast": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotationFirst": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "rotationLast": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "semantics": "Additional channel agrees with header flag0x10 and HANM predecessor extra model motion. Not an HSKN bone. World-space purpose/axes are inferred, not client-verified."
+      },
+      "nativeNamesResolved": 54,
+      "actorBonesMapped": 53,
+      "boneHashOffset": 9188,
+      "uniqueNativeHashRun": true,
+      "opaqueTailBytes": 496
+    },
+    {
+      "name": "Trap_SlipperySoap_Mount_A_01",
+      "path": "animation-data/Trap_SlipperySoap_Mount_A_01.json",
+      "sourceSha256": "907daf33855150c616dc824291882448de1ce111761448d3bdcb93c478c532ce",
+      "channelTracks": 57,
+      "rotationSamples": 1089,
+      "positionSamples": 174,
+      "maxQuaternionNormError": 1.532187396091622e-05,
+      "arraysEnd": 14094,
+      "descriptorExtentValid": true,
+      "channelOffsetsContiguous": true,
+      "timeArraysMonotonic": true,
+      "finitePositions": true,
+      "rotationValueOffset": 768,
+      "rotationTimeOffset": 9480,
+      "positionValueOffset": 11658,
+      "positionTimeOffset": 13746,
+      "extraChannel": {
+        "trackIndex": 56,
+        "nativeBoneName": null,
+        "positionFirst": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "positionLast": [
+          0.0,
+          0.0,
+          -0.28278958797454834
+        ],
+        "rotationFirst": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "rotationLast": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "semantics": "Additional channel agrees with header flag0x10 and HANM predecessor extra model motion. Not an HSKN bone. World-space purpose/axes are inferred, not client-verified."
+      },
+      "nativeNamesResolved": 56,
+      "actorBonesMapped": 56,
+      "boneHashOffset": 14410,
+      "uniqueNativeHashRun": true,
+      "opaqueTailBytes": 568
+    },
+    {
+      "name": "Trap_BubbleCannon_Mount_A_01",
+      "path": "animation-data/Trap_BubbleCannon_Mount_A_01.json",
+      "sourceSha256": "66fb6c056630fe7489e224678a4e70d25e1967c7129164c0ba88f339755cf4e3",
+      "channelTracks": 57,
+      "rotationSamples": 1316,
+      "positionSamples": 220,
+      "maxQuaternionNormError": 1.5225712824862292e-05,
+      "arraysEnd": 17008,
+      "descriptorExtentValid": true,
+      "channelOffsetsContiguous": true,
+      "timeArraysMonotonic": true,
+      "finitePositions": true,
+      "rotationValueOffset": 768,
+      "rotationTimeOffset": 11296,
+      "positionValueOffset": 13928,
+      "positionTimeOffset": 16568,
+      "extraChannel": {
+        "trackIndex": 56,
+        "nativeBoneName": null,
+        "positionFirst": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "positionLast": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotationFirst": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "rotationLast": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "semantics": "Additional channel agrees with header flag0x10 and HANM predecessor extra model motion. Not an HSKN bone. World-space purpose/axes are inferred, not client-verified."
+      },
+      "nativeNamesResolved": 56,
+      "actorBonesMapped": 56,
+      "boneHashOffset": 17296,
+      "uniqueNativeHashRun": true,
+      "opaqueTailBytes": 627
+    },
+    {
+      "name": "Giant_Fan_Mount_01",
+      "path": "animation-data/Giant_Fan_Mount_01.json",
+      "sourceSha256": "0ebbbad275ee50fb0e62b0fd263a080c2ffefcd301804c4313fe39f7d99bb841",
+      "channelTracks": 7,
+      "rotationSamples": 163,
+      "positionSamples": 49,
+      "maxQuaternionNormError": 1.324320469520135e-05,
+      "arraysEnd": 2472,
+      "descriptorExtentValid": true,
+      "channelOffsetsContiguous": true,
+      "timeArraysMonotonic": true,
+      "finitePositions": true,
+      "rotationValueOffset": 156,
+      "rotationTimeOffset": 1460,
+      "positionValueOffset": 1786,
+      "positionTimeOffset": 2374,
+      "nativeNamesResolved": 7,
+      "actorBonesMapped": 0,
+      "boneHashOffset": 2536,
+      "uniqueNativeHashRun": true,
+      "opaqueTailBytes": 120
+    },
+    {
+      "name": "Giant_Fan_Loop_A_01",
+      "path": "animation-data/Giant_Fan_Loop_A_01.json",
+      "sourceSha256": "efa34fc2d3596fcd755e7f3bf10cc3139a0289bda5ac77c4e58fbc71d39968d6",
+      "channelTracks": 59,
+      "rotationSamples": 551,
+      "positionSamples": 156,
+      "maxQuaternionNormError": 1.5565042608134405e-05,
+      "arraysEnd": 8474,
+      "descriptorExtentValid": true,
+      "channelOffsetsContiguous": true,
+      "timeArraysMonotonic": true,
+      "finitePositions": true,
+      "rotationValueOffset": 780,
+      "rotationTimeOffset": 5188,
+      "positionValueOffset": 6290,
+      "positionTimeOffset": 8162,
+      "extraChannel": {
+        "trackIndex": 58,
+        "nativeBoneName": null,
+        "positionFirst": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "positionLast": [
+          0.0,
+          0.0,
+          -9.999998092651367
+        ],
+        "rotationFirst": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "rotationLast": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "semantics": "Additional channel agrees with header flag0x10 and HANM predecessor extra model motion. Not an HSKN bone. World-space purpose/axes are inferred, not client-verified."
+      },
+      "nativeNamesResolved": 58,
+      "actorBonesMapped": 58,
+      "boneHashOffset": 8510,
+      "uniqueNativeHashRun": true,
+      "opaqueTailBytes": 296
+    },
+    {
+      "name": "Giant_Fan_Dismount_B_01",
+      "path": "animation-data/Giant_Fan_Dismount_B_01.json",
+      "sourceSha256": "4fabdde7d5586fbf78de4042502004d4384ac4e184cbbacc47865b63aea20528",
+      "channelTracks": 55,
+      "rotationSamples": 1417,
+      "positionSamples": 357,
+      "maxQuaternionNormError": 1.3323021363031984e-05,
+      "arraysEnd": 19904,
+      "descriptorExtentValid": true,
+      "channelOffsetsContiguous": true,
+      "timeArraysMonotonic": true,
+      "finitePositions": true,
+      "rotationValueOffset": 736,
+      "rotationTimeOffset": 12072,
+      "positionValueOffset": 14906,
+      "positionTimeOffset": 19190,
+      "extraChannel": {
+        "trackIndex": 54,
+        "nativeBoneName": null,
+        "positionFirst": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "positionLast": [
+          -1.4210854397564648e-16,
+          2.8421708795129297e-16,
+          -0.42051026225090027
+        ],
+        "rotationFirst": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "rotationLast": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "semantics": "Additional channel agrees with header flag0x10 and HANM predecessor extra model motion. Not an HSKN bone. World-space purpose/axes are inferred, not client-verified."
+      },
+      "nativeNamesResolved": 54,
+      "actorBonesMapped": 53,
+      "boneHashOffset": 20268,
+      "uniqueNativeHashRun": true,
+      "opaqueTailBytes": 608
+    },
+    {
+      "name": "Trap_GloveOnSpring_Mount_A_01",
+      "path": "animation-data/Trap_GloveOnSpring_Mount_A_01.json",
+      "sourceSha256": "8cb58f467076fd34b058db89e0278c41236355e4877515801b24a24f71a991d5",
+      "channelTracks": 72,
+      "rotationSamples": 457,
+      "positionSamples": 192,
+      "maxQuaternionNormError": 1.0380343659521785e-05,
+      "arraysEnd": 8206,
+      "descriptorExtentValid": true,
+      "channelOffsetsContiguous": true,
+      "timeArraysMonotonic": true,
+      "finitePositions": true,
+      "rotationValueOffset": 948,
+      "rotationTimeOffset": 4604,
+      "positionValueOffset": 5518,
+      "positionTimeOffset": 7822,
+      "extraChannel": {
+        "trackIndex": 71,
+        "nativeBoneName": null,
+        "positionFirst": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "positionLast": [
+          0.0,
+          0.0,
+          -1.4001750946044922
+        ],
+        "rotationFirst": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "rotationLast": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "semantics": "Additional channel agrees with header flag0x10 and HANM predecessor extra model motion. Not an HSKN bone. World-space purpose/axes are inferred, not client-verified."
+      },
+      "nativeNamesResolved": 71,
+      "actorBonesMapped": 58,
+      "boneHashOffset": 8526,
+      "uniqueNativeHashRun": true,
+      "opaqueTailBytes": 941
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,3746 @@
+{
+ "schema": "lair-models/1",
+ "library": "../../libraries/evil-genius-2",
+ "materialInterpretation": "inferred: slot 12 colour, slot 16 normal",
+ "models": {
+  "trap_gloveonspring": {
+   "name": "trap_gloveonspring",
+   "glb": "assets/models/glb/6649c35ced456c10c3ade9bc1c660e58d781ea1b358e6b3a4c3a2e2ce60c3956.glb",
+   "glbSha256": "47ce58c8835fe38f03b5b179e8764dd0995461b9e90ac3577755d6951f993ce4",
+   "vertices": 4075,
+   "triangles": 5138,
+   "bounds": [
+    1.3065906763076782,
+    1.308586835861206,
+    1.0,
+    -0.6532955765724182,
+    -2.07835054397583,
+    0.3954760730266571
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 678,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_gloveonspring\\trap_gloveonspring_door_c.tga",
+       "preview": "assets/textures/8e9b4ce45b57962b4470ab0159419181545060e06358b59d054722162e8ae41e.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_gloveonspring\\trap_gloveonspring_door_n.tga",
+       "preview": "assets/textures/117fbd574487aece5ea0c4ec885c662e1cefb61879ed3f28a484f67b728ac891.png"
+      }
+     }
+    },
+    {
+     "submesh": 1,
+     "startIndex": 678,
+     "indexCount": 13152,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_gloveonspring\\trap_gloveonspring_c.tga",
+       "preview": "assets/textures/6060420117a3fd7ec1cfebe38860b18ece97eef239a12bbbf4adca1bd08bbd8d.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_gloveonspring\\trap_gloveonspring_n.tga",
+       "preview": "assets/textures/b3dcef550cacd9617281a3e73ba3b590f97b9c9134482a194b22acf6d6070576.png"
+      }
+     }
+    },
+    {
+     "submesh": 2,
+     "startIndex": 13830,
+     "indexCount": 96,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\common\\black.tga",
+       "preview": "assets/textures/01704e8ccda3180e6983066fc6b7e62f97f81f8997b0a8f6a3562379c49a17c0.png"
+      }
+     }
+    },
+    {
+     "submesh": 3,
+     "startIndex": 13926,
+     "indexCount": 1368,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\common\\trap_orange_c.tga",
+       "preview": "assets/textures/17d735b6194737ea708aca5ca9a4825f578f46b70e670b14211d97ca393ac319.png"
+      }
+     }
+    },
+    {
+     "submesh": 4,
+     "startIndex": 15294,
+     "indexCount": 120,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\common\\trap_orange_decals_1_c.tga",
+       "preview": "assets/textures/83367bddf04f998fd1f8925a425cc381fb0d0691c0a5b6ee7fd8f741a8f33862.png"
+      }
+     }
+    }
+   ]
+  },
+  "trap_bubble_blower": {
+   "name": "trap_bubble_blower",
+   "glb": "assets/models/glb/f0442348815dd48b8a55eb106bfba362d84a1e8c21a1b5a994a6283236fdea9d.glb",
+   "glbSha256": "837c79313e8508fe9fc0f695375d1fa377b88f3bff247125b5cb487941be8224",
+   "vertices": 5737,
+   "triangles": 6404,
+   "bounds": [
+    1.824576497077942,
+    1.8245770931243896,
+    1.0,
+    -0.912288248538971,
+    -2.4122886657714844,
+    0.361062616109848
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 756,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_bubble_blower\\trap_bubble_blower_doors_c.tga",
+       "preview": "assets/textures/c4511a83b775f7f82807159e30e2ef57aa8e65a8345f653ff5d3eb490cc31ecf.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_bubble_blower\\trap_bubble_blower_doors_n.tga",
+       "preview": "assets/textures/117fbd574487aece5ea0c4ec885c662e1cefb61879ed3f28a484f67b728ac891.png"
+      }
+     }
+    },
+    {
+     "submesh": 1,
+     "startIndex": 756,
+     "indexCount": 13800,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_bubble_blower\\bubble_blower_trap_low_c.tga",
+       "preview": "assets/textures/77cde436619514f7aeb862cedd2fb586f91bdb4b953bc78d7f7be18c2ff7d2f3.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_bubble_blower\\bubble_blower_trap_low_n.tga",
+       "preview": "assets/textures/1e1df3d7adc53866310a078fe2e61f342b7028ab4e0dcc6143ea160a8e9f1c85.png"
+      }
+     }
+    },
+    {
+     "submesh": 2,
+     "startIndex": 14556,
+     "indexCount": 1464,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\common\\trap_orange_c.tga",
+       "preview": "assets/textures/17d735b6194737ea708aca5ca9a4825f578f46b70e670b14211d97ca393ac319.png"
+      }
+     }
+    },
+    {
+     "submesh": 3,
+     "startIndex": 16020,
+     "indexCount": 120,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\common\\trap_orange_decals_1_c.tga",
+       "preview": "assets/textures/83367bddf04f998fd1f8925a425cc381fb0d0691c0a5b6ee7fd8f741a8f33862.png"
+      }
+     }
+    },
+    {
+     "submesh": 4,
+     "startIndex": 16140,
+     "indexCount": 3072,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\common\\glass_glossy.tga",
+       "preview": "assets/textures/45c94cfa31d6caf1f69288ef9e5f95ec42afb1929d16c6972bebdeecb837c829.png"
+      }
+     }
+    }
+   ]
+  },
+  "trap_fake_safe": {
+   "name": "trap_fake_safe",
+   "glb": "assets/models/glb/a3a55f71521f9cb49ebeca40d5e6001cafacf0a0b5fd5c09e77f410cc065331f.glb",
+   "glbSha256": "d541c8a126f09ea5644d38a08c998a4e7ccec518b60c33f4be03900656a1894b",
+   "vertices": 6462,
+   "triangles": 5552,
+   "bounds": [
+    2.2329771518707275,
+    2.2329776287078857,
+    1.0,
+    -1.1164885759353638,
+    -2.628145694732666,
+    -0.26735594868659973
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 15276,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_fake_safe\\trap_fake_safe_c.tga",
+       "preview": "assets/textures/81a3c7c5e04fe4b4143069275d1434b7eac41e362d8f82ede45c80e0543356a0.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_fake_safe\\trap_fake_safe_n.tga",
+       "preview": "assets/textures/4b69bc10e20cea99b4947c7878b6c079f22b7708b0076fc387cc471466eeb446.png"
+      }
+     }
+    },
+    {
+     "submesh": 1,
+     "startIndex": 15276,
+     "indexCount": 264,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\room_sets\\corridor\\corridor_walls_redux_colour.tga",
+       "preview": "assets/textures/7cc1eaf7976a6fc09e2df0c228193ca951263c2e7a0be2668a4855201ff9e6a8.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\room_sets\\corridor\\corridor_walls_redux_normal.tga",
+       "preview": "assets/textures/0700c2896f83df63a12f7efaee3a93216d01dfa52813626d905fe237d8d1c50d.png"
+      }
+     }
+    },
+    {
+     "submesh": 2,
+     "startIndex": 15540,
+     "indexCount": 1116,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\common\\animated_screens_a_colou.tga",
+       "preview": "assets/textures/b5a7a8944f359dd790cbd6e1c27c9146a485133b7f5f509c5b2b3ab1b6552312.png"
+      }
+     }
+    }
+   ]
+  },
+  "trap_fan": {
+   "name": "trap_fan",
+   "glb": "assets/models/glb/c43d3b72d3ec99866c06c8cb9718c58c93b984276743ec3ad5eb692902170ca5.glb",
+   "glbSha256": "bb767fc3ff12a55a56bf4c0d03f7fad1aa214b4ec97c7eaef86fabd275cec851",
+   "vertices": 6032,
+   "triangles": 6449,
+   "bounds": [
+    3.343665361404419,
+    4.15307092666626,
+    3.343665361404419,
+    -1.6718326807022095,
+    -0.15306979417800903,
+    -1.6718326807022095
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 4296,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_fan\\trap_fan_base_albedo.tga",
+       "preview": "assets/textures/1f7113702a9509ada320081b1089753db7643ebc46b957b55509d1ee6b978885.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_fan\\trap_fan_base_normal.tga",
+       "preview": "assets/textures/568c1af36ece0939a861ac39e5f945300fc6f06f8566f9d86128bccdc4144021.png"
+      }
+     }
+    },
+    {
+     "submesh": 1,
+     "startIndex": 4296,
+     "indexCount": 13323,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_fan\\trap_fan_albedo.tga",
+       "preview": "assets/textures/71f24ad3695a643e1a252c3f5bdd48e3dc4be99996587f92dc858a860ac316eb.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_fan\\trap_fan_normal.tga",
+       "preview": "assets/textures/95cace5e1502a5cca82cdbb85796d7edf80d37101cded0377021d0f1700a5cb2.png"
+      }
+     }
+    },
+    {
+     "submesh": 2,
+     "startIndex": 17619,
+     "indexCount": 858,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\common\\trap_orange_c.tga",
+       "preview": "assets/textures/17d735b6194737ea708aca5ca9a4825f578f46b70e670b14211d97ca393ac319.png"
+      }
+     }
+    },
+    {
+     "submesh": 3,
+     "startIndex": 18477,
+     "indexCount": 144,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\common\\trap_orange_decals_1_c.tga",
+       "preview": "assets/textures/83367bddf04f998fd1f8925a425cc381fb0d0691c0a5b6ee7fd8f741a8f33862.png"
+      }
+     }
+    },
+    {
+     "submesh": 4,
+     "startIndex": 18621,
+     "indexCount": 726,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_fan\\trap_fan_doors_albedo.tga",
+       "preview": "assets/textures/7330a84d69f5c74fd3753985378fb88416de81507eabff2bb67232003885be9b.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_fan\\trap_fan_doors_normal.tga",
+       "preview": "assets/textures/117fbd574487aece5ea0c4ec885c662e1cefb61879ed3f28a484f67b728ac891.png"
+      }
+     }
+    }
+   ]
+  },
+  "trap_flamer": {
+   "name": "trap_flamer",
+   "glb": "assets/models/glb/df83981ed53a7eae286b7788980ee8334ddfa3ca3ee4e096afb4b55edd871e65.glb",
+   "glbSha256": "91ea7ad609d57d26ea592bb74f2646bea77a6fb12db7ad98afbb7d514d13f390",
+   "vertices": 3892,
+   "triangles": 4018,
+   "bounds": [
+    4.000000476837158,
+    2.993631362915039,
+    1.0,
+    -1.9998900890350342,
+    -2.9936306476593018,
+    0.28588294982910156
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 12054,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_flamer\\trap_flamer_c.tga",
+       "preview": "assets/textures/0d936ef36957cc34ee933af83bc9fe701673c182deb3fdfcf29d38e164cb6cba.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_flamer\\trap_flamer_n.tga",
+       "preview": "assets/textures/c3e4c32d66f36fb024a4bc9aedf26183a41debdad9fa89a255ec06b3d09afae3.png"
+      }
+     }
+    }
+   ]
+  },
+  "trap_freezer": {
+   "name": "trap_freezer",
+   "glb": "assets/models/glb/100016d8aba175a24d662c1072ea9cb236c35fc03d5e0f50c989e78c15432791.glb",
+   "glbSha256": "dd704aead3fd225ddf44bc5669febf2bdc615f6623f5f12d37b21cb413ba8649",
+   "vertices": 1013,
+   "triangles": 880,
+   "bounds": [
+    1.7003097534179688,
+    2.232788324356079,
+    1.0,
+    -0.8501548767089844,
+    -2.1470117568969727,
+    -0.023569965735077858
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 2544,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_freezer\\trap_freezer_c.tga",
+       "preview": "assets/textures/65f6e979338307b807a286c2448d1be5ab7fbda4d39a04c8147c6f40140341df.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_freezer\\trap_freezer_n.tga",
+       "preview": "assets/textures/21a50e96df8f45f86ebd6c2135c81c18c6df9e446b1a4e753ab57ded6551483e.png"
+      }
+     }
+    },
+    {
+     "submesh": 1,
+     "startIndex": 2544,
+     "indexCount": 96,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\common\\trap_orange_c.tga",
+       "preview": "assets/textures/17d735b6194737ea708aca5ca9a4825f578f46b70e670b14211d97ca393ac319.png"
+      }
+     }
+    }
+   ]
+  },
+  "trap_hopscotch": {
+   "name": "trap_hopscotch",
+   "glb": "assets/models/glb/0ca5d79e9552228a6e5176c8558dcb340130422b1052a346fa62fae0a73879b0.glb",
+   "glbSha256": "45c9f694f4bdd0d361fed8cf6ebe73b49118f6f02bc31146a19f28116a2339f5",
+   "vertices": 983,
+   "triangles": 810,
+   "bounds": [
+    3.9999992847442627,
+    1.0,
+    4.0,
+    -1.9999996423721313,
+    -0.29500001668930054,
+    -2.0
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 2430,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_hopscotch\\hopscotch_trap_colour.tga",
+       "preview": "assets/textures/dc68555b0db6bdd08f231453c9f952d5077f9dfd8683abb5ba9057338423e4b6.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_hopscotch\\hopscotch_trap_normal.tga",
+       "preview": "assets/textures/d4b8cb1bd578ef14b9a601eb2b9b369026e2067fd31fff574a34b0d0343b570c.png"
+      }
+     }
+    }
+   ]
+  },
+  "bear_trap_trap": {
+   "name": "bear_trap_trap",
+   "glb": "assets/models/glb/b2118cd2434727ec238b1700db5feb12e8a6c3cf8ba858d726d425ef063e3b23.glb",
+   "glbSha256": "614e0af016991606b54d1b34272205f294f6cc241f92bfadcda65ce09bddb596",
+   "vertices": 956,
+   "triangles": 912,
+   "bounds": [
+    1.0,
+    1.0,
+    1.0,
+    -0.3759518265724182,
+    -0.37593990564346313,
+    -0.11751392483711243
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 2736,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\bear_trap_and_plants\\bear_trap_colour.tga",
+       "preview": "assets/textures/40c8e4d4c35fa67b5ff906459c38e4898674e9e8b1a6665998356d1bef37dacc.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\traps\\bear_trap_and_plants\\bear_trap_normal.tga",
+       "preview": "assets/textures/cee211fcfaed93f55ddc6a4d99ef58ab6f1d248245572e6629383ec074a12f5b.png"
+      }
+     }
+    }
+   ]
+  },
+  "trap_killer_bees": {
+   "name": "trap_killer_bees",
+   "glb": "assets/models/glb/da1ba9377abeda699da7569184bc76453fd6df7f66a1b1c9732f5ad25c4e5863.glb",
+   "glbSha256": "faa2c027c522223b754c5c5bcd79b586fba5b6737ae706751610a559a6684be6",
+   "vertices": 7987,
+   "triangles": 6075,
+   "bounds": [
+    1.0,
+    3.0037059783935547,
+    4.000001907348633,
+    -0.16295555233955383,
+    -0.00370616908185184,
+    -2.0000009536743164
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 18225,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_killer_bees\\killer_bee_trap_colour.tga",
+       "preview": "assets/textures/77d53b689f5df96b95cc55b1f0b4ed91841363543dcd147d31be32dc95dd9e69.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_killer_bees\\killer_bee_trap_normal.tga",
+       "preview": "assets/textures/1621799a98bc02903aebc3570b1ecbba82aa203f2f412d40edd8988b8ac46f2a.png"
+      }
+     }
+    }
+   ]
+  },
+  "trap_knockout_gas": {
+   "name": "trap_knockout_gas",
+   "glb": "assets/models/glb/356949d575ab3c42a594a0f8c7e6bc0bfead98ad6f2c37553cc4f255c59d5bf6.glb",
+   "glbSha256": "148c7101ae34337147adc643476cbaa9c57ba99544514cf1515c783765c3447b",
+   "vertices": 13319,
+   "triangles": 12888,
+   "bounds": [
+    3.0186712741851807,
+    1.0564719438552856,
+    3.018671989440918,
+    -1.5093358755111694,
+    -0.05647194758057594,
+    -1.509336233139038
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 11520,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_knockout_gas\\trap_knockout_gas_base_c.tga",
+       "preview": "assets/textures/dd38b2410b4b52367aa43ba29fe245bee6a75ce0ed21b406fa6f8516b8b1f594.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_knockout_gas\\trap_knockout_gas_base_n.tga",
+       "preview": "assets/textures/93863072616b7b90c382cf6db7207521d68751503ac069bf963bfbad43e8b11d.png"
+      }
+     }
+    },
+    {
+     "submesh": 1,
+     "startIndex": 11520,
+     "indexCount": 1824,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\common\\trap_orange_c.tga",
+       "preview": "assets/textures/17d735b6194737ea708aca5ca9a4825f578f46b70e670b14211d97ca393ac319.png"
+      }
+     }
+    },
+    {
+     "submesh": 2,
+     "startIndex": 13344,
+     "indexCount": 480,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\common\\trap_orange_decals_1_c.tga",
+       "preview": "assets/textures/83367bddf04f998fd1f8925a425cc381fb0d0691c0a5b6ee7fd8f741a8f33862.png"
+      }
+     }
+    },
+    {
+     "submesh": 3,
+     "startIndex": 13824,
+     "indexCount": 2760,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_knockout_gas\\trap_knockout_gas_door_c.tga",
+       "preview": "assets/textures/993955773fc07857521340ebb2f974fda15d7f275883c72bdbdc92d8ec8294f6.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_knockout_gas\\trap_knockout_gas_door_n.tga",
+       "preview": "assets/textures/87cff4f815f8b604318d10fa3346d81b65d38ce675da6ec56a635c8461a88ce1.png"
+      }
+     }
+    },
+    {
+     "submesh": 4,
+     "startIndex": 16584,
+     "indexCount": 22080,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_knockout_gas\\trap_knockout_gas_c.tga",
+       "preview": "assets/textures/cd418159c8885a0d5b61854fd7fdd5539bdda13820fd565af6e66c930014934e.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_knockout_gas\\trap_knockout_gas_n.tga",
+       "preview": "assets/textures/54a2fb2af11b8100fd28b77802d3ab07e580fe52dc71ac50a546f76413cf01b9.png"
+      }
+     }
+    }
+   ]
+  },
+  "trap_disco_laser_active": {
+   "name": "trap_disco_laser_active",
+   "glb": "assets/models/glb/0ccf7f4709489d826de1dd792cb2f1ee537fd4960898a632444bb50d23e21d5e.glb",
+   "glbSha256": "ea472a2582556c5e85ee21758fb13dd44ded28e02010d10097d16e5b924f4bc4",
+   "vertices": 3758,
+   "triangles": 3952,
+   "bounds": [
+    3.899998664855957,
+    3.823496103286743,
+    5.649997711181641,
+    -1.9499993324279785,
+    -2.943495988845825,
+    -2.824998378753662
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 336,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\common\\trap_orange_c.tga",
+       "preview": "assets/textures/17d735b6194737ea708aca5ca9a4825f578f46b70e670b14211d97ca393ac319.png"
+      }
+     }
+    },
+    {
+     "submesh": 1,
+     "startIndex": 336,
+     "indexCount": 144,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_disco_laser\\trap_disco_laser_floor_c.tga",
+       "preview": "assets/textures/58d582d227605394ab8941981a5f4d81fe89f03a6323c6c103b2378de53523c1.png"
+      }
+     }
+    },
+    {
+     "submesh": 2,
+     "startIndex": 480,
+     "indexCount": 864,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_disco_laser\\trap_disco_laser_floor_misc_c.tga",
+       "preview": "assets/textures/27b410edafb32faf6ba6d3c5bdaad3534b5cee28cefc9283b69ed6ec7efd64cb.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_disco_laser\\trap_disco_laser_floor_misc_n.tga",
+       "preview": "assets/textures/0136e25d512c5f3b8bbdb1c46f40eaa4a34bc90a065ac9454c55ee4133c111c7.png"
+      }
+     }
+    },
+    {
+     "submesh": 3,
+     "startIndex": 1344,
+     "indexCount": 48,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\common\\trap_orange_decals_1_c.tga",
+       "preview": "assets/textures/83367bddf04f998fd1f8925a425cc381fb0d0691c0a5b6ee7fd8f741a8f33862.png"
+      }
+     }
+    },
+    {
+     "submesh": 4,
+     "startIndex": 1392,
+     "indexCount": 192,
+     "maps": {}
+    },
+    {
+     "submesh": 5,
+     "startIndex": 1584,
+     "indexCount": 10272,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_disco_laser\\disco_laser_low_c.tga",
+       "preview": "assets/textures/5cfbe15ff18a0946b8629e18279d074abe7426b0f949fc0f8fba129f7b940ad3.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_disco_laser\\disco_laser_low_n.tga",
+       "preview": "assets/textures/6d1802acce43b347f6812566c8555a337304b276767f576fec46dcc6a07dc442.png"
+      }
+     }
+    }
+   ]
+  },
+  "trap_laser_wall": {
+   "name": "trap_laser_wall",
+   "glb": "assets/models/glb/50092e48ad2d2b45e872efc406557fbc546ded012e5aa18a1f83f40e07fdb80a.glb",
+   "glbSha256": "a764ee73298e2174d00303e96075c095a099e839a0120a9de4b55637cd44e595",
+   "vertices": 11231,
+   "triangles": 10468,
+   "bounds": [
+    4.000000953674316,
+    2.992358446121216,
+    1.0,
+    -2.000000476837158,
+    -2.992358446121216,
+    -0.22847989201545715
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 29964,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_laser_wall\\trap_laser_wall_low_c.tga",
+       "preview": "assets/textures/6ac467121598b706c2934cdf9c64e39fc06a35ad24eb00bf73efc19e2330c91f.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_laser_wall\\trap_laser_wall_low_n.tga",
+       "preview": "assets/textures/cba665ab2ad3ffb26a5c60a30a0cae4ce4d07b6bde855f3e6d1e0e4e72eaf455.png"
+      }
+     }
+    },
+    {
+     "submesh": 1,
+     "startIndex": 29964,
+     "indexCount": 864,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\wall_laser_trap\\laser_glow_pulse_2_c.tga",
+       "preview": "assets/textures/2e762878695536762d471541d83fafe7a8c713f9487dc3eb3d6d0201b065d00c.png"
+      }
+     }
+    },
+    {
+     "submesh": 2,
+     "startIndex": 30828,
+     "indexCount": 576,
+     "maps": {}
+    }
+   ]
+  },
+  "trap_magnet": {
+   "name": "trap_magnet",
+   "glb": "assets/models/glb/137e00b02190c2b901eda4163084af8ac34e625b7986a9e675afae04fb38ec59.glb",
+   "glbSha256": "c9ea166564632409e0d86ddfcb1ebcb1a8382c63bfc94ed604e9c39cb16d9ee0",
+   "vertices": 3437,
+   "triangles": 3492,
+   "bounds": [
+    3.290566921234131,
+    6.31967830657959,
+    3.290567398071289,
+    -1.6452834606170654,
+    -0.1643037348985672,
+    -1.642863392829895
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 6276,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_magnet\\trap_magnet_albedo.tga",
+       "preview": "assets/textures/9ca317d60549650514f99fe51f7c9cba564722d3f26eefde5bc69eaec29651ad.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_magnet\\trap_magnet_normal.tga",
+       "preview": "assets/textures/fdc6dda59df6fb8ec4fd0521a3f906f01c725527e66ab8ffc77d645c9068cc0c.png"
+      }
+     }
+    },
+    {
+     "submesh": 1,
+     "startIndex": 6276,
+     "indexCount": 678,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_magnet\\trap_magnet_doors_albedo.tga",
+       "preview": "assets/textures/f2af145a950cc54ffa8db0c21b44843b0695a819091dbac542392ec48a3a997b.png"
+      }
+     }
+    },
+    {
+     "submesh": 2,
+     "startIndex": 6954,
+     "indexCount": 3036,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_magnet\\trap_magnet_base_albedo.tga",
+       "preview": "assets/textures/81e2d4f67d01d3930234a9c17cbfc61c7bf4d5f10d414238de8bc383335a49c4.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_magnet\\trap_magnet_base_normal.tga",
+       "preview": "assets/textures/153a86817579591c2efd4d5c6e5aaa02dafa43f1cebeb16e4617ef0ba6ec491b.png"
+      }
+     }
+    },
+    {
+     "submesh": 3,
+     "startIndex": 9990,
+     "indexCount": 462,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\common\\trap_orange_c.tga",
+       "preview": "assets/textures/17d735b6194737ea708aca5ca9a4825f578f46b70e670b14211d97ca393ac319.png"
+      }
+     }
+    },
+    {
+     "submesh": 4,
+     "startIndex": 10452,
+     "indexCount": 24,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\common\\trap_orange_decals_1_c.tga",
+       "preview": "assets/textures/83367bddf04f998fd1f8925a425cc381fb0d0691c0a5b6ee7fd8f741a8f33862.png"
+      }
+     }
+    }
+   ]
+  },
+  "trap_emma_knockout_gas": {
+   "name": "trap_emma_knockout_gas",
+   "glb": "assets/models/glb/685fed825931cad5c075515d387c14f20d847c5c37d6e9812cbcb11ea51c7738.glb",
+   "glbSha256": "5c71342eb72ce6cd8e80feb226b7d49eb43baad8947743e9bdc7b7ef8245b073",
+   "vertices": 13319,
+   "triangles": 12888,
+   "bounds": [
+    3.0186712741851807,
+    1.0564719438552856,
+    3.018671989440918,
+    -1.5093358755111694,
+    -0.05647194758057594,
+    -1.509336233139038
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 11520,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_knockout_gas\\trap_knockout_gas_base_c.tga",
+       "preview": "assets/textures/dd38b2410b4b52367aa43ba29fe245bee6a75ce0ed21b406fa6f8516b8b1f594.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_knockout_gas\\trap_knockout_gas_base_n.tga",
+       "preview": "assets/textures/93863072616b7b90c382cf6db7207521d68751503ac069bf963bfbad43e8b11d.png"
+      }
+     }
+    },
+    {
+     "submesh": 1,
+     "startIndex": 11520,
+     "indexCount": 1824,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\common\\trap_orange_c.tga",
+       "preview": "assets/textures/17d735b6194737ea708aca5ca9a4825f578f46b70e670b14211d97ca393ac319.png"
+      }
+     }
+    },
+    {
+     "submesh": 2,
+     "startIndex": 13344,
+     "indexCount": 480,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\common\\trap_orange_decals_1_c.tga",
+       "preview": "assets/textures/83367bddf04f998fd1f8925a425cc381fb0d0691c0a5b6ee7fd8f741a8f33862.png"
+      }
+     }
+    },
+    {
+     "submesh": 3,
+     "startIndex": 13824,
+     "indexCount": 2760,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_knockout_gas\\trap_emma_knockout_gas_door_c.tga",
+       "preview": "assets/textures/caf99c27c471760e035fa4ca3789656abc77b9d1e12cc84720f585da50319da8.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_knockout_gas\\trap_knockout_gas_door_n.tga",
+       "preview": "assets/textures/87cff4f815f8b604318d10fa3346d81b65d38ce675da6ec56a635c8461a88ce1.png"
+      }
+     }
+    },
+    {
+     "submesh": 4,
+     "startIndex": 16584,
+     "indexCount": 22080,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_knockout_gas\\trap_knockout_gas_c.tga",
+       "preview": "assets/textures/cd418159c8885a0d5b61854fd7fdd5539bdda13820fd565af6e66c930014934e.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_knockout_gas\\trap_knockout_gas_n.tga",
+       "preview": "assets/textures/54a2fb2af11b8100fd28b77802d3ab07e580fe52dc71ac50a546f76413cf01b9.png"
+      }
+     }
+    }
+   ]
+  },
+  "trap_pay_wall": {
+   "name": "trap_pay_wall",
+   "glb": "assets/models/glb/ba005128b2833fea0218d9bdeb7cdad50a15aefbb8953a97f3b49f6340198b0a.glb",
+   "glbSha256": "7d86db2a6b5656c35585feca66f02a9b94c227ca56e127e87f2f19111ab2e289",
+   "vertices": 1871,
+   "triangles": 1514,
+   "bounds": [
+    3.8273534774780273,
+    1.5569888353347778,
+    1.0,
+    -1.9136767387390137,
+    -0.04614509642124176,
+    -0.3509112596511841
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 3438,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_pay_wall\\trap_pay_wall_c.tga",
+       "preview": "assets/textures/b4363573d5cf0728026842fb1b0f36ba6eddafde2c7e125f084887c9e09dd2c4.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_pay_wall\\trap_pay_wall_n.tga",
+       "preview": "assets/textures/0775bcd32f37072966ef74148380780b84fce0b88279ed5d655bd65bf13f495d.png"
+      }
+     }
+    },
+    {
+     "submesh": 1,
+     "startIndex": 3438,
+     "indexCount": 744,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\common\\animated_screens_a_colou.tga",
+       "preview": "assets/textures/b5a7a8944f359dd790cbd6e1c27c9146a485133b7f5f509c5b2b3ab1b6552312.png"
+      }
+     }
+    },
+    {
+     "submesh": 2,
+     "startIndex": 4182,
+     "indexCount": 360,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\common\\trap_orange_c.tga",
+       "preview": "assets/textures/17d735b6194737ea708aca5ca9a4825f578f46b70e670b14211d97ca393ac319.png"
+      }
+     }
+    }
+   ]
+  },
+  "trap_pinball_triangle_bumper": {
+   "name": "trap_pinball_triangle_bumper",
+   "glb": "assets/models/glb/0756566d8feb15f64b1d1c4974b60521eed5effffbe43dc89ea4dcdb9d9eccf0.glb",
+   "glbSha256": "324f9261bd17f200ef5f062a6a7e75d99c25d8ce150c79ba966bc18b6050189a",
+   "vertices": 1878,
+   "triangles": 1933,
+   "bounds": [
+    1.874999761581421,
+    1.6162385940551758,
+    1.8750011920928955,
+    -1.000000238418579,
+    -0.7874999642372131,
+    -0.8750011324882507
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 363,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\common\\black_flat.tga",
+       "preview": "assets/textures/ddd0206cfe9b587259831d93d1a876fd7237aac33077e58a8ff372a3d448b481.png"
+      }
+     }
+    },
+    {
+     "submesh": 1,
+     "startIndex": 363,
+     "indexCount": 5400,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_pinball_triangle_bumper\\trap_pinball_triangle_bumper_low_c.tga",
+       "preview": "assets/textures/d2df8a733757c02e434c8a5bd1d48774c4a635431edd897b9b3bc3607dec1e4e.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_pinball_triangle_bumper\\trap_pinball_triangle_bumper_low_n.tga",
+       "preview": "assets/textures/188e1fd6d18f71442292807bb4a3f0bf9762a46ec7dc3cf442906508da92bb40.png"
+      }
+     }
+    },
+    {
+     "submesh": 2,
+     "startIndex": 5763,
+     "indexCount": 36,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\common\\trap_orange_decals_1_c.tga",
+       "preview": "assets/textures/83367bddf04f998fd1f8925a425cc381fb0d0691c0a5b6ee7fd8f741a8f33862.png"
+      }
+     }
+    }
+   ]
+  },
+  "trap_poison_dart_wall": {
+   "name": "trap_poison_dart_wall",
+   "glb": "assets/models/glb/cf174c2a930b3dbdcc7dd246ede66cf8f5318ff5aeb818c654ca3a144cb6cd73.glb",
+   "glbSha256": "1b4d9b39f29128adff76407aba5ea49d17eab5b999b66d941cff429233c9bd7a",
+   "vertices": 3134,
+   "triangles": 2800,
+   "bounds": [
+    1.0,
+    2.9499998092651367,
+    1.0,
+    -0.42500001192092896,
+    -2.9499995708465576,
+    -0.15000008046627045
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 8400,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_poison_dart_wall\\trap_poison_dart_wall_low_c.tga",
+       "preview": "assets/textures/72ea6140254239143944174be2c7d174477b22db9afceade2917b4223022d25b.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_poison_dart_wall\\trap_poison_dart_wall_low_n.tga",
+       "preview": "assets/textures/1908b4023b5464d2b75394a29e7313f69193907f6a833839d470a514a99ce72d.png"
+      }
+     }
+    }
+   ]
+  },
+  "robo_doggo": {
+   "name": "robo_doggo",
+   "glb": "assets/models/glb/64cff21f1481096fb6bf59749f92563c714891fb990f6fd44ed27bec15a80043.glb",
+   "glbSha256": "941f90b9885ede3aaf0af76820729d65d40b0ac65f821306fdc0c87431d3b731",
+   "vertices": 3495,
+   "triangles": 3627,
+   "bounds": [
+    1.7996063232421875,
+    1.4368412494659424,
+    1.66331148147583,
+    -0.9996063113212585,
+    -0.43684121966362,
+    -0.7999998331069946
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 10425,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_robo_doggo\\robo_doggo_colour.tga",
+       "preview": "assets/textures/9ba47e5c5a4494008d5e1b3d0b51ce97239b501a6c12d19c498f15028ade075e.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_robo_doggo\\robo_doggo_normal.tga",
+       "preview": "assets/textures/e2560045e47b3a8db1e76fbb035eae4857a2b5791f5471851358402c9315236f.png"
+      }
+     }
+    },
+    {
+     "submesh": 1,
+     "startIndex": 10425,
+     "indexCount": 360,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\common\\trap_orange_c.tga",
+       "preview": "assets/textures/17d735b6194737ea708aca5ca9a4825f578f46b70e670b14211d97ca393ac319.png"
+      }
+     }
+    },
+    {
+     "submesh": 2,
+     "startIndex": 10785,
+     "indexCount": 96,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\common\\trap_orange_decals_1_c.tga",
+       "preview": "assets/textures/83367bddf04f998fd1f8925a425cc381fb0d0691c0a5b6ee7fd8f741a8f33862.png"
+      }
+     }
+    }
+   ]
+  },
+  "trap_sharktank": {
+   "name": "trap_sharktank",
+   "glb": "assets/models/glb/d81cae389817920e3da1f1e08e56368c467c0d31b8753dc9cf69671044ed64a1.glb",
+   "glbSha256": "64bfc7989d722fb6b3fcfb66dabdcd35337a1c52cd74e7fd66f78a336d66ec9e",
+   "vertices": 3300,
+   "triangles": 4312,
+   "bounds": [
+    3.9164934158325195,
+    3.15097975730896,
+    5.9615278244018555,
+    -1.9573127031326294,
+    -0.1297023892402649,
+    -2.9807634353637695
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 6300,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_sharktank\\trap_sharktank_base_albedo.tga",
+       "preview": "assets/textures/419f76e2ef704da1e4202965cdc94db12a1a3287dc7dabc7a166091e91dbdbfa.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_sharktank\\trap_sharktank_base_normal.tga",
+       "preview": "assets/textures/655ea1ea4c1efe03b60d6b3a5a0d91d46a0704a9d50217a7d0d1b015e847cdfd.png"
+      }
+     }
+    },
+    {
+     "submesh": 1,
+     "startIndex": 6300,
+     "indexCount": 480,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\common\\trap_orange_c.tga",
+       "preview": "assets/textures/17d735b6194737ea708aca5ca9a4825f578f46b70e670b14211d97ca393ac319.png"
+      }
+     }
+    },
+    {
+     "submesh": 2,
+     "startIndex": 6780,
+     "indexCount": 48,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\common\\trap_orange_decals_1_c.tga",
+       "preview": "assets/textures/83367bddf04f998fd1f8925a425cc381fb0d0691c0a5b6ee7fd8f741a8f33862.png"
+      }
+     }
+    },
+    {
+     "submesh": 3,
+     "startIndex": 6828,
+     "indexCount": 1584,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_sharktank\\trap_sharktank_doors_albedo.tga",
+       "preview": "assets/textures/15ae9d5a10c07183d0321acc18d64d47a4b9dec9fd73556d140d31a98c13c3ce.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_sharktank\\trap_sharktank_doors_normal.tga",
+       "preview": "assets/textures/738e0a04e010b017f3d1962c4ab636200ef503d45ac73c34cd5ba5625cb7b265.png"
+      }
+     }
+    },
+    {
+     "submesh": 4,
+     "startIndex": 8412,
+     "indexCount": 4500,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_sharktank\\trap_sharktank_shark_albedo.tga",
+       "preview": "assets/textures/f738064880973329461d04e3c31d4e3e3cd755bf8fb26e431ec736fd1dbf5641.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_sharktank\\trap_sharktank_shark_normal.tga",
+       "preview": "assets/textures/fbcfa769cb9f3c86a1efb68c7c470458a68badf4fb7416e4946adfb535a16688.png"
+      }
+     }
+    },
+    {
+     "submesh": 5,
+     "startIndex": 12912,
+     "indexCount": 24,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_sharktank\\trap_sharktank_water_albedo.tga",
+       "preview": "assets/textures/88a0834840eddf09a2f0a3f423248316f03f1d764beb8631d443648d89787e4b.png"
+      }
+     }
+    }
+   ]
+  },
+  "trap_sharktank_sharks": {
+   "name": "trap_sharktank_sharks",
+   "glb": "assets/models/glb/f78346864aa6c482c4af55e0a5d88ac18726bd04a97fe1c8dcd6198966891bb3.glb",
+   "glbSha256": "145c44bc637aad729ac8719c559b930952bc213d69321a75f0d7641c77974706",
+   "vertices": 927,
+   "triangles": 1500,
+   "bounds": [
+    1.5535134077072144,
+    2.935779094696045,
+    2.694519281387329,
+    -0.7778836488723755,
+    -0.714501678943634,
+    -1.3442728519439697
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 4500,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_sharktank\\trap_sharktank_shark_albedo.tga",
+       "preview": "assets/textures/f738064880973329461d04e3c31d4e3e3cd755bf8fb26e431ec736fd1dbf5641.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_sharktank\\trap_sharktank_shark_normal.tga",
+       "preview": "assets/textures/fbcfa769cb9f3c86a1efb68c7c470458a68badf4fb7416e4946adfb535a16688.png"
+      }
+     }
+    }
+   ]
+  },
+  "oceans_trap_sharktank": {
+   "name": "oceans_trap_sharktank",
+   "glb": "assets/models/glb/b96440f83cd2486e07d1ef10bbe15f327f92ef9c8119ce4d1c8c438527707af0.glb",
+   "glbSha256": "57a23e8491999ed92bd79c681587fabebc2e135ab9b1b58d8ca0d5936f1b84d7",
+   "vertices": 3300,
+   "triangles": 4312,
+   "bounds": [
+    3.9164934158325195,
+    3.15097975730896,
+    5.9615278244018555,
+    -1.9573127031326294,
+    -0.1297023892402649,
+    -2.9807634353637695
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 6156,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_sharktank\\trap_sharktank_base_albedo.tga",
+       "preview": "assets/textures/419f76e2ef704da1e4202965cdc94db12a1a3287dc7dabc7a166091e91dbdbfa.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_sharktank\\trap_sharktank_base_normal.tga",
+       "preview": "assets/textures/655ea1ea4c1efe03b60d6b3a5a0d91d46a0704a9d50217a7d0d1b015e847cdfd.png"
+      }
+     }
+    },
+    {
+     "submesh": 1,
+     "startIndex": 6156,
+     "indexCount": 624,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\common\\trap_orange_c.tga",
+       "preview": "assets/textures/17d735b6194737ea708aca5ca9a4825f578f46b70e670b14211d97ca393ac319.png"
+      }
+     }
+    },
+    {
+     "submesh": 2,
+     "startIndex": 6780,
+     "indexCount": 48,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\common\\trap_orange_decals_1_c.tga",
+       "preview": "assets/textures/83367bddf04f998fd1f8925a425cc381fb0d0691c0a5b6ee7fd8f741a8f33862.png"
+      }
+     }
+    },
+    {
+     "submesh": 3,
+     "startIndex": 6828,
+     "indexCount": 1584,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\dlc\\dlc_08\\oceans_base\\oceans_traps\\oceans_trap_sharktank\\oceans_trap_sharktank_c.tga",
+       "preview": "assets/textures/a131582af4f16347c2cc3e6789fd3c82b809a7ab396610ca71cebd25c74f99d9.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_sharktank\\trap_sharktank_doors_normal.tga",
+       "preview": "assets/textures/738e0a04e010b017f3d1962c4ab636200ef503d45ac73c34cd5ba5625cb7b265.png"
+      }
+     }
+    },
+    {
+     "submesh": 4,
+     "startIndex": 8412,
+     "indexCount": 4500,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_sharktank\\trap_sharktank_shark_albedo.tga",
+       "preview": "assets/textures/f738064880973329461d04e3c31d4e3e3cd755bf8fb26e431ec736fd1dbf5641.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_sharktank\\trap_sharktank_shark_normal.tga",
+       "preview": "assets/textures/fbcfa769cb9f3c86a1efb68c7c470458a68badf4fb7416e4946adfb535a16688.png"
+      }
+     }
+    },
+    {
+     "submesh": 5,
+     "startIndex": 12912,
+     "indexCount": 24,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_sharktank\\trap_sharktank_water_albedo.tga",
+       "preview": "assets/textures/88a0834840eddf09a2f0a3f423248316f03f1d764beb8631d443648d89787e4b.png"
+      }
+     }
+    }
+   ]
+  },
+  "trap_slippery_soap": {
+   "name": "trap_slippery_soap",
+   "glb": "assets/models/glb/c7860c273b5c06898100067aabf933f082fc2c0db2bc9c8962f5dff8bf13bc14.glb",
+   "glbSha256": "3c13f4a33991189a91c41f8e2f19821a0056b40a039ae0d3b560170b15a54973",
+   "vertices": 1447,
+   "triangles": 1301,
+   "bounds": [
+    1.8507664203643799,
+    1.0026007890701294,
+    1.8507665395736694,
+    -0.9253832101821899,
+    -0.10260064899921417,
+    -0.9253832101821899
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 2883,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_knockout_gas\\trap_knockout_gas_base_c.tga",
+       "preview": "assets/textures/dd38b2410b4b52367aa43ba29fe245bee6a75ce0ed21b406fa6f8516b8b1f594.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_knockout_gas\\trap_knockout_gas_base_n.tga",
+       "preview": "assets/textures/93863072616b7b90c382cf6db7207521d68751503ac069bf963bfbad43e8b11d.png"
+      }
+     }
+    },
+    {
+     "submesh": 1,
+     "startIndex": 2883,
+     "indexCount": 360,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\common\\trap_orange_c.tga",
+       "preview": "assets/textures/17d735b6194737ea708aca5ca9a4825f578f46b70e670b14211d97ca393ac319.png"
+      }
+     }
+    },
+    {
+     "submesh": 2,
+     "startIndex": 3243,
+     "indexCount": 96,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\common\\trap_orange_decals_1_c.tga",
+       "preview": "assets/textures/83367bddf04f998fd1f8925a425cc381fb0d0691c0a5b6ee7fd8f741a8f33862.png"
+      }
+     }
+    },
+    {
+     "submesh": 3,
+     "startIndex": 3339,
+     "indexCount": 564,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_slippery_soap\\trap_slippery_soap_c.tga",
+       "preview": "assets/textures/9b36b99c1728cd26bae91986190ef56d53c4193a46fe0d45898f484f779a2dfb.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_slippery_soap\\trap_slippery_soap_n.tga",
+       "preview": "assets/textures/aa8e0bca7d64149c2a8c9f23f7ae6246d80ccee61cd073b14909b5b1ee3ce995.png"
+      }
+     }
+    }
+   ]
+  },
+  "trap_venus_plant": {
+   "name": "trap_venus_plant",
+   "glb": "assets/models/glb/ee1b639223a0266ec4c7ba610acb52bd1e535408d3de31c986591a59b4b4126c.glb",
+   "glbSha256": "53099349f87ef9c230574591966f30ae03dcca983374062b121f4025c6b1d25a",
+   "vertices": 11889,
+   "triangles": 18666,
+   "bounds": [
+    2.550123929977417,
+    3.7284140586853027,
+    2.031909942626953,
+    -1.2292842864990234,
+    0.1856330782175064,
+    -0.9828823804855347
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 55998,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_venus_plant\\trap_venus_plant_albedo.tga",
+       "preview": "assets/textures/d2befd6932f3e11a0762a985cfa5305ab5ca9dfeae2bd57b4a4acfff099d63a9.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_venus_plant\\trap_venus_plant_normal.tga",
+       "preview": "assets/textures/1a8f93465037f72a1be059a4a648d9b0f35d628150909f6fbe5f4519cf772099.png"
+      }
+     }
+    }
+   ]
+  },
+  "trap_venus_plant_base": {
+   "name": "trap_venus_plant_base",
+   "glb": "assets/models/glb/505890865afa37d354a7ce49306f1b633318487fe67e88ae8eabc018812917d0.glb",
+   "glbSha256": "7bc0c329544da816c57a48556acf55ca6f2b9029b55ee84a7eb593bc69597b1e",
+   "vertices": 1420,
+   "triangles": 1316,
+   "bounds": [
+    3.8415684700012207,
+    1.8674484491348267,
+    3.841568946838379,
+    -1.9207842350006104,
+    -0.06980723887681961,
+    -1.9207842350006104
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 3324,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_venus_plant\\trap_venus_plant_base_colour.tga",
+       "preview": "assets/textures/9fff9a6f05979bb54987f80845e05c274db7fbda6e1e5622256dd198f6384cbc.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_venus_plant\\trap_venus_plant_base_normal.tga",
+       "preview": "assets/textures/eeff0080c8c391b3454fb21cc68ca83fb43cfd733055b09763ca7189ea09771f.png"
+      }
+     }
+    },
+    {
+     "submesh": 1,
+     "startIndex": 3324,
+     "indexCount": 480,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\common\\trap_orange_c.tga",
+       "preview": "assets/textures/17d735b6194737ea708aca5ca9a4825f578f46b70e670b14211d97ca393ac319.png"
+      }
+     }
+    },
+    {
+     "submesh": 2,
+     "startIndex": 3804,
+     "indexCount": 144,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\common\\trap_orange_decals_1_c.tga",
+       "preview": "assets/textures/83367bddf04f998fd1f8925a425cc381fb0d0691c0a5b6ee7fd8f741a8f33862.png"
+      }
+     }
+    }
+   ]
+  },
+  "corridor_floor_basic": {
+   "name": "corridor_floor_basic",
+   "glb": "assets/models/glb/8865d62342a47265e6e1bfd904347f582eb457565bf9a63857a49130afef6cbc.glb",
+   "glbSha256": "959351e45e4c5cf284e6e6ab7c7b411c9515ee7dc67c630f1b1315c1bd3cc84c",
+   "vertices": 4,
+   "triangles": 2,
+   "bounds": [
+    1.0,
+    1.0,
+    1.0,
+    -0.5,
+    -0.0,
+    -0.5
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 6,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\room_sets\\corridor\\corridor_floor_clean_colour.tga",
+       "preview": "assets/textures/980ff8ca59cf83bdeb729e9f82c54cd4af3be72d5784ab5edb1fd5044baed470.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\room_sets\\corridor\\corridor_floor_clean_normal.tga",
+       "preview": "assets/textures/2f68771b8b6b60f9300b676f9891a982e41b504ef9892d56a3b7a3dbd952a3a7.png"
+      }
+     }
+    }
+   ]
+  },
+  "corridor_wall_straight_mid": {
+   "name": "corridor_wall_straight_mid",
+   "glb": "assets/models/glb/4632c70b71cf96ce7b11896acfb477e722f0c5505d8bda05e3ef2355a5306215.glb",
+   "glbSha256": "f24176a191db57a920941675cf834defbe216ba4377e03a0b8c072f5d8206b2a",
+   "vertices": 88,
+   "triangles": 50,
+   "bounds": [
+    1.0000494718551636,
+    2.9999985694885254,
+    1.0,
+    -0.5000250935554504,
+    -2.999999523162842,
+    0.49999916553497314
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 84,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\room_sets\\common\\room_wall_back_c.tga",
+       "preview": "assets/textures/1da21b792fde4a80be444b2ef1317c8f3fb1acc4bc6236544e734cce27854683.png"
+      }
+     }
+    },
+    {
+     "submesh": 1,
+     "startIndex": 84,
+     "indexCount": 66,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\room_sets\\corridor\\corridor_wall_low_c.tga",
+       "preview": "assets/textures/379646c73c613aa1907eb816e068ed271e3643dce22baf5317d1ccccd25514bf.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\room_sets\\corridor\\corridor_wall_low_n.tga",
+       "preview": "assets/textures/215791e1d99e4c010dde3ce41173e60b61c526523d9d881c68f478b943f6103d.png"
+      }
+     }
+    }
+   ]
+  },
+  "door_standard": {
+   "name": "door_standard",
+   "glb": "assets/models/glb/d451e33fd233aa54e07c80ed9ece46c657fb74502afd5064a2f16825f94dd219.glb",
+   "glbSha256": "922ef81c30353931689153d1ecb9eab05c79b95df26566b19b00e3736da25033",
+   "vertices": 714,
+   "triangles": 476,
+   "bounds": [
+    3.4822793006896973,
+    2.7202134132385254,
+    1.0,
+    -1.733945369720459,
+    -2.750213146209717,
+    -0.3065697252750397
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 504,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\doors\\door_standard_colour.tga",
+       "preview": "assets/textures/3b9a8d9d807949be4e7d31be7f17b30208001dea7882e6461e06265adeae94f3.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\doors\\door_standard_normal.tga",
+       "preview": "assets/textures/812e45182c4f0ace4acf5da749fa960e3f43f6f14b12281231d26d9f25a3ea14.png"
+      }
+     }
+    },
+    {
+     "submesh": 1,
+     "startIndex": 504,
+     "indexCount": 540,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\common\\animated_screens_a_colou.tga",
+       "preview": "assets/textures/b5a7a8944f359dd790cbd6e1c27c9146a485133b7f5f509c5b2b3ab1b6552312.png"
+      }
+     }
+    },
+    {
+     "submesh": 2,
+     "startIndex": 1044,
+     "indexCount": 384,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\common\\animated_screens_a_colou.tga",
+       "preview": "assets/textures/b5a7a8944f359dd790cbd6e1c27c9146a485133b7f5f509c5b2b3ab1b6552312.png"
+      }
+     }
+    }
+   ]
+  },
+  "door_standard_frame": {
+   "name": "door_standard_frame",
+   "glb": "assets/models/glb/b48294f5a5830333733853dd36f6ce3cccef1a3254881822183d5671421d9f2f.glb",
+   "glbSha256": "91b4944cf49ca85ee2be3e0a11d0bf6f13670a9d3c733282bd212cc195466b05",
+   "vertices": 1032,
+   "triangles": 926,
+   "bounds": [
+    4.400000095367432,
+    2.999999761581421,
+    1.2933933734893799,
+    -2.200000047683716,
+    -2.9999992847442627,
+    -0.646696925163269
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 1890,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\doors\\door_standard_colour.tga",
+       "preview": "assets/textures/3b9a8d9d807949be4e7d31be7f17b30208001dea7882e6461e06265adeae94f3.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\doors\\door_standard_normal.tga",
+       "preview": "assets/textures/812e45182c4f0ace4acf5da749fa960e3f43f6f14b12281231d26d9f25a3ea14.png"
+      }
+     }
+    },
+    {
+     "submesh": 1,
+     "startIndex": 1890,
+     "indexCount": 888,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\common\\light_fittings_ar.tga",
+       "preview": "assets/textures/588d1ad6243df7dd3eb53b26d57f9e18699ff5091e0789c59deabf815a1f35f9.png"
+      }
+     }
+    }
+   ]
+  },
+  "corridor_wall_corner_in_l": {
+   "name": "corridor_wall_corner_in_l",
+   "glb": "assets/models/glb/2915dd19fb0eafa46b57d3ca3f071a96ce32bfb22b814936f00eacc5aa7c411c.glb",
+   "glbSha256": "d8e5974518c95c65f908b8e0d776ef55a88d53017fd0531e702a73183f37c087",
+   "vertices": 88,
+   "triangles": 50,
+   "bounds": [
+    1.5000208616256714,
+    2.9999985694885254,
+    1.0,
+    -1.0000017881393433,
+    -1.4999991655349731,
+    0.4999989867210388
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 66,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\room_sets\\corridor\\corridor_wall_low_c.tga",
+       "preview": "assets/textures/379646c73c613aa1907eb816e068ed271e3643dce22baf5317d1ccccd25514bf.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\room_sets\\corridor\\corridor_wall_low_n.tga",
+       "preview": "assets/textures/215791e1d99e4c010dde3ce41173e60b61c526523d9d881c68f478b943f6103d.png"
+      }
+     }
+    },
+    {
+     "submesh": 1,
+     "startIndex": 66,
+     "indexCount": 84,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\room_sets\\common\\room_wall_back_c.tga",
+       "preview": "assets/textures/1da21b792fde4a80be444b2ef1317c8f3fb1acc4bc6236544e734cce27854683.png"
+      }
+     }
+    }
+   ]
+  },
+  "corridor_wall_corner_in_r": {
+   "name": "corridor_wall_corner_in_r",
+   "glb": "assets/models/glb/702b34d165bd0b5b3905cf3ccce1c6f683e0bba5c74c8d11c02d3b0d74ed1351.glb",
+   "glbSha256": "d3e6dc55eb81f66803f4dcca7db8827d356cc28ddad15ef7140bb7349bf1ea89",
+   "vertices": 88,
+   "triangles": 50,
+   "bounds": [
+    1.5000479221343994,
+    2.9999988079071045,
+    1.0,
+    -0.5000314712524414,
+    -2.9749996662139893,
+    0.4999990165233612
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 66,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\room_sets\\corridor\\corridor_wall_low_c.tga",
+       "preview": "assets/textures/379646c73c613aa1907eb816e068ed271e3643dce22baf5317d1ccccd25514bf.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\room_sets\\corridor\\corridor_wall_low_n.tga",
+       "preview": "assets/textures/215791e1d99e4c010dde3ce41173e60b61c526523d9d881c68f478b943f6103d.png"
+      }
+     }
+    },
+    {
+     "submesh": 1,
+     "startIndex": 66,
+     "indexCount": 84,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\room_sets\\common\\room_wall_back_c.tga",
+       "preview": "assets/textures/1da21b792fde4a80be444b2ef1317c8f3fb1acc4bc6236544e734cce27854683.png"
+      }
+     }
+    }
+   ]
+  },
+  "corridor_wall_corner_out_l": {
+   "name": "corridor_wall_corner_out_l",
+   "glb": "assets/models/glb/ddbcb9a2b225636ef80b36db54b5dffcdbd50b691c77c9e46b8e8115b92dee8d.glb",
+   "glbSha256": "a5d5634684ac0ea3fee29b2de5857e541e93d04c46b6a9a8a35f49a2227f306d",
+   "vertices": 165,
+   "triangles": 107,
+   "bounds": [
+    1.0000191926956177,
+    3.000002145767212,
+    1.0,
+    -0.5000024437904358,
+    -3.00000262260437,
+    0.4999960660934448
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 237,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\room_sets\\corridor\\corridor_wall_low_c.tga",
+       "preview": "assets/textures/379646c73c613aa1907eb816e068ed271e3643dce22baf5317d1ccccd25514bf.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\room_sets\\corridor\\corridor_wall_low_n.tga",
+       "preview": "assets/textures/215791e1d99e4c010dde3ce41173e60b61c526523d9d881c68f478b943f6103d.png"
+      }
+     }
+    },
+    {
+     "submesh": 1,
+     "startIndex": 237,
+     "indexCount": 84,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\room_sets\\common\\room_wall_back_c.tga",
+       "preview": "assets/textures/1da21b792fde4a80be444b2ef1317c8f3fb1acc4bc6236544e734cce27854683.png"
+      }
+     }
+    }
+   ]
+  },
+  "corridor_wall_corner_out_r": {
+   "name": "corridor_wall_corner_out_r",
+   "glb": "assets/models/glb/edbad47d7290b56c071e40ece125dc1f56609fbf5f9b87d652829e3125b70616.glb",
+   "glbSha256": "1e9c7ee90e164c9d4cf9642604c6dd4b09a8e5c64ec9d9851e25f82440ecc1e9",
+   "vertices": 165,
+   "triangles": 107,
+   "bounds": [
+    1.0000087022781372,
+    3.0000030994415283,
+    1.0,
+    -0.5000438690185547,
+    -3.0000035762786865,
+    0.4999960660934448
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 237,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\room_sets\\corridor\\corridor_wall_low_c.tga",
+       "preview": "assets/textures/379646c73c613aa1907eb816e068ed271e3643dce22baf5317d1ccccd25514bf.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\room_sets\\corridor\\corridor_wall_low_n.tga",
+       "preview": "assets/textures/215791e1d99e4c010dde3ce41173e60b61c526523d9d881c68f478b943f6103d.png"
+      }
+     }
+    },
+    {
+     "submesh": 1,
+     "startIndex": 237,
+     "indexCount": 84,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\room_sets\\common\\room_wall_back_c.tga",
+       "preview": "assets/textures/1da21b792fde4a80be444b2ef1317c8f3fb1acc4bc6236544e734cce27854683.png"
+      }
+     }
+    }
+   ]
+  },
+  "corridor_wall_straight_mid_end_l": {
+   "name": "corridor_wall_straight_mid_end_l",
+   "glb": "assets/models/glb/f8eda96ce04c2ff431c343882d22d6c940f2e0804f6e5dc1136168ac2d31393c.glb",
+   "glbSha256": "9939a64717e3def90056c19cbfab6fdb4c29840474dc36e995906d947ec47cf4",
+   "vertices": 88,
+   "triangles": 50,
+   "bounds": [
+    1.0000494718551636,
+    2.9999985694885254,
+    1.0,
+    -0.5000250935554504,
+    -2.999999523162842,
+    0.49999916553497314
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 84,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\room_sets\\common\\room_wall_back_c.tga",
+       "preview": "assets/textures/1da21b792fde4a80be444b2ef1317c8f3fb1acc4bc6236544e734cce27854683.png"
+      }
+     }
+    },
+    {
+     "submesh": 1,
+     "startIndex": 84,
+     "indexCount": 66,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\room_sets\\corridor\\corridor_wall_low_c.tga",
+       "preview": "assets/textures/379646c73c613aa1907eb816e068ed271e3643dce22baf5317d1ccccd25514bf.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\room_sets\\corridor\\corridor_wall_low_n.tga",
+       "preview": "assets/textures/215791e1d99e4c010dde3ce41173e60b61c526523d9d881c68f478b943f6103d.png"
+      }
+     }
+    }
+   ]
+  },
+  "corridor_wall_straight_mid_end_r": {
+   "name": "corridor_wall_straight_mid_end_r",
+   "glb": "assets/models/glb/6e998cd227d154d9ae4d3b601cd7941dd993dab8a4b7fcd2d9e3f82761b14789.glb",
+   "glbSha256": "de94ac048610f242d7d0cf4e9a5201780a31ffde76eaf46fdfa045fb8776dcc6",
+   "vertices": 88,
+   "triangles": 50,
+   "bounds": [
+    1.0000494718551636,
+    2.9999985694885254,
+    1.0,
+    -0.5000250935554504,
+    -2.999999523162842,
+    0.49999916553497314
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 84,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\room_sets\\common\\room_wall_back_c.tga",
+       "preview": "assets/textures/1da21b792fde4a80be444b2ef1317c8f3fb1acc4bc6236544e734cce27854683.png"
+      }
+     }
+    },
+    {
+     "submesh": 1,
+     "startIndex": 84,
+     "indexCount": 66,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\room_sets\\corridor\\corridor_wall_low_c.tga",
+       "preview": "assets/textures/379646c73c613aa1907eb816e068ed271e3643dce22baf5317d1ccccd25514bf.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\room_sets\\corridor\\corridor_wall_low_n.tga",
+       "preview": "assets/textures/215791e1d99e4c010dde3ce41173e60b61c526523d9d881c68f478b943f6103d.png"
+      }
+     }
+    }
+   ]
+  },
+  "corridor_wall_corner_in_both": {
+   "name": "corridor_wall_corner_in_both",
+   "glb": "assets/models/glb/08a9b12f6c29c254d2bb1fcc0c2d3de773042f77c993988b6d190aaf534ada46.glb",
+   "glbSha256": "6bae8abc6348d9a5a0f08a3f5b3eedefa0a0cfeb97c36da4af08e9450705cae3",
+   "vertices": 88,
+   "triangles": 50,
+   "bounds": [
+    2.000014305114746,
+    2.9999985694885254,
+    1.0,
+    -0.9999994039535522,
+    -2.999999523162842,
+    0.49999913573265076
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 66,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\room_sets\\corridor\\corridor_wall_low_c.tga",
+       "preview": "assets/textures/379646c73c613aa1907eb816e068ed271e3643dce22baf5317d1ccccd25514bf.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\room_sets\\corridor\\corridor_wall_low_n.tga",
+       "preview": "assets/textures/215791e1d99e4c010dde3ce41173e60b61c526523d9d881c68f478b943f6103d.png"
+      }
+     }
+    },
+    {
+     "submesh": 1,
+     "startIndex": 66,
+     "indexCount": 84,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\room_sets\\common\\room_wall_back_c.tga",
+       "preview": "assets/textures/1da21b792fde4a80be444b2ef1317c8f3fb1acc4bc6236544e734cce27854683.png"
+      }
+     }
+    }
+   ]
+  },
+  "corridor_wall_corner_out_both": {
+   "name": "corridor_wall_corner_out_both",
+   "glb": "assets/models/glb/592dbed753eea9db72ba05a049c54283e998468c71e5a9f4e309c062602f90f2.glb",
+   "glbSha256": "29113334f808ef9c82175876c442e091bec9f3124dbf6599d800d817470e17d5",
+   "vertices": 237,
+   "triangles": 161,
+   "bounds": [
+    1.0,
+    3.0000030994415283,
+    1.0,
+    -0.5000070929527283,
+    -3.0000035762786865,
+    0.4999960660934448
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 408,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\room_sets\\corridor\\corridor_wall_low_c.tga",
+       "preview": "assets/textures/379646c73c613aa1907eb816e068ed271e3643dce22baf5317d1ccccd25514bf.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\room_sets\\corridor\\corridor_wall_low_n.tga",
+       "preview": "assets/textures/215791e1d99e4c010dde3ce41173e60b61c526523d9d881c68f478b943f6103d.png"
+      }
+     }
+    },
+    {
+     "submesh": 1,
+     "startIndex": 408,
+     "indexCount": 75,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\room_sets\\common\\room_wall_back_c.tga",
+       "preview": "assets/textures/1da21b792fde4a80be444b2ef1317c8f3fb1acc4bc6236544e734cce27854683.png"
+      }
+     }
+    }
+   ]
+  },
+  "corridor_wall_corner_in_l_out_r": {
+   "name": "corridor_wall_corner_in_l_out_r",
+   "glb": "assets/models/glb/3e42d2b837943c2ed184d964aa3adf851617166ebf51365c1380c4584d727858.glb",
+   "glbSha256": "17e89df38e54f51aeb0d8b2dd538ceef94b41645c970c982b8ef73c7e27bf885",
+   "vertices": 165,
+   "triangles": 107,
+   "bounds": [
+    1.5000029802322388,
+    3.0000033378601074,
+    1.0,
+    -1.0000025033950806,
+    -3.0000038146972656,
+    0.4999960660934448
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 237,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\room_sets\\corridor\\corridor_wall_low_c.tga",
+       "preview": "assets/textures/379646c73c613aa1907eb816e068ed271e3643dce22baf5317d1ccccd25514bf.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\room_sets\\corridor\\corridor_wall_low_n.tga",
+       "preview": "assets/textures/215791e1d99e4c010dde3ce41173e60b61c526523d9d881c68f478b943f6103d.png"
+      }
+     }
+    },
+    {
+     "submesh": 1,
+     "startIndex": 237,
+     "indexCount": 84,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\room_sets\\common\\room_wall_back_c.tga",
+       "preview": "assets/textures/1da21b792fde4a80be444b2ef1317c8f3fb1acc4bc6236544e734cce27854683.png"
+      }
+     }
+    }
+   ]
+  },
+  "corridor_wall_corner_in_r_out_l": {
+   "name": "corridor_wall_corner_in_r_out_l",
+   "glb": "assets/models/glb/0bb2bcb706750aeb6199a5f851b544040cdd713d32fff175c0e08337add4a07f.glb",
+   "glbSha256": "ab58e92ae45a79c761bc092d332fd4a0405ffe0d0b1d82d0241726a2029d8796",
+   "vertices": 165,
+   "triangles": 107,
+   "bounds": [
+    1.5000184774398804,
+    3.0000033378601074,
+    1.0,
+    -0.5000051259994507,
+    -1.500001072883606,
+    0.4999960660934448
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 237,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\room_sets\\corridor\\corridor_wall_low_c.tga",
+       "preview": "assets/textures/379646c73c613aa1907eb816e068ed271e3643dce22baf5317d1ccccd25514bf.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\room_sets\\corridor\\corridor_wall_low_n.tga",
+       "preview": "assets/textures/215791e1d99e4c010dde3ce41173e60b61c526523d9d881c68f478b943f6103d.png"
+      }
+     }
+    },
+    {
+     "submesh": 1,
+     "startIndex": 237,
+     "indexCount": 84,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\room_sets\\common\\room_wall_back_c.tga",
+       "preview": "assets/textures/1da21b792fde4a80be444b2ef1317c8f3fb1acc4bc6236544e734cce27854683.png"
+      }
+     }
+    }
+   ]
+  },
+  "wall_straight": {
+   "name": "wall_straight",
+   "glb": "assets/models/glb/ed748677dd6bc053050a4e207bb8a9e71c510a09eb5d58f0ef2380b752a540ad.glb",
+   "glbSha256": "7c97c5e71e4d5fabe68356c6bf9dca08bf02016c8fb08d4bb073695f5409a2b7",
+   "vertices": 16,
+   "triangles": 8,
+   "bounds": [
+    1.0,
+    3.014986753463745,
+    1.0,
+    -0.5,
+    -3.014986753463745,
+    0.4899999797344208
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 24,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\tilesets\\walls_standins\\wall_a_straight_008.tga",
+       "preview": "assets/textures/ecfed6cf51f3483ffc39c3626e10c31696533216f7ff0f0f891349c720430fec.png"
+      }
+     }
+    }
+   ]
+  },
+  "wall_corner_in_l": {
+   "name": "wall_corner_in_l",
+   "glb": "assets/models/glb/09e400167895f8344ecd4af8a4cbaee91e93471ac1f3fb28522ed9d914c311f6.glb",
+   "glbSha256": "71d9028ddbe14ec0e0060cbc9524832a1b6b48b29f7898431db8869f5251b152",
+   "vertices": 16,
+   "triangles": 8,
+   "bounds": [
+    1.25,
+    3.014986753463745,
+    1.0,
+    -0.7499999403953552,
+    -3.014986753463745,
+    0.4899999797344208
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 24,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\tilesets\\walls_standins\\wall_a_in_l_002.tga",
+       "preview": "assets/textures/0ec3aec89bb7595f6f73bd98bb8bba899bc295809c5d51d1f5769868fe7a1a0b.png"
+      }
+     }
+    }
+   ]
+  },
+  "wall_corner_out_l": {
+   "name": "wall_corner_out_l",
+   "glb": "assets/models/glb/4b3d7542b89c77dd918f13a616d2c630a869da15d9b9bfdf335da11dff24c4d2.glb",
+   "glbSha256": "283ee7a43e15d2e16eb2d20cfea0bb130e0ccaf05f17b30155f5e2d7305d3508",
+   "vertices": 16,
+   "triangles": 8,
+   "bounds": [
+    1.0099999904632568,
+    3.014986753463745,
+    1.0,
+    -0.5099999904632568,
+    -3.014986753463745,
+    0.4899999797344208
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 24,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\tilesets\\walls_standins\\wall_a_out_l_005.tga",
+       "preview": "assets/textures/208ef11b2186f4bc99e7ea01c60189faaa65ee5e0447feef651930b2de894e91.png"
+      }
+     }
+    }
+   ]
+  },
+  "wall_end_1m": {
+   "name": "wall_end_1m",
+   "glb": "assets/models/glb/5adbc4e897c267be4ff3a0fc5689241df6be869ec4deab11722ab6fee5272fbc.glb",
+   "glbSha256": "c1098dbccc0e7c28844ed649df9a615118303f93eee7b4f382dc6d1cc5392654",
+   "vertices": 16,
+   "triangles": 8,
+   "bounds": [
+    1.0199999809265137,
+    3.014986753463745,
+    1.0,
+    -0.5099999904632568,
+    -3.014986753463745,
+    0.4899999797344208
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 24,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\tilesets\\walls_standins\\wall_a_end_1m_001.tga",
+       "preview": "assets/textures/7151a487b6713c8c265e7051387367687932863dc55441ef1e0baf05d3c7450c.png"
+      }
+     }
+    }
+   ]
+  },
+  "wall_post_a": {
+   "name": "wall_post_a",
+   "glb": "assets/models/glb/ddbbdf5bd3e3b9abe4848df3b7d1482bd7911eb48241b43e93bd6d573e6dc229.glb",
+   "glbSha256": "e3d9bff3adb61715a5f011bd86b80eda5f2cae2c54d65b37cf02205732e13cbe",
+   "vertices": 66,
+   "triangles": 52,
+   "bounds": [
+    1.0,
+    3.049999952316284,
+    1.0,
+    -0.550000011920929,
+    -3.049999952316284,
+    0.3999997675418854
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 156,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\dirt\\basic\\dirt_basic_central.tga",
+       "preview": "assets/textures/9ec0a18e5394965f1eaaa6a077739aa8a25e18ca42f6fca60735298c998ca439.png"
+      }
+     }
+    }
+   ]
+  },
+  "floor_straight": {
+   "name": "floor_straight",
+   "glb": "assets/models/glb/ebcaa017e30f58defc53c5191a979a109112f5b02b43d671174c61cbe2c18fe8.glb",
+   "glbSha256": "8270e8270eed779afecf5c72d7349dd6c6ac5cd12a837b7a845366090c374137",
+   "vertices": 8,
+   "triangles": 4,
+   "bounds": [
+    1.0,
+    1.0,
+    1.0,
+    -0.5,
+    -0.009999999776482582,
+    -0.5
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 6,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\worldoffurniture\\wof_grey_floor_albedo.tga",
+       "preview": "assets/textures/ae191fc0b70f37cc65604242d4ce8190c801e04756a0fe6f25828b02c9fc5fbf.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\worldoffurniture\\wof_grey_floor_normal.tga",
+       "preview": "assets/textures/26b127afadd1158e24923a5b369f0b9aa70df617654822d71444d8e001b063a2.png"
+      }
+     }
+    },
+    {
+     "submesh": 1,
+     "startIndex": 6,
+     "indexCount": 6,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\room_sets\\corridor\\corridor_floor_clean_colour.tga",
+       "preview": "assets/textures/980ff8ca59cf83bdeb729e9f82c54cd4af3be72d5784ab5edb1fd5044baed470.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\room_sets\\corridor\\corridor_floor_clean_normal.tga",
+       "preview": "assets/textures/2f68771b8b6b60f9300b676f9891a982e41b504ef9892d56a3b7a3dbd952a3a7.png"
+      }
+     }
+    }
+   ]
+  },
+  "floor_innercorner": {
+   "name": "floor_innercorner",
+   "glb": "assets/models/glb/2c4eee68a94b881c8dd7e1b4ad4b61511d283535a152063f8bad177bef5d0a7c.glb",
+   "glbSha256": "dd93f15918557896fa3ecb94e1387b6051305f7bedcf115a41f0bba415417a38",
+   "vertices": 16,
+   "triangles": 12,
+   "bounds": [
+    1.0,
+    1.0,
+    1.0,
+    -0.5,
+    -0.009999999776482582,
+    -0.5
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 6,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\worldoffurniture\\wof_grey_floor_albedo.tga",
+       "preview": "assets/textures/ae191fc0b70f37cc65604242d4ce8190c801e04756a0fe6f25828b02c9fc5fbf.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\worldoffurniture\\wof_grey_floor_normal.tga",
+       "preview": "assets/textures/26b127afadd1158e24923a5b369f0b9aa70df617654822d71444d8e001b063a2.png"
+      }
+     }
+    },
+    {
+     "submesh": 1,
+     "startIndex": 6,
+     "indexCount": 30,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\room_sets\\corridor\\corridor_floor_clean_colour.tga",
+       "preview": "assets/textures/980ff8ca59cf83bdeb729e9f82c54cd4af3be72d5784ab5edb1fd5044baed470.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\room_sets\\corridor\\corridor_floor_clean_normal.tga",
+       "preview": "assets/textures/2f68771b8b6b60f9300b676f9891a982e41b504ef9892d56a3b7a3dbd952a3a7.png"
+      }
+     }
+    }
+   ]
+  },
+  "floor_outercorner": {
+   "name": "floor_outercorner",
+   "glb": "assets/models/glb/44b6dfed20bd9efa85d9ca9168421f139687c745011e79054a7f0c97ffbddad6.glb",
+   "glbSha256": "97349e46654981adb54d48d1e50684306f24b023482d2d7edfc5e0526224f21a",
+   "vertices": 16,
+   "triangles": 12,
+   "bounds": [
+    1.0,
+    1.0,
+    1.0,
+    -0.5,
+    -0.009999999776482582,
+    -0.5
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 6,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\worldoffurniture\\wof_grey_floor_albedo.tga",
+       "preview": "assets/textures/ae191fc0b70f37cc65604242d4ce8190c801e04756a0fe6f25828b02c9fc5fbf.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\worldoffurniture\\wof_grey_floor_normal.tga",
+       "preview": "assets/textures/26b127afadd1158e24923a5b369f0b9aa70df617654822d71444d8e001b063a2.png"
+      }
+     }
+    },
+    {
+     "submesh": 1,
+     "startIndex": 6,
+     "indexCount": 30,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\room_sets\\corridor\\corridor_floor_clean_colour.tga",
+       "preview": "assets/textures/980ff8ca59cf83bdeb729e9f82c54cd4af3be72d5784ab5edb1fd5044baed470.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\room_sets\\corridor\\corridor_floor_clean_normal.tga",
+       "preview": "assets/textures/2f68771b8b6b60f9300b676f9891a982e41b504ef9892d56a3b7a3dbd952a3a7.png"
+      }
+     }
+    }
+   ]
+  },
+  "trap_fan_active": {
+   "name": "trap_fan_active",
+   "glb": "assets/models/glb/509a9f5cc785c88f76d72bfe8a3600089690a4c98149094d592001e01b4b26a9.glb",
+   "glbSha256": "ed1fa4acdc6cb341bc4d314875f5a7aa110b63bd32e5828734d2806d6f45e54b",
+   "vertices": 5780,
+   "triangles": 6275,
+   "bounds": [
+    4.0,
+    3.8443350791931152,
+    5.677262783050537,
+    -2.0,
+    -2.3176631927490234,
+    -2.309157133102417
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 13323,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_fan\\trap_fan_albedo.tga",
+       "preview": "assets/textures/71f24ad3695a643e1a252c3f5bdd48e3dc4be99996587f92dc858a860ac316eb.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_fan\\trap_fan_normal.tga",
+       "preview": "assets/textures/95cace5e1502a5cca82cdbb85796d7edf80d37101cded0377021d0f1700a5cb2.png"
+      }
+     }
+    },
+    {
+     "submesh": 1,
+     "startIndex": 13323,
+     "indexCount": 4728,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_fan\\trap_fan_base_albedo.tga",
+       "preview": "assets/textures/1f7113702a9509ada320081b1089753db7643ebc46b957b55509d1ee6b978885.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_fan\\trap_fan_base_normal.tga",
+       "preview": "assets/textures/568c1af36ece0939a861ac39e5f945300fc6f06f8566f9d86128bccdc4144021.png"
+      }
+     }
+    },
+    {
+     "submesh": 2,
+     "startIndex": 18051,
+     "indexCount": 96,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\room_sets\\corridor\\corridor_floor_clean_colour.tga",
+       "preview": "assets/textures/980ff8ca59cf83bdeb729e9f82c54cd4af3be72d5784ab5edb1fd5044baed470.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\room_sets\\corridor\\corridor_floor_clean_normal.tga",
+       "preview": "assets/textures/2f68771b8b6b60f9300b676f9891a982e41b504ef9892d56a3b7a3dbd952a3a7.png"
+      }
+     }
+    },
+    {
+     "submesh": 3,
+     "startIndex": 18147,
+     "indexCount": 678,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_fan\\trap_fan_doors_albedo.tga",
+       "preview": "assets/textures/7330a84d69f5c74fd3753985378fb88416de81507eabff2bb67232003885be9b.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_fan\\trap_fan_doors_normal.tga",
+       "preview": "assets/textures/117fbd574487aece5ea0c4ec885c662e1cefb61879ed3f28a484f67b728ac891.png"
+      }
+     }
+    }
+   ]
+  },
+  "trap_fan_base_box": {
+   "name": "trap_fan_base_box",
+   "glb": "assets/models/glb/fc93bf57faa356f8d77e908aad12e82820374c8f891bd5426600511dbe3407c2.glb",
+   "glbSha256": "c73b446fcb4444458f5db0b53f1687619a4acef4a500600e384ebf54000a8c3e",
+   "vertices": 676,
+   "triangles": 488,
+   "bounds": [
+    4.0,
+    1.5140600204467773,
+    4.0,
+    -2.0,
+    -0.0007297640549950302,
+    -2.0
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 1032,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\room_sets\\corridor\\corridor_floor_clean_colour.tga",
+       "preview": "assets/textures/980ff8ca59cf83bdeb729e9f82c54cd4af3be72d5784ab5edb1fd5044baed470.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\room_sets\\corridor\\corridor_floor_clean_normal.tga",
+       "preview": "assets/textures/2f68771b8b6b60f9300b676f9891a982e41b504ef9892d56a3b7a3dbd952a3a7.png"
+      }
+     }
+    },
+    {
+     "submesh": 1,
+     "startIndex": 1032,
+     "indexCount": 432,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\common\\trap_basebox_inner_c.tga",
+       "preview": "assets/textures/f0157302044d0e917528a74320a086989f84dac1c05224784698f4101742b2f7.png"
+      }
+     }
+    }
+   ]
+  },
+  "trap_magnet_active": {
+   "name": "trap_magnet_active",
+   "glb": "assets/models/glb/824d4e561d21fea78e18e40b8b27c8510f369d7973bc2818ee44a968c0a8004d.glb",
+   "glbSha256": "f34bfc74ffb971794db9a7ee94946fc949eb78e16d97323ac7c2e36067566442",
+   "vertices": 3361,
+   "triangles": 3458,
+   "bounds": [
+    4.0,
+    3.470663070678711,
+    4.783277988433838,
+    -2.0,
+    -1.7003191709518433,
+    -2.632672071456909
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 6228,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_magnet\\trap_magnet_albedo.tga",
+       "preview": "assets/textures/9ca317d60549650514f99fe51f7c9cba564722d3f26eefde5bc69eaec29651ad.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_magnet\\trap_magnet_normal.tga",
+       "preview": "assets/textures/fdc6dda59df6fb8ec4fd0521a3f906f01c725527e66ab8ffc77d645c9068cc0c.png"
+      }
+     }
+    },
+    {
+     "submesh": 1,
+     "startIndex": 6228,
+     "indexCount": 3420,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_magnet\\trap_magnet_base_albedo.tga",
+       "preview": "assets/textures/81e2d4f67d01d3930234a9c17cbfc61c7bf4d5f10d414238de8bc383335a49c4.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_magnet\\trap_magnet_base_normal.tga",
+       "preview": "assets/textures/153a86817579591c2efd4d5c6e5aaa02dafa43f1cebeb16e4617ef0ba6ec491b.png"
+      }
+     }
+    },
+    {
+     "submesh": 2,
+     "startIndex": 9648,
+     "indexCount": 48,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\room_sets\\corridor\\corridor_floor_clean_colour.tga",
+       "preview": "assets/textures/980ff8ca59cf83bdeb729e9f82c54cd4af3be72d5784ab5edb1fd5044baed470.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\room_sets\\corridor\\corridor_floor_clean_normal.tga",
+       "preview": "assets/textures/2f68771b8b6b60f9300b676f9891a982e41b504ef9892d56a3b7a3dbd952a3a7.png"
+      }
+     }
+    },
+    {
+     "submesh": 3,
+     "startIndex": 9696,
+     "indexCount": 678,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_magnet\\trap_magnet_doors_albedo.tga",
+       "preview": "assets/textures/f2af145a950cc54ffa8db0c21b44843b0695a819091dbac542392ec48a3a997b.png"
+      }
+     }
+    }
+   ]
+  },
+  "trap_magnet_base_box": {
+   "name": "trap_magnet_base_box",
+   "glb": "assets/models/glb/0ae4d7d0e7e52d314ebd15ef4c27f49c1294ec306e186e5b3fa878d903a1db4a.glb",
+   "glbSha256": "479a560b9d9a8b37fdfa9b9ff0ac053f736c08e2b7739a5afecb188436e0e84f",
+   "vertices": 246,
+   "triangles": 172,
+   "bounds": [
+    4.0,
+    1.7266077995300293,
+    4.0,
+    -2.0,
+    -1.1126894072788218e-08,
+    -2.0
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 336,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\room_sets\\corridor\\corridor_floor_clean_colour.tga",
+       "preview": "assets/textures/980ff8ca59cf83bdeb729e9f82c54cd4af3be72d5784ab5edb1fd5044baed470.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\room_sets\\corridor\\corridor_floor_clean_normal.tga",
+       "preview": "assets/textures/2f68771b8b6b60f9300b676f9891a982e41b504ef9892d56a3b7a3dbd952a3a7.png"
+      }
+     }
+    },
+    {
+     "submesh": 1,
+     "startIndex": 336,
+     "indexCount": 180,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\common\\trap_basebox_inner_c.tga",
+       "preview": "assets/textures/f0157302044d0e917528a74320a086989f84dac1c05224784698f4101742b2f7.png"
+      }
+     }
+    }
+   ]
+  },
+  "trap_sharktank_active": {
+   "name": "trap_sharktank_active",
+   "glb": "assets/models/glb/690231234bc72d4cb9b7e59b82473bcb784c970f2759c38d078728be9aaa1d6c.glb",
+   "glbSha256": "1793d511ea3bdba8fe5fb0429948c20e9caedfc8862928b36d73c31bc6ad0894",
+   "vertices": 2346,
+   "triangles": 2624,
+   "bounds": [
+    7.425252437591553,
+    1.859404444694519,
+    6.0,
+    -3.678661346435547,
+    -0.12406370788812637,
+    -3.0
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 6156,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_sharktank\\trap_sharktank_base_albedo.tga",
+       "preview": "assets/textures/419f76e2ef704da1e4202965cdc94db12a1a3287dc7dabc7a166091e91dbdbfa.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_sharktank\\trap_sharktank_base_normal.tga",
+       "preview": "assets/textures/655ea1ea4c1efe03b60d6b3a5a0d91d46a0704a9d50217a7d0d1b015e847cdfd.png"
+      }
+     }
+    },
+    {
+     "submesh": 1,
+     "startIndex": 6156,
+     "indexCount": 108,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\room_sets\\corridor\\corridor_floor_clean_colour.tga",
+       "preview": "assets/textures/980ff8ca59cf83bdeb729e9f82c54cd4af3be72d5784ab5edb1fd5044baed470.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\room_sets\\corridor\\corridor_floor_clean_normal.tga",
+       "preview": "assets/textures/2f68771b8b6b60f9300b676f9891a982e41b504ef9892d56a3b7a3dbd952a3a7.png"
+      }
+     }
+    },
+    {
+     "submesh": 2,
+     "startIndex": 6264,
+     "indexCount": 1584,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_sharktank\\trap_sharktank_doors_albedo.tga",
+       "preview": "assets/textures/15ae9d5a10c07183d0321acc18d64d47a4b9dec9fd73556d140d31a98c13c3ce.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_sharktank\\trap_sharktank_doors_normal.tga",
+       "preview": "assets/textures/738e0a04e010b017f3d1962c4ab636200ef503d45ac73c34cd5ba5625cb7b265.png"
+      }
+     }
+    },
+    {
+     "submesh": 3,
+     "startIndex": 7848,
+     "indexCount": 24,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_sharktank\\trap_sharktank_water_albedo.tga",
+       "preview": "assets/textures/88a0834840eddf09a2f0a3f423248316f03f1d764beb8631d443648d89787e4b.png"
+      }
+     }
+    }
+   ]
+  },
+  "trap_sharktank_base_box": {
+   "name": "trap_sharktank_base_box",
+   "glb": "assets/models/glb/f0774abb719a8f834eab2942c4684ad943d55a86d40009c7296882f17ffd0938.glb",
+   "glbSha256": "4b46be83a12b9bf0f0bf93dd20606e327a53c8fbfe8b730b9434fa4c5dec5607",
+   "vertices": 442,
+   "triangles": 296,
+   "bounds": [
+    4.0,
+    2.245744228363037,
+    6.0,
+    -2.0,
+    -0.7999998927116394,
+    -3.000000238418579
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 552,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\room_sets\\corridor\\corridor_floor_clean_colour.tga",
+       "preview": "assets/textures/980ff8ca59cf83bdeb729e9f82c54cd4af3be72d5784ab5edb1fd5044baed470.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\room_sets\\corridor\\corridor_floor_clean_normal.tga",
+       "preview": "assets/textures/2f68771b8b6b60f9300b676f9891a982e41b504ef9892d56a3b7a3dbd952a3a7.png"
+      }
+     }
+    },
+    {
+     "submesh": 1,
+     "startIndex": 552,
+     "indexCount": 336,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\common\\trap_basebox_inner_c.tga",
+       "preview": "assets/textures/f0157302044d0e917528a74320a086989f84dac1c05224784698f4101742b2f7.png"
+      }
+     }
+    }
+   ]
+  },
+  "trap_slippery_soap_base_box": {
+   "name": "trap_slippery_soap_base_box",
+   "glb": "assets/models/glb/1e16f44203af630ab679b2a8eea403080f7cedafc7ef4fad8f8c8b7564c3b35c.glb",
+   "glbSha256": "85b46c5eeb769a4f8388aec5889f54dc5041d6799fedf1792f81ea4caaeb2a75",
+   "vertices": 300,
+   "triangles": 260,
+   "bounds": [
+    2.0,
+    1.21999990940094,
+    2.0,
+    -1.0,
+    -0.0,
+    -1.0
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 492,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\room_sets\\corridor\\corridor_floor_clean_colour.tga",
+       "preview": "assets/textures/980ff8ca59cf83bdeb729e9f82c54cd4af3be72d5784ab5edb1fd5044baed470.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\room_sets\\corridor\\corridor_floor_clean_normal.tga",
+       "preview": "assets/textures/2f68771b8b6b60f9300b676f9891a982e41b504ef9892d56a3b7a3dbd952a3a7.png"
+      }
+     }
+    },
+    {
+     "submesh": 1,
+     "startIndex": 492,
+     "indexCount": 288,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\common\\trap_basebox_inner_c.tga",
+       "preview": "assets/textures/f0157302044d0e917528a74320a086989f84dac1c05224784698f4101742b2f7.png"
+      }
+     }
+    }
+   ]
+  },
+  "trap_pinball_triangle_bumper_base_box": {
+   "name": "trap_pinball_triangle_bumper_base_box",
+   "glb": "assets/models/glb/b5c747988dcd5cbd2b3cdbc776a9df6d67930ca8366cb71e55677d9055b003f5.glb",
+   "glbSha256": "9bead982590ca61b1f834fe4f13991a2efc958d49b97276cc799abddcd562054",
+   "vertices": 401,
+   "triangles": 312,
+   "bounds": [
+    2.0,
+    1.0,
+    2.0,
+    -1.0,
+    -3.910554937647248e-07,
+    -1.0
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 600,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\room_sets\\corridor\\corridor_floor_clean_colour.tga",
+       "preview": "assets/textures/980ff8ca59cf83bdeb729e9f82c54cd4af3be72d5784ab5edb1fd5044baed470.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\room_sets\\corridor\\corridor_floor_clean_normal.tga",
+       "preview": "assets/textures/2f68771b8b6b60f9300b676f9891a982e41b504ef9892d56a3b7a3dbd952a3a7.png"
+      }
+     }
+    },
+    {
+     "submesh": 1,
+     "startIndex": 600,
+     "indexCount": 336,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\common\\trap_basebox_inner_c.tga",
+       "preview": "assets/textures/f0157302044d0e917528a74320a086989f84dac1c05224784698f4101742b2f7.png"
+      }
+     }
+    }
+   ]
+  },
+  "trap_bubble_blower_pod": {
+   "name": "trap_bubble_blower_pod",
+   "glb": "assets/models/glb/50a1217755784d4a5a4d0617dc38bf4473a6cbd8f19bf36ba7b17f25d392c48c.glb",
+   "glbSha256": "037a63510b6df2d074a82570c8e85ed8d80d653e4527e2b016f01148675a25a5",
+   "vertices": 742,
+   "triangles": 612,
+   "bounds": [
+    1.8245762586593628,
+    1.8245768547058105,
+    1.0,
+    -0.9122881293296814,
+    -2.4122886657714844,
+    0.4951220452785492
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 252,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_bubble_blower\\bubble_blower_trap_low_c.tga",
+       "preview": "assets/textures/77cde436619514f7aeb862cedd2fb586f91bdb4b953bc78d7f7be18c2ff7d2f3.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_bubble_blower\\bubble_blower_trap_low_n.tga",
+       "preview": "assets/textures/1e1df3d7adc53866310a078fe2e61f342b7028ab4e0dcc6143ea160a8e9f1c85.png"
+      }
+     }
+    },
+    {
+     "submesh": 1,
+     "startIndex": 252,
+     "indexCount": 1464,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\common\\trap_orange_c.tga",
+       "preview": "assets/textures/17d735b6194737ea708aca5ca9a4825f578f46b70e670b14211d97ca393ac319.png"
+      }
+     }
+    },
+    {
+     "submesh": 2,
+     "startIndex": 1716,
+     "indexCount": 120,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\common\\trap_orange_decals_1_c.tga",
+       "preview": "assets/textures/83367bddf04f998fd1f8925a425cc381fb0d0691c0a5b6ee7fd8f741a8f33862.png"
+      }
+     }
+    }
+   ]
+  },
+  "trap_fake_safe_pod": {
+   "name": "trap_fake_safe_pod",
+   "glb": "assets/models/glb/734a0fb5531326855a756457173f63221fd5d7b1f304a870e7866a0233b5d718.glb",
+   "glbSha256": "e78e8e6a8c6fd7398086af15db6ca52d1523b67d565b4383e0616b6652ece785",
+   "vertices": 627,
+   "triangles": 592,
+   "bounds": [
+    2.0329771041870117,
+    1.0,
+    2.032977819442749,
+    -1.0164884328842163,
+    0.059299036860466,
+    0.49516797065734863
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 1752,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\common\\trap_orange_c.tga",
+       "preview": "assets/textures/17d735b6194737ea708aca5ca9a4825f578f46b70e670b14211d97ca393ac319.png"
+      }
+     }
+    },
+    {
+     "submesh": 1,
+     "startIndex": 1752,
+     "indexCount": 24,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\common\\trap_orange_decals_1_c.tga",
+       "preview": "assets/textures/83367bddf04f998fd1f8925a425cc381fb0d0691c0a5b6ee7fd8f741a8f33862.png"
+      }
+     }
+    }
+   ]
+  },
+  "trap_knockout_gas_base_box": {
+   "name": "trap_knockout_gas_base_box",
+   "glb": "assets/models/glb/236eaff5a5eb430e097cc6995ee77ab4e4530f0a5cac732e17c97ec171fd6ad1.glb",
+   "glbSha256": "db09e3842a4ba7636af4375ad5a559813399e34a5c8895c588f10921a06d6292",
+   "vertices": 1069,
+   "triangles": 1040,
+   "bounds": [
+    4.0,
+    1.0,
+    4.0,
+    -2.0,
+    -6.637586313917865e-11,
+    -2.0
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 1968,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\room_sets\\corridor\\corridor_floor_clean_colour.tga",
+       "preview": "assets/textures/980ff8ca59cf83bdeb729e9f82c54cd4af3be72d5784ab5edb1fd5044baed470.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\room_sets\\corridor\\corridor_floor_clean_normal.tga",
+       "preview": "assets/textures/2f68771b8b6b60f9300b676f9891a982e41b504ef9892d56a3b7a3dbd952a3a7.png"
+      }
+     }
+    },
+    {
+     "submesh": 1,
+     "startIndex": 1968,
+     "indexCount": 1152,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\common\\trap_basebox_inner_c.tga",
+       "preview": "assets/textures/f0157302044d0e917528a74320a086989f84dac1c05224784698f4101742b2f7.png"
+      }
+     }
+    }
+   ]
+  },
+  "trap_disco_laser_base_box": {
+   "name": "trap_disco_laser_base_box",
+   "glb": "assets/models/glb/3f3ac88aaeb8afd3910d8b2561118191d238304eb1701bf1ab9b2f4bc213312c.glb",
+   "glbSha256": "40ff34e40238321a2b41c68f33d74ba6b9dd929e1cd6175a1c675107e9ca6bb3",
+   "vertices": 441,
+   "triangles": 344,
+   "bounds": [
+    5.999999046325684,
+    1.0100035667419434,
+    3.9999992847442627,
+    -2.999999523162842,
+    -1.6471863091283012e-06,
+    -1.9999996423721313
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 624,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\room_sets\\corridor\\corridor_floor_clean_colour.tga",
+       "preview": "assets/textures/980ff8ca59cf83bdeb729e9f82c54cd4af3be72d5784ab5edb1fd5044baed470.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\room_sets\\corridor\\corridor_floor_clean_normal.tga",
+       "preview": "assets/textures/2f68771b8b6b60f9300b676f9891a982e41b504ef9892d56a3b7a3dbd952a3a7.png"
+      }
+     }
+    },
+    {
+     "submesh": 1,
+     "startIndex": 624,
+     "indexCount": 408,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\common\\trap_basebox_inner_c.tga",
+       "preview": "assets/textures/f0157302044d0e917528a74320a086989f84dac1c05224784698f4101742b2f7.png"
+      }
+     }
+    }
+   ]
+  },
+  "trap_pay_wall_base_box": {
+   "name": "trap_pay_wall_base_box",
+   "glb": "assets/models/glb/1cc96c43983185eff13c15633fb23bc0029b7a681d8e8a7b73c50fdee0a13b53.glb",
+   "glbSha256": "229b09d926ceee8c16714ea5a9d975de95ff06078ecaf16ead6bdd685071914a",
+   "vertices": 256,
+   "triangles": 234,
+   "bounds": [
+    4.0,
+    1.510844111442566,
+    1.0,
+    -2.0,
+    -8.334758661021624e-08,
+    -0.5
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 432,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\room_sets\\corridor\\corridor_floor_clean_colour.tga",
+       "preview": "assets/textures/980ff8ca59cf83bdeb729e9f82c54cd4af3be72d5784ab5edb1fd5044baed470.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\room_sets\\corridor\\corridor_floor_clean_normal.tga",
+       "preview": "assets/textures/2f68771b8b6b60f9300b676f9891a982e41b504ef9892d56a3b7a3dbd952a3a7.png"
+      }
+     }
+    },
+    {
+     "submesh": 1,
+     "startIndex": 432,
+     "indexCount": 270,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\common\\trap_basebox_inner_c.tga",
+       "preview": "assets/textures/f0157302044d0e917528a74320a086989f84dac1c05224784698f4101742b2f7.png"
+      }
+     }
+    }
+   ]
+  },
+  "robo_doggo_base_box": {
+   "name": "robo_doggo_base_box",
+   "glb": "assets/models/glb/3f937e7c8d11019aea4d4ebfe690e9104c1d33cb932a58869e4f69691bd9139a.glb",
+   "glbSha256": "5d224e4fab03448ff807b66b6367feea50fccb79d600d1866e013fb0044df12d",
+   "vertices": 319,
+   "triangles": 292,
+   "bounds": [
+    2.0,
+    1.0,
+    2.0,
+    -1.0,
+    -4.4903568863219334e-08,
+    -1.0
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 324,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\common\\trap_basebox_inner_c.tga",
+       "preview": "assets/textures/f0157302044d0e917528a74320a086989f84dac1c05224784698f4101742b2f7.png"
+      }
+     }
+    },
+    {
+     "submesh": 1,
+     "startIndex": 324,
+     "indexCount": 552,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\room_sets\\corridor\\corridor_floor_clean_colour.tga",
+       "preview": "assets/textures/980ff8ca59cf83bdeb729e9f82c54cd4af3be72d5784ab5edb1fd5044baed470.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\room_sets\\corridor\\corridor_floor_clean_normal.tga",
+       "preview": "assets/textures/2f68771b8b6b60f9300b676f9891a982e41b504ef9892d56a3b7a3dbd952a3a7.png"
+      }
+     }
+    }
+   ]
+  },
+  "trap_hopscotch_brush": {
+   "name": "trap_hopscotch_brush",
+   "glb": "assets/models/glb/d1b7d4e3de0268862339e8568618aaed45b99f8bbb67eeba749bd53380647524.glb",
+   "glbSha256": "55021d6cbb4af49e60070bab54888d3aa764d5fc1b87a5a3fa04ac28885a522f",
+   "vertices": 214,
+   "triangles": 156,
+   "bounds": [
+    1.0,
+    1.0,
+    1.0,
+    -0.07029173523187637,
+    -0.3051416277885437,
+    -0.03052794747054577
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 468,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_hopscotch\\hopscotch_trap_colour.tga",
+       "preview": "assets/textures/dc68555b0db6bdd08f231453c9f952d5077f9dfd8683abb5ba9057338423e4b6.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_hopscotch\\hopscotch_trap_normal.tga",
+       "preview": "assets/textures/d4b8cb1bd578ef14b9a601eb2b9b369026e2067fd31fff574a34b0d0343b570c.png"
+      }
+     }
+    }
+   ]
+  },
+  "bear_trap_foliage": {
+   "name": "bear_trap_foliage",
+   "glb": "assets/models/glb/4ffe12b6cd86be15371ac96091ac27d3af43ff89341b6bec86b2f32768a03cd9.glb",
+   "glbSha256": "4f612512a313df7318ae0f69fb87200766a1cc65d5fc83ab4132bb6eeb5ed41a",
+   "vertices": 2819,
+   "triangles": 2055,
+   "bounds": [
+    4.103940963745117,
+    1.0,
+    2.0,
+    -2.0278220176696777,
+    -0.7509341835975647,
+    -1.0
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 6165,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\bear_trap_and_plants\\bear_trap_colour.tga",
+       "preview": "assets/textures/40c8e4d4c35fa67b5ff906459c38e4898674e9e8b1a6665998356d1bef37dacc.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\traps\\bear_trap_and_plants\\bear_trap_normal.tga",
+       "preview": "assets/textures/cee211fcfaed93f55ddc6a4d99ef58ab6f1d248245572e6629383ec074a12f5b.png"
+      }
+     }
+    }
+   ]
+  },
+  "trap_iceblock": {
+   "name": "trap_iceblock",
+   "glb": "assets/models/glb/edf29b2d9c0027fee05ea6e6dfb605ce456e11d2112da67e2007eaea5d99af27.glb",
+   "glbSha256": "cd29e918614648181f3ad25167ed2beaf7f98a0a89d136e71c3d4bc89ff8ab24",
+   "vertices": 732,
+   "triangles": 852,
+   "bounds": [
+    1.0985441207885742,
+    2.3474128246307373,
+    1.1092058420181274,
+    -0.555736243724823,
+    -2.3470442295074463,
+    -0.5632915496826172
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 1278,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_freezer\\trap_iceblock_c.tga",
+       "preview": "assets/textures/abf06d00d6c5a0b2075d0b76231ad30bfb1f50da26c2de38e7fd3df632789c63.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_freezer\\trap_iceblock_n.tga",
+       "preview": "assets/textures/921abd6c41cf152a1a8c5f2da412b2321c80638f2a0474b5f0efaf700dd9d11a.png"
+      }
+     }
+    },
+    {
+     "submesh": 1,
+     "startIndex": 1278,
+     "indexCount": 1278,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_freezer\\trap_iceblock_c.tga",
+       "preview": "assets/textures/abf06d00d6c5a0b2075d0b76231ad30bfb1f50da26c2de38e7fd3df632789c63.png"
+      },
+      "normal": {
+       "name": "\\graphics\\objects\\base\\traps\\trap_freezer\\trap_iceblock_n.tga",
+       "preview": "assets/textures/921abd6c41cf152a1a8c5f2da412b2321c80638f2a0474b5f0efaf700dd9d11a.png"
+      }
+     }
+    }
+   ]
+  },
+  "ma_bodyhands_investigator": {
+   "name": "ma_bodyhands_investigator",
+   "glb": "assets/models/glb/1f9d757cbfe40f96f64470b61d281b4afa8ee31f283f3b9dda6f840bd5631409.glb",
+   "glbSha256": "94ec5f5e1d190d66fc344619c2b291d54256fb3ed301fdd70224206bc1ec0016",
+   "vertices": 5740,
+   "triangles": 8316,
+   "bounds": [
+    1.0,
+    1.7027978897094727,
+    1.0,
+    -0.4470134973526001,
+    -1.69858717918396,
+    -0.17923827469348907
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 13152,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\characters\\male_a\\body\\ma_bodyhands_investigator_albedo.tga",
+       "preview": "assets/textures/0e5aae3f92f13cc14d1d8fbbc0b981a7c65530e19ff124c89dcf573f63cd4de5.png"
+      },
+      "normal": {
+       "name": "\\graphics\\characters\\male_a\\body\\ma_bodyhands_investigator_normal.tga",
+       "preview": "assets/textures/b2082dff8d28a52613e26a8711816f6bcb17f94138a3f37213861bdd7b0a67ec.png"
+      }
+     }
+    },
+    {
+     "submesh": 1,
+     "startIndex": 13152,
+     "indexCount": 8994,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\characters\\male_a\\body\\ma_bodyhands_investigator_albedo.tga",
+       "preview": "assets/textures/0e5aae3f92f13cc14d1d8fbbc0b981a7c65530e19ff124c89dcf573f63cd4de5.png"
+      },
+      "normal": {
+       "name": "\\graphics\\characters\\male_a\\body\\ma_bodyhands_investigator_normal.tga",
+       "preview": "assets/textures/b2082dff8d28a52613e26a8711816f6bcb17f94138a3f37213861bdd7b0a67ec.png"
+      }
+     }
+    },
+    {
+     "submesh": 2,
+     "startIndex": 22146,
+     "indexCount": 2802,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\characters\\female_a\\body\\fa_bodyhands_investigator_albedo.tga",
+       "preview": "assets/textures/41955241f6940d48c586a864322af00c988e826c3c267b8bf0389d6dae41b5a0.png"
+      },
+      "normal": {
+       "name": "\\graphics\\characters\\female_a\\body\\fa_bodyhands_investigator_normal.tga",
+       "preview": "assets/textures/7426f689317fd77f5bf4548f321c93993f400f25c3815d1aafb3e3401e792d69.png"
+      }
+     }
+    }
+   ]
+  },
+  "ma_head_white01": {
+   "name": "ma_head_white01",
+   "glb": "assets/models/glb/db49d76a617c5e96cba9a60615aaac06d5a9b83124c7f81a69a1299c7ba6d10b.glb",
+   "glbSha256": "ddbdb2cfbf67683b8edfe507f62272a3d905c35c0d0c48a3ba62659b749cbfac",
+   "vertices": 2141,
+   "triangles": 3262,
+   "bounds": [
+    1.0,
+    1.0,
+    1.0,
+    -0.10742674767971039,
+    -1.6507681608200073,
+    -0.11820220947265625
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 4380,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\characters\\male_a\\head\\ma_head_white01_albedo.tga",
+       "preview": "assets/textures/e12aa24db3013058b008b6c946bf10cbf0e5c06bf067a66bc162f0777c60e703.png"
+      },
+      "normal": {
+       "name": "\\graphics\\characters\\male_a\\head\\ma_head_white01_normal.tga",
+       "preview": "assets/textures/476854f79abfa059bea010c0937447e12010dc5a27766889cc5d3163b0776689.png"
+      }
+     }
+    },
+    {
+     "submesh": 1,
+     "startIndex": 4380,
+     "indexCount": 5406,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\characters\\male_a\\head\\ma_head_white01_albedo.tga",
+       "preview": "assets/textures/e12aa24db3013058b008b6c946bf10cbf0e5c06bf067a66bc162f0777c60e703.png"
+      },
+      "normal": {
+       "name": "\\graphics\\characters\\male_a\\head\\ma_head_white01_normal.tga",
+       "preview": "assets/textures/476854f79abfa059bea010c0937447e12010dc5a27766889cc5d3163b0776689.png"
+      }
+     }
+    }
+   ]
+  },
+  "ohw_ranged_pistolinvestigatorsrevolver": {
+   "name": "ohw_ranged_pistolinvestigatorsrevolver",
+   "glb": "assets/models/glb/0e1622aa4131a3aba0e12dcbc79f3185d02a0f02b811530b496b09d7e118ed18.glb",
+   "glbSha256": "25aa3543d6f706f33602577929089dfabf051834c771d1e7bfc9001d49db83e5",
+   "vertices": 2007,
+   "triangles": 2280,
+   "bounds": [
+    1.0,
+    1.0,
+    1.0,
+    -0.034967534244060516,
+    -0.15143197774887085,
+    -0.04195702075958252
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 6840,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\weapons\\onehandedranged\\ohw_ranged_investigatorsrevolver_albedo.tga",
+       "preview": "assets/textures/dff71af73a3b215fdf8acd145e4d796fa5f870399755aa199bcb6628af005d5a.png"
+      },
+      "normal": {
+       "name": "\\graphics\\weapons\\onehandedranged\\ohw_ranged_investigatorsrevolver_normal.tga",
+       "preview": "assets/textures/edcea5b69eefd4d31abbcf50ea85853e3f109f9fd311510a22ae1e001e974eab.png"
+      }
+     }
+    }
+   ]
+  },
+  "ma_bodynone_saboteur": {
+   "name": "ma_bodynone_saboteur",
+   "glb": "assets/models/glb/11fb53f5d76feed77ef09413e531d3558181207fb8664199668214a08d22ea02.glb",
+   "glbSha256": "dbb11830476af1fc3e7be4261b9f40c22641ece6452fdef8a18828a3e427eae1",
+   "vertices": 9795,
+   "triangles": 13526,
+   "bounds": [
+    1.0,
+    1.666067123413086,
+    1.0,
+    -0.3977891802787781,
+    -1.6614569425582886,
+    -0.4513514041900635
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 40578,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\characters\\male_a\\body\\ma_bodynone_saboteur_albedo.tga",
+       "preview": "assets/textures/ca14860e5fb60cf10c0c92f73f95174ec9589374ce1657b1cb0189fa44d46d50.png"
+      },
+      "normal": {
+       "name": "\\graphics\\characters\\male_a\\body\\ma_bodynone_saboteur_normal.tga",
+       "preview": "assets/textures/285ca31c5406a8a530a15bb3ab22dacb6c9883db63cdef0911c3ff26a4d0f499.png"
+      }
+     }
+    }
+   ]
+  },
+  "ma_head_black01": {
+   "name": "ma_head_black01",
+   "glb": "assets/models/glb/6a240209786e1d48a3975d5b9addf907c2e4a8a5715bad65c1709cd1abd1a8ee.glb",
+   "glbSha256": "4f3c90ddeaa7f07e2f939c68da6ab447c4e8040cb455eda8e59b92c03cff18f5",
+   "vertices": 2172,
+   "triangles": 3310,
+   "bounds": [
+    1.0,
+    1.0,
+    1.0,
+    -0.10742652416229248,
+    -1.6510944366455078,
+    -0.11820221692323685
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 6732,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\characters\\male_a\\head\\ma_head_black01_albedo.tga",
+       "preview": "assets/textures/2b65048d829b1c1c15dd9a50dab4a74fd66d6590382f69bf39877becd09e1ae5.png"
+      },
+      "normal": {
+       "name": "\\graphics\\characters\\male_a\\head\\ma_head_black01_normal.tga",
+       "preview": "assets/textures/e639bd68e35035b5cfa767f2995b695537cea1fd4d8f6380415a76a135b6d3ae.png"
+      }
+     }
+    },
+    {
+     "submesh": 1,
+     "startIndex": 6732,
+     "indexCount": 3198,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\characters\\male_a\\head\\ma_head_black01_albedo.tga",
+       "preview": "assets/textures/2b65048d829b1c1c15dd9a50dab4a74fd66d6590382f69bf39877becd09e1ae5.png"
+      },
+      "normal": {
+       "name": "\\graphics\\characters\\male_a\\head\\ma_head_black01_normal.tga",
+       "preview": "assets/textures/e639bd68e35035b5cfa767f2995b695537cea1fd4d8f6380415a76a135b6d3ae.png"
+      }
+     }
+    }
+   ]
+  },
+  "ma_hands_gloves": {
+   "name": "ma_hands_gloves",
+   "glb": "assets/models/glb/106612c8b4422ce4296ea7e34417da7ac502cd2b1dabaf05c2b2868aad9f872b.glb",
+   "glbSha256": "e6fc423876d710043dc303d6bdd79bafa652cdeafec4c21c62a3c050a6a8c23a",
+   "vertices": 1748,
+   "triangles": 2854,
+   "bounds": [
+    1.0,
+    1.0,
+    1.0,
+    -0.44660064578056335,
+    -0.9335160255432129,
+    -0.09578466415405273
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 8562,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\characters\\male_c\\hands\\mc_hands_gloves_albedo.tga",
+       "preview": "assets/textures/c1eef0267bf7a4342e3aea729e0fcdfe093328e96ef8aaf41d4f141c2b536f62.png"
+      },
+      "normal": {
+       "name": "\\graphics\\characters\\male_c\\hands\\mc_hands_gloves_normal.tga",
+       "preview": "assets/textures/c8461845b056f0f672dd1b0fa13dabb5e7c6a27de5ac3c0228fa8e82b18a9087.png"
+      }
+     }
+    }
+   ]
+  },
+  "mb_bodynone_soldier": {
+   "name": "mb_bodynone_soldier",
+   "glb": "assets/models/glb/9e50c96c5485b1a8018e5f7584491e0777adcf467d8deb5b35fa63e755ea6d37.glb",
+   "glbSha256": "d21e3ca60a89b714bddd97bffc74f0373b16d92aca94776eeffd170ee6f3c9f0",
+   "vertices": 4730,
+   "triangles": 6362,
+   "bounds": [
+    1.1644328832626343,
+    1.9226946830749512,
+    1.0,
+    -0.5822162628173828,
+    -1.9244835376739502,
+    -0.25119858980178833
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 19086,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\characters\\male_b\\body\\mb_bodynone_soldier_albedo.tga",
+       "preview": "assets/textures/04e1a289011c114fac242df7ea81edfcc689476a5d6f2e01665e83b581c7f862.png"
+      },
+      "normal": {
+       "name": "\\graphics\\characters\\male_b\\body\\mb_bodynone_soldier_normal.tga",
+       "preview": "assets/textures/166c03239207a397be35baac53d536cc2c88fbb6f9f85b0b1686d276ba1425ae.png"
+      }
+     }
+    }
+   ]
+  },
+  "mb_head_white01": {
+   "name": "mb_head_white01",
+   "glb": "assets/models/glb/4797549b528ac58be7c753b3726a7fae4cc6a8d3949fe922e003cb6a5f7a09d2.glb",
+   "glbSha256": "917710e970431182ba2815194e436787503b25777edca8d36c3718e8dd0c6653",
+   "vertices": 2171,
+   "triangles": 3320,
+   "bounds": [
+    1.0,
+    1.0,
+    1.0,
+    -0.16420237720012665,
+    -1.8583950996398926,
+    -0.1971650868654251
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 3138,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\characters\\male_b\\head\\mb_head_white01_albedo.tga",
+       "preview": "assets/textures/625530a193890bd5b33f6fce97823cd28d2e2cb482bdcc2a589f0ab2df9706fe.png"
+      },
+      "normal": {
+       "name": "\\graphics\\characters\\male_b\\head\\mb_head_white01_normal.tga",
+       "preview": "assets/textures/9fc261ef428791cecd30b628235c8c0903013f1dd73b719486938799e3ebdb95.png"
+      }
+     }
+    },
+    {
+     "submesh": 1,
+     "startIndex": 3138,
+     "indexCount": 6822,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\characters\\male_b\\head\\mb_head_white01_albedo.tga",
+       "preview": "assets/textures/625530a193890bd5b33f6fce97823cd28d2e2cb482bdcc2a589f0ab2df9706fe.png"
+      },
+      "normal": {
+       "name": "\\graphics\\characters\\male_b\\head\\mb_head_white01_normal.tga",
+       "preview": "assets/textures/9fc261ef428791cecd30b628235c8c0903013f1dd73b719486938799e3ebdb95.png"
+      }
+     }
+    }
+   ]
+  },
+  "mb_hands_gloves": {
+   "name": "mb_hands_gloves",
+   "glb": "assets/models/glb/38904b9bf2cba94328a65e78f4e3fc1f8b5cdf828aa139f79be9d0d8f31f310c.glb",
+   "glbSha256": "e5c8b99740b2d7c4289505ff24fa35299756f37445b29112dd005f1b2a36019d",
+   "vertices": 1728,
+   "triangles": 2802,
+   "bounds": [
+    1.207827091217041,
+    1.0,
+    1.0,
+    -0.6039136052131653,
+    -0.9745082855224609,
+    -0.18125581741333008
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 8406,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\characters\\male_c\\hands\\mc_hands_gloves_albedo.tga",
+       "preview": "assets/textures/c1eef0267bf7a4342e3aea729e0fcdfe093328e96ef8aaf41d4f141c2b536f62.png"
+      },
+      "normal": {
+       "name": "\\graphics\\characters\\male_c\\hands\\mc_hands_gloves_normal.tga",
+       "preview": "assets/textures/c8461845b056f0f672dd1b0fa13dabb5e7c6a27de5ac3c0228fa8e82b18a9087.png"
+      }
+     }
+    }
+   ]
+  },
+  "thw_ranged_smgsoldier": {
+   "name": "thw_ranged_smgsoldier",
+   "glb": "assets/models/glb/48b598f1cc988a380cb50f269e10588835d18fe0b634b31c69bad32acbe144f2.glb",
+   "glbSha256": "e2a5e35986ea0754977ec09ba7d8ba1acc216b65bb73d2bdf81e72ff1f135626",
+   "vertices": 3514,
+   "triangles": 3548,
+   "bounds": [
+    1.0,
+    1.0,
+    1.0,
+    -0.060062408447265625,
+    -0.1889706254005432,
+    -0.328723281621933
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 10644,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\weapons\\twohandedranged\\thw_ranged_smgsoldier_albedo.tga",
+       "preview": "assets/textures/e2d1ca312cec5b10cb3969c2b731dc9fdf809c834340ed64d3daed3b99427505.png"
+      },
+      "normal": {
+       "name": "\\graphics\\weapons\\twohandedranged\\thw_ranged_smgsoldier_normal.tga",
+       "preview": "assets/textures/0d126ced5f8fae0fabfc433f842bf0a84ab032fcc8a86deb4b726989bdcd8353.png"
+      }
+     }
+    }
+   ]
+  },
+  "mc_bodynone_thief": {
+   "name": "mc_bodynone_thief",
+   "glb": "assets/models/glb/5f6d3836645ba6a5e5703543bceb685c8fd99fbbc3bfa5df2fdc6dfad683e97f.glb",
+   "glbSha256": "364dd351e40fe569c8c244cbad2b06ebe61a1a983a66ee5e54a5650df41f2ba3",
+   "vertices": 7119,
+   "triangles": 9714,
+   "bounds": [
+    1.0,
+    1.718542456626892,
+    1.0,
+    -0.34176868200302124,
+    -1.714715838432312,
+    -0.19783510267734528
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 29142,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\characters\\male_c\\body\\mc_bodynone_thief_albedo.tga",
+       "preview": "assets/textures/dfbdf898d43acc130c49c3389e537203bf69665a8af80865a94284bfed923d73.png"
+      },
+      "normal": {
+       "name": "\\graphics\\characters\\male_c\\body\\mc_bodynone_thief_normal.tga",
+       "preview": "assets/textures/30145f9ffc5f3cedbfe65b615b22d9852388f6b55de98a93e9ffbc3b16dfedba.png"
+      }
+     }
+    }
+   ]
+  },
+  "mc_head_asian01": {
+   "name": "mc_head_asian01",
+   "glb": "assets/models/glb/a4a3dafe38dea444976f87741168f7cba66b50044298ce0d9ef12a88b750d3ae.glb",
+   "glbSha256": "59ff1605dc2eacbbec4b0a63b7a62ba684deb1b0321b213fd8aeb0abf7550365",
+   "vertices": 2418,
+   "triangles": 3624,
+   "bounds": [
+    1.0,
+    1.0,
+    1.0,
+    -0.1109074130654335,
+    -1.693101406097412,
+    -0.14419856667518616
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 7314,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\characters\\male_c\\head\\mc_head_asian01_albedo.tga",
+       "preview": "assets/textures/f4bad3ec695b9cf6f3e21ae96f9226532e973f56e4f59c7aaeb3ee80631782c2.png"
+      },
+      "normal": {
+       "name": "\\graphics\\characters\\male_c\\head\\mc_head_asian01_normal.tga",
+       "preview": "assets/textures/ee1ddb09c3cec7b51d4d2ab0253befa1cf94cff62993c2f2cfc3d976acde4901.png"
+      }
+     }
+    },
+    {
+     "submesh": 1,
+     "startIndex": 7314,
+     "indexCount": 3558,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\characters\\male_c\\head\\mc_head_asian01_albedo.tga",
+       "preview": "assets/textures/f4bad3ec695b9cf6f3e21ae96f9226532e973f56e4f59c7aaeb3ee80631782c2.png"
+      },
+      "normal": {
+       "name": "\\graphics\\characters\\male_c\\head\\mc_head_asian01_normal.tga",
+       "preview": "assets/textures/ee1ddb09c3cec7b51d4d2ab0253befa1cf94cff62993c2f2cfc3d976acde4901.png"
+      }
+     }
+    }
+   ]
+  },
+  "mc_hands_gloves": {
+   "name": "mc_hands_gloves",
+   "glb": "assets/models/glb/c9e60732be994b0cbcf6beb3b70afbd0bf206e48f8541913d7c4c8f19d3aa493.glb",
+   "glbSha256": "9e8e34cba88efaba8854919a1ecca523eeda852742fc5ad1019be85164574931",
+   "vertices": 1744,
+   "triangles": 2854,
+   "bounds": [
+    1.0,
+    1.0,
+    1.0,
+    -0.40071988105773926,
+    -0.9479076266288757,
+    -0.11699473857879639
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 8562,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\characters\\male_c\\hands\\mc_hands_gloves_albedo.tga",
+       "preview": "assets/textures/c1eef0267bf7a4342e3aea729e0fcdfe093328e96ef8aaf41d4f141c2b536f62.png"
+      },
+      "normal": {
+       "name": "\\graphics\\characters\\male_c\\hands\\mc_hands_gloves_normal.tga",
+       "preview": "assets/textures/c8461845b056f0f672dd1b0fa13dabb5e7c6a27de5ac3c0228fa8e82b18a9087.png"
+      }
+     }
+    }
+   ]
+  },
+  "mc_hair_sidepart": {
+   "name": "mc_hair_sidepart",
+   "glb": "assets/models/glb/df160e894666316a54f69e033731835787cfa688a418535a72c24189640ef12e.glb",
+   "glbSha256": "b953680887f44358211dd4483696ba15a35d554104e460f1993cd1b4d560d2b7",
+   "vertices": 366,
+   "triangles": 577,
+   "bounds": [
+    1.0,
+    1.0,
+    1.0,
+    -0.07769477367401123,
+    -1.708072543144226,
+    -0.1489061564207077
+   ],
+   "origin": "extracted",
+   "submeshes": [
+    {
+     "submesh": 0,
+     "startIndex": 0,
+     "indexCount": 1731,
+     "maps": {
+      "colour": {
+       "name": "\\graphics\\characters\\male_c\\hair\\mc_hair_sidepart_albedo.tga",
+       "preview": "assets/textures/d88f23c53158813dc6ebf20db5db336bd3a8bd72ed36f42277c44caf664a2992.png"
+      },
+      "normal": {
+       "name": "\\graphics\\characters\\male_c\\hair\\mc_hair_sidepart_normal.tga",
+       "preview": "assets/textures/946f522ff275bac2f692db34bc6404709d725847c9fe7f9dae7d4edac572b46d.png"
+      }
+     }
+    }
+   ]
+  }
+ }
+}

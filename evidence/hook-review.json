@@ -1,0 +1,64 @@
+{
+  "schema": 1,
+  "date": "2026-10-02",
+  "scope": "Triagem do hook de design; não certifica fidelidade de gameplay.",
+  "attribution": "unknown; não classificados como regressões da preparação do goal.",
+  "fixes": [
+    "Bordas de destaque limitadas a 1px no cabeçalho, legenda da cena e cartões da bancada.",
+    "Título de 23px no desktop e 22px no mobile; corpo permanece 14px.",
+    "Removido rótulo redundante EXPERIMENTO ISOLADO acima do título."
+  ],
+  "ignore": {
+    "rule": "wide-tracking",
+    "file": "prototypes/evil-genius-2-trap-arena/index.html",
+    "scope": "Um valor de regra, limitado ao arquivo; demais regras permanecem ativas.",
+    "reason": "Falso positivo: tracking nos rótulos curtos em maiúsculas; texto de corpo e parágrafos sem tracking extra.",
+    "written_by": "impeccable hooks ignore-value"
+  },
+  "detector": {
+    "command": "impeccable detect prototypes/evil-genius-2-trap-arena/index.html prototypes/evil-genius-2-trap-arena/style.css",
+    "exit": 0,
+    "remaining": 0
+  },
+  "browser_checks": [
+    {
+      "name": "desktop",
+      "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M3 Max, Unspecified Version)",
+      "overflow": false,
+      "title": "23px",
+      "body": "14px",
+      "captionBorder": "1px",
+      "cardBorder": "1px",
+      "ready": true,
+      "errors": []
+    },
+    {
+      "name": "mobile",
+      "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M3 Max, Unspecified Version)",
+      "overflow": false,
+      "title": "22px",
+      "body": "14px",
+      "captionBorder": "1px",
+      "cardBorder": "1px",
+      "ready": true,
+      "errors": []
+    }
+  ],
+  "media": {
+    "url": "https://drive.google.com/file/d/1kgqx_RfLeeW0hQ9s-MANTvc_SrzMoJ7U/view?usp=drivesdk",
+    "name": "eg2-hook-qa-20261002.zip",
+    "sha256": "6af629831be7e507b5d1c1851b2310923060b95678a37470cf339f54c2f84f11",
+    "files": [
+      "desktop.png",
+      "mobile.png",
+      "checks.json",
+      "before-desktop.png",
+      "before-mobile.png"
+    ]
+  },
+  "source_sha256": {
+    "index.html": "cacf6983cc164e358db24f58679b67d8ced5d2b012890f39dfe592cdba4bf86e",
+    "style.css": "e39388b5944ec8b91aecc9161eb75c28eb56235bee05131b343bacbbd0dcc784"
+  },
+  "goal_status": "active; nenhuma rodada de fidelidade encerrada por esta triagem."
+}

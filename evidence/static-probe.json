@@ -1,0 +1,404 @@
+{
+  "schema": "eg2-original-experiment-static/1",
+  "recorded_at_utc": "2026-10-02T04:07:24.765538+00:00",
+  "source_label": "EG2_ROOT",
+  "host": {
+    "system": "Darwin",
+    "machine": "arm64",
+    "release": "23.6.0",
+    "commands_present": {
+      "wine": false,
+      "wine64": false,
+      "cxrun": false,
+      "whisky": false,
+      "prlctl": false,
+      "qemu-system-x86_64": false,
+      "qemu-system-aarch64": false,
+      "virsh": false,
+      "utmctl": false
+    },
+    "compatibility_candidates": [],
+    "scope": "PATH e pastas padrão; não é busca integral do disco",
+    "native_windows_host": false
+  },
+  "errors": [],
+  "original_execution": {
+    "launched": false,
+    "scenario_control": "not_tested",
+    "enemy_control": "not_tested",
+    "device_control": "not_tested",
+    "five_trap_chain": "not_tested"
+  },
+  "reconstruction": {
+    "engine": false,
+    "gameplay": false,
+    "save_generated": false
+  },
+  "executables": [
+    {
+      "format": "PE",
+      "machine": "0x8664",
+      "optional_header_magic": "0x20b",
+      "architecture": "x86_64",
+      "bytes": 402139136,
+      "sha1": "9f52c2a9ecacb689d4a128a99a148dbc555c8c1e",
+      "sha256": "e894225476f1387814e7b470bfa81efa0bd31a9a86b8d7a2e14615266cbe4db3",
+      "file": "bin/evilgenius_dx12.exe",
+      "manifest": {
+        "bytes": 402139136,
+        "sha1": "9f52c2a9ecacb689d4a128a99a148dbc555c8c1e",
+        "manifest": "manifest_700602_8598803723620275736.txt"
+      },
+      "manifest_matches": true
+    },
+    {
+      "format": "PE",
+      "machine": "0x8664",
+      "optional_header_magic": "0x20b",
+      "architecture": "x86_64",
+      "bytes": 411673600,
+      "sha1": "ec2c95acc9ba5a29c59f10472c0c9ede7da84d9c",
+      "sha256": "c52e656a6bbdfdf4f59aa03bfa0f11425854299e61fb078744e5865847c79042",
+      "file": "bin/evilgenius_vulkan.exe",
+      "manifest": {
+        "bytes": 411673600,
+        "sha1": "ec2c95acc9ba5a29c59f10472c0c9ede7da84d9c",
+        "manifest": "manifest_700602_8598803723620275736.txt"
+      },
+      "manifest_matches": true
+    }
+  ],
+  "native_text": [
+    {
+      "file": "text/pc/furniture/furniture.asr_en",
+      "sha256": "03a7afefc5eab00ec5bddf9f75289e7805070eb4cbdf3298bc67761ce4073880",
+      "total_entries": 1103,
+      "selected": [
+        {
+          "index": 182,
+          "localization_hash": 315182526,
+          "text": "This door has lasers. What more could you want? Effective against Rogues, but Saboteurs can easily break it.",
+          "classification": "extracted_data_not_runtime"
+        },
+        {
+          "index": 693,
+          "localization_hash": 2525149811,
+          "text": "\"Ha! It hit him in the face. Do it again! Do it again!\" - Everyone. Single target trap, ideal for breaking up groups of Agents.",
+          "classification": "extracted_data_not_runtime"
+        },
+        {
+          "index": 694,
+          "localization_hash": 2525443693,
+          "text": "Boxing Glove",
+          "classification": "extracted_data_not_runtime"
+        },
+        {
+          "index": 695,
+          "localization_hash": 1350136128,
+          "text": "Trap your enemies within a prison of soap and water. Science will cause them to float, helping other traps move your now weightless victim.",
+          "classification": "extracted_data_not_runtime"
+        },
+        {
+          "index": 696,
+          "localization_hash": 1350430010,
+          "text": "Bubble Cannon",
+          "classification": "extracted_data_not_runtime"
+        },
+        {
+          "index": 699,
+          "localization_hash": 834108290,
+          "text": "This trap will truly blow your enemies away.",
+          "classification": "extracted_data_not_runtime"
+        },
+        {
+          "index": 700,
+          "localization_hash": 834402172,
+          "text": "Giant Fan",
+          "classification": "extracted_data_not_runtime"
+        },
+        {
+          "index": 711,
+          "localization_hash": 3232352348,
+          "text": "The coolest cats won't be able to resist the mind bending beats or captivating rhythms. The lasers will do the rest.",
+          "classification": "extracted_data_not_runtime"
+        },
+        {
+          "index": 713,
+          "localization_hash": 1269595392,
+          "text": "Have you ever wanted to defend your Lair with a grid of searingly powerful lasers? Anyway, here's Laser Wall.",
+          "classification": "extracted_data_not_runtime"
+        },
+        {
+          "index": 714,
+          "localization_hash": 1269889274,
+          "text": "Laser Wall",
+          "classification": "extracted_data_not_runtime"
+        },
+        {
+          "index": 727,
+          "localization_hash": 2666018957,
+          "text": "Your workers got the idea for this one from a cartoon they saw on early morning EG-TV.",
+          "classification": "extracted_data_not_runtime"
+        },
+        {
+          "index": 728,
+          "localization_hash": 2666312839,
+          "text": "Slippery Floor",
+          "classification": "extracted_data_not_runtime"
+        }
+      ]
+    },
+    {
+      "file": "text/pc/menu/menu.asr_en",
+      "sha256": "b3b7747f27ade23cb2ecdaa951a46cf560cb8fed71c55472afd00b891000290c",
+      "total_entries": 2160,
+      "selected": [
+        {
+          "index": 484,
+          "localization_hash": 1853486963,
+          "text": "Spawn Agent",
+          "classification": "extracted_data_not_runtime"
+        },
+        {
+          "index": 743,
+          "localization_hash": 3094828622,
+          "text": "Combo Giant Fan into Shark Tank.",
+          "classification": "extracted_data_not_runtime"
+        },
+        {
+          "index": 751,
+          "localization_hash": 3209345226,
+          "text": "Combo Giant Fan into Boxing Glove.",
+          "classification": "extracted_data_not_runtime"
+        },
+        {
+          "index": 757,
+          "localization_hash": 3295232679,
+          "text": "Combo Bubble Cannon and Slippery Floor.",
+          "classification": "extracted_data_not_runtime"
+        },
+        {
+          "index": 759,
+          "localization_hash": 3323861830,
+          "text": "Combo Giant Fan into Flamethrower.",
+          "classification": "extracted_data_not_runtime"
+        },
+        {
+          "index": 761,
+          "localization_hash": 3953703152,
+          "text": "Combo Giant Fan into Laser Wall into Shark Tank.",
+          "classification": "extracted_data_not_runtime"
+        },
+        {
+          "index": 815,
+          "localization_hash": 3091855392,
+          "text": "Push an Agent through 3 different traps without any recovery time.",
+          "classification": "extracted_data_not_runtime"
+        },
+        {
+          "index": 916,
+          "localization_hash": 3373319211,
+          "text": "Load Game",
+          "classification": "extracted_data_not_runtime"
+        },
+        {
+          "index": 948,
+          "localization_hash": 2167868916,
+          "text": "Save Game",
+          "classification": "extracted_data_not_runtime"
+        },
+        {
+          "index": 951,
+          "localization_hash": 3710673763,
+          "text": "Sandbox",
+          "classification": "extracted_data_not_runtime"
+        },
+        {
+          "index": 974,
+          "localization_hash": 630115456,
+          "text": "Important: Enabling DLC on a save game is permanent.",
+          "classification": "extracted_data_not_runtime"
+        },
+        {
+          "index": 975,
+          "localization_hash": 3610094697,
+          "text": "Enable new DLC for this save game.",
+          "classification": "extracted_data_not_runtime"
+        },
+        {
+          "index": 1340,
+          "localization_hash": 1567608024,
+          "text": "Existing save game will be overwritten. Are you sure?",
+          "classification": "extracted_data_not_runtime"
+        },
+        {
+          "index": 1673,
+          "localization_hash": 2652241388,
+          "text": "View the Trap Sandbox",
+          "classification": "extracted_data_not_runtime"
+        },
+        {
+          "index": 1674,
+          "localization_hash": 630001245,
+          "text": "Trap Sandbox",
+          "classification": "extracted_data_not_runtime"
+        }
+      ]
+    },
+    {
+      "file": "text/pc/objective/objective.asr_en",
+      "sha256": "966113bbb8d7f2dc8ea79924eb0b6155d2228eb232dddb3a8e80d372be2755fe",
+      "total_entries": 3358,
+      "selected": [
+        {
+          "index": 2646,
+          "localization_hash": 2791158678,
+          "text": "The Forces of Justice desperately want to know what you're up to on that Island. With a gentle nudge you might be able to convince them to send a fresh wave of Investigators.",
+          "classification": "extracted_data_not_runtime"
+        },
+        {
+          "index": 2650,
+          "localization_hash": 1497474180,
+          "text": "The Forces of Justice desperately want to know what you're up to on that Island. With a gentle nudge you might be able to convince them to send an experienced wave of Investigators.",
+          "classification": "extracted_data_not_runtime"
+        },
+        {
+          "index": 2654,
+          "localization_hash": 876111311,
+          "text": "The Forces of Justice desperately want to know what you're up to on that Island. With a gentle nudge you might be able to convince them to send a veteran wave of Investigators.",
+          "classification": "extracted_data_not_runtime"
+        },
+        {
+          "index": 2658,
+          "localization_hash": 1174903654,
+          "text": "Having amassed your wealth by stealing it, the Forces of Justice want to steal it back. A wave of fresh of Rogues is waiting for a signal to begin, send it for them.",
+          "classification": "extracted_data_not_runtime"
+        },
+        {
+          "index": 2662,
+          "localization_hash": 3054557268,
+          "text": "Having amassed your wealth by stealing it, the Forces of Justice want to steal it back. A wave of experienced of Rogues is waiting for a signal to begin, send it for them.",
+          "classification": "extracted_data_not_runtime"
+        },
+        {
+          "index": 2666,
+          "localization_hash": 3554823583,
+          "text": "Having amassed your wealth by stealing it, the Forces of Justice want to steal it back. A wave of veteran of Rogues is waiting for a signal to begin, send it for them.",
+          "classification": "extracted_data_not_runtime"
+        },
+        {
+          "index": 2670,
+          "localization_hash": 2907891221,
+          "text": "Whatever you're building, there's a very good chance the Forces of Justice want to see it broken, on fire, or reduced to little more than scrap. A fresh wave of Saboteurs is waiting to invade your Lair at the slightest provocation.",
+          "classification": "extracted_data_not_runtime"
+        },
+        {
+          "index": 2674,
+          "localization_hash": 2008298307,
+          "text": "Whatever you're building, there's a very good chance the Forces of Justice want to see it broken, on fire, or reduced to little more than scrap. An experienced wave of Saboteurs is waiting to invade your Lair at the slightest provocation.",
+          "classification": "extracted_data_not_runtime"
+        },
+        {
+          "index": 2678,
+          "localization_hash": 992843854,
+          "text": "Whatever you're building, there's a very good chance the Forces of Justice want to see it broken, on fire, or reduced to little more than scrap. A veteran wave of Saboteurs is waiting to invade your Lair at the slightest provocation.",
+          "classification": "extracted_data_not_runtime"
+        },
+        {
+          "index": 2682,
+          "localization_hash": 1381016846,
+          "text": "The Forces of Justice are tired of your blatant criminal activity. They have prepared a wave of fresh Soldiers that is itching to strike, all it will take is a slight prod to set them off.",
+          "classification": "extracted_data_not_runtime"
+        },
+        {
+          "index": 2686,
+          "localization_hash": 3560839164,
+          "text": "The Forces of Justice are tired of your blatant criminal activity. They have prepared a wave of experienced Soldiers that is itching to strike, all it will take is a slight prod to set them off.",
+          "classification": "extracted_data_not_runtime"
+        },
+        {
+          "index": 2690,
+          "localization_hash": 3760936775,
+          "text": "The Forces of Justice are tired of your blatant criminal activity. They have prepared a wave of veteran Soldiers that is itching to strike, all it will take is a slight prod to set them off.",
+          "classification": "extracted_data_not_runtime"
+        }
+      ]
+    },
+    {
+      "file": "text/pc/inputs/inputs.asr_en",
+      "sha256": "89cbb057d14c8e54fdc139686a067ffd3e525dddb50b6af08fe0d57723beb2ee",
+      "total_entries": 181,
+      "selected": [
+        {
+          "index": 30,
+          "localization_hash": 2473077550,
+          "text": "Open Build Menu",
+          "classification": "extracted_data_not_runtime"
+        },
+        {
+          "index": 36,
+          "localization_hash": 2794243160,
+          "text": "Rotate Item Left",
+          "classification": "extracted_data_not_runtime"
+        },
+        {
+          "index": 37,
+          "localization_hash": 727853035,
+          "text": "Rotate Item Right",
+          "classification": "extracted_data_not_runtime"
+        },
+        {
+          "index": 53,
+          "localization_hash": 975747091,
+          "text": "Pause Time",
+          "classification": "extracted_data_not_runtime"
+        },
+        {
+          "index": 60,
+          "localization_hash": 2511201403,
+          "text": "Toggle Power",
+          "classification": "extracted_data_not_runtime"
+        }
+      ]
+    },
+    {
+      "file": "text/pc/tutorial/tutorial.asr_en",
+      "sha256": "4c97d8e837da0482e288a1f0c27840378ea47aef80d9943a29a091c849b0c17c",
+      "total_entries": 347,
+      "selected": [
+        {
+          "index": 129,
+          "localization_hash": 1113829567,
+          "text": "Make sure you train enough Technicians to keep all your traps in working order! Traps won't trigger if their Durability gets too low.",
+          "classification": "extracted_data_not_runtime"
+        }
+      ]
+    },
+    {
+      "file": "text/pc/eventlog/eventlog.asr_en",
+      "sha256": "2110a50dd417e5bf24637951315b74aba66b008ac3dd6ff29ef1119ecc254228",
+      "total_entries": 177,
+      "selected": [
+        {
+          "index": 162,
+          "localization_hash": 3947667024,
+          "text": "A trap on Floor  has been triggered.",
+          "classification": "extracted_data_not_runtime"
+        }
+      ]
+    }
+  ],
+  "reader": {
+    "file": "libraries/evil-genius-2/adapter/asura.py",
+    "sha256": "5d4dbc8202c9111c856aec855841aea63c6d2710b4fdd28e21211603d9d319eb"
+  },
+  "trap_names_found": {
+    "Giant Fan": true,
+    "Boxing Glove": true,
+    "Bubble Cannon": true,
+    "Slippery Floor": true,
+    "Laser Wall": true
+  },
+  "runtime_readiness": "blocked_no_compatible_runtime_identified",
+  "static_inspection": "pass"
+}

@@ -1,0 +1,56 @@
+{
+ "schema": "lair-agents/1",
+ "origin": "Roster: tipos e qualidades 01-05 e Super existem no pacote (MinionTrait_*_Quality_*); nomes das tabelas de texto. Atributos numéricos são assumed: os valores do jogo não foram decodificados.",
+ "stats": ["health", "resolve", "skill"],
+ "levels": {
+  "1": {"label": "Nível 1", "health": 60, "resolve": 60, "skill": 10},
+  "2": {"label": "Nível 2", "health": 90, "resolve": 80, "skill": 25},
+  "3": {"label": "Nível 3", "health": 130, "resolve": 110, "skill": 45},
+  "4": {"label": "Nível 4", "health": 180, "resolve": 150, "skill": 70},
+  "5": {"label": "Nível 5", "health": 240, "resolve": 200, "skill": 100},
+  "super": {"label": "Super", "health": 420, "resolve": 320, "skill": 160}
+ },
+ "levelsOrigin": "assumed",
+ "types": {
+  "investigator": {
+   "name": "Investigator", "pt": "Investigador", "color": "#e8b54a",
+   "role": "Equilibrado. Procura provas; perícia média.",
+   "mult": {"health": 1.0, "resolve": 1.0, "skill": 1.2},
+   "multOrigin": "assumed",
+   "view": {"family": "A", "body": "ma_bodyhands_investigator", "head": "ma_head_white01", "parts": [],
+            "walk": "Investigator_walk_revolvers_01",
+            "attach": [{"bone": "bn_L_weapon", "model": "ohw_ranged_pistolinvestigatorsrevolver"},
+                       {"bone": "bn_R_weapon", "model": "ohw_ranged_pistolinvestigatorsrevolver"}],
+            "extraModels": ["ohw_ranged_pistolinvestigatorsrevolver"]}
+  },
+  "saboteur": {
+   "name": "Saboteur", "pt": "Sabotador", "color": "#7fc4d8",
+   "role": "Perícia alta: desarma armadilhas antes de cair nelas. Frágil.",
+   "mult": {"health": 0.8, "resolve": 0.9, "skill": 1.7},
+   "multOrigin": "assumed",
+   "view": {"family": "A", "body": "ma_bodynone_saboteur", "head": "ma_head_black01",
+            "parts": ["ma_hands_gloves"],
+            "walk": "Saboteur_walk_neutral_01", "attach": [], "extraModels": []}
+  },
+  "soldier": {
+   "name": "Soldier", "pt": "Soldado", "color": "#d86a5a",
+   "role": "Vitalidade e determinação altas; quase sem perícia. Marcha rápido e aguenta dano.",
+   "mult": {"health": 1.7, "resolve": 1.3, "skill": 0.4},
+   "multOrigin": "assumed",
+   "view": {"family": "B", "body": "mb_bodynone_soldier", "head": "mb_head_white01",
+            "parts": ["mb_hands_gloves"],
+            "walk": "Soldier_walk_SMG_01",
+            "attach": [{"bone": "bn_R_weapon", "model": "thw_ranged_smgsoldier"}],
+            "extraModels": ["thw_ranged_smgsoldier"]}
+  },
+  "rogue": {
+   "name": "Rogue", "pt": "Ladrão", "color": "#b58be0",
+   "role": "Sorrateiro e habilidoso; anda devagar e tem pouca vitalidade.",
+   "mult": {"health": 0.7, "resolve": 0.8, "skill": 1.4},
+   "multOrigin": "assumed",
+   "view": {"family": "C", "body": "mc_bodynone_thief", "head": "mc_head_asian01",
+            "parts": ["mc_hands_gloves", "mc_hair_sidepart"],
+            "walk": "Thief_walk_neutral_01", "attach": [], "extraModels": []}
+  }
+ }
+}

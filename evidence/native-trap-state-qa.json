@@ -1,0 +1,19 @@
+{
+  "schema": "eg2-native-trap-state-qa/1",
+  "checks": 659,
+  "allPassed": true,
+  "originalExecuted": false,
+  "arenaIntegrated": false,
+  "sourceRouteSha256": "2d757f517e6a9556c84eb052220fc08ce8459d318faedf072d696a690142afd5",
+  "codeSha256": "422cf7238c9fe653f751a7a317e5e3354f974c08d800cc9153f05b1782d6b680",
+  "testSha256": "cf239daefbb0c82aee4a3bb3998f6c895db523673435d607fb364df77053ccdf",
+  "scope": "Conditional source decision and two-mask position test with explicit native field fixtures. No actor selection, entry effects, masks/clock live binding or original execution.",
+  "remaining": [
+    "FNTR18c producer",
+    "Sensor mask/actor collection producers",
+    "615210 eligibility and616d80 selection",
+    "618240 nested state entry effects",
+    "Live scene and simulation clock binding",
+    "Complete original five-device chain"
+  ]
+}

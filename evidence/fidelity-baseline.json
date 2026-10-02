@@ -1,0 +1,152 @@
+{
+  "schema": 1,
+  "date": "2026-10-02",
+  "phase": "R0",
+  "source_sha256": {
+    "simulation.js": "5784c45c5b37aea6c91cd2b366d43c83072f27eb9c48000b995d6d78123896c8",
+    "actor.js": "abc72a722e944150d713ea1932528e4a9cdc0613c5dbb2c6b6f5d88c20f31283",
+    "app.js": "6f1ceb29a8287a54ee433e7e646ea5c085da2ce6687d8973fe55eff644544c50",
+    "rules.json": "ced2e069e93c68add62203295ede31a1d557b54edc063fab7d7a574253a250a4",
+    "asset-manifest.json": "6bf684f2837425e1760fbd25748d0d1fda4b1496d9de3226514b46244cc603ae",
+    "actor-rig.json": "ad93282fd05a89a700fcda6dd6300ca2e3ecd3b9e867e3e0b5e4330e092b987f",
+    "index.html": "cacf6983cc164e358db24f58679b67d8ced5d2b012890f39dfe592cdba4bf86e",
+    "style.css": "e39388b5944ec8b91aecc9161eb75c28eb56235bee05131b343bacbbd0dcc784",
+    "test-simulation.mjs": "28fbaa86a18669bc49f99d1da200fe8ec179889a9e9f1dcd85e97da1737961c5",
+    "qa.mjs": "5e8ae8ea25248d513b3b4baf2afaa0197f5cf906898e1514e0dce475e8b8f367",
+    "walk-qa.mjs": "c00427e6a95e1f0fd41fa8d98a703a99030bfccccbdb50b8e04428bdad2d92db",
+    "evidence/web-qa.json": "65d8f284319f56d9ffcc793543779c6c6e939eb76107ab1f9a27ddc2da1050e0",
+    "evidence/walking-qa.json": "703f3ccba5638b1faa235d62640b3243e4ae4221b17f30fed5bbe678bba13093",
+    "evidence/web-media.json": "a66eff4d26a99ac2988965ec4f4c1333ed98f916982878e052c005dbe1e09c9b",
+    "evidence/hook-review.json": "d3746b9a1a376adb4c09ed8fc3ff868c3e35f01e64b731a539b886593c24804a"
+  },
+  "rules_at_baseline": {
+    "schema": 1,
+    "origin": "assumed",
+    "scope": "Local tower-defense reconstruction. No original executable or original gameplay code runs here.",
+    "reference": "https://evilgeniusgame.com/en/news/405",
+    "behaviourOrigin": "external_reference: powered sensors, fan impulse, glove launch, bubble suspension, slip and laser; timing and tuning authored below",
+    "step": 0.016666666666666666,
+    "arena": {
+      "halfWidth": 13,
+      "halfDepth": 4,
+      "spawnX": -12,
+      "exitX": 12,
+      "laneZ": 0,
+      "wallMargin": 0.35,
+      "baseHealth": 10
+    },
+    "agent": {
+      "health": 100,
+      "walkSpeed": 1.7,
+      "recoverySteer": 0.3,
+      "wallBounce": 0.35,
+      "radius": 0.3
+    },
+    "wave": {
+      "count": 6,
+      "interval": 3.8
+    },
+    "traps": {
+      "fan": {
+        "name": "Ventilador",
+        "model": "trap_fan_active",
+        "range": 4.3,
+        "cone": 0.15,
+        "cooldown": 2,
+        "duration": 1.2,
+        "speed": 4.5,
+        "damage": 0
+      },
+      "glove": {
+        "name": "Luva",
+        "model": "trap_gloveonspring",
+        "range": 3.2,
+        "cone": 0.2,
+        "cooldown": 2,
+        "duration": 0.9,
+        "speed": 4.8,
+        "damage": 25,
+        "lift": 1.3
+      },
+      "bubble": {
+        "name": "Bolha",
+        "model": "trap_bubble_blower",
+        "range": 4.5,
+        "cone": 0.35,
+        "cooldown": 2,
+        "duration": 1.8,
+        "speed": 1.8,
+        "damage": 5,
+        "lift": 1.8
+      },
+      "slip": {
+        "name": "Piso escorregadio",
+        "model": "trap_slippery_soap",
+        "range": 1.35,
+        "cone": -1,
+        "cooldown": 1.5,
+        "duration": 1,
+        "speed": 4,
+        "damage": 10
+      },
+      "laser": {
+        "name": "Laser",
+        "model": "trap_laser_wall",
+        "range": 8,
+        "halfBeamWidth": 0.7,
+        "cone": 0.6,
+        "cooldown": 1.4,
+        "duration": 0.7,
+        "damage": 70
+      }
+    },
+    "layout": [
+      {
+        "type": "fan",
+        "x": -10,
+        "z": -2,
+        "angle": 0.04,
+        "enabled": true
+      },
+      {
+        "type": "glove",
+        "x": -5.5,
+        "z": -1.6,
+        "angle": 0.16,
+        "enabled": true
+      },
+      {
+        "type": "bubble",
+        "x": -0.6,
+        "z": -3.1,
+        "angle": 1.5707963267948966,
+        "enabled": true
+      },
+      {
+        "type": "slip",
+        "x": 3.3,
+        "z": 0.8,
+        "angle": 0,
+        "enabled": true
+      },
+      {
+        "type": "laser",
+        "x": 8.5,
+        "z": -3.2,
+        "angle": 1.5707963267948966,
+        "enabled": true
+      }
+    ]
+  },
+  "provenance": {
+    "originalExecution": false,
+    "renderer": "Three.js reconstruction",
+    "assets": "extracted",
+    "animation": "procedural reconstruction",
+    "simulation": "authored assumptions"
+  },
+  "verification_scope": "Existing tests prove authored behavior and controls only; not equivalence to original game.",
+  "divergences_document": "game-design.md#divergências-do-baseline-de-fidelidade--r0",
+  "divergences": 12,
+  "user_constraint": "Native game data first; no trial-and-error tuning of gameplay constants."
+}

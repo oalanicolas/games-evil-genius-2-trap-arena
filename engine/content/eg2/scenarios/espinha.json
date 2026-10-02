@@ -1,0 +1,348 @@
+{
+ "schema": "lair-scenario/1",
+ "name": "Espinha de pisos escorregadios",
+ "pack": "eg2",
+ "w": 30,
+ "h": 33,
+ "floor": [
+  "..............................",
+  ".............cccccc...........",
+  ".............cccccc...........",
+  ".............cc...............",
+  "..rrrrrrrrrrccccrrrrrrrrrrrr..",
+  "..rrrrrrrrrrccccrrrrrrrrrrrr..",
+  "..rrrrrrrrrrccccrrrrrrrrrrrr..",
+  "..rrrrrrrrrrccccrrrrrrrrrrrr..",
+  ".............cc...............",
+  ".............cc...............",
+  ".............cc...............",
+  "..rrrrrrrrrrccccrrrrrrrrrrrr..",
+  "..rrrrrrrrrrccccrrrrrrrrrrrr..",
+  "..rrrrrrrrrrccccrrrrrrrrrrrr..",
+  "..rrrrrrrrrrccccrrrrrrrrrrrr..",
+  ".............cc...............",
+  ".............cc...............",
+  ".............cc...............",
+  "..rrrrrrrrrrccccrrrrrrrrrrrr..",
+  "..rrrrrrrrrrccccrrrrrrrrrrrr..",
+  "..rrrrrrrrrrccccrrrrrrrrrrrr..",
+  "..rrrrrrrrrrccccrrrrrrrrrrrr..",
+  ".............cc...............",
+  ".............cc...............",
+  ".............cc...............",
+  "...rrrrrrrrrrrrrrrrrrrrrrrr...",
+  "...rrrrrrrrrrrrrrrrrrrrrrrr...",
+  "...rrrrrrrrrrrrrrrrrrrrrrrr...",
+  "...rrrrrrrrrrrrrrrrrrrrrrrr...",
+  "...rrrrrrrrrrrrrrrrrrrrrrrr...",
+  "...rrrrrrrrrrrrrrrrrrrrrrrr...",
+  "..............................",
+  ".............................."
+ ],
+ "traps": [
+  {
+   "id": "t1",
+   "type": "Doorway",
+   "x": 12,
+   "z": 4,
+   "rot": 1,
+   "enabled": true
+  },
+  {
+   "id": "t2",
+   "type": "Doorway",
+   "x": 15,
+   "z": 4,
+   "rot": 1,
+   "enabled": true
+  },
+  {
+   "id": "t3",
+   "type": "Doorway",
+   "x": 12,
+   "z": 11,
+   "rot": 1,
+   "enabled": true
+  },
+  {
+   "id": "t4",
+   "type": "Doorway",
+   "x": 15,
+   "z": 11,
+   "rot": 1,
+   "enabled": true
+  },
+  {
+   "id": "t5",
+   "type": "Doorway",
+   "x": 12,
+   "z": 18,
+   "rot": 1,
+   "enabled": true
+  },
+  {
+   "id": "t6",
+   "type": "Doorway",
+   "x": 15,
+   "z": 18,
+   "rot": 1,
+   "enabled": true
+  },
+  {
+   "id": "t7",
+   "type": "FanTrap",
+   "x": 2,
+   "z": 4,
+   "rot": 1,
+   "enabled": true
+  },
+  {
+   "id": "t8",
+   "type": "FanTrap",
+   "x": 7,
+   "z": 4,
+   "rot": 1,
+   "enabled": true
+  },
+  {
+   "id": "t9",
+   "type": "SharkTank",
+   "x": 16,
+   "z": 4,
+   "rot": 1,
+   "enabled": true
+  },
+  {
+   "id": "t10",
+   "type": "MagnetTrap",
+   "x": 23,
+   "z": 4,
+   "rot": 3,
+   "enabled": true
+  },
+  {
+   "id": "t11",
+   "type": "FanTrap",
+   "x": 2,
+   "z": 11,
+   "rot": 1,
+   "enabled": true
+  },
+  {
+   "id": "t12",
+   "type": "FanTrap",
+   "x": 7,
+   "z": 11,
+   "rot": 1,
+   "enabled": true
+  },
+  {
+   "id": "t13",
+   "type": "SharkTank",
+   "x": 16,
+   "z": 11,
+   "rot": 1,
+   "enabled": true
+  },
+  {
+   "id": "t14",
+   "type": "MagnetTrap",
+   "x": 23,
+   "z": 11,
+   "rot": 3,
+   "enabled": true
+  },
+  {
+   "id": "t15",
+   "type": "MagnetTrap",
+   "x": 2,
+   "z": 18,
+   "rot": 1,
+   "enabled": true
+  },
+  {
+   "id": "t16",
+   "type": "SharkTank",
+   "x": 6,
+   "z": 18,
+   "rot": 3,
+   "enabled": true
+  },
+  {
+   "id": "t17",
+   "type": "FanTrap",
+   "x": 18,
+   "z": 18,
+   "rot": 3,
+   "enabled": true
+  },
+  {
+   "id": "t18",
+   "type": "FanTrap",
+   "x": 23,
+   "z": 18,
+   "rot": 3,
+   "enabled": true
+  },
+  {
+   "id": "t19",
+   "type": "SoapTrap",
+   "x": 13,
+   "z": 2,
+   "rot": 0,
+   "enabled": true
+  },
+  {
+   "id": "t20",
+   "type": "SoapTrap",
+   "x": 13,
+   "z": 8,
+   "rot": 0,
+   "enabled": true
+  },
+  {
+   "id": "t21",
+   "type": "SoapTrap",
+   "x": 13,
+   "z": 15,
+   "rot": 0,
+   "enabled": true
+  },
+  {
+   "id": "t22",
+   "type": "SoapTrap",
+   "x": 13,
+   "z": 22,
+   "rot": 0,
+   "enabled": true
+  },
+  {
+   "id": "t23",
+   "type": "Venus_Mantrap",
+   "x": 6,
+   "z": 25,
+   "rot": 0,
+   "enabled": true
+  },
+  {
+   "id": "t24",
+   "type": "Robot_Dog_Trap",
+   "x": 17,
+   "z": 27,
+   "rot": 0,
+   "enabled": true
+  }
+ ],
+ "entrances": [
+  {
+   "id": "A",
+   "x": 13,
+   "z": 1,
+   "label": "Heliporto"
+  },
+  {
+   "id": "B",
+   "x": 3,
+   "z": 28,
+   "label": "Doca"
+  }
+ ],
+ "objectives": [
+  {
+   "id": "cofre",
+   "x": 26,
+   "z": 28,
+   "label": "Cofre"
+  },
+  {
+   "id": "nucleo",
+   "x": 18,
+   "z": 1,
+   "label": "Núcleo"
+  }
+ ],
+ "waves": [
+  {
+   "name": "Reconhecimento",
+   "groups": [
+    {
+     "entrance": "A",
+     "objective": "cofre",
+     "agent": "investigator",
+     "level": 1,
+     "count": 3,
+     "interval": 3,
+     "delay": 0
+    },
+    {
+     "entrance": "B",
+     "objective": "nucleo",
+     "agent": "rogue",
+     "level": 1,
+     "count": 2,
+     "interval": 4,
+     "delay": 2
+    }
+   ]
+  },
+  {
+   "name": "Assalto",
+   "groups": [
+    {
+     "entrance": "A",
+     "objective": "cofre",
+     "agent": "soldier",
+     "level": 2,
+     "count": 4,
+     "interval": 2,
+     "delay": 0
+    },
+    {
+     "entrance": "B",
+     "objective": "nucleo",
+     "agent": "saboteur",
+     "level": 3,
+     "count": 2,
+     "interval": 3,
+     "delay": 1
+    }
+   ]
+  },
+  {
+   "name": "Elite",
+   "groups": [
+    {
+     "entrance": "A",
+     "objective": "cofre",
+     "agent": "investigator",
+     "level": "super",
+     "count": 1,
+     "interval": 2.5,
+     "delay": 0
+    },
+    {
+     "entrance": "A",
+     "objective": "cofre",
+     "agent": "soldier",
+     "level": 4,
+     "count": 3,
+     "interval": 2,
+     "delay": 3
+    },
+    {
+     "entrance": "B",
+     "objective": "nucleo",
+     "agent": "rogue",
+     "level": 3,
+     "count": 3,
+     "interval": 2,
+     "delay": 0
+    }
+   ]
+  }
+ ],
+ "rules": {
+  "integrity": 10
+ },
+ "note": "Referência 1 e 4: corredor central com pisos escorregadios; salas laterais com dois ventiladores de um lado e tanque de tubarões com ímã do outro. Vãos abertos ligam as seis salas."
+}

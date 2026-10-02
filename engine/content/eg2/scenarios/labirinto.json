@@ -1,0 +1,324 @@
+{
+ "schema": "lair-scenario/1",
+ "name": "Labirinto de corredores",
+ "pack": "eg2",
+ "w": 44,
+ "h": 32,
+ "floor": [
+  "............................................",
+  "............................................",
+  "..cccccccccccccccccccccccccccccccccccccccc..",
+  "..cccccccccccccccccccccccccccccccccccccccc..",
+  "..cccccccccccccccccccccccccccccccccccccccc..",
+  "..cccccccccccccccccccccccccccccccccccccccc..",
+  "......................................cccc..",
+  "......................................cccc..",
+  "..cccccccccccccccccccccccccccccccccccccccc..",
+  "..cccccccccccccccccccccccccccccccccccccccc..",
+  "..cccccccccccccccccccccccccccccccccccccccc..",
+  "..cccccccccccccccccccccccccccccccccccccccc..",
+  "..cccc......................................",
+  "..cccc......................................",
+  "..cccccccccccccccccccccccccccccccccccccccc..",
+  "..cccccccccccccccccccccccccccccccccccccccc..",
+  "..cccccccccccccccccccccccccccccccccccccccc..",
+  "..cccccccccccccccccccccccccccccccccccccccc..",
+  "......................................cccc..",
+  "......................................cccc..",
+  "..cccccccccccccccccccccccccccccccccccccccc..",
+  "..cccccccccccccccccccccccccccccccccccccccc..",
+  "..cccccccccccccccccccccccccccccccccccccccc..",
+  "..cccccccccccccccccccccccccccccccccccccccc..",
+  "..cccc......................................",
+  "..cccc......................................",
+  "..cccccccccccccccccccccccccccccccccccccccc..",
+  "..cccccccccccccccccccccccccccccccccccccccc..",
+  "..cccccccccccccccccccccccccccccccccccccccc..",
+  "..cccccccccccccccccccccccccccccccccccccccc..",
+  "............................................",
+  "............................................"
+ ],
+ "traps": [
+  {
+   "id": "t1",
+   "type": "Door_Standard",
+   "x": 8,
+   "z": 2,
+   "rot": 1,
+   "enabled": true
+  },
+  {
+   "id": "t2",
+   "type": "SoapTrap",
+   "x": 12,
+   "z": 3,
+   "rot": 0,
+   "enabled": true
+  },
+  {
+   "id": "t3",
+   "type": "LaserWall",
+   "x": 16,
+   "z": 2,
+   "rot": 0,
+   "enabled": true
+  },
+  {
+   "id": "t4",
+   "type": "SoapTrap",
+   "x": 24,
+   "z": 3,
+   "rot": 0,
+   "enabled": true
+  },
+  {
+   "id": "t5",
+   "type": "PinballBumper",
+   "x": 30,
+   "z": 3,
+   "rot": 2,
+   "enabled": true
+  },
+  {
+   "id": "t6",
+   "type": "BoxingGlove",
+   "x": 38,
+   "z": 2,
+   "rot": 3,
+   "enabled": true
+  },
+  {
+   "id": "t7",
+   "type": "FreezeRay",
+   "x": 30,
+   "z": 8,
+   "rot": 0,
+   "enabled": true
+  },
+  {
+   "id": "t8",
+   "type": "PoisonDarts",
+   "x": 26,
+   "z": 8,
+   "rot": 0,
+   "enabled": true
+  },
+  {
+   "id": "t9",
+   "type": "Flamer",
+   "x": 18,
+   "z": 8,
+   "rot": 0,
+   "enabled": true
+  },
+  {
+   "id": "t10",
+   "type": "KnockoutGas",
+   "x": 10,
+   "z": 8,
+   "rot": 0,
+   "enabled": true
+  },
+  {
+   "id": "t11",
+   "type": "Paywall",
+   "x": 10,
+   "z": 14,
+   "rot": 1,
+   "enabled": true
+  },
+  {
+   "id": "t12",
+   "type": "Killer_Bees",
+   "x": 14,
+   "z": 14,
+   "rot": 0,
+   "enabled": true
+  },
+  {
+   "id": "t13",
+   "type": "PinballBumper",
+   "x": 22,
+   "z": 15,
+   "rot": 3,
+   "enabled": true
+  },
+  {
+   "id": "t14",
+   "type": "LaserDIsco",
+   "x": 28,
+   "z": 14,
+   "rot": 1,
+   "enabled": true
+  },
+  {
+   "id": "t15",
+   "type": "FanTrap",
+   "x": 38,
+   "z": 20,
+   "rot": 3,
+   "enabled": true
+  },
+  {
+   "id": "t16",
+   "type": "SharkTank",
+   "x": 30,
+   "z": 20,
+   "rot": 3,
+   "enabled": true
+  },
+  {
+   "id": "t17",
+   "type": "MagnetTrap",
+   "x": 20,
+   "z": 20,
+   "rot": 1,
+   "enabled": true
+  },
+  {
+   "id": "t18",
+   "type": "HunterSnare_Trap",
+   "x": 14,
+   "z": 20,
+   "rot": 1,
+   "enabled": true
+  },
+  {
+   "id": "t19",
+   "type": "Hopscotch_trap",
+   "x": 8,
+   "z": 20,
+   "rot": 0,
+   "enabled": true
+  },
+  {
+   "id": "t20",
+   "type": "FakeSafe",
+   "x": 8,
+   "z": 26,
+   "rot": 0,
+   "enabled": true
+  },
+  {
+   "id": "t21",
+   "type": "FanTrap",
+   "x": 13,
+   "z": 26,
+   "rot": 1,
+   "enabled": true
+  },
+  {
+   "id": "t22",
+   "type": "BubbleBlower",
+   "x": 18,
+   "z": 26,
+   "rot": 0,
+   "enabled": true
+  },
+  {
+   "id": "t23",
+   "type": "Door_Standard",
+   "x": 28,
+   "z": 26,
+   "rot": 1,
+   "enabled": true
+  },
+  {
+   "id": "t24",
+   "type": "Narrative_VenomGasTrap",
+   "x": 32,
+   "z": 26,
+   "rot": 0,
+   "enabled": true
+  }
+ ],
+ "entrances": [
+  {
+   "id": "A",
+   "x": 2,
+   "z": 3,
+   "label": "Entrada oeste"
+  },
+  {
+   "id": "B",
+   "x": 41,
+   "z": 5,
+   "label": "Entrada leste"
+  }
+ ],
+ "objectives": [
+  {
+   "id": "cofre",
+   "x": 41,
+   "z": 28,
+   "label": "Cofre"
+  },
+  {
+   "id": "arquivo",
+   "x": 2,
+   "z": 21,
+   "label": "Arquivo"
+  }
+ ],
+ "waves": [
+  {
+   "name": "Batedores",
+   "groups": [
+    {
+     "entrance": "A",
+     "objective": "cofre",
+     "agent": "investigator",
+     "level": 1,
+     "count": 4,
+     "interval": 2.5,
+     "delay": 0
+    },
+    {
+     "entrance": "B",
+     "objective": "arquivo",
+     "agent": "rogue",
+     "level": 2,
+     "count": 2,
+     "interval": 3,
+     "delay": 6
+    }
+   ]
+  },
+  {
+   "name": "Invasão",
+   "groups": [
+    {
+     "entrance": "A",
+     "objective": "cofre",
+     "agent": "soldier",
+     "level": 3,
+     "count": 5,
+     "interval": 2,
+     "delay": 0
+    },
+    {
+     "entrance": "B",
+     "objective": "cofre",
+     "agent": "saboteur",
+     "level": 4,
+     "count": 2,
+     "interval": 4,
+     "delay": 4
+    },
+    {
+     "entrance": "A",
+     "objective": "arquivo",
+     "agent": "rogue",
+     "level": 3,
+     "count": 2,
+     "interval": 3,
+     "delay": 10
+    }
+   ]
+  }
+ ],
+ "rules": {
+  "integrity": 10
+ },
+ "note": "Referência 2: corredores longos em serpentina, com portas e armadilhas a cada trecho."
+}
