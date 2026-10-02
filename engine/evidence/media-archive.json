@@ -1,0 +1,11 @@
+{
+ "schema": "eg2-engine-media-archive/1",
+ "date": "2026-10-02",
+ "archive": "eg2-covil-vaos-cantos-ouro-20261002.zip",
+ "bytes": 43276917,
+ "sha256": "9cd45047ac0dc8494732bd7a82878fa1c4cc153c290e6ceb4e127eadb4954ca5",
+ "destination": "Google Drive / Games — Materiais do estúdio / Acervo por projeto — 2026-09-09",
+ "verification": "ZIP CRC e hashes internos conferidos; cópia no volume montado relida com SHA-256 igual",
+ "cloudConfirmed": false,
+ "originals": "output/eg2-covil-qa preservados, fora do Git"
+}

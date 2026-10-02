@@ -96,7 +96,7 @@ Os testes anteriores do laboratório seguem verdes e os arquivos da arena não f
 3. **Capturas no Drive.** As capturas estão em `output/eg2-covil-qa/` (fora do git) e não foram enviadas ao acervo.
 4. **Repositório.** O protótipo continua sem Git; nada foi commitado.
 
-## Próximo recorte sugerido
+## Próximo recorte sugerido na sessão anterior (executado abaixo)
 
 Vãos de porta e cantos nativos nas paredes, mobília de parede (luminárias, câmeras), níveis de porta, e a
 primeira regra de economia (custo das armadilhas, que já vem do jogo) para virar desafio com orçamento.
@@ -114,3 +114,33 @@ o ciclo pintar → armar → soltar → revisar. Os custos vêm do pacote; o lim
 Não incluir portas, piso ou marcos na conta das armadilhas sem custo decodificado. Prova: ambos os
 gates verdes, testes de limite exato/excesso/remoção/persistência, quatro referências até o fim e
 capturas comparadas às imagens anteriores e às referências em `docs/engine/comparacao.md`.
+
+### Entrega verificada desta continuação
+
+| Pedido | Artefato e prova | Estado |
+|---|---|---|
+| Cantos com peças do jogo | `render/shell.js` seleciona nove modelos nativos, incluindo cantos duplos/mistos; 511 plantas pequenas rotacionadas conferem a topologia; capturas antes/depois lidas | implementado |
+| Vãos de porta | `Doorway` no pacote/editor, marco `door_standard_frame`, seis acessos na Espinha; passagem nas quatro rotações sem captura e QA por mouse | implementado |
+| Ouro por covil | `core/economy.js`, `rules.goldBudget`, controles e preços no editor; limite exato, excesso, zeros, custo desconhecido, remoção, mover, undo/redo, salvar/importar | implementado |
+| Gates | `node engine/tests/run.mjs`: **44/44, 1.233 verificações**; `node engine/tests/editor-qa.mjs`: **45/45**, zero erros de console/rede, Chrome headless, ANGLE Metal Apple M3 Max | passaram |
+| Comparação | `docs/engine/comparacao.md`, montagens `compare-final-*.png`, `before-after-*.png` e detalhes baixo/alto | revisão do agente, sem aceite humano |
+
+Gasto de montagem exibido nas referências (limite configurável, inicialmente desligado):
+Espinha **372.000**; Labirinto **480.000**; Corredores em L **192.000**; Galeria **604.000**.
+No gate ao vivo, os 51 agentes das quatro referências tiveram desfecho: Espinha 18, Labirinto 15,
+Corredores 13, Galeria 5. O covil construído pelo mouse completou mais 8 agentes com limite de 76.000.
+Recibos: `engine/evidence/core-tests.json` e `engine/evidence/editor-qa.json`.
+
+Decisões tomadas sem Alan:
+
+1. Portas e marcos ficam fora do orçamento de armadilhas; não foi inventado preço para eles.
+2. Preço do ventilador recuperado como 4.000 no FNTR, com origem `inferred`; dois preços nativos zero
+   foram preservados. O gate relê os bytes dos 22 custos. Biblioteca permanece somente leitura.
+3. O vão acompanha a altura de corte das paredes para conservar a leitura da ação. A montagem do
+   marco e o footprint são inferidos, não reconstituição comprovada das regras do Asura.
+4. Sem commit, push ou deploy nesta sessão. Os 54 arquivos de arena/fidelidade e documentos raiz
+   protegidos (exceto `.gitignore`) mantiveram seus hashes. A alteração concorrente de `.gitignore`
+   foi preservada e não pertence a este recorte.
+
+O pedido de vãos, cantos e orçamento está implementado. Permanecem para uma rodada futura a mobília
+de parede e os níveis de segurança das portas; o aceite visual continua sendo de Alan.
