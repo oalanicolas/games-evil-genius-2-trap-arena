@@ -130,6 +130,12 @@ Espinha **372.000**; Labirinto **480.000**; Corredores em L **192.000**; Galeria
 No gate ao vivo, os 51 agentes das quatro referências tiveram desfecho: Espinha 18, Labirinto 15,
 Corredores 13, Galeria 5. O covil construído pelo mouse completou mais 8 agentes com limite de 76.000.
 Recibos: `engine/evidence/core-tests.json` e `engine/evidence/editor-qa.json`.
+O gate do editor levou 82,3 s nesta máquina. As capturas, referências, comparações e recibos foram
+arquivados em `eg2-covil-vaos-cantos-ouro-20261002.zip` no volume montado do Drive, pasta
+`Games — Materiais do estúdio / Acervo por projeto — 2026-09-09`: 54 arquivos, 43.276.917 bytes,
+CRC e SHA-256 conferidos. `engine/evidence/media-archive.json` guarda o recibo; a sincronização na
+nuvem não foi confirmada. Originais locais preservados, fora do Git. A pendência de acervo acima
+passa a ser apenas a confirmação do arquivo na nuvem.
 
 Decisões tomadas sem Alan:
 
